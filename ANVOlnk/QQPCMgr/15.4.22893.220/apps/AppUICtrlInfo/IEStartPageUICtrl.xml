@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="浏览器保护" catalog="3" appclsid="A131103F-6155-4C92-9EC4-34839D2D3AA6" appname="IEStartPage" enable="1" supportsys="1111111111">
+		<icon path="IEStartPage.svg" />
+		<description>
+			<![CDATA[保护浏览器主页防恶意篡改]]>
+		</description>
+		<tip>
+			<![CDATA[保护浏览器设置，防止其他程序更改]]>
+		</tip>
+	</App>
+</Apps>

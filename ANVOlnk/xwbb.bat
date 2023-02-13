@@ -1,0 +1,1 @@
+start C:\Program" "Files" "(x86)\Seewo\EasiNote5\swenlauncher\swenlauncher.exe -m Display -iwb

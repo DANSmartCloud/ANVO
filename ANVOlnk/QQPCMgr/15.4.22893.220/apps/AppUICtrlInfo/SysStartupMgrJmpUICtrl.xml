@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="开机加速" catalog="4" appclsid="779997B7-BA62-414d-B15D-F36B37E3D883" appname="SysStartupMgrJmp" enable="1" supportsys="1111111111">
+		<icon path="SysStartupMgrJmp.svg" />
+		<description>
+			<![CDATA[优化启动项，开机加速]]>
+		</description>
+		<tip>
+			<![CDATA[优化启动项，让开机速度更快]]>
+		</tip>
+	</App>
+</Apps>

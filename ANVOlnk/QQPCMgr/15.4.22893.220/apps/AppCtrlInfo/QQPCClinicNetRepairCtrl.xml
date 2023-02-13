@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="7CB65BF5-BAA6-4B5F-89C0-7E3CFD214F4C" appname="QQPCClinicNetRepair" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="9D445EFB-554A-4C1C-99AE-2F0DE651E604" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCClinicNetRepair.svg" md5="adf59c06451e07dbbc53ef478e2098fe" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCRealTimeSpeedup.exe" param="SpeedUpExe-[showNetFixWnd]" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

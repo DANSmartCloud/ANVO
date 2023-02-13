@@ -1,0 +1,2993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileopen dataver="1" lastupdate="2017-7-25" Version="2017.7.25.287">
+	<ext name="!mv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="001">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>			
+		</softlist>
+	</ext>
+	<ext name="002">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="008">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="025">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="3DS">
+		<softlist>
+			<soft id="1244" default="1"/>
+			<soft id="21410"/>			
+			<soft id="18462"/>
+		</softlist>
+	</ext>
+	<ext name="3g2">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="3gp">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="3gpp">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="7Z">
+		<softlist>
+			<soft id="25313" default="1"/>
+			<soft id="10268"/>
+			<soft id="900"/>
+			<soft id="2685"/>
+		</softlist>
+	</ext>
+	<ext name="aac">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="12"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="ac3">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="12"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="acc">
+		<softlist>
+			<soft id="9601" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ACE">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="ai">
+		<softlist>
+			<soft id="1201" default="1"/>
+			<soft id="3224"/>
+		</softlist>
+	</ext>
+	<ext name="aif">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="aifc">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>	
+	<ext name="aiff">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="air">
+		<softlist>
+			<soft id="3316" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ais">
+		<softlist>
+			<soft id="18567" default="1"/>
+			<soft id="12867"/>
+		</softlist>
+	</ext>
+	<ext name="ALZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="amr">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="amv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="ape">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="9601"/>
+			<soft id="12"/>
+		</softlist>
+	</ext>
+	<ext name="app">
+		<softlist>
+			<soft id="716" default="1"/>
+			<soft id="22225"/>			
+		</softlist>
+	</ext>
+	<ext name="arc">
+		<softlist>
+			<soft id="1101" default="1"/>
+			<soft id="1243"/>
+		</softlist>
+	</ext>
+	<ext name="ARJ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="arw">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="arx">
+		<softlist>
+			<soft id="1243" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="asf">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="asm">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="asp">
+		<softlist>
+			<soft id="322" default="1"/>
+			<soft id="1300"/>
+		</softlist>
+	</ext>
+	<ext name="aspx">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="2661"/>
+		</softlist>
+	</ext>
+	<ext name="ass">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="asx">
+		<softlist>
+			<soft id="519" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="au">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="avi">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="avsts">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="b">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="bak">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="3450"/>
+		</softlist>
+	</ext>
+	<ext name="bc!">
+		<softlist>
+			<soft id="403" default="1"/>	
+		</softlist>
+	</ext>
+	<ext name="bdre">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="bhd">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="bik">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="bin">
+		<softlist>
+			<soft id="906" default="1"/>
+			<soft id="21549"/>
+			<soft id="919"/>						
+		</softlist>
+	</ext>
+	<ext name="bk">
+		<softlist>
+			<soft id="2226" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="bmp">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="BNP">
+		<softlist>
+			<soft id="1333" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="bov">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="box">
+		<softlist>
+			<soft id="322" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="BUP">
+		<softlist>
+			<soft id="12026" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="BZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+		</softlist>
+	</ext>
+	<ext name="BZIP2">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="BZ2">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+		</softlist>
+	</ext>
+	<ext name="c">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="Cab">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+		</softlist>
+	</ext>
+	<ext name="caf">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="516"/>
+		</softlist>
+	</ext>
+	<ext name="caj">
+		<softlist>
+			<soft id="1211" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cap">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cda">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="9601"/>
+		</softlist>
+	</ext>
+	<ext name="cdg">
+		<softlist>
+			<soft id="569" default="1"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="cdr">
+		<softlist>
+			<soft id="3224" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cdt">
+		<softlist>
+			<soft id="3224" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="ceb">
+		<softlist>
+			<soft id="1233" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cfg">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="cfr">
+		<softlist>
+			<soft id="3120" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cgi">
+		<softlist>
+			<soft id="1306" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cgd">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="che">
+		<softlist>
+			<soft id="6126" default="1"/>
+			<soft id="7131"/>
+		</softlist>
+	</ext>
+	<ext name="config">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cpio">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="cpp">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="cr2">
+		<softlist>
+			<soft id="3251" default="1"/>	
+		</softlist>
+	</ext>
+	<ext name="crw">
+		<softlist>
+			<soft id="3251" default="1"/>	
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="crx">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="cs">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="csf">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="css">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="CSV">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>			
+		</softlist>
+	</ext>
+	<ext name="CTG">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cue">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="12"/>
+			<soft id="12026"/>
+		</softlist>
+	</ext>
+	<ext name="cur">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="cut">
+		<softlist>
+			<soft id="3251" default="1"/>		
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="d2v">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dat">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="3456"/>
+		</softlist>
+	</ext>
+	<ext name="data">
+		<softlist>
+			<soft id="12024" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="db">
+		<softlist>
+			<soft id="163887" default="1"/>
+			<soft id="3932"/>
+			<soft id="22934"/>				
+		</softlist>
+	</ext>
+	<ext name="dbc">
+		<softlist>
+			<soft id="716" default="1"/>
+			<soft id="22225"/>			
+		</softlist>
+	</ext>
+	<ext name="dbf">
+		<softlist>
+			<soft id="162580" default="1"/>
+			<soft id="22225"/>
+			<soft id="716"/>			
+		</softlist>
+	</ext>
+	<ext name="dbx">
+		<softlist>
+			<soft id="10065" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dcr">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dds">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="22225"/>
+			<soft id="716"/>	
+			<soft id="12104"/>			
+		</softlist>
+	</ext>
+	<ext name="DEB">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="deskthemepack">
+		<softlist>
+			<soft id="22400" default="1"/>
+			<soft id="2675"/>
+			<soft id="901"/>
+		</softlist>
+	</ext>
+	<ext name="dir">
+		<softlist>
+			<soft id="164755" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="disk">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="divx">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="dll">
+		<softlist>
+			<soft id="18520" default="1"/>
+			<soft id="11386"/>
+		</softlist>
+	</ext>
+	<ext name="dlt">
+		<softlist>
+			<soft id="3452" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="DMG">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="dmp">
+		<softlist>
+			<soft id="2060" default="1"/>
+			<soft id="21798"/>				
+		</softlist>
+	</ext>
+	<ext name="DNG">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="doc">
+		<softlist>
+			<soft id="13407" default="1"/>
+			<soft id="22934"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>
+	<ext name="docm">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>
+	<ext name="docx">
+		<softlist>
+			<soft id="13407" default="1"/>
+			<soft id="22934"/>
+			<soft id="3932"/>	
+		</softlist>
+	</ext>
+	<ext name="dot">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>
+		</softlist>	
+	</ext>				
+	<ext name="dotx">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>	
+	<ext name="doyo008">
+		<softlist>
+			<soft id="22400" default="1"/>
+			<soft id="901"/>
+			<soft id="2675"/>
+		</softlist>
+	</ext>
+	<ext name="dps">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>
+	<ext name="drf">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dsa">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="dsc">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dsm">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="dst">
+		<softlist>
+			<soft id="1243" default="1"/>
+			<soft id="12218"/>
+			<soft id="162741"/>
+		</softlist>
+	</ext>
+	<ext name="dsv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="dts">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="12"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="dvd">
+		<softlist>
+			<soft id="906" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dwg">
+		<softlist>
+			<soft id="160629" default="1"/>
+			<soft id="23776"/>			
+			<soft id="743"/>
+		</softlist>
+	</ext>
+	<ext name="dwl">
+		<softlist>
+			<soft id="1225" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dwl2">
+		<softlist>
+			<soft id="12111" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="dwz">
+		<softlist>
+			<soft id="12012" default="1"/>
+			<soft id="1243"/>
+		</softlist>
+	</ext>
+	<ext name="dxf">
+		<softlist>
+			<soft id="12111" default="1"/>
+			<soft id="1243"/>
+		</softlist>
+	</ext>
+	<ext name="e">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="emf">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>			
+		</softlist>
+	</ext>
+	<ext name="eml">
+		<softlist>
+			<soft id="14" default="1"/>
+			<soft id="1254"/>
+		</softlist>
+	</ext>
+	<ext name="enc">
+		<softlist>
+			<soft id="12112" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="eps">
+		<softlist>
+			<soft id="716" default="1"/>
+			<soft id="22225"/>			
+			<soft id="569"/>			
+		</softlist>
+	</ext>
+	<ext name="epub">
+		<softlist>
+			<soft id="24381" default="1"/>			
+		</softlist>
+	</ext>
+	<ext name="et">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>
+	<ext name="etf">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="evo">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="exb">
+		<softlist>
+			<soft id="1211" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="EXP">
+		<softlist>
+			<soft id="11459" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="exr">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>			
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="f4v">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="f5v">
+		<softlist>
+			<soft id="519" default="1"/>
+			<soft id="12"/>
+			<soft id="18973"/>
+		</softlist>
+	</ext>
+	<ext name="fat">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="fd">
+		<softlist>
+			<soft id="10122" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="fff">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="fla">
+		<softlist>
+			<soft id="18158" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="flac">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="9601"/>
+			<soft id="12"/>
+		</softlist>
+	</ext>
+	<ext name="flc">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="fli">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="flic">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>	
+		</softlist>
+	</ext>
+	<ext name="flv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>		
+	<ext name="gba">
+		<softlist>
+			<soft id="6014" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="gcs">
+		<softlist>
+			<soft id="12118" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="gho">
+		<softlist>
+			<soft id="163011" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="GIF">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>			
+		</softlist>
+	</ext>
+	<ext name="gmd">
+		<softlist>
+			<soft id="12078" default="1"/>
+			<soft id="11618"/>
+		</softlist>
+	</ext>
+	<ext name="GPD">
+		<softlist>
+			<soft id="1207" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="gpk">
+		<softlist>
+			<soft id="28005" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="gtmp">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="GZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+		</softlist>
+	</ext>
+	<ext name="gzip">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="h">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="hdr">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="HEIC">
+		<softlist>
+			<soft id="23905" default="1"/>
+		</softlist>
+	</ext>	
+	<ext name="hflv">
+		<softlist>
+			<soft id="519" default="1"/>
+			<soft id="12"/>
+			<soft id="18973"/>
+		</softlist>
+	</ext>
+	<ext name="HFS">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="hlv">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="hmkv">
+		<softlist>
+			<soft id="519" default="1"/>
+			<soft id="12"/>
+			<soft id="18973"/>
+		</softlist>
+	</ext>
+	<ext name="hmp4">
+		<softlist>
+			<soft id="519" default="1"/>
+			<soft id="12"/>
+			<soft id="18973"/>
+		</softlist>
+	</ext>
+	<ext name="htm">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="HTML">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="i">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ICO">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="ide">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="idx">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="iff">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="ifo">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="ifox">
+		<softlist>
+			<soft id="3162" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="igs">
+		<softlist>
+			<soft id="1243" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="IMG">
+		<softlist>
+			<soft id="21549" default="1"/>
+			<soft id="919"/>				
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="10268"/>
+		</softlist>
+	</ext>
+	<ext name="ini">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+			<soft id="3450"/>
+		</softlist>
+	</ext>
+	<ext name="INP">
+		<softlist>
+			<soft id="3107" default="1"/>
+			<soft id="18158"/>
+			<soft id="6536"/>
+		</softlist>
+	</ext>
+	<ext name="INT">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="714"/>	
+		</softlist>
+	</ext>
+	<ext name="ipa">
+		<softlist>
+			<soft id="6017" default="1"/>
+			<soft id="10028"/>
+		</softlist>
+	</ext>
+	<ext name="irf">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="ISO">
+		<softlist>
+			<soft id="21549" default="1"/>
+			<soft id="919"/>				
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="10268"/>
+		</softlist>
+	</ext>
+	<ext name="ISZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="ivf">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ivm">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="j2k">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="JAR">
+		<softlist>
+			<soft id="1310" default="1"/>
+			<soft id="10056"/>								
+			<soft id="2685"/>
+			<soft id="900"/>			
+		</softlist>
+	</ext>
+	<ext name="java">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+			<soft id="3450"/>
+		</softlist>
+	</ext>
+	<ext name="JBG">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="jc">
+		<softlist>
+			<soft id="409" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="jfif">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="jng">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="JP2">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>					
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="jpc">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="jpe">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="jpeg">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="jpf">
+		<softlist>
+			<soft id="1201" default="1"/>
+			<soft id="516"/>
+		</softlist>
+	</ext>
+	<ext name="jpg">
+		<softlist>
+			<soft id="23746" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="json">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="jsp">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="jsx">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="kdc">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="kdh">
+		<softlist>
+			<soft id="1211" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="key">
+		<softlist>
+			<soft id="12219" default="1"/>
+			<soft id="1300"/>
+		</softlist>
+	</ext>
+	<ext name="kmv">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="kpl">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="krc">
+		<softlist>
+			<soft id="10098" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="krs">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="kux">
+		<softlist>
+			<soft id="56622" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="lis">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="lng">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="log">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="lrc">
+		<softlist>
+			<soft id="1591" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="lst">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="lua">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="lxe">
+		<softlist>
+			<soft id="10064" default="1"/>
+			<soft id="162955"/>
+		</softlist>
+	</ext>
+	<ext name="LZA">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="LZH">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="LZMA">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="m1v">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="m2a">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="m2p">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="m2t">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="m2ts">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="m2v">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="m3u">
+		<softlist>
+			<soft id="605" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="m4a">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="12"/>
+			<soft id="9601"/>
+		</softlist>
+	</ext>
+	<ext name="m4b">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="m4p">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="m4r">
+		<softlist>
+			<soft id="609" default="1"/>
+			<soft id="2683"/>
+		</softlist>
+	</ext>
+	<ext name="m4v">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mac">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="manifest">
+		<softlist>
+			<soft id="421" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mbr">
+		<softlist>
+			<soft id="2002" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="md">
+		<softlist>
+			<soft id="22687" default="1"/>
+			<soft id="4510"/>	
+		</softlist>
+	</ext>	
+	<ext name="mdb">
+		<softlist>
+			<soft id="3426" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mdf">
+		<softlist>
+			<soft id="906" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mds">
+		<softlist>
+			<soft id="906" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mef">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="mem">
+		<softlist>
+			<soft id="160604" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mht">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="314"/>
+		</softlist>
+	</ext>
+	<ext name="mhtml">
+		<softlist>
+			<soft id="314" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mid">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="midi">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="mids">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mka">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mkv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mla">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mmap">
+		<softlist>
+			<soft id="2334" default="1"/>
+			<soft id="24188"/>
+			<soft id="24189"/>
+		</softlist>
+	</ext>
+	<ext name="mmp">
+		<softlist>
+			<soft id="755" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mng">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="mobi">
+		<softlist>
+			<soft id="24381" default="1"/>			
+		</softlist>
+	</ext>
+	<ext name="mod">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="605"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="mos">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mou">
+		<softlist>
+			<soft id="912" default="1"/>
+			<soft id="2676"/>
+		</softlist>
+	</ext>
+	<ext name="mov">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mp1">
+		<softlist>
+			<soft id="9601" default="1"/>
+			<soft id="569"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="mp2">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="9601"/>
+			<soft id="605"/>
+		</softlist>
+	</ext>
+	<ext name="mp2v">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mp3">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="9601"/>
+			<soft id="12"/>			
+		</softlist>
+	</ext>
+	<ext name="mp3;common;crcommon;mp3common">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mp4">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mp5">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mpa">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="mpc">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="mpd">
+		<softlist>
+			<soft id="162155" default="1"/>
+			<soft id="18034"/>
+		</softlist>
+	</ext>
+	<ext name="mpe">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mpeg">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mpeg4">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="mpg">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mpga">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="MPL">
+		<softlist>
+			<soft id="1511" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="mpp">
+		<softlist>
+			<soft id="162155" default="1"/>
+			<soft id="162155"/>
+		</softlist>
+	</ext>
+	<ext name="mpv2">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="MRK">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="mrw">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="msg">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="161606"/>
+		</softlist>
+	</ext>
+	<ext name="mts">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="mui">
+		<softlist>
+			<soft id="18520" default="1"/>
+			<soft id="11386"/>
+		</softlist>
+	</ext>
+	<ext name="NC">
+		<softlist>
+			<soft id="12115" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ndl">
+		<softlist>
+			<soft id="1259" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="nef">
+		<softlist>
+			<soft id="755" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="nes">
+		<softlist>
+			<soft id="6536" default="1"/>
+			<soft id="16567"/>
+			<soft id="16568"/>
+		</softlist>
+	</ext>
+	<ext name="nh">
+		<softlist>
+			<soft id="1211" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="note">
+		<softlist>
+			<soft id="4510" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="npk">
+		<softlist>
+			<soft id="10028" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="nrg">
+		<softlist>
+			<soft id="903" default="1"/>
+			<soft id="21549"/>
+			<soft id="919"/>				
+		</softlist>
+	</ext>
+	<ext name="nrw">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="ocx">
+		<softlist>
+			<soft id="18520" default="1"/>
+			<soft id="11386"/>
+			<soft id="164731"/>
+		</softlist>
+	</ext>		
+	<ext name="odg">
+		<softlist>
+			<soft id="1253" default="1"/>
+		</softlist>
+	</ext>					
+	<ext name="odp">
+		<softlist>
+			<soft id="1253" default="1"/>		
+		</softlist>
+	</ext>			
+	<ext name="ods">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>
+	<ext name="odt">
+		<softlist>
+			<soft id="1253" default="1"/>	
+		</softlist>
+	</ext>	
+	<ext name="ofr">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ogg">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="9601"/>
+			<soft id="12"/>
+		</softlist>
+	</ext>
+	<ext name="ogm">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="ogv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="ogx">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="opt">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="orf">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="out">
+		<softlist>
+			<soft id="901" default="1"/>
+			<soft id="2675"/>
+		</softlist>
+	</ext>				
+	<ext name="pak">
+		<softlist>
+			<soft id="164867" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="pbm">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="PCB">
+		<softlist>
+			<soft id="12019" default="1"/>
+			<soft id="18124"/>
+		</softlist>
+	</ext>
+	<ext name="pcd">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="pck">
+		<softlist>
+			<soft id="12108" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="pct">
+		<softlist>
+			<soft id="3251" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="pcx">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="PDF">
+		<softlist>
+			<soft id="25235" default="1"/>
+			<soft id="1201"/>
+		</softlist>
+	</ext>
+	<ext name="pef">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="pfm">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="pfv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>			
+		</softlist>
+	</ext>
+	<ext name="pgf">
+		<softlist>
+			<soft id="12021" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="PGM">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="php">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="pic">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="pk">
+		<softlist>
+			<soft id="1553" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="pl">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="pls">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="plt">
+		<softlist>
+			<soft id="3224" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="pmp">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="png">
+		<softlist>
+			<soft id="23746" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="pnm">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="pp">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ppd">
+		<softlist>
+			<soft id="1201" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ppm">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="pps">
+		<softlist>
+			<soft id="569" default="1"/>
+			<soft id="22225"/>
+			<soft id="716"/>			
+		</softlist>
+	</ext>
+	<ext name="ppt">
+		<softlist>
+			<soft id="13407" default="1"/>
+			<soft id="22934"/>
+			<soft id="3932"/>
+		</softlist>
+	</ext>
+	<ext name="pptx">
+		<softlist>
+			<soft id="13407" default="1"/>
+			<soft id="22934"/>
+			<soft id="3932"/>					
+		</softlist>
+	</ext>
+	<ext name="pptm">
+		<softlist>
+			<soft id="1253" default="1"/>		
+		</softlist>
+	</ext>	
+	<ext name="pot">
+		<softlist>
+			<soft id="1253" default="1"/>		
+		</softlist>
+	</ext>						
+	<ext name="prn">
+		<softlist>
+			<soft id="3224" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="properties">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="3021"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="psb">
+		<softlist>
+			<soft id="716" default="1"/>
+			<soft id="22225"/>	
+			<soft id="569"/>			
+		</softlist>
+	</ext>
+	<ext name="PSD">
+		<softlist>
+			<soft id="716" default="1"/>
+			<soft id="22225"/>		
+			<soft id="3251"/>		
+		</softlist>
+	</ext>
+	<ext name="pss">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="pst">
+		<softlist>
+			<soft id="20899" default="1"/>
+			<soft id="18719"/>
+			<soft id="18720"/>
+		</softlist>
+	</ext>
+	<ext name="pub">
+		<softlist>
+			<soft id="18719" default="1"/>
+			<soft id="18720"/>
+			<soft id="20897"/>
+		</softlist>
+	</ext>
+	<ext name="pva">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="qbl">
+		<softlist>
+			<soft id="1317" default="1"/>
+			<soft id="22951"/>			
+		</softlist>
+	</ext>
+	<ext name="qlv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>	
+	<ext name="qpl">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="qpyd">
+		<softlist>
+			<soft id="7" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="qrc">
+		<softlist>
+			<soft id="10" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="qsv">
+		<softlist>
+			<soft id="519" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="qt">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>		
+		</softlist>
+	</ext>
+	<ext name="ra">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="raf">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="ram">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="RAR">
+		<softlist>
+			<soft id="25313" default="1"/>
+			<soft id="10268"/>
+			<soft id="900"/>
+			<soft id="2685"/>
+		</softlist>
+	</ext>
+	<ext name="ras">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="rat">
+		<softlist>
+			<soft id="12121" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ratDVD">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="raw">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="rc">
+		<softlist>
+			<soft id="1333" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="rdb">
+		<softlist>
+			<soft id="11584" default="1"/>
+			<soft id="12077"/>
+		</softlist>
+	</ext>
+	<ext name="rec">
+		<softlist>
+			<soft id="519" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="rm">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="rmi">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="rms">
+		<softlist>
+			<soft id="513" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="rmv">
+		<softlist>
+			<soft id="513" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="rmvb">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="rp">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="RPM">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="rt">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="rtf">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>	
+		</softlist>
+	</ext>
+	<ext name="rw2">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="sal">
+		<softlist>
+			<soft id="516" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="sav">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="scm">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="sdb">
+		<softlist>
+			<soft id="160895" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="set">
+		<softlist>
+			<soft id="163950" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="sfv">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="SFX">
+		<softlist>
+			<soft id="901" default="1"/>
+			<soft id="2675"/>
+		</softlist>
+	</ext>
+	<ext name="sfxv">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="sgi">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="sh">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="shsh">
+		<softlist>
+			<soft id="609" default="1"/>
+			<soft id="2683"/>
+		</softlist>
+	</ext>
+	<ext name="shtm">
+		<softlist>
+			<soft id="322" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="shtml">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="sis">
+		<softlist>
+			<soft id="2069" default="1"/>
+			<soft id="1101"/>
+		</softlist>
+	</ext>
+	<ext name="sisx">
+		<softlist>
+			<soft id="2069" default="1"/>
+			<soft id="1101"/>
+		</softlist>
+	</ext>
+	<ext name="skin">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="smi">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="smil">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="smk">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="smpl">
+		<softlist>
+			<soft id="569" default="1"/>
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="so">
+		<softlist>
+			<soft id="12019" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="sqlite">
+		<softlist>
+			<soft id="163887" default="1"/>
+			<soft id="22776"/>			
+		</softlist>
+	</ext>
+	<ext name="squashfs">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="sr2">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="srf">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="srt">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="ssa">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="ssf">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ssk">
+		<softlist>
+			<soft id="18158" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="st">
+		<softlist>
+			<soft id="18351" default="1"/>
+		</softlist>
+	</ext>										
+	<ext name="sub">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="sv4">
+		<softlist>
+			<soft id="1511" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="swa">
+		<softlist>
+			<soft id="605" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="swf">
+		<softlist>
+			<soft id="569" default="1"/>
+			<soft id="519"/>
+			<soft id="3107"/>
+		</softlist>
+	</ext>
+	<ext name="SWM">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>
+		</softlist>
+	</ext>
+	<ext name="table">
+		<softlist>
+			<soft id="4510" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tac">
+		<softlist>
+			<soft id="10" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tak">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="TAR">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>			
+		</softlist>
+	</ext>
+	<ext name="TAZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>			
+		</softlist>
+	</ext>
+	<ext name="tbi">
+		<softlist>
+			<soft id="755" default="1"/>
+			<soft id="18123"/>
+		</softlist>
+	</ext>
+	<ext name="TBZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="TBZ2">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="tdd">
+		<softlist>
+			<soft id="1801" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tga">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+			</softlist>
+	</ext>
+	<ext name="TGZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="THM">
+		<softlist>
+			<soft id="714" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tif">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="tiff">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="tlb">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tni">
+		<softlist>
+			<soft id="161746" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tod">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="torrent">
+		<softlist>
+			<soft id="403" default="1"/>
+			<soft id="442"/>		
+		</softlist>
+	</ext>
+	<ext name="tp">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="tpc">
+		<softlist>
+			<soft id="1025" default="1"/>
+			<soft id="6909"/>
+		</softlist>
+	</ext>
+	<ext name="tpp">
+		<softlist>
+			<soft id="2818" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="tpr">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="TPZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="trc">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="ts">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="tta">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="10"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="txd">
+		<softlist>
+			<soft id="12023" default="1"/>
+			<soft id="11618"/>
+		</softlist>
+	</ext>
+	<ext name="TXT">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="3450"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="TXZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="udd">
+		<softlist>
+			<soft id="18507" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="uml">
+		<softlist>
+			<soft id="6138" default="1"/>
+			<soft id="18085"/>
+		</softlist>
+	</ext>
+	<ext name="upd">
+		<softlist>
+			<soft id="12067" default="1"/>
+			<soft id="11618"/>
+		</softlist>
+	</ext>
+	<ext name="usf">
+		<softlist>
+			<soft id="569" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="UUE">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="vbp">
+		<softlist>
+			<soft id="1300" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="VCD">
+		<softlist>
+			<soft id="912" default="1"/>
+			<soft id="2676"/>
+		</softlist>
+	</ext>
+	<ext name="vcf">
+		<softlist>
+			<soft id="1101" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="vdf">
+		<softlist>
+			<soft id="12106" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="vhd">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="vid">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="vmg">
+		<softlist>
+			<soft id="1101" default="1"/>
+			<soft id="12119"/>
+		</softlist>
+	</ext>
+	<ext name="vob">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="vp6">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="vp7">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="vsd">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>			
+		</softlist>
+	</ext>
+	<ext name="vsdx">
+		<softlist>
+			<soft id="3932" default="1"/>
+			<soft id="22934"/>				
+		</softlist>
+	</ext>
+	<ext name="wap">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>
+		</softlist>
+	</ext>
+	<ext name="wav">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="9601"/>
+			<soft id="12"/>
+		</softlist>
+	</ext>
+	<ext name="wbmp">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="webm">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="webp">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="314"/>
+		</softlist>
+	</ext>
+	<ext name="WIM">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="wm">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="wma">
+		<softlist>
+			<soft id="10" default="1"/>
+			<soft id="12"/>
+			<soft id="9601"/>
+		</softlist>
+	</ext>
+	<ext name="wmf">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="716"/>
+			<soft id="22225"/>		
+		</softlist>
+	</ext>
+	<ext name="wml">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="1300"/>
+		</softlist>
+	</ext>
+	<ext name="wmp">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="wmv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>			
+			<soft id="519"/>
+		</softlist>
+	</ext>
+	<ext name="wps">
+		<softlist>
+			<soft id="13407" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="wpt">
+		<softlist>
+			<soft id="13407" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="wv">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="569"/>
+		</softlist>
+	</ext>
+	<ext name="wvx">
+		<softlist>
+			<soft id="12" default="1"/>
+			<soft id="519"/>	
+		</softlist>
+	</ext>
+	<ext name="x32">
+		<softlist>
+			<soft id="3107" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="XAR">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="xht">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="314"/>
+		</softlist>
+	</ext>
+	<ext name="xhtml">
+		<softlist>
+			<soft id="2661" default="1"/>
+			<soft id="10071"/>
+		</softlist>
+	</ext>
+	<ext name="xlmv">
+		<softlist>
+			<soft id="12" default="1"/>
+		</softlist>
+	</ext>
+	<ext name="xls">
+		<softlist>
+			<soft id="13407" default="1"/>
+			<soft id="22934"/>	
+			<soft id="3932"/>			
+			<soft id="1253"/>	
+		</softlist>
+	</ext>
+	<ext name="xlsb">
+		<softlist>
+			<soft id="1253" default="1"/>
+		</softlist>
+	</ext>	
+	<ext name="xlsm">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>			
+			<soft id="1253"/>
+		</softlist>
+	</ext>
+	<ext name="xlsx">
+		<softlist>
+			<soft id="13407" default="1"/>
+			<soft id="22934"/>
+			<soft id="3932"/>			
+			<soft id="1253"/>		
+		</softlist>
+	</ext>
+	<ext name="xlt">
+		<softlist>
+			<soft id="22934" default="1"/>
+			<soft id="3932"/>	
+			<soft id="1253"/>
+		</softlist>
+	</ext>		
+	<ext name="xmind">
+		<softlist>
+			<soft id="24188" default="1"/>
+			<soft id="24189"/>
+		</softlist>
+	</ext>
+	<ext name="XML">
+		<softlist>
+			<soft id="1300" default="1"/>
+			<soft id="3427"/>
+			<soft id="2661"/>
+		</softlist>
+	</ext>
+	<ext name="XPI">
+		<softlist>
+			<soft id="2867" default="1"/>
+			<soft id="1254"/>
+			<soft id="10268"/>	
+		</softlist>
+	</ext>
+	<ext name="xpm">
+		<softlist>
+			<soft id="3251" default="1"/>
+			<soft id="755"/>	
+		</softlist>
+	</ext>
+	<ext name="xsd">
+		<softlist>
+			<soft id="3427" default="1"/>
+			<soft id="1300"/>
+		</softlist>
+	</ext>
+	<ext name="xv">
+		<softlist>
+			<soft id="519" default="1"/>
+			<soft id="12"/>
+			<soft id="18973"/>
+		</softlist>
+	</ext>
+	<ext name="xvx">
+		<softlist>
+			<soft id="519" default="1"/>
+			<soft id="12"/>
+			<soft id="18973"/>
+		</softlist>
+	</ext>
+	<ext name="XZ">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="900"/>
+			<soft id="2685"/>	
+		</softlist>
+	</ext>
+	<ext name="Z">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="z01">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="z02">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+	<ext name="ZIP">
+		<softlist>
+			<soft id="25313" default="1"/>
+			<soft id="10268"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+		</softlist>
+	</ext>
+	<ext name="ZIPX">
+		<softlist>
+			<soft id="10268" default="1"/>
+			<soft id="2685"/>					
+			<soft id="900"/>
+			<soft id="22400"/>	
+		</softlist>
+	</ext>
+</fileopen>

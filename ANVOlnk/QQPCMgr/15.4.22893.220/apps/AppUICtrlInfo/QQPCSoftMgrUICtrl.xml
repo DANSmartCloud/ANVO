@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="软件管理" catalog="5" appclsid="D1DAB619-C2DB-4365-9C8C-D71AA504843C" appname="QQPCSoftMgr" enable="1" supportsys="1111111111">
+		<icon path="QQPCSoftMgr.svg" />
+		<description>
+			<![CDATA[海量软件，轻松管理]]>
+		</description>
+		<tip>
+			<![CDATA[海量软件，轻松管理]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="修复漏洞" catalog="4" appclsid="5A07BE19-B421-4e64-B556-4924460FCB4C" appname="QQPCLeakScan" enable="1" supportsys="1111111111">
+		<icon path="QQPCLeakScan.svg" />
+		<description>
+			<![CDATA[修复漏洞，拦杀木马病毒]]>
+		</description>
+		<tip>
+			<![CDATA[修复漏洞，拦杀木马病毒]]>
+		</tip>
+	</App>
+</Apps>

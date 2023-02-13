@@ -1,0 +1,17 @@
+﻿<BulletinList>
+	<trojantipItem id="2007" bold="0" hot="0" colornormal="344000" colorhover="16747008" colordown="14905344">
+		<url>http://guanjia.qq.com/news/n1/201304/18_109.html?ADTAG=client.pcmgr.Anti-Virus-news.news1</url>
+		<title>深度免打扰功能或成杀软行业标准</title>
+		<tooltip>深度免打扰功能或成杀软行业标准</tooltip>
+		</trojantipItem>
+	<trojantipItem id="2009" bold="0" hot="0" colornormal="3684408" colorhover="16747008" colordown="14905344">
+		<url>http://guanjia.qq.com/news/n1/201304/16_102.html?ADTAG=client.pcmgr.Anti-Virus-news.news2</url>
+		<title>常见病毒分析报告 附防护查杀方法</title>
+		<tooltip>常见病毒分析报告 附防护查杀方法</tooltip>
+	</trojantipItem>
+	<trojantipItem id="2010" bold="0" hot="0" colornormal="3684408" colorhover="16747008" colordown="14905344">
+		<url>http://guanjia.qq.com/news/n1/201304/16_103.html?ADTAG=client.pcmgr.Anti-Virus-news.news3</url>
+		<title>预报：伪装为视频文件木马被发现</title>
+		<tooltip>预报：伪装为视频文件木马被发现</tooltip>
+	</trojantipItem>
+</BulletinList>

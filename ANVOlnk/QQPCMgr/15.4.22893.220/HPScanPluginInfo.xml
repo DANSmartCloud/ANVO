@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--HPScanCatalog>
+	此处代码只为注释，ID不能更改
+	<Catalog id="1"  score="30"  title ="病毒木马" />
+	<Catalog id="2"  score="15"  title ="高危漏洞" />
+	<Catalog id="3"  score="30"  title ="系统异常" />
+	<Catalog id="4"  score="20"  title ="电脑速度" />
+	<Catalog id="5"  score="0"   title ="优化建议" />
+	<Catalog id="6"  score="5"  title ="帐号风险" />
+	<Catalog id="7"  score="5"  title ="勒索风险" />
+</HPScanCatalog-->
+
+<HPScanPlugin FullScore="100" MaxScoreInDangerExist="80" >
+
+
+  <Plugin catalog="2" id="5" name="QMHPSCAN_Vul" safetype="0" score="15" clsid="{D4B199EB-A31B-488e-A401-775C5974BFF4}" title ="检查电脑是否存在高危漏洞">
+	<progress style="1" base="8" step="3" elapse ="200"/>
+    <directory path="HPVulScan"/>
+    <entry file="HPVulScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="4" id="8" name="QMHPSCAN_Rubbish" safetype="0" score="5" clsid="{16983AAC-E584-4695-AE6D-2D760BDEAE11}" title ="检测系统盘垃圾文件是否需要清理">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="QMHPGarbageScan"/>
+    <entry file="QMHPGarbageScan.dll"/>
+  </Plugin>
+    
+  <Plugin catalog="3" id="154" name="QMHPSCAN_Malware" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查恶评软件">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+    
+  <!-- <Plugin catalog="1" id="136" name="QMHPSCAN_sysDrivers" safetype="0" score="30" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统驱动项是否正常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin> 	-->
+  
+  <Plugin catalog="1" id="86" name="QMHPSCAN_OsCriticalDir" safetype="0" score="30" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查常见位置快捷方式">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+    
+  <!-- <Plugin catalog="3" id="120" name="QMHPSCAN_ServicesSet" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统服务配置项是否被篡改">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin> -->
+     
+  <Plugin catalog="3" id="173" name="QMHPSCAN_sysDriversNew" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统驱动是否正常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+    
+  <!--<Plugin catalog="1" id="161" name="QMHPSCAN_CriticalPath" safetype="0" score="30" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统关键路径">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>	-->
+  
+  <Plugin catalog="4" id="4" name="QMHPSCAN_AutoRunNum" safetype="4" score="5" clsid="{3A4B86CC-3E95-4b3e-A5BF-0A163FEEEF9E}" title ="检查可优化的开机启动项">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPSysScan"/>
+    <entry file="HPSysScanner.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="5" id="10" name="QMHPSCAN_CanRunNum" safetype="4" score="5" clsid="{3A4B86CC-3E95-4b3e-A5BF-0A163FEEEF9E}" title ="检查可优化的开机启动项">
+	<progress style="0" base="4" step="0" elapse ="0"/>
+    <directory path="HPSysScan"/>
+    <entry file="HPSysScanner.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="6" id="142" name="QMHPSCAN_QQSoftware" safetype="5" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查QQ目录、文件是否安全">
+	<progress style="0" base="8" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="66" name="QMHPSCAN_BrwPlugin" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查浏览器插件是否安全">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="1" id="55" name="QMHPSCAN_IEFavorite" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE收藏夹中是否存在风险">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="1" id="62" name="QMHPSCAN_AbnormalExt" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查是否存在可疑后缀名文件">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="64" name="QMHPSCAN_Memory" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统内存中是否存在病毒木马">
+	<progress style="1" base="9" step="8" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="119" name="QMHPSCAN_AutocadVirus" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查是否存在AutoCad病毒">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="122" name="QMHPSCAN_IEHtmlPage" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE默认html页是否存在风险">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="6" id="140" name="QMHPSCAN_QQLink" safetype="5" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查QQ创建的快捷方式是否被篡改">
+	<progress style="0" base="8" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  <Plugin catalog="3" id="18" name="QMHPSCAN_RtpAutoRun" safetype="0" score="10" clsid="{BE1D5354-C523-40b9-8411-C74027BC4775}" title ="检查是否开机自动运行电脑管家">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPInternalScan"/>
+    <entry file="HPInternalScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="114" name="QMHPSCAN_QMCloud" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查电脑管家云查杀引擎是否正常工作">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="54" name="QMHPSCAN_DesktopIcon" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查桌面是否有异常图标">
+	<progress style="1" base="8" step="2" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+<!-- <Plugin catalog="3" id="61" name="QMHPSCAN_BadShortcut" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查异常的快捷方式、url或文件夹">
+	<progress style="1" base="7" step="10" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin> -->
+  
+  <Plugin catalog="3" id="151" name="QMHPSCAN_FavBadShortcut" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查收藏夹异常的快捷方式、url或文件夹">
+	<progress style="1" base="7" step="10" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="152" name="QMHPSCAN_StartMenuBadShortcut" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查开始菜单异常的快捷方式、url或文件夹">
+	<progress style="1" base="7" step="10" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="153" name="QMHPSCAN_DesktopBadShortcut" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查桌面异常的快捷方式、url或文件夹">
+	<progress style="1" base="7" step="10" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="56" name="QMHPSCAN_Shortcut" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查开始菜单和快速启动栏的IE快捷方式">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="57" name="QMHPSCAN_IEHomepage" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE默认主页设置">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="58" name="QMHPSCAN_BrwShortcut" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查常用浏览器快捷方式">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="60" name="QMHPSCAN_DesktopAD" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查是否存在桌面广告、恶意推广类文件">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="63" name="QMHPSCAN_HstRedirect" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查hosts是否存在url定向劫持">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="44" name="QMHPSCAN_AutoPlay" safetype="0" score="3" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查移动设备是否自动播放">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="45" name="QMHPSCAN_DisableReg" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查注册表编辑器和任务管理器是否被禁用">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+ 
+
+  <Plugin catalog="3" id="70" name="QMHPSCAN_About" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查About协议">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="72" name="QMHPSCAN_ShortcutSet" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查快捷方式默认配置">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="74" name="QMHPSCAN_SoftPolicy" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查软件安全策略">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="7" name="QMHPSCAN_MalWare" safetype="0" score="10" clsid="{A6250250-392F-4063-932C-299443EAEB8C}" title ="检查系统中是否存在恶评插件">
+	<progress style="1" base="8" step="3" elapse ="200"/>
+    <directory path="HPInternalScan"/>
+    <entry file="HPInternalScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="77" name="QMHPSCAN_SystemSet" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统敏感设置">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="78" name="QMHPSCAN_SELFPROTE" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否已开启自保护">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="79" name="QMHPSCAN_SysFilLos" safetype="0" score="3" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统文件是否缺失">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="1" id="84" name="QMHPSCAN_AppInitLoad" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查AppInit加载项">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="85" name="QMHPSCAN_ImageHijack" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查映像劫持项">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="90" name="QMHPSCAN_FileExtAssoc" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查文件关联项">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="91" name="QMHPSCAN_ImeLoad" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查输入法加载项">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="116" name="QMHPSCAN_HttpAsso" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查Http关联项是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="117" name="QMHPSCAN_IESelect" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE常用功能项是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="118" name="QMHPSCAN_RebootCfg" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统启动配置项是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="6" id="115" name="QMHPSCAN_QQPswTroj" safetype="5" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查QQ是否感染最新的流行盗号木马">
+    <progress style="1" base="8" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="121" name="QMHPSCAN_MyDocumentIcon" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查&quot;我的文档&quot;图标属性是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="1" id="124" name="QMHPSCAN_IEExtensions" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE扩展组件是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="125" name="QMHPSCAN_DesktopIcon" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查桌面默认系统图标是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="126" name="QMHPSCAN_SougouHomePage" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查搜狗浏览器主页是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="127" name="QMHPSCAN_DesktopIE" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查桌面IE图标是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="128" name="QMHPSCAN_ShowFile" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查文件夹选项显示文件功能是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="129" name="QMHPSCAN_IEHide" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查桌面IE图标是否被隐藏">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="130" name="QMHPSCAN_FoldAsso" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查文件夹右键关联是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="132" name="QMHPSCAN_IELinkButton" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查工具栏“链接”按钮是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="133" name="QMHPSCAN_IETrust" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE信任页是否正常">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="134" name="QMHPSCAN_HideFile" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查常用文件或文件夹是否被隐藏">
+    <progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="35" name="QMHPSCAN_UFw" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启U盘防火墙">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="41" name="QMHPSCAN_0Day" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启黑客入侵防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="36" name="QMHPSCAN_Proc" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启进程防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="39" name="QMHPSCAN_Drv" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启驱动防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="34" name="QMHPSCAN_Camera" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启摄像头保护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="28" name="QMHPSCAN_SEARCH" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启搜索保护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="30" name="QMHPSCAN_NetShop" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启网购安全防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="32" name="QMHPSCAN_WebFw" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启网页防火墙">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="38" name="QMHPSCAN_Reg" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启文件系统防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="31" name="QMHPSCAN_DL" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启文件下载保护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="37" name="QMHPSCAN_FileSystem" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启注册表防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="33" name="QMHPSCAN_DeskIco" safetype="0" score="2" clsid="{49E5AA90-D087-49f2-A38A-893AA062ED75}" title ="检查是否开启桌面图标防护">
+    <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPExternalScan"/>
+    <entry file="HPFirewareScanner.dll"/>
+  </Plugin>
+
+  <Plugin catalog="6" id="141" name="QMHPSCAN_QQClassComponent" safetype="5" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查是否存在被劫持的QQ类组件">
+	<progress style="0" base="8" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="5" id="160" name="QMHPSCAN_QBSetup" safetype="1" score="3" clsid="{4E7A6856-9195-47cf-9D49-691C53877B6B}" title ="检查IE浏览器内核版本">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPInternalScan"/>
+    <entry file="HPInternalScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="5" id="27" name="QMHPSCAN_IEStartPage" safetype="1" score="3" clsid="{83BE1EDF-6DFD-4447-9409-F43A53A29B40}" title ="检查IE主页是否锁定">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="hpiestartpagescan"/>
+    <entry file="HPIEStartPageScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="5" id="139" name="QMHPSCAN_Clinic" safetype="1" score="1" clsid="{BA6FAE48-630E-4a3d-B2C2-E62C9604C5B1}" title ="检查Flash是否安装或版本是否过低">
+  <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="hpclinicscanplugin"/>
+    <entry file="HPClinicScanPlugin.dll"/>
+  </Plugin>
+  <Plugin catalog="5" id="143" name="QMHPSCAN_Network" safetype="1" score="1" clsid="{7841513B-9450-47cb-8402-F46266625BE5}" title ="检查网络是否正常">
+  <progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="hpclinicscanplugin"/>
+    <entry file="HPClinicScanPlugin.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="5" id="9" name="QMHPSCAN_Software" safetype="1" score="3" clsid="{936FA452-65CC-4317-8DC5-983F1F441337}" title ="检查是否有软件可升级至免费正式版">
+	<progress style="1" base="8" step="3" elapse ="200"/>
+    <directory path="HPSWScanPlugin"/>
+    <entry file="HPSWScanPlugin.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="5" id="14" name="QMHPSCAN_SwUnintall" safetype="1" score="2" clsid="{24E39AB1-265A-49cb-8F99-32E47F843B35}" title ="检查是否有不常用软件">
+	<progress style="1" base="8" step="2" elapse ="200"/>
+    <directory path="HPSWScanPlugin"/>
+    <entry file="HPSWScanPlugin.dll"/>
+  </Plugin>
+  
+    <Plugin catalog="5" id="15" name="QMHPSCAN_MobileCheck" safetype="1" score="0" clsid="{2AD3CCC0-FCF1-4803-8810-D0E7AFA4501D}" title ="检查手机是否有垃圾">
+	<progress style="1" base="8" step="2" elapse ="200"/>
+    <directory path="HPSWScanPlugin"/>
+    <entry file="HPSWScanPlugin.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="5" id="16" name="QMHPSCAN_MobileCheck" safetype="1" score="0" clsid="{C5495930-6AFD-4950-8DEB-4CBDB8B9680E}" title ="检查手机是否有软件可升级">
+	<progress style="1" base="8" step="2" elapse ="200"/>
+    <directory path="HPSWScanPlugin"/>
+    <entry file="HPSWScanPlugin.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="155" name="QMHPSCAN_IESearchEngineUrl" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE搜索引擎">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="156" name="QMHPSCAN_DesktopBtn" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查桌面图标背景">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="158" name="QMHPSCAN_BdPlugin" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查百度静默推广组件">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="159" name="QMHPSCAN_RsingPlugin" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查瑞星静默推广组件">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="3" id="163" name="QMHPSCAN_FIleOpenStyle" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查常用格式文件打开方式是否异常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="164" name="QMHPSCAN_DefaultIESearchEngine" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查IE默认搜索引擎是否异常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="165" name="QMHPSCAN_Services" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统常用服务是否异常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+    
+  <Plugin catalog="1" id="52" name="QMHPSCAN_WinDirIEDir" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查windows与IE目录是否存在风险">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="65" name="QMHPSCAN_Autorun" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查是否存在危险的启动项">
+	<progress style="1" base="4" step="16" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="53" name="QMHPSCAN_CommonDir" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查常见路径下是否存在非法文件">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="166" name="QMHPSCAN_SafeMode" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统安全模式设置是否异常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="167" name="QMHPSCAN_CriticalSystemSet" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查关键系统配置是否正常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="168" name="QMHPSCAN_RiskAutoRun" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查是否存在可疑启动项">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+ 
+  <Plugin catalog="1" id="89" name="QMHPSCAN_TaskAutoRun" safetype="0" score="30" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查计划任务启动项">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="170" name="QMHPSCAN_ActiveX" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查ActiveX控件是否被禁用">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="3" id="171" name="QMHPSCAN_WMI" safetype="0" score="10" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查WMI是否存在安全隐患">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="69" name="QMHPSCAN_MgrPlugin" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查资源管理器插件是否安全">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="1" id="137" name="QMHPSCAN_sysServices" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查系统服务项是否正常">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+  <Plugin catalog="1" id="68" name="QMHPSCAN_IEPlugin" safetype="0" score="5" clsid="{83479529-51E3-4a2b-ACFC-D8E81E1C1367}" title ="检查ie浏览器加载项是否安全">
+	<progress style="1" base="4" step="3" elapse ="200"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+
+  <!-- 注意：后续添加木马扫描项，要保证这项是最后一个 -->
+  <Plugin catalog="5" id="111" name="QMHPSCAN_FullScanRecommend" safetype="1" score="2" clsid="{9e82fceb-2d6e-42ef-9a26-af66491f35d5}" title ="检查系统关键位置是否存在感染型病毒">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+  
+  <Plugin catalog="4" id="174" name="QMHPSCAN_Remain" safetype="0" score="5" clsid="{B13C97DA-FBA3-40ac-9BFF-64E8C6CCECAB}" title ="系统残留">
+	<progress style="0" base="1" step="0" elapse ="0"/>
+    <directory path="HPTrojanScan"/>
+    <entry file="HPTrojanScan.dll"/>
+  </Plugin>
+
+</HPScanPlugin>

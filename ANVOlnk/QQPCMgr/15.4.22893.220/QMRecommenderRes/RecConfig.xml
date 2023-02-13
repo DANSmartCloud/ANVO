@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration version="1">
+	<apps>
+		<app name="loginassistant_mainscan" chname="登录助手" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="loginassistant_1.svg" ico_pioneer="loginassistant_2.svg" title="随时查看电脑安全状态" subtitle1="微信登录绑定手机，随时查看本机设备状态" subtitle2="" btn_classic="查看详情" btn_pioneer="详情" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qmloginassistant.exe /mainscan"/>
+		</app>
+		<app name="loginassistant_trojanscan" chname="登录助手" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="loginassistant_1.svg" ico_pioneer="loginassistant_2.svg" title="随时随地关机锁屏" subtitle1="微信登录绑定手机，随时帮电脑关机锁屏" subtitle2="" btn_classic="查看详情" btn_pioneer="详情" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qmloginassistant.exe /trojanscan"/>
+		</app>
+		<app name="loginassistant_sysclean" chname="登录助手" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="loginassistant_1.svg" ico_pioneer="loginassistant_2.svg" title="随时查看电脑安全状态" subtitle1="微信登录绑定手机，随时查看本机设备状态" subtitle2="" btn_classic="查看详情" btn_pioneer="详情" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qmloginassistant.exe /systemclean"/>
+		</app>
+		<app name="loginassistant_speedup" chname="登录助手" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="loginassistant_1.svg" ico_pioneer="loginassistant_2.svg" title="随时随地关机锁屏" subtitle1="微信登录绑定手机，随时帮电脑关机锁屏" subtitle2="" btn_classic="查看详情" btn_pioneer="详情" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qmloginassistant.exe /speedup"/>
+		</app>
+		<app name="realprotect" chname="实时防护" ipc_node="2,1,80" ipc_id="1002096" nocheck="">
+			<option id="1" ico_classic="realprotect_1.svg" ico_pioneer="realprotect_2.svg" title="检测到系统防护被关闭" subtitle1="开启防护，电脑安全无忧" subtitle2="" btn_classic="一键开启" btn_pioneer="开启" btn_cfg="V15_Mini_Blue_Button" cmdtype="2" cmdparam="4,205"/>
+		</app>
+		<app name="adfilter" chname="广告过滤" ipc_node="2,1,80" ipc_id="1003435" nocheck="">
+			<option id="1" ico_classic="adfilter_1.svg" ico_pioneer="adfilter_2.svg" title="开启广告过滤，上网更省心" subtitle1="拦截网页弹窗" subtitle2="过滤垃圾网站" btn_classic="立即开启" btn_pioneer="开启" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_3A3EDEEB-A445-4864-85EF-03458F2FD704" toolname="网页广告过滤"/>
+		</app>
+		<app name="vulrepair" chname="漏洞修复" ipc_node="2,1,80" ipc_id="1003436" nocheck="">
+			<option id="1" ico_classic="vulrepair_1.svg" ico_pioneer="vulrepair_2.svg" title="检测到[k1]个高危漏洞" subtitle1="贴心后台修复" subtitle2="不给木马可乘之机" btn_classic="立即修复" btn_pioneer="修复" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_5A07BE19-B421-4e64-B556-4924460FCB4C" toolname="修复漏洞"/>
+		</app>
+		<app name="trojanscan" chname="病毒查杀" ipc_node="3,1,80" ipc_id="1003437" nocheck="">
+			<option id="1" ico_classic="trojanscan_1.svg" ico_pioneer="trojanscan_2.svg" title="电脑还可能存在病毒木马" subtitle1="建议定期查杀，电脑更安全" subtitle2="" btn_classic="立即查杀" btn_pioneer="查杀" btn_cfg="V15_Mini_Blue_Button" cmdtype="1" cmdparam="/TAB_TROJAN"/>
+		</app>
+		<app name="browserprotect" chname="浏览器保护" ipc_node="2,1,80" ipc_id="1003283" nocheck="">
+			<option id="1" ico_classic="homepagelock_1.svg" ico_pioneer="homepagelock_2.svg" title="IE主页未锁定" subtitle1="锁定网址导航，防止恶意程序篡改" subtitle2="" btn_classic="立即锁定" btn_pioneer="锁定" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQRepair.exe /haoqq"/>
+			<option id="2" ico_classic="browserlock_1.svg" ico_pioneer="browserlock_2.svg" title="默认浏览器未锁定" subtitle1="锁定快速、安全的QQ浏览器为默认" subtitle2="" btn_classic="立即锁定" btn_pioneer="锁定" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQRepair.exe /llockbrsqb"/>
+		</app>
+		<app name="garbageclean" chname="垃圾清理" ipc_node="2,1,80" ipc_id="1110003" nocheck="2">
+			<option id="1" ico_classic="garbageclean_1.svg" ico_pioneer="garbageclean_2.svg" title="电脑超过3天未清理" subtitle1="立即清理为电脑提速" subtitle2="" btn_classic="一键清理" btn_pioneer="清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="1" cmdparam="/TAB_SYSCLEAN /SysScan"/>
+			<option id="2" ico_classic="garbageclean_1.svg" ico_pioneer="garbageclean_2.svg" title="想让电脑更快？" subtitle1="垃圾清理帮你一键搞定" subtitle2="" btn_classic="一键清理" btn_pioneer="清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="1" cmdparam="/TAB_SYSCLEAN /SysScan"/>
+		</app>
+		<app name="superspeedup" chname="极致加速" nocheck="1">
+			<option id="1" ico_classic="superspeedup_1.svg" ico_pioneer="superspeedup_2.svg" title="电脑卡到不能动？" subtitle1="极致加速，恢复至开机时的流畅" subtitle2="" btn_classic="立即加速" btn_pioneer="加速" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="SuperSpeedup.exe /Parent=StartupOptimized"/>
+		</app>
+		<app name="privacyclean" chname="隐私保护（痕迹清理）" ipc_node="2,1,80" ipc_id="1110001" nocheck="">
+			<option id="1" ico_classic="privacy_1.svg" ico_pioneer="privacy_2.svg" title="您已7天未清理隐私痕迹" subtitle1="定期清理保护个人隐私" subtitle2="" btn_classic="清理痕迹" btn_pioneer="清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCSysOptimize.exe /TAB_TRACECLEAR"/>
+		</app>
+		<app name="sysslim" chname="系统盘瘦身" ipc_node="2,1,80" ipc_id="1110002" nocheck="">
+			<option id="1" ico_classic="sysslim_1.svg" ico_pioneer="sysslim_2.svg" title="系统盘空间不足30%" subtitle1="清理系统盘文件" subtitle2="让电脑更快" btn_classic="C盘瘦身" btn_pioneer="瘦身" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_29715424-B1AD-4ceb-BCBF-E50697DA8602" toolname="系统盘瘦身"/>
+		</app>
+		<app name="pluginclean" chname="插件清理" ipc_node="2,1,80" ipc_id="1110004" nocheck="">
+			<option id="1" ico_classic="pluginclean_1.svg" ico_pioneer="pluginclean_2.svg" title="全面清理电脑插件" subtitle1="提升系统安全级别" subtitle2="" btn_classic="全面清理" btn_pioneer="清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCSysOptimize.exe /TAB_MALWARE"/>
+		</app>
+		<app name="fileclean" chname="文件清理" ipc_node="2,1,80" ipc_id="1110005" nocheck="">
+			<option id="1" ico_classic="fileclean_1.svg" ico_pioneer="fileclean_2.svg" title="您已30天未清理下载文件" subtitle1="立即清理释放磁盘空间" subtitle2="" btn_classic="立即清理" btn_pioneer="清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCSysOptimize.exe /TAB_DOWNLOADMGR"/>
+		</app>
+		<app name="deepspeedup" chname="深度加速" ipc_node="2,1,80" ipc_id="1140001" nocheck="">
+			<option id="1" ico_classic="deepspeedup_1.svg" ico_pioneer="deepspeedup_2.svg" title="内存占用超过[k1]%" subtitle1="小火箭深度加速，释放电脑内存" subtitle2="" btn_classic="立即加速" btn_pioneer="加速" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCRealTimeSpeedup.exe SpeedUpExe-[ShowDeepSpeedupWnd]"/>
+		</app>
+		<app name="rocketspeedup" chname="小火箭" ipc_node="2,1,80" ipc_id="1140003" nocheck="">
+			<option id="1" ico_classic="speedup_1.svg" ico_pioneer="speedup_1.svg" title="不挡屏幕的小火箭" subtitle1="加速更轻便" subtitle2="右下角点击加速" btn_classic="立即打开" btn_pioneer="加速" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCRealTimeSpeedup.exe TrayRocket-[TrayRocketAutoFire]"/>
+		</app>
+		<app name="netspeedup" chname="上网慢" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="netspeedup_1.svg" ico_pioneer="netspeedup_2.svg" title="上网慢？电脑诊所帮你" subtitle1="完整解决方案，告别龟速网络" subtitle2="" btn_classic="立刻加速" btn_pioneer="加速" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_1917F963-FA9E-4487-AF96-FE81999A1EA9" toolname="上网慢"/>
+		</app>
+		<app name="pcspeedup" chname="电脑加速" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="pcspeedup_1.svg" ico_pioneer="pcspeedup_2.svg" title="电脑运行卡慢？" subtitle1="电脑加速带你飞" subtitle2="" btn_classic="立即加速" btn_pioneer="加速" btn_cfg="V15_Mini_Blue_Button" cmdtype="1" cmdparam="/TAB_SYSSTARTUP"/>
+		</app>
+		<app name="clinic" chname="电脑诊所" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="clinic_1.svg" ico_pioneer="clinic_2.svg" title="电脑异常，诊所帮你" subtitle1="电脑问题，轻松解决" subtitle2="" btn_classic="立刻诊断" btn_pioneer="诊断" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_54635529-CB07-4641-9707-4F2CD3E1569D" toolname="电脑诊所"/>
+		</app>
+		<app name="gamespeedup" chname="游戏加速" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="gamespeedup_1.svg" ico_pioneer="gamespeedup_2.svg" title="玩游戏卡，电脑不够快？" subtitle1="试试游戏加速，一键畅快玩游戏" subtitle2="" btn_classic="立即加速" btn_pioneer="加速" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_A75DC060-4FF0-4f48-9E0E-3875E8872CA5" toolname="游戏加速"/>
+		</app>
+		<app name="softuninstall" chname="软件卸载" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="softuninstall_1.svg" ico_pioneer="softuninstall_2.svg" title="卸载不常用软件" subtitle1="为电脑腾出更多空间" subtitle2="" btn_classic="查看详情" btn_pioneer="详情" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qqpcsoftmgr.exe /page=uninst /parent=recommender"/>
+		</app>
+		<app name="softupgrade" chname="软件升级" ipc_node="2,1,80" ipc_id="1004037" nocheck="">
+			<option id="1" ico_classic="softupgrade_1.svg" ico_pioneer="softupgrade_2.svg" title="还有软件可升级至最新版本" subtitle1="去插件无捆绑" subtitle2="一键快速升级" btn_classic="查看详情" btn_pioneer="详情" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qqpcsoftmgr.exe /page=upgrade /parent=recommender"/>
+		</app>
+		<app name="startupopt" chname="启动项管理" ipc_node="2,1,80" ipc_id="1140002" nocheck="">
+			<option id="1" ico_classic="pcspeedup_1.svg" ico_pioneer="pcspeedup_2.svg" title="检测到可禁用的开机启动项" subtitle1="建议禁用，提升开机速度" subtitle2="" btn_classic="立即禁用" btn_pioneer="禁用" btn_cfg="V15_Mini_Blue_Button" cmdtype="" cmdparam="">
+				<!--1代表小界面，2代表大界面，只有上面的cmdtype和cmdparam都为空时才解析该子节点-->
+				<cmd uitype="1" cmdtype="1" cmdparam="/pcmgr /TAB_SYSSTARTUP /QuickScan"/>
+				<cmd uitype="2" cmdtype="1" cmdparam="/pcmgr /TAB_SYSSTARTUP /ShowBootMgrDlg"/>
+			</option>
+		</app>
+		<app name="softmgr" chname="软件管理" ipc_node="" ipc_id="" nocheck="1">
+			<option id="1" ico_classic="softmgr_1.svg" ico_pioneer="softmgr_2.svg" title="软件管理" subtitle1="管理电脑软件" subtitle2="无捆绑软件下载" btn_classic="立即体验" btn_pioneer="体验" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qqpcsoftmgr.exe /parent=recommender"/>
+		</app>
+		<app name="bundlesoft" chname="捆绑软件扫描" ipc_node="3,1,80" ipc_id="1004039" nocheck="">
+			<option id="1" ico_classic="manualclean_1.svg" ico_pioneer="manualclean_2.svg" title="有需要手动清理的软件" subtitle1="建议打开软件管理手动完成清理" subtitle2="" btn_classic="现在清理" btn_pioneer="清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="5" cmdparam="qqpcsoftmgr.exe /page=uninst /action=show_rcuninst /parent=recommender"/>
+		</app>
+		<app name="deepclean" chname="深度清理" ipc_node="3,1,80" ipc_id="1110006" nocheck="">
+			<option id="1" ico_classic="deepclean_1.svg" ico_pioneer="deepclean_2.svg" title="深度清理" subtitle1="还可深度清理[k1]垃圾" subtitle2="" btn_classic="深度清理" btn_pioneer="深度清理" btn_cfg="V15_Mini_Blue_Button" cmdtype="1" cmdparam="/TAB_SYSCLEAN /DEEPCLEAN_REC"/>
+		</app>
+	</apps>
+	<tabs>
+		<tab id="1" name="首页体检"  title="推荐你试用以下产品和功能" finish="赞！电脑状态更棒了~" sccpos="0">
+			<app priority="0" name="loginassistant_mainscan" options="1"/>
+			<app priority="1" name="deepspeedup" options="1"/>
+			<app priority="1" name="browserprotect" options="1,2"/>
+			<app priority="1" name="trojanscan" options="1"/>
+			<app priority="2" name="privacyclean" options="1"/>
+			<app priority="2" name="sysslim" options="1"/>
+			<app priority="1" name="garbageclean" options="1"/>
+			<app priority="3" name="netspeedup" options="1"/>
+			<app priority="3" name="pcspeedup" options="1"/>
+		</tab>
+		<tab id="2" name="病毒查杀" title="推荐你试用以下产品和功能" finish="赞！电脑安全无忧~" sccpos="0">
+			<app priority="0" name="loginassistant_trojanscan" options="1"/>
+			<app priority="1" name="vulrepair" options="1"/>
+			<app priority="1" name="browserprotect" options="1"/>
+			<app priority="2" name="adfilter" options="1"/>
+			<app priority="1" name="realprotect" options="1"/>
+			<app priority="1" name="privacyclean" options="1"/>
+			<app priority="2" name="pluginclean" options="1"/>
+			<app priority="2" name="garbageclean" options="1"/>
+			<app priority="3" name="clinic" options="1"/>
+			<app priority="3" name="gamespeedup" options="1"/>
+			<app priority="3" name="pcspeedup" options="1"/>
+		</tab>
+		<tab id="3" name="清理垃圾" title="推荐你试用以下产品和功能" finish="赞！电脑更干净！" sccpos="0">
+			<app priority="0" name="loginassistant_sysclean" options="1"/>
+			<app priority="1" name="deepclean" options="1"/>
+			<app priority="2" name="deepspeedup" options="1"/>
+			<app priority="2" name="privacyclean" options="1"/>
+			<app priority="3" name="fileclean" options="1"/>
+			<app priority="3" name="sysslim" options="1"/>
+			<app priority="4" name="pcspeedup" options="1"/>
+			<app priority="4" name="softuninstall" options="1"/>
+		</tab>
+		<tab id="4" name="电脑加速" title="推荐你试用以下产品和功能" finish="赞！电脑运行更流畅了~" sccpos="0">
+			<app priority="0" name="loginassistant_speedup" options="1"/>
+			<app priority="1" name="superspeedup" options="1"/>
+			<app priority="1" name="deepspeedup" options="1"/>
+			<app priority="2" name="sysslim" options="1"/>
+			<app priority="2" name="fileclean" options="1"/>
+			<app priority="2" name="rocketspeedup" options="1"/>
+			<app priority="2" name="gamespeedup" options="1"/>
+			<app priority="2" name="garbageclean" options="1"/>
+			<app priority="3" name="netspeedup" options="1"/>
+		</tab>
+		<tab id="5" name="软件分析" title="推荐你试用以下产品和功能" finish="赞！电脑运行更流畅了~" sccpos="0">
+			<app priority="0" name="bundlesoft" options="1"/>
+			<app priority="1" name="startupopt" options="1"/>
+			<app priority="1" name="softupgrade" options="1"/>
+			<app priority="2" name="softmgr" options="1"/>
+			<app priority="2" name="garbageclean" options="2"/>
+		</tab>
+	</tabs>
+	<tips>
+		<tip title="如何快速打开我的电脑？">
+			<sub text="试一试 Windows键+E，直接打开，快人一步！"/>
+		</tip>
+		<tip title="避免重要资料外泄">
+			<sub text="离开电脑前记得按 Windows键+L，锁定电脑"/>
+		</tip>
+		<tip title="降低密码和隐私泄露风险">
+			<sub text="定期使用管家清理浏览器缓存和 cookie"/>
+		</tip>
+		<tip title="个人信息不要轻易透露">
+			<sub text="包括身份证、电话、住址、银行卡等"/>
+		</tip>
+		<tip title="为什么电脑会变卡？">
+			<sub text="武功再高，也怕菜刀；电脑再好，垃圾撂倒"/>
+		</tip>
+		<tip title="良好的软件安装习惯">
+			<sub text="与系统关系不大的软件尽量安装在非系统盘"/>
+		</tip>
+		<tip title="拒绝“新建文件夹” ">
+			<sub text="及时命名文件夹，有效管理你的文件"/>
+		</tip>
+		<tip title="避免流氓和捆绑软件">
+			<sub text="来管家"/>
+			<sub text="软件管理" cfg="Link_Static_NoLine" cmdtype="5" cmdparam="QQPCSoftMgr.exe"/>
+			<sub text="下载软件吧"/>
+		</tip>
+		<!--<tip title="长时间使用电脑，很疲劳？">
+			<sub text="试一试"/>
+			<sub text="健康小助手" cfg="Link_Static_NoLine" cmdtype="5" cmdparam="QQPCTray.exe /showui /TAB_FUNCTIONLIST /APP_6B27F3E6-6EAF-4e36-ABF5-30ECF932A75C"/>
+			<sub text="，护眼配色，定时提醒休息"/>
+		</tip>-->
+		<tip title="不开QQ也能截图？">
+			<sub text="按Alt+PrtSc可以截图当前窗口"/>
+		</tip>
+	</tips>
+</Configuration>

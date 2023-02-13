@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skin version="1.0">
+  <Window id="FixPPTComWindow" minWidth="580" minHeight="350" store="0" move="1" resize="0" shadow="1">
+    <Layout pos="LTRB|0,0,0,0" style="Picture" bk.image="#fix_main_back" mode="vertfill">
+      <Control pos="LTRT|0,0,0,5"/>
+      <Layout pos="LTRT|0,0,0,50">
+        <Control style="Picture" bk.image="#tool_tip_icon" pos="LT|25,16,18,18"/>
+        <Label id="lbl_Title" pos="LTRT|50,0,0,50" txt.font="font15b" txt.singleline="1" txt.endellipsis="1" text="#APP_Name" txt.color="#Color_FixVersion"/>
+        <Layout pos="LTRT|0,0,0,50">
+          <Button id="btn_close" pos="RT|14,7,36,36" bk.image="#fixmain_close_btn" image.imgseq="0,1,2,0,3"/>
+        </Layout>
+      </Layout>
+
+      <Layout pos="LTRT|25,0,0,184" mode="horzfill"> 
+        <List id="List_Locale" pos="LTLB|0,0,530,0" style="styleMsgList" enablecheck="0" >
+        </List>
+        <Control pos="RTRB|0,0,25,0"/>
+      </Layout>
+
+      <Layout pos="LTRT|0,0,0,40">
+        <Label pos="LTRT|25,0,25,40" txt.font="font14b" txt.singleline="1" txt.endellipsis="1" text="#FixPPTCom_Startup_Office_Tip" tooltip="#FixPPTCom_Startup_Office_Tip" EnableMouse="1" txt.color="#Color_FixVersion"/>
+      </Layout>
+
+      <Layout pos="LTRT|0,0,0,40" visible="false">
+        <Label pos="LTRT|25,0,0,40" txt.font="font14b" txt.singleline="1" txt.endellipsis="1" text="#FixPPTCom_Browse_Tip" txt.color="#Color_FixVersion"/>
+      </Layout>
+      
+      <Layout pos="LTRT|0,0,0,30" visible="false">
+        <Label pos="LTRT|25,0,0,30" txt.font="font14" txt.singleline="1" txt.endellipsis="1" text="#FixPPTCom_Browse_Path"/>
+        <Layout pos="LTRT|0,0,0,30">
+          <Edit id="edit_path" pos="LT|70,-1,360,30" maxutf8char="20" text="" txt.color="#N07" txt_empty.font="font14" txt_empty.textcolor="#gray" style="OptComboBox"/>
+        </Layout>
+        <Layout pos="LTRT|0,0,0,30">
+          <Button id="btn_browse" pos="RT|25,0,90,30" bk.image="#browse_button" image.imgseq="0,1,2,0,3" text="#FixPPTCom_Browse_ButtonName" txt.color="#Color_FixVersion"/>
+        </Layout>
+      </Layout>
+
+      <Layout pos="LTRT|0,0,0,60" mode="vertfill">
+        <Control/>
+        <Layout pos="LTRT|0,0,0,40" mode="horzfill">
+          <Control/>
+          <Button id="btn_fix" pos="LTRT|0,0,356,36" txt.font="font15b" bk.image="#bk_button" image.imgseq="0,1,2,0,3" text="#FixPPTCom_Fix_ButtonName" txt.color="#Color_FixVersion"/>
+          <Control/>
+        </Layout>
+        <Control/>
+      </Layout>
+
+      <Control/>
+      
+    </Layout>
+  </Window>
+
+  <Style>
+    <Style id="styleMsgList">
+      <Image id="bk" state="normal|disable"  image="#options_edit_normal" pos="8|0,0,0,0"/>
+      <Image id="ckbk" state="over|down|focus" image="#options_edit_hover" pos="8|0,0,0,0"/>
+      <Text id="txt" state="all|ckall" pos="8|5,0,5,0" color="#Color_FixVersion" endellipsis="1" visible="1" font="font12b"/>
+      <!--<Image id="right" state="all"  image="#options_edit_right"  imgseq="0,1,2,0,0" pos="5|18,12,8,13"/>-->
+    </Style>
+  </Style>
+
+  <Window id = "listbox4Option" resize="0">
+    <List id ="list" pos="8|0,0,0,0" inset="1,1,1,1" bk.visible="1" bk.image="#options_layout_bk" itembkg.image="#icon_parting_line" item.image="#icon_list_item"
+          bound.image=""  vScroll="1" EnableItemBkg="1"/>
+  </Window>
+</skin>

@@ -1,0 +1,15 @@
+<Apps>
+	<App appname="QMWin10Helper" clsid="D2825A18-E0C7-4BB6-BD8A-84376ADDF543" enable="3" forcedownload="0" forceinstall="0" supportsys="001100000000" version="2.0.4805.123">
+		<icon clsid="2DBAC357-36E2-4D1C-8799-C4DA43AC681F" md5="c7bb78b716872764157029e253039ab1" path="https://s.pc.qq.com/pcmgr/logo/v15/QMWin10Helper.svg" />
+		<url md5="40e2bcf9fa6af18b92ad1a7b95d37bbb" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMWin10HelperSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMWin10Helper.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMWin10Helper|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMWin10Helper|Version">
+			<run file="QMWin10Helper.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMWin10Helper.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMWin10Helper" />
+                <item action="dir" path="plugins\QMWin10Helper" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

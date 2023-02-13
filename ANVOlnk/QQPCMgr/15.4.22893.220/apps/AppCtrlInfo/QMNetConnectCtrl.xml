@@ -1,0 +1,21 @@
+<Apps>
+	<App appname="QMNetConnect" clsid="8B6557DD-A4AF-48d6-B96F-66DB0D485EAF" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="DFEBCA07-CFCF-4277-8B6B-797D3FC4C6BE" md5="6abcfe275938fc3d0257ce2e83e9f4e9" path="https://s.pc.qq.com/pcmgr/logo/v15/QMNetConnect.svg" />
+		<url md5="80bc0bcda7cb140f3938aaf950d1ad87" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMNetConnectSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" ignore_makeplugin="False" name="QMNetConnect.nsi" />
+		<install path="..\plugins\QMNetMon" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMNetConnect|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMNetConnect|Version">
+			<run file="QQPCNetFlow.exe" param="/doctor /jmppg=conn" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QQPCNetFlow.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMNetConnect" />
+				<item action="file" path="QQPCNetFlow.rdb" />
+				<item action="file" path="QQPCNetFlow.exe" />
+				<item action="file" path="QQPCNetFlow.dat" />
+				<item action="file" path="QMNetMonDll.dll" />
+				<item action="file" path="QMNetMon.rdb" />
+				<item action="file" path="NMLib.dat" />
+				<item action="dir" path="plugins\QMNetConnect" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

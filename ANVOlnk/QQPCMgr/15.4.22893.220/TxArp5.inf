@@ -1,0 +1,83 @@
+[Version]
+Signature  = "$Windows NT$"
+Class      = NetService
+ClassGUID  = {4D36E974-E325-11CE-BFC1-08002BE10318}
+Provider   = %QQMgr%
+DriverVer  = 10/01/2010,1.0.1.0
+
+[Manufacturer]
+%QQMgr% = QQMGR,NTx86,NTia64,NTamd64
+
+[QQMGR]
+%TxArp_Desc% = TxArp.ndi, TX_ARPIM
+
+[QQMGR.NTx86]
+%TxArp_Desc% = TxArp.ndi, TX_ARPIM
+
+[QQMGR.NTia64]
+%TxArp_Desc% = TxArp.ndi, TX_ARPIM
+
+[QQMGR.NTamd64]
+%TxArp_Desc% = TxArp.ndi, TX_ARPIM
+
+[TxArp.ndi]
+AddReg          = TxArp.ndi.AddReg, TxArp.AddReg
+Characteristics = 0x4410
+
+[TxArp.ndi.Remove]
+DelFiles = TxArp.Files.Sys,TxArp.Files.Inf,TxArp.Files.PNF
+
+[TxArp.ndi.Services]
+AddService = TxArp,, TxArp.AddService
+
+[TxArp.AddService]
+DisplayName    = %TxArpService_Desc%
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TxArp.sys
+LoadOrderGroup = PNP_TDI
+
+
+[SourceDisksNames]
+1=%DiskDescription%,"",,
+
+[SourceDisksFiles]
+TxArp.sys=1
+
+[DestinationDirs]
+DefaultDestDir      = 12
+TxArp.Files.Sys     = 12   ; %windir%\System32\drivers
+TxArp.Files.Inf     = 17   ; %windir%\inf
+TxArp.Files.PNF     = 17   ; %windir%\inf
+
+[TxArp.Files.Sys]
+TxArp.sys,,,2
+
+[TxArp.Files.Inf]
+TxArp5_m.inf,,,2
+
+[TxArp.Files.PNF]
+TxArp5_m.PNF,,,2
+
+[TxArp.ndi.AddReg]
+HKR, Ndi, HelpText, , %TxArp_HELP%
+;
+HKR, Ndi,            FilterClass,         , failover
+HKR, Ndi,            FilterDeviceInfId,   , TX_MPARP
+HKR, Ndi,            Service,             , TxArp
+HKR, Ndi\Interfaces, UpperRange,          , noupper
+HKR, Ndi\Interfaces, LowerRange,          , nolower
+HKR, Ndi\Interfaces, FilterMediaTypes,    , "ethernet, tokenring, fddi, wan"
+
+[TxArp.AddReg]
+HKR, Parameters, Param1, 0, 4
+
+; ----------------------------------------------------------------------
+[Strings]
+QQMgr = "QQMgr"
+DiskDescription = "AntiArp"
+
+TxArp_Desc = "QQ管家ARP防火墙"
+TxArp_HELP = "QQ管家ARP防火墙驱动"
+TxArpService_Desc = "QQ管家ARP防火墙驱动"

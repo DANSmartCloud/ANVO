@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="文档守护者" catalog="2" appclsid="43B48C8B-E496-4bca-ABD5-BEB079767167" appname="QMDocProtect" enable="1" supportsys="1111111111">
+		<icon path="QMDocProtect.svg" />
+		<description>
+			<![CDATA[保护用户文档安全]]>
+		</description>
+		<tip>
+			<![CDATA[保护用户文档安全]]>
+		</tip>
+	</App>
+</Apps>

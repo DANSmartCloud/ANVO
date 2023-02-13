@@ -1,0 +1,80 @@
+{
+  "startup": {
+    "startup_rocket": 0
+  },
+  "setting": {
+    "setting_autostart_show": false,
+    "setting_autologin_show": false,
+    "setting_startrtp_show": false,
+    "setting_personalcenter_show": false,
+    "setting_minimalism_show": false,
+    "setting_norecommandpopup_show": false,
+    "setting_nofunctionalpopup_val": true,
+    "setting_minilism_val": true,
+    "setting_norecommandpopup_val": true,
+    "setting_startup_showtype_val": 1,
+        "setting_quik_login_val": false,
+        "setting_auto_report_trojan": false,
+        "setting_trojan_userplan": false
+  },
+  "maintab":{
+    "maintab_login_type":"smb_mode",
+    "maintab_team_btn_show":false
+  },
+  "mainmenu":{
+    "mainmenu_smbctrlitem_show":true
+  },
+  "aboutwnd":{
+    "aboutwnd_url":"https://team.qq.com",
+    "aboutwnd_vername":"腾讯电脑管家小团队 %s"
+  },
+  "devicemgr":{
+  "usb_control":true
+  },
+    "timeusage_record": {
+		"urlreport": {
+			"report_interval": 1800
+		},
+        "softusage": {
+            "report_interval": 1800,
+            "report_topcount": 20,
+            "detect_interval": 1,
+            "save_interval": 300,
+            "filter_role": [
+                {
+                    "filterdir": "%windir%\\",
+                    "filtertype": 0
+                },
+                {
+                    "filterdir": "%windir%\\systemapps\\",
+                    "filtertype": 1
+                },
+                {
+                    "filterdir": "%windir%\\winsxs\\",
+                    "filtertype": 1
+                },
+                {
+                    "filterdir": "%windir%\\syswow64\\",
+                    "filtertype": 0
+                },
+                {
+                    "filterdir": "%windir%\\system32\\",
+                    "filtertype": 0
+                },
+                {
+                    "filterdir": "%windir%\\immersivecontrolpanel\\",
+                    "filtertype": 1
+                }
+            ]
+        }
+    },
+  "leakscanSettings":{
+    "enableSmbReport":true,
+    "enableAdminIgnore":true,
+    "disableRepairMode":false,
+    "disableEngine2":false
+  },
+  "user_switch":{
+    "auto_switch_tray":true
+  }
+}

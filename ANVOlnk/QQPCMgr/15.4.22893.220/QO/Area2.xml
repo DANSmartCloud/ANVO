@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Item name="NeedRepairHighVuls" nameType="int" unit="Local" unitValue="个" text="漏洞待修复" threshold="1" level="3" orderType="greater" disableKey="4" group="2" rId="4">
+		<Opt Type="progress" Value="QQPCLeakscan.exe" param="Local" paramValue="/start=desktop /mode=toolbox"/>
+	</Item>
+	<Item name="Area2_Garbage" nameType="int" unit="Local" unitValue="天" text="未清理电脑" threshold="4" level="8" orderType="greater" disableKey="6" group="4" rId="6">
+		<Opt Type="cmd" Value="/showui /TAB_SYSCLEAN /SysScan" param="" paramValue=""/>
+	</Item>
+	<Item name="Area2_GarbageHave" nameType="float" unit="Area2_GarbageHaveUnit" unitValue="" text="垃圾待清理" threshold="300" level="5" orderType="greater" disableKey="7" group="4" rId="7">
+		<Opt Type="cmd" Value="/showui /TAB_SYSCLEAN /SysScan" param="" paramValue=""/>
+	</Item>
+	<Item name="Area2_SysSlim" nameType="int" unit="Local" unitValue="%" text="系统盘剩余空间" threshold="29" level="4" orderType="less" disableKey="8" group="5" rId="8">
+		<Opt Type="cmd" Value="/APP_29715424-B1AD-4ceb-BCBF-E50697DA8602" param="" paramValue=""/>
+	</Item>
+	<Item name="Area2_TraceClear" nameType="int" unit="Local" unitValue="天" text="未清除痕迹" threshold="8" level="7" orderType="greater" disableKey="9" group="6" rId="9">
+		<Opt Type="progress" Value="QQPCSysOptimize.exe" param="Local" paramValue="/TAB_TRACECLEAR_AUTOSCAN"/>
+	</Item>
+	<Item name="Area2_DeepStarup" nameType="int" unit="Local" unitValue="个" text="开机可加速软件" threshold="1" level="10" orderType="greater" disableKey="10" group="7" rId="10">
+		<Opt Type="cmd" Value="/showui /TAB_SYSSTARTUP /QuickScan" param="" paramValue=""/>
+	</Item>
+	<Item name="Area2_TimeStarup" nameType="int" unit="Local" unitValue="秒" text="本次开机时间" threshold="0" level="12" orderType="equal" disableKey="11" group="7" rId="11">
+		<Opt Type="cmd" Value="/showui /TAB_SYSSTARTUP /QuickScan" param="" paramValue=""/>
+	</Item>
+	<Item name="Area2_SoftwareUpdate" nameType="int" unit="Local" unitValue="个" text="软件待升级" threshold="1" level="9" orderType="greater" disableKey="12" group="8" rId="12">
+		<Opt Type="progress" Value="QQPCSoftMgr.exe" param="Local" paramValue="/parent=QQPCMgr /page=upgrade"/>
+	</Item>
+	<Item name="Area2_SoftwareInstalled" nameType="int" unit="Local" unitValue="个" text="已安装软件" threshold="1" level="11" orderType="greater" disableKey="13" group="8" rId="13">
+		<Opt Type="progress" Value="QQPCSoftMgr.exe" param="Local" paramValue="/parent=QQPCMgr /page=uninst"/>
+	</Item>
+	<Item name="Area2_RtpScanNum" nameType="int" unit="Local" unitValue="次" text="实时防护检测" threshold="0" level="98" orderType="ignore" disableKey="14" group="9" rId="14">
+		<Opt Type="app" Value="实时防护" param="" paramValue=""/>
+	</Item>
+	<Item name="Area2_Def2" nameType="int" unit="Local" unitValue="%" text="电脑内存占用" threshold="0" level="99" orderType="equal" disableKey="15" group="10" rId="15">
+		<Opt Type="cmd" Value="/showui /TAB_SYSSTARTUP" param="" paramValue=""/>
+	</Item>
+</Items>

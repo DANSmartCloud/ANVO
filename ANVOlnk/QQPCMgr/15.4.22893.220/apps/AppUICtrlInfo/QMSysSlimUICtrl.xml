@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="系统盘瘦身" catalog="4" appclsid="29715424-B1AD-4ceb-BCBF-E50697DA8602" appname="QMSysSlim" enable="1" supportsys="1111111111">
+		<icon path="QMSysSlim.svg" />
+		<description>
+			<![CDATA[提升系统盘运行速度]]>
+		</description>
+		<tip>
+			<![CDATA[清理系统盘垃圾，提高系统盘运行速度]]>
+		</tip>
+	</App>
+</Apps>

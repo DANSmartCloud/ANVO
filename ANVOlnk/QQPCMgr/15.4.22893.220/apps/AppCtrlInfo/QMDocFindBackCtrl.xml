@@ -1,0 +1,20 @@
+<Apps>
+	<App appname="QMDocFindBack" clsid="7EDDD23E-E147-42b1-B514-5088CAC51198" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="F92E3AE3-4E00-4C0F-9813-8868BD1B573D" md5="d3021ecd36a10a6742b358c4e8ba9dcd" path="https://s.pc.qq.com/pcmgr/logo/v15/QMDocFindBack.svg" />
+		<url md5="0db54e6669e3794f1eef10abfc7ad7fe" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMDocProtectSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" ignore_makeplugin="True" name="QMDocProtect_bak.nsi" />
+		<install path="..\" pathkey="" pathtype="0" verkey="">
+			<run file="QMDocProtect.exe" param="index=1;source=fromtools" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMDocProtect.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMDocProtect" />
+				<item action="file" path="QMDocProtect.dat" />
+                <item action="file" path="QMDocProtect.exe" />
+                <item action="file" path="QMDocProtect.rdb" />
+                <item action="file" path="DocProCloudCfg.dat" />
+                <item action="file" path="DocBackupFilterCfg.dat" />
+				<item action="dir" path="plugins\QMDocProtect" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

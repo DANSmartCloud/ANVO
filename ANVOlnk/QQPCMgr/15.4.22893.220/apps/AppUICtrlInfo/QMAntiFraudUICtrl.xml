@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="诈骗信息查询" catalog="3" appclsid="F710AD66-60B9-41d3-B6EC-0E54CCB65984" appname="QMAntiFraud" enable="1" supportsys="1111111111">
+		<icon path="QMAntiFraud.svg" />
+		<description>
+			<![CDATA[精准查询诈骗信息]]>
+		</description>
+		<tip>
+			<![CDATA[快速精准查询诈骗信息，打击诈骗，守望相助]]>
+		</tip>
+	</App>
+</Apps>

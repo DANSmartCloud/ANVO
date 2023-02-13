@@ -1,0 +1,11 @@
+{
+    "name": "com.qq.qmchext",
+    "description": "QQPCMGR",
+    "path": "QMChExt.exe",
+    "type": "stdio",
+    "allowed_origins": [
+    "chrome-extension://ooebklgpfnbcnpokahmdidgbmlcdepkm/",
+    "chrome-extension://pfaomldpgdgeicnckdmkaaceejndaapa/",
+	"chrome-extension://nhblencfockfafdobflmbblfbfeheicp/"
+    ]
+}

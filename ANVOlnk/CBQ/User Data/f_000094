@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+<title>倒计时器-在线倒计时,秒表计时器</title>
+<meta name="keywords" content="倒计时器,在线倒计时,秒表计时器" />
+<meta name="description" content="倒计时器提供计时器，倒计时，秒表计时，网页倒计时，在线计时器，秒表计时器，倒计时在线使用等。" />
+<link rel="stylesheet" type="text/css" href="all.css" />
+<script src="jquery.min.js"></script>
+<script>$(document).ready(function(){$("#div1").load("ing.asp");});$(document).ready(function(){$("#div2").load("ld.asp");});</script>
+<script data-ad-client="ca-pub-5101993353395713" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+<div id="bigdiv"><div class="nrt">
+<div class="nrlg"><a href="http://www.daojishiqi.com/">首页</a>&nbsp;&nbsp;</div>
+<span class="dazi">倒计时器</span>&nbsp; <h1>在线倒计时,秒表计时器</h1>
+<div class="dhc"><span id=div2></span></div>
+</div>
+<div class="clear"></div>
+<div class="nrs">
+<p><b>在线倒计时器</b>：输入要倒计的时长，倒计时器将按秒表倒数计时，倒计时结束将弹出提示，倒数4秒开始有声音提示。<font id="Csy" onclick="dk()" style="cursor:pointer;color:#009ED2;">关闭声音提示</font><font id="Ksy" onclick="Cdk()" style="cursor:pointer;color:#009ED2;display:none;">打开声音提示</font></p><span id="IEPD"></span><span id="CCPD"></span><SCRIPT src="in.asp" type="text/JavaScript"></SCRIPT>
+<input id="djsj" type="hidden">
+<form id="form1">
+<div class="inputs">
+              <input name="text" type="text" class="inputbnt2" id="h" value="00"
+                maxlength="2">小时
+              <input name="text2" type="text" class="inputbnt2" id="m" onkeyup="this.value=this.value.replace(/\D/g,'')" value="00"
+                maxlength="2" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>分钟
+              <input name="text2" type="text" class="inputbnt2" id="s" onkeyup="this.value=this.value.replace(/\D/g,'')" value="00"
+                maxlength="2" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>秒　
+                
+<input name="button" type="button" class="beg" id="startButton" onclick="djsj();doit();" value="开始" />
+<input name="button" type="button" class="beg2" id="stopButton" onclick="stop();" value="取消" />
+</form>
+</div> 
+<strong id="dhis"> </strong>
+<div id="k" style="text-align:center;color:green;display:none;">倒计时开始后，可离开本页浏览其它页面，不影响计时，试试吧！</div>
+
+
+<script>
+function check() {
+    if (window.navigator.cookieEnabled) {} else {
+       document.getElementById("CCPD").innerHTML="<font color=red size=3>你的浏览器禁用了cookie，部分功能不可用！<p></font>";
+    }
+}check();
+var Pd_ie=0;
+var Shen_y=0;
+if(navigator.appName == "Microsoft Internet Explorer"&&parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE",""))<9){
+Pd_ie=9;
+document.getElementById("IEPD").innerHTML="<font color=red size=3>因您的浏览器版本太低，倒计时声音提示功能将无法使用，建议更换其它浏览器！<p></font>";
+    }
+
+function setCookie(cname,cvalue,exdays) {
+  var d = new Date();
+  d.setTime(d.valueOf() + (exdays*24*60*60*1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+
+var djskssj=getCookie("djskssj");
+var h=getCookie("h");
+var m=getCookie("m");
+var s=getCookie("s");
+ if (djskssj>0) {
+ 	document.getElementById("djsj").value=djskssj;
+ 	document.getElementById("h").value=h;
+ 	document.getElementById("m").value=m;
+ 	document.getElementById("s").value=s;
+doit();
+ }
+ else
+ { 			
+ document.getElementById('dhis').innerHTML = "<div id=endtime><span>00</span>:<span>00</span>:<span>00</span></div>";
+}
+
+if (Pd_ie==0){var audio= new Audio("5m-www.daojishiqi.com.mp3");}
+
+function dk(){
+Shen_y=1;
+document.getElementById('Csy').style.display='none';
+document.getElementById('Ksy').style.display='inline';
+audio.pause();
+//audio= null;
+}
+function Cdk(){
+Shen_y=0;
+document.getElementById('Csy').style.display='inline';
+document.getElementById('Ksy').style.display='none';
+var audio= new Audio("5m-www.daojishiqi.com.mp3");
+} 
+
+function djsj(){
+    setTimeout("document.getElementById('k').style.display='block'",3000);
+    setTimeout("document.getElementById('k').style.display='none'",10000);
+	document.getElementById("djsj").value=new Date().valueOf();
+	setCookie("djskssj", new Date().valueOf(), 1);
+	setCookie("h", document.getElementById("h").value, 1);
+	setCookie("m", document.getElementById("m").value, 1);
+	setCookie("s", document.getElementById("s").value, 1);
+
+}    
+	function doit(){
+var nowTime = new Date().valueOf();
+var djsj = document.getElementById("djsj").value;
+var AJ_sj=1672502448286-djsj;
+var a = document.getElementById("h").value;
+            var b = document.getElementById("m").value;
+            var c = document.getElementById("s").value;
+            if (a == "00" && b == "00" && c == "00") {
+                alert("请输入开始时间！");
+                setCookie("djskssj", 0, -1);
+	setCookie("h", 00, -1);
+	setCookie("m", 00, -1);
+	setCookie("s", 00, -1);
+	 document.getElementById('dhis').innerHTML = "<div id=endtime><span>00</span>:<span>00</span>:<span>00</span></div>";
+    return false;
+            }
+            else {
+                endt = Number(a * 3600000) + Number(b * 60000) + Number(c * 1000);
+                form1.elements["startButton"].className = "beg2";
+                form1.elements["stopButton"].className = "beg";
+            }
+
+		
+		//const endTime = nowTime+endt;
+                var endTime = nowTime+endt;
+		var t = 1672502448286-AJ_sj+endt-nowTime;
+		if(t<=0){
+		    if(t<-3000){
+		     var g_s = Math.abs(Math.floor(t/1000));
+             var g_sts=g_s+"秒";
+          alert("倒计时："+a+"小时"+b+"分钟"+c+"秒，计时结束，已过去"+g_sts+"！");
+		     }
+		     else{
+          alert("倒计时："+a+"小时"+b+"分钟"+c+"秒，计时结束！");}
+			    setCookie("djskssj", 0, -1);
+	setCookie("h", 00, -1);
+	setCookie("m", 00, -1);
+	setCookie("s", 00, -1);
+            document.getElementById("h").value = "00";
+            document.getElementById("m").value = "00";
+            document.getElementById("s").value = "00";
+            form1.elements["startButton"].className = "beg";
+            form1.elements["stopButton"].className = "beg2";
+			 return false;
+		}
+		var d = Math.floor(t/1000/60/60/24);
+		var h = Math.floor(t/1000/60/60%24);
+		if(parseInt(h)<10){h='0'+h;}
+		var i = Math.floor(t/1000/60%60);
+		if(parseInt(i)<10){i='0'+i;}
+		var s = Math.floor(t/1000%60);
+		if(parseInt(s)<10){s='0'+s;}
+		document.getElementById('dhis').innerHTML = "<div id=endtime><span>"+h+"</span>:<span>"+i+"</span>:<span>"+s+"</span></div>";
+		setTimeout(doit, 1000);
+		
+		
+		if (h ==0 && i ==0 && s == 4 && Pd_ie==0 && Shen_y==0) {audio.play();}
+	}
+        function stop() {
+ document.getElementById('dhis').innerHTML = "<div id=endtime><span>00</span>:<span>00</span>:<span>00</span></div>";
+            document.getElementById("h").value = "00";
+            document.getElementById("m").value = "00";
+            document.getElementById("s").value = "00";
+    setCookie("djskssj", 0, -1);
+	setCookie("h", 00, -1);
+	setCookie("m", 00, -1);
+	setCookie("s", 00, -1);
+            form1.elements["startButton"].className = "beg";
+            form1.elements["stopButton"].className = "beg2";
+            
+            clearTimeout(Account);
+        }
+</script>
+<p><a href="daojishi2.asp"><font color="#FF0000">设置多个倒计时点这里</font></a>
+<p>→<a href="riqidaojishi.asp"><font color="#0000FF">指定日期倒计时</font></a>&nbsp;  →<a href="bjtime.asp"><font color="#008000"><b>北京时间校准</font></b></a>&nbsp;  →<a href="my.asp"><font color="#0000FF">正数日计时器</font></a>
+&nbsp;  →<a href="jisuanqi.asp"><font color="#008000">时间日期计算器</font></a>
+&nbsp;  →<a href="shengqi.asp"><font color="#008000">升旗时间</font></a><br>
+　
+<p><p><b>秒表计时器</b>：点击"开始"秒表即开始计时，还能分次计时，点击"清除"可将秒表计时器初始化。<a href="miaobiao.asp"><font color="#0000FF">计时器二</font></a></p>
+<div id="miaobiao_k">
+<form name="stopwatch" id="stopwatch" title="Stopwatch">
+<input type="button" onClick="stopstart()" onFocus="this.blur()" name="startstopbutton" id="startstopbutton" title="开始 / 停止" value="开始" />
+<input type="button" onClick="dosplit()" onFocus="this.blur()" name="splitbutton" id="splitbutton" title="计次" value="计次" />
+<input type="button" name="disp" id="disp" title="秒表" />
+<input type="button" onClick="reset_it()" onFocus="this.blur()" name="resetbutton" id="resetbutton" title="清除" value="清除" />
+</form>
+</div>
+<div id="split"></div>
+<script type="text/javascript">
+var t=[0, 0, 0, 0, 0, 0, 0, 1];
+var firstsplitflag = 0;
+var splittime;
+
+function stopstart() {
+t[t[2]]=(new Date()).valueOf();
+t[2]=1-t[2];
+
+if (0==t[2]) {
+clearInterval(t[4]);
+t[3]+=t[1]-t[0];
+document.getElementById("startstopbutton").value="开始";
+document.getElementById('split').innerHTML+=
+(t[7]++)+' 停止: '+format(t[1]-t[0])+'<br />';
+t[4]=t[1]=t[0]=0;
+disp();
+firstsplitflag = 0;
+} else {
+document.getElementById("startstopbutton").value="停止";
+t[4]=setInterval(disp, 43);
+}
+}
+function dosplit(){
+if(0!==t[2])
+{
+document.getElementById('split').innerHTML+=
+(t[7]++)+' 计次: '+format(t[1]-t[0])+'<br>';
+}
+}
+function reset_it() {
+if (t[2]) stopstart();
+t[4]=t[3]=t[2]=t[1]=t[0]=0;
+disp();
+document.getElementById('split').innerHTML='';
+t[7]=1;
+}
+
+function disp() {
+if (t[2]) t[1]=(new Date()).valueOf();
+t[6].value=format(t[3]+t[1]-t[0]);
+}
+function format(ms) {
+var d=new Date(ms+t[5]).toString()
+.replace(/.*([0-9][0-9]:[0-9][0-9]:[0-9][0-9]).*/, '$1');
+var x=String(ms%1000);
+while (x.length<3) x='0'+x;
+d+='.'+x;
+return d;
+}
+
+function load() {
+t[5]=new Date(1970, 1, 1, 0, 0, 0, 0).valueOf();
+t[6]=document.getElementById('disp');
+
+disp();
+}
+load();
+</script>
+</div>
+<div class="nrs"><div align="center">
+<div style="border:1px solid #dedede;width:730px;background-color:#F5F7FA;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- daojishiqi -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5101993353395713"
+     data-ad-slot="6437047112"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div id="div1"></div>
+
+<div class="dnsq">
+<span class="js1"><a href="fn_xiaohan.html">小寒倒计时</a></span><span class="js2"><a href="djs_2241.html">距离<font color=green>2023年小寒</font>还有</font></a></span>
+<span class="js3">4天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-05 00:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs2241"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="dnsq">
+<span class="js1"><a href="fn_guonian.html">过年倒计时</a></span><span class="js2"><a href="djs_157083.html">距离<font color=green>2023年农历小年(北方)</font>还有</font></a></span>
+<span class="js3">13天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-14 00:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs157083"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="dnsq">
+<span class="js1"><a href="fn_guonian.html">过年倒计时</a></span><span class="js2"><a href="djs_157084.html">距离<font color=green>2023年农历小年(南方)</font>还有</font></a></span>
+<span class="js3">14天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-15 00:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs157084"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="dnsq">
+<span class="js1"><a href="fn_dahan.html">大寒倒计时</a></span><span class="js2"><a href="djs_2242.html">距离<font color=green>2023年大寒</font>还有</font></a></span>
+<span class="js3">19天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-20 00:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs2242"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="dnsq">
+<span class="js1"><a href="fn_chuxi.html">除夕倒计时</a></span><span class="js2"><a href="djs_157085.html">距离<font color=green>2023年除夕</font>还有</font></a></span>
+<span class="js3">20天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-21 00:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs157085"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="dnsq">
+<span class="js1"><a href="fn_guonian.html">过年倒计时</a></span><span class="js2"><a href="djs_157086.html">距离<font color=green>2023年农历过年</font>还有</font></a></span>
+<span class="js3">20天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-21 00:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs157086"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="dnsq">
+<span class="js1"><a href="fn_chunwan.html">春晚倒计时</a></span><span class="js2"><a href="djs_157087.html">距离<font color=green>2023央视春晚</font>还有</font></a></span>
+<span class="js3">20天</span>
+<span class="js4">目标时间<br><font face="Arial" style="font-size:14px;">2023-01-21 20:00:00</font></span>
+<span class="js5">倒计时剩余<br><span id="djs157087"></span></span>
+</div><div class="clear"></div>
+
+
+<div class="gengduo"><a href="gengduo.asp">查看更多</a></div>
+</div><p><br>
+<font style="color:#808080">倒计时器提供计时器，倒计时，秒表计时，网页倒计时，在线计时器，秒表计时器，倒计时在线使用等。</font><a rel="nofollow" href=liuyan/><font color=#008EBD>留言板</font></a>
+<div class=yl><br><a target=_blank href="http://www.ceyice.net/">抑郁测试</a>&nbsp;<a target=_blank href="http://www.baogebei.com/">预产期计算器</a>&nbsp;<a target=_blank href="http://bs.kaishicha.com/">笔顺查询</a>&nbsp;<a target=_blank href="http://www.gaosuku.com/">高速路况</a></div>
+<div class="nrd">
+倒计时器--记录每一个精彩瞬间<p>
+Copyright &copy; 2019-2020&nbsp; Daojishiqi.Com&nbsp; <a href="http://www.daojishiqi.com/">倒计时器</a>&nbsp; <a rel="nofollow" href="http://beian.miit.gov.cn/" target="_blank">湘ICP备19019226号</a>&nbsp;<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id: "Je28Uui1TpPOBB5N",ck: "Je28Uui1TpPOBB5N"})</script>
+</div>
+</div>
+<SCRIPT language=javascript>
+<!--
+function show_date_time(trq,bjq){
+var rq=trq;
+var bj=bjq;
+window.setTimeout("show_date_time('"+rq+"','"+bj+"')", 1000);
+
+BirthDay=new Date(""+rq+"");//日期设定
+today=new Date();
+timeold=(BirthDay.valueOf()-today.valueOf())+1000;
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=Math.floor(e_hrsold);
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=Math.floor((e_hrsold-hrsold)*60);
+seconds=Math.floor((e_minsold-minsold)*60);
+timeold2=(BirthDay.valueOf()-today.valueOf());
+sectimeold2=(timeold2/1000)
+secondsold2=Math.floor(sectimeold2);
+e_daysold2=timeold2/msPerDay
+daysold2=Math.floor(e_daysold2);
+e_hrsold2=(e_daysold2-daysold2)*24;
+hrsold2=Math.floor(e_hrsold2);
+e_minsold2=(e_hrsold2-hrsold2)*60;
+minsold2=Math.floor((e_hrsold2-hrsold2)*60);
+seconds2=Math.floor((e_minsold2-minsold2)*60);
+document.getElementById(""+bj+"").innerHTML="<font color=red>"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒</font>" ; 
+if(parseInt(daysold,10) < 0)  
+ {    
+document.getElementById(""+bj+"").innerHTML="<font color=green>"+Math.abs(daysold2+1)+"天"+(23-hrsold2)+"时"+(59-minsold2)+"分"+(59-seconds2)+"秒</font>" ;  
+ }
+ 
+}
+show_date_time('2023/1/5 0:0:0','djs2241');show_date_time('2023/1/14 0:0:0','djs157083');show_date_time('2023/1/15 0:0:0','djs157084');show_date_time('2023/1/20 0:0:0','djs2242');show_date_time('2023/1/21 0:0:0','djs157085');show_date_time('2023/1/21 0:0:0','djs157086');show_date_time('2023/1/21 20:0:0','djs157087');
+//-->
+</SCRIPT>
+</div>
+</body>
+
+</html>

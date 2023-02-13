@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+
+	<plugin name="QMAuthorityMgrPlugin" version="1.0">
+		<info />
+	</plugin>
+
+	<file-systems>
+		<file-system name="@thisbundle:" path="QMAuthorityMgrPlugin" />
+		<file-system name="@thisxtml:" path="@thisbundle:Xtml" />
+		<file-system name="@thisres:" path="@thisbundle:res" />
+	</file-systems>
+	<core-configs>
+	</core-configs>
+
+	<gf-config>
+		<configs>
+			<config file="@thisres:Config\PluginConfig.xml"/>
+			<!--config file="@thisbundle:gf-config.xml"/-->
+		</configs>
+	</gf-config>
+
+	<i18n-config path="@thisbundle:">
+		<locale id="2052" />
+		<StringBundle>
+			<configfile name="PluginString.xml" />
+		</StringBundle>
+	</i18n-config>
+</tpc>

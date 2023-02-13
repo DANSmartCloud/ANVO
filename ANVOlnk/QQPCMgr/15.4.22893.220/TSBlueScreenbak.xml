@@ -1,0 +1,1620 @@
+<tsbslib version="1.0">
+<header> 
+<timestamp>2017.11.02.15.03.25</timestamp>
+<description></description>
+</header>
+<tsbsinfo>
+<kbitem kbname="2859537">
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\kernel32.dll</filepath>
+<filepath>%systemroot%\system32\kernelbase.dll</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\kernel32.dll</filepath>
+<filepath>%systemroot%\system32\kernelbase.dll</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\kernel32.dll</filepath>
+<filepath>%systemroot%\system32\kernelbase.dll</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\fltmgr.sys</filepath>
+<filepath>%systemroot%\system32\ntkrnlmp.exe</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\ntkrpamp.exe</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinXp_SP3">
+<files>
+<filepath>%systemroot%\system32\ntkrnlmp.exe</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\ntkrpamp.exe</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2864202">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\wdf01000.sys</filepath>
+<filepath>%systemroot%\system32\drivers\wdfldr.sys</filepath>
+<filepath>%SystemRoot%\System32\wdfres.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\wdf01000.sys</filepath>
+<filepath>%systemroot%\system32\drivers\wdfldr.sys</filepath>
+<filepath>%SystemRoot%\System32\wdfres.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\wdf01000.sys</filepath>
+<filepath>%systemroot%\system32\drivers\wdfldr.sys</filepath>
+<filepath>%SystemRoot%\System32\wdfres.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\wdf01000.sys</filepath>
+<filepath>%systemroot%\system32\drivers\wdfldr.sys</filepath>
+<filepath>%SystemRoot%\System32\wdfres.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\wdf01000.sys</filepath>
+<filepath>%systemroot%\system32\drivers\wdfldr.sys</filepath>
+<filepath>%SystemRoot%\System32\wdfres.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\drivers\wdf01000.sys</filepath>
+<filepath>%systemroot%\system32\drivers\wdfldr.sys</filepath>
+<filepath>%SystemRoot%\System32\wdfres.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2862152">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\bfe.dll</filepath>
+<filepath>%systemroot%\system32\fwpuclnt.dll</filepath>
+<filepath>%systemroot%\system32\ikeext.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\fwpkclnt.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\bfe.dll</filepath>
+<filepath>%systemroot%\system32\fwpuclnt.dll</filepath>
+<filepath>%systemroot%\system32\ikeext.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\fwpkclnt.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\bfe.dll</filepath>
+<filepath>%systemroot%\system32\fwpuclnt.dll</filepath>
+<filepath>%systemroot%\system32\ikeext.dll</filepath>
+<filepath>%systemroot%\system32\nshwfp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\bfe.dll</filepath>
+<filepath>%systemroot%\system32\fwpuclnt.dll</filepath>
+<filepath>%systemroot%\system32\ikeext.dll</filepath>
+<filepath>%systemroot%\system32\nshwfp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\bfe.dll</filepath>
+<filepath>%systemroot%\system32\fwpuclnt.dll</filepath>
+<filepath>%systemroot%\system32\ikeext.dll</filepath>
+<filepath>%systemroot%\system32\nshwfp.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\wfplwfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\bfe.dll</filepath>
+<filepath>%systemroot%\system32\fwpuclnt.dll</filepath>
+<filepath>%systemroot%\system32\ikeext.dll</filepath>
+<filepath>%systemroot%\system32\nshwfp.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\wfplwfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\oakley.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinXp_SP3">
+<files>
+<filepath>%systemroot%\system32\oakley.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2868725">
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2893294">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\fs_rec.sys</filepath>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+<filepath>%SystemRoot%\System32\wmi.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\fs_rec.sys</filepath>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+<filepath>%SystemRoot%\System32\wmi.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\fs_rec.sys</filepath>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+<filepath>%SystemRoot%\System32\wmi.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\fs_rec.sys</filepath>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+<filepath>%SystemRoot%\System32\wmi.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+<filepath>%SystemRoot%\System32\wmi.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+<filepath>%SystemRoot%\System32\wmi.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinXp_SP3">
+<files>
+<filepath>%SystemRoot%\System32\imagehlp.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2893986">
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\hvservice.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2887069">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\portcls.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmk.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmkaud.sys</filepath>
+<filepath>%SystemRoot%\System32\sysfxui.dll</filepath>
+<filepath>%SystemRoot%\System32\wmalfxgfxdsp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%SystemRoot%\System32\drivers\portcls.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmk.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmkaud.sys</filepath>
+<filepath>%SystemRoot%\System32\sysfxui.dll</filepath>
+<filepath>%SystemRoot%\System32\wmalfxgfxdsp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\portcls.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmk.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmkaud.sys</filepath>
+<filepath>%SystemRoot%\System32\sysfxui.dll</filepath>
+<filepath>%SystemRoot%\System32\wmalfxgfxdsp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\drivers\portcls.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmk.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmkaud.sys</filepath>
+<filepath>%SystemRoot%\System32\sysfxui.dll</filepath>
+<filepath>%SystemRoot%\System32\wmalfxgfxdsp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\portcls.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmk.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmkaud.sys</filepath>
+<filepath>%SystemRoot%\System32\sysfxui.dll</filepath>
+<filepath>%SystemRoot%\System32\wmalfxgfxdsp.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\drivers\portcls.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmk.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\drmkaud.sys</filepath>
+<filepath>%SystemRoot%\System32\sysfxui.dll</filepath>
+<filepath>%SystemRoot%\System32\wmalfxgfxdsp.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2904659">
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\Drivers\fwpkclnt.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\tcpip.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\Drivers\fwpkclnt.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\tcpip.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2914368">
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%SystemRoot%\System32\Drivers\ndproxy.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinXp_SP3">
+<files>
+<filepath>%SystemRoot%\System32\Drivers\ndproxy.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2957189">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\tcpip.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\tcpip.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\tcpip.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\tcpip.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\tcpip.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\drivers\tcpip.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2973201">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2993651">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2993254">
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\mqac.sys</filepath>
+<filepath>%systemroot%\system32\mqqm.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2998579">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\fastfat.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%SystemRoot%\System32\drivers\fastfat.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%SystemRoot%\System32\drivers\fastfat.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="2992611">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\secur32.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%SystemRoot%\System32\drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\secur32.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\Certcli.dll</filepath>
+<filepath>%SystemRoot%\System32\drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\Ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\Ksecpkg.sys</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\secur32.dll</filepath>
+<filepath>%SystemRoot%\System32\Sspicli.dll</filepath>
+<filepath>%SystemRoot%\System32\Sspisrv.dll</filepath>
+<filepath>%SystemRoot%\System32\Auditpol.exe</filepath>
+<filepath>%SystemRoot%\System32\Msaudite.dll</filepath>
+<filepath>%SystemRoot%\System32\Msobjs.dll</filepath>
+<filepath>%SystemRoot%\System32\Ncrypt.dll</filepath>
+<filepath>%SystemRoot%\System32\credssp.dll</filepath>
+<filepath>%SystemRoot%\System32\Tspkg.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+<filepath>%SystemRoot%\System32\Kerberos.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\Certcli.dll</filepath>
+<filepath>%SystemRoot%\System32\drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\Ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\Ksecpkg.sys</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\secur32.dll</filepath>
+<filepath>%SystemRoot%\System32\Sspicli.dll</filepath>
+<filepath>%SystemRoot%\System32\Sspisrv.dll</filepath>
+<filepath>%SystemRoot%\System32\Auditpol.exe</filepath>
+<filepath>%SystemRoot%\System32\Msaudite.dll</filepath>
+<filepath>%SystemRoot%\System32\Msobjs.dll</filepath>
+<filepath>%SystemRoot%\System32\Ncrypt.dll</filepath>
+<filepath>%SystemRoot%\System32\credssp.dll</filepath>
+<filepath>%SystemRoot%\System32\Tspkg.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+<filepath>%SystemRoot%\System32\Kerberos.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\Ksecpkg.sys</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\Msaudite.dll</filepath>
+<filepath>%SystemRoot%\System32\Msobjs.dll</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\credssp.dll</filepath>
+<filepath>%SystemRoot%\System32\Tspkg.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+<filepath>%SystemRoot%\System32\Kerberos.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\Shcore.dll</filepath>
+<filepath>%systemroot%\system32\Lsm.dll</filepath>
+<filepath>%systemroot%\system32\Workerdd.dll</filepath>
+<filepath>%systemroot%\system32\Usercpl.dll</filepath>
+<filepath>%systemroot%\system32\Winlogon.exe</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\Ksecpkg.sys</filepath>
+<filepath>%SystemRoot%\System32\lsasrv.dll</filepath>
+<filepath>%SystemRoot%\System32\credssp.dll</filepath>
+<filepath>%SystemRoot%\System32\Tspkg.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+<filepath>%SystemRoot%\System32\Kerberos.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\Shcore.dll</filepath>
+<filepath>%systemroot%\system32\Lsm.dll</filepath>
+<filepath>%systemroot%\system32\Workerdd.dll</filepath>
+<filepath>%systemroot%\system32\Usercpl.dll</filepath>
+<filepath>%systemroot%\system32\Winlogon.exe</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%SystemRoot%\System32\drivers\ksecdd.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3013455">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3034344">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3042553">
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\http.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\drivers\http.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\http.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\drivers\http.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3045685">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%SystemRoot%\System32\clfsw32.dll</filepath>
+<filepath>%SystemRoot%\System32\clfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%SystemRoot%\System32\clfsw32.dll</filepath>
+<filepath>%SystemRoot%\System32\clfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\clfsw32.dll</filepath>
+<filepath>%SystemRoot%\System32\clfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\clfsw32.dll</filepath>
+<filepath>%SystemRoot%\System32\clfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\clfsw32.dll</filepath>
+<filepath>%SystemRoot%\System32\clfs.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\clfsw32.dll</filepath>
+<filepath>%SystemRoot%\System32\clfs.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3046306">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\gdi32.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\gdi32.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\gdi32.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3045171">
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3057839">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_2003_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3057154">
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\auditpol.exe</filepath>
+<filepath>%systemroot%\system32\certcli.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\rpchttp.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\auditpol.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\rpchttp.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\lsm.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\shcore.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\usercpl.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\winlogon.exe</filepath>
+<filepath>%systemroot%\system32\workerdd.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\lsm.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\shcore.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\usercpl.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\winlogon.exe</filepath>
+<filepath>%systemroot%\system32\workerdd.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3082089">
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\actxprxy.dll</filepath>
+<filepath>%SystemRoot%\System32\authui.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\pdc.sys</filepath>
+<filepath>%SystemRoot%\System32\twinui.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\actxprxy.dll</filepath>
+<filepath>%SystemRoot%\System32\authui.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\pdc.sys</filepath>
+<filepath>%SystemRoot%\System32\twinui.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3092601">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\tdx.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\afd.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%SystemRoot%\System32\drivers\tdx.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\afd.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\tdx.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\afd.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\drivers\tdx.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\afd.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%SystemRoot%\System32\drivers\tdx.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\afd.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%SystemRoot%\System32\drivers\tdx.sys</filepath>
+<filepath>%SystemRoot%\System32\drivers\afd.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3101722">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3101746">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\csrsrv.dll</filepath>
+<filepath>%systemroot%\syswow64\instnm.exe</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\ntvdm64.dll</filepath>
+<filepath>%systemroot%\syswow64\setup16.exe</filepath>
+<filepath>%systemroot%\system32\smss.exe</filepath>
+<filepath>%systemroot%\system32\user.exe</filepath>
+<filepath>%systemroot%\system32\wow32.dll</filepath>
+<filepath>%systemroot%\system32\wow64.dll</filepath>
+<filepath>%systemroot%\system32\wow64cpu.dll</filepath>
+<filepath>%systemroot%\system32\wow64win.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\csrsrv.dll</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\smss.exe</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\appid.sys</filepath>
+<filepath>%systemroot%\system32\appidapi.dll</filepath>
+<filepath>%systemroot%\system32\appidsvc.dll</filepath>
+<filepath>%systemroot%\system32\auditpol.exe</filepath>
+<filepath>%systemroot%\system32\certcli.dll</filepath>
+<filepath>%systemroot%\system32\ci.dll</filepath>
+<filepath>%systemroot%\system32\drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\conhost.exe</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\csrsrv.dll</filepath>
+<filepath>%systemroot%\syswow64\instnm.exe</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%systemroot%\system32\kernel32.dll</filepath>
+<filepath>%systemroot%\system32\drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb10.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\ntvdm64.dll</filepath>
+<filepath>%systemroot%\system32\rpchttp.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\rstrui.exe</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\syswow64\setup16.exe</filepath>
+<filepath>%systemroot%\system32\smss.exe</filepath>
+<filepath>%systemroot%\system32\srclient.dll</filepath>
+<filepath>%systemroot%\system32\srcore.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\user.exe</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\winload.efi</filepath>
+<filepath>%systemroot%\system32\winload.exe</filepath>
+<filepath>%systemroot%\system32\winsrv.dll</filepath>
+<filepath>%systemroot%\system32\wow32.dll</filepath>
+<filepath>%systemroot%\system32\wow64.dll</filepath>
+<filepath>%systemroot%\system32\wow64cpu.dll</filepath>
+<filepath>%systemroot%\system32\wow64win.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\appid.sys</filepath>
+<filepath>%systemroot%\system32\appidapi.dll</filepath>
+<filepath>%systemroot%\system32\appidsvc.dll</filepath>
+<filepath>%systemroot%\system32\auditpol.exe</filepath>
+<filepath>%systemroot%\system32\ci.dll</filepath>
+<filepath>%systemroot%\system32\drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\csrsrv.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%systemroot%\system32\drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb10.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\ntdll.dll</filepath>
+<filepath>%systemroot%\system32\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\rpchttp.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\rstrui.exe</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\smss.exe</filepath>
+<filepath>%systemroot%\system32\srclient.dll</filepath>
+<filepath>%systemroot%\system32\srcore.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\winload.exe</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%systemroot%\system32\drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\lsm.dll</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb10.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\shcore.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\usercpl.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\winload.efi</filepath>
+<filepath>%systemroot%\system32\winload.exe</filepath>
+<filepath>%systemroot%\system32\winlogon.exe</filepath>
+<filepath>%systemroot%\system32\workerdd.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_8">
+<files>
+<filepath>%systemroot%\system32\drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\credssp.dll</filepath>
+<filepath>%systemroot%\system32\kerberos.dll</filepath>
+<filepath>%systemroot%\system32\drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%systemroot%\system32\lsm.dll</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb10.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msaudite.dll</filepath>
+<filepath>%systemroot%\system32\msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\shcore.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%systemroot%\system32\tspkg.dll</filepath>
+<filepath>%systemroot%\system32\usercpl.dll</filepath>
+<filepath>%systemroot%\system32\wdigest.dll</filepath>
+<filepath>%systemroot%\system32\winload.efi</filepath>
+<filepath>%systemroot%\system32\winload.exe</filepath>
+<filepath>%systemroot%\system32\winlogon.exe</filepath>
+<filepath>%systemroot%\system32\workerdd.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3124000">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3124280">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\davclnt.dll</filepath>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+<filepath>%systemroot%\system32\webclnt.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\davclnt.dll</filepath>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+<filepath>%systemroot%\system32\webclnt.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3145739">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\gdiplus.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\gdiplus.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\gdiplus.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\gdiplus.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3156017">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\cdd.dll</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\cdd.dll</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\cdd.dll</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\cdd.dll</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3168965">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3167679">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\advapi32.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\advapi32.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%SystemRoot%\System32\Auditpol.exe</filepath>
+<filepath>%SystemRoot%\System32\Certcli.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\credssp.dll</filepath>
+<filepath>%SystemRoot%\System32\Kerberos.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%SystemRoot%\System32\Msaudite.dll</filepath>
+<filepath>%SystemRoot%\System32\Msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\rpchttp.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%SystemRoot%\System32\Tspkg.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%SystemRoot%\System32\Auditpol.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\cng.sys</filepath>
+<filepath>%SystemRoot%\System32\credssp.dll</filepath>
+<filepath>%SystemRoot%\System32\Kerberos.dll</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecdd.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+<filepath>%systemroot%\system32\lsass.exe</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb10.sys</filepath>
+<filepath>%SystemRoot%\System32\Drivers\mrxsmb20.sys</filepath>
+<filepath>%SystemRoot%\System32\Msaudite.dll</filepath>
+<filepath>%SystemRoot%\System32\Msobjs.dll</filepath>
+<filepath>%systemroot%\system32\msv1_0.dll</filepath>
+<filepath>%systemroot%\system32\ncrypt.dll</filepath>
+<filepath>%systemroot%\system32\rpchttp.dll</filepath>
+<filepath>%systemroot%\system32\rpcrt4.dll</filepath>
+<filepath>%systemroot%\system32\schannel.dll</filepath>
+<filepath>%systemroot%\system32\secur32.dll</filepath>
+<filepath>%systemroot%\system32\sspicli.dll</filepath>
+<filepath>%systemroot%\system32\sspisrv.dll</filepath>
+<filepath>%SystemRoot%\System32\Tspkg.dll</filepath>
+<filepath>%SystemRoot%\System32\wdigest.dll</filepath>
+</files>
+</system>
+</kbitem>
+<kbitem kbname="3177725">
+<system sysname="enumSV_WinVista_SP2_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_WinVista_SP2">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+
+<kbitem kbname="4041678">
+
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\appid.sys</filepath>
+<filepath>%systemroot%\system32\drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb10.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\nwifi.sys</filepath>
+<filepath>%systemroot%\system32\drivers\srv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\srv2.sys</filepath>
+<filepath>%systemroot%\system32\drivers\srvnet.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\lsasrv.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\appid.sys</filepath>
+<filepath>%systemroot%\system32\drivers\cng.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ksecdd.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ksecpkg.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb10.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxsmb20.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\nwifi.sys</filepath>
+<filepath>%systemroot%\system32\drivers\srv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\srv2.sys</filepath>
+<filepath>%systemroot%\system32\drivers\srvnet.sys</filepath>
+</files>
+</system>
+</kbitem>
+
+
+<kbitem kbname="4048960">
+<system sysname="enumSV_Windows_7_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\luafv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\luafv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+
+<kbitem kbname="4048957">
+
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\bowser.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dfsc.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+<filepath>%systemroot%\system32\drivers\exfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\fastfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\luafv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\PEAuth.sys</filepath>
+<filepath>%systemroot%\system32\drivers\tssecsrv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbccgp.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbhub.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\bowser.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dfsc.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+<filepath>%systemroot%\system32\drivers\exfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\fastfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\luafv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\PEAuth.sys</filepath>
+<filepath>%systemroot%\system32\drivers\tssecsrv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbccgp.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbhub.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+
+<kbitem kbname="4054518">
+
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\bowser.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dfsc.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+<filepath>%systemroot%\system32\drivers\exfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\fastfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\luafv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\PEAuth.sys</filepath>
+<filepath>%systemroot%\system32\drivers\rdbss.sys</filepath>
+<filepath>%systemroot%\system32\drivers\tssecsrv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbccgp.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbhub.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\bowser.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dfsc.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgkrnl.sys</filepath>
+<filepath>%systemroot%\system32\drivers\dxgmms1.sys</filepath>
+<filepath>%systemroot%\system32\drivers\exfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\fastfat.sys</filepath>
+<filepath>%systemroot%\system32\drivers\luafv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\mrxdav.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\PEAuth.sys</filepath>
+<filepath>%systemroot%\system32\drivers\rdbss.sys</filepath>
+<filepath>%systemroot%\system32\drivers\tssecsrv.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbccgp.sys</filepath>
+<filepath>%systemroot%\system32\drivers\usbhub.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+</files>
+</system>
+</kbitem>
+
+<kbitem kbname="4056894">
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+<filepath>%systemroot%\system32\drivers\http.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\shell.dll</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+<filepath>%systemroot%\system32\drivers\http.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\shell.dll</filepath>
+</files>
+</system>
+</kbitem>
+
+<kbitem kbname="4056897">
+<system sysname="enumSV_Windows_7_SP1_X64">
+<files>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+<filepath>%systemroot%\system32\drivers\http.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\shell.dll</filepath>
+<filepath>%systemroot%\syswow64\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\syswow64\ntoskrnl.exe</filepath>
+</files>
+</system>
+<system sysname="enumSV_Windows_7_SP1">
+<files>
+<filepath>%systemroot%\system32\drivers\ntfs.sys</filepath>
+<filepath>%systemroot%\system32\drivers\ndis.sys</filepath>
+<filepath>%systemroot%\system32\drivers\http.sys</filepath>
+<filepath>%systemroot%\system32\win32k.sys</filepath>
+<filepath>%systemroot%\system32\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\system32\shell.dll</filepath>
+<filepath>%systemroot%\syswow64\ntkrnlpa.exe</filepath>
+<filepath>%systemroot%\syswow64\ntoskrnl.exe</filepath>
+<filepath>%systemroot%\syswow64\ntoskrnl.exe</filepath>
+</files>
+</system>
+</kbitem>
+
+</tsbsinfo>
+</tsbslib>

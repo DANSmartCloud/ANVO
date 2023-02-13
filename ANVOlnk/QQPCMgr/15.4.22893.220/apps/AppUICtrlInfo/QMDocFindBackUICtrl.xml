@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="文档找回" catalog="2" appclsid="7EDDD23E-E147-42b1-B514-5088CAC51198" appname="QMDocFindBack" enable="1" supportsys="1111111111">
+		<icon path="QMDocFindBack.svg" />
+		<description>
+			<![CDATA[找回误删或病毒加密的文件]]>
+		</description>
+		<tip>
+			<![CDATA[找回误删或病毒加密的文件]]>
+		</tip>
+	</App>
+</Apps>

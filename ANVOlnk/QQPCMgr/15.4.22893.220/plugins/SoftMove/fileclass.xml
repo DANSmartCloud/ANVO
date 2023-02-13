@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileClass>
+	<class Type="File_Media" Name="媒体文件">
+		<suffix value="mp3"  rec="0"/>
+		<suffix value="wmv"  rec="0"/>
+		<suffix value="wma"  rec="0"/>
+		<suffix value="rmvb" rec="0"/>
+		<suffix value="rm"   rec="0"/>
+		<suffix value="avi"  rec="0"/>
+		<suffix value="vob"  rec="0"/>
+		<suffix value="mkv"  rec="0"/>
+		<suffix value="mpg"	 rec="0"/>
+		<suffix value="mov"  rec="0"/>
+		<suffix value="flv"  rec="0"/>
+		<suffix value="swf"  rec="0"/>
+		<suffix value="mp4"  rec="0"/>
+		<suffix value="flac" rec="0"/>
+		<suffix value="aac"  rec="0"/>
+		<suffix value="wav"  rec="0"/>
+		<suffix value="flac" rec="0"/>
+		<suffix value="mp2"  rec="0"/>
+		<suffix value="3gp"  rec="0"/>
+		<suffix value="ape"  rec="0"/>
+	</class>
+	<class Type="File_Package" Name="压缩包">
+		<suffix value="zip" rec="0"/>
+		<suffix value="rar" rec="0"/>
+		<suffix value="7z"  rec="0"/>
+		<suffix value="gz" rec="0"/>
+		<suffix value="cab" rec="0"/>
+		<suffix value="rpm" rec="0"/>
+		<suffix value="tar" rec="0"/>
+		<suffix value="taz" rec="0"/>
+		<suffix value="tbz" rec="0"/>
+		<suffix value="tgz" rec="0"/>
+		<suffix value="tpz" rec="0"/>
+	</class>
+	<class Type="File_MirrorImage" Name="镜像文件">
+		<suffix value="iso" rec="0"/>
+		<suffix value="mdf" rec="0"/>
+	</class>
+	<class Type="File_Excutable" Name="可执行文件">
+		<suffix value="exe" rec="0"/>
+		<suffix value="com" rec="0"/>
+	</class>
+	<class Type="File_Image" Name="图片文件">
+		<suffix value="jpg" rec="0"/>
+		<suffix value="gif" rec="0"/>
+		<suffix value="ico" rec="0"/>
+		<suffix value="bmp" rec="0"/>
+		<suffix value="jpeg" rec="0"/>
+		<suffix value="png" rec="0"/>
+		<suffix value="psd" rec="0"/>
+	</class>
+</FileClass>

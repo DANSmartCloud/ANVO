@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="权限雷达" catalog="5" appclsid="59927AF6-8958-4dfb-9F7D-8AC4BE564E33" appname="QQAuthorityRadar" enable="1" isnew="1" supportsys="1111111111">
+		<icon path="QQPCAuthorityRadar.svg" />
+		<description>
+			<![CDATA[软件行为，了如指掌]]>
+		</description>
+		<tip>
+			<![CDATA[软件行为，了如指掌]]>
+		</tip>
+	</App>
+</Apps>

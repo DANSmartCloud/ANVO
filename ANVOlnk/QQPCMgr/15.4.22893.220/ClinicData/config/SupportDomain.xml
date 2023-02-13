@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<SupportDomains version = "1.0">
+	<DomainInfo url = "http://www.qq.com/" />
+	<DomainInfo url = "http://www.baidu.com/" />
+	<DomainInfo url = "http://www.google.com.hk/" />
+	<DomainInfo url = "http://www.taobao.com/" />
+</SupportDomains>

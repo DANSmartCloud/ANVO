@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="网络修复" catalog="3" appclsid="7CB65BF5-BAA6-4B5F-89C0-7E3CFD214F4C" appname="QQPCClinicNetRepair" enable="1" supportsys="1111111111">
+		<icon path="QQPCClinicNetRepair.svg" />
+		<description>
+			<![CDATA[检测修复常见断网问题]]>
+		</description>
+		<tip>
+			<![CDATA[检测并修复常见断网问题]]>
+		</tip>
+	</App>
+</Apps>

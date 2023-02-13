@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="时间助手" catalog="6" appclsid="AECD71BB-C25D-4CC2-A9B7-B0A06E852A19" appname="TimeHelperPlugin" enable="1" supportsys="1111111111">
+		<icon path="TimeHelperPlugin.svg" />
+		<description>
+			<![CDATA[查看日历天气等信息]]>
+		</description>
+		<tip>
+			<![CDATA[方便查看日历天气等信息的手边工具]]>
+		</tip>
+	</App>
+</Apps>

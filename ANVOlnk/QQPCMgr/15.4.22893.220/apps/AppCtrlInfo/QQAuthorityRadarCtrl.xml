@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="59927AF6-8958-4dfb-9F7D-8AC4BE564E33" appname="QQPCAuthorityRadar" version="1.0.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="8BA3757F-9A8F-44DF-ADE3-4CB4FC4FF905" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCAuthorityRadar.svg" md5="0cff97bc30520710c04d5ebcabb68d5c" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCMgr.exe" param="/TAB_AUTHRADAR" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

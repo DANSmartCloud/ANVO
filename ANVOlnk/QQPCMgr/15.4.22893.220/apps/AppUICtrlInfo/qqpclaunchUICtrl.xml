@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="小Q书桌" catalog="5" appclsid="A352FE5D-EDF7-43a9-A85D-1068AB08CF51" appname="qqpclaunch" enable="1" supportsys="000011111111">
+		<icon path="qqpclaunch.png" />
+		<description>
+			<![CDATA[轻松整理桌面]]>
+		</description>
+		<tip>
+			<![CDATA[帮你轻松整理桌面]]>
+		</tip>
+	</App>
+</Apps>

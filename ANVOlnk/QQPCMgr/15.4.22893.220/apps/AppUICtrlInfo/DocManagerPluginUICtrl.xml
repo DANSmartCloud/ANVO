@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="最近文档" catalog="2" appclsid="568A6A54-B62F-41F8-AEDB-18438B9465C1" appname="DocManagerPlugin" enable="1" supportsys="1111111111">
+		<icon path="DocManagerPlugin.svg" />
+		<description>
+			<![CDATA[手机随时随地看文档]]>
+		</description>
+		<tip>
+			<![CDATA[电脑手机文档共享，手机随时随地看文档]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="65D9CACC-9465-43D0-8ED9-4D0828B5D18D" appname="DeepSpeedup" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="67C3A1F5-DC4F-4362-AC06-649EDBAD2684" path="https://s.pc.qq.com/pcmgr/logo/v15/DeepSpeedup.svg" md5="4d972ddbcf29f0c85818a8a8cc4ee8c8" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCRealTimeSpeedup.exe" param="SpeedUpExe-[ShowDeepSpeedupWnd:ToolsBox]" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

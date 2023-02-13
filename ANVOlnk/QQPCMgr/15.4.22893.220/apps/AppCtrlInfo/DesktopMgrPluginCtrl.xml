@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="30295729-53E2-428E-B7C3-FE2913DC537B" appname="DesktopMgrPlugin" version="2.6.5176.127" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="8C5A9BEB-1055-4563-968A-4FF9D6D6192E" path="https://s.pc.qq.com/pcmgr/logo/v15/DesktopMgrPlugin.svg" md5="cae7b62db97717c4977219272eb584ed" />
+		<url pkgtype="0" path="http://dl.softmgr.qq.com/original/Video/DeskGo_2_6_5176_127_S10000.exe" param="/S" md5="aae4d9437012f1df924bc4d8d0cc9164" />
+		<install pathtype="1" path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\DeskGo|InstallDir" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\DeskGo|Version">
+			<run file="DesktopMgr.exe" param="-pcmgr" />
+			<uninstall file="Uninst.exe" param="/S" />
+		</install>
+	</App>
+</Apps>

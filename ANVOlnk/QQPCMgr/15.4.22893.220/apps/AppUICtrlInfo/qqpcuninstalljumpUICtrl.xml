@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="软件卸载" catalog="5" appclsid="E7733812-A50D-4cbf-ACA6-9230FD3B8135" appname="qqpcuninstalljump" enable="1" supportsys="1111111111">
+		<icon path="qqpcuninstalljump.svg" />
+		<description>
+			<![CDATA[便捷卸载软件，不留残余]]>
+		</description>
+		<tip>
+			<![CDATA[便捷卸载软件，不留残余]]>
+		</tip>
+	</App>
+</Apps>

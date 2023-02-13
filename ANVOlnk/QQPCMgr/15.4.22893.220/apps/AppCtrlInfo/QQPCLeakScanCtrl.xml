@@ -1,0 +1,11 @@
+<Apps>
+	<App appname="QQPCLeakScan" clsid="5A07BE19-B421-4e64-B556-4924460FCB4C" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="AFE45C45-6A2E-484F-988E-362DCBF6C0DD" md5="8fd08157f52a540ee26add0c46ac8e8d" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCLeakScan.svg" />
+		<url md5="2556a755b148f648150c44a6926aa7d1" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMQQPCLeakScanSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="QQPCLeakScan.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QQPCLeakScan|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QQPCLeakScan|Version">
+			<run file="..\..\QQPCLeakScan.exe" param="/start=desktop /mode=toolbox" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

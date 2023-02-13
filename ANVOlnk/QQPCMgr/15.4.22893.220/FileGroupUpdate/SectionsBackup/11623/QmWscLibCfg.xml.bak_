@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF_8'?>
+<TvlLib  timestamp="20210617103537">
+    <EnvCategory>
+        <!--        系统环境判别逻辑-->
+        <SysWin7_32>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="1" ProductType="1"/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysWin7_32>
+        <SysWin7_64>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="1" ProductType="1"/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysWin7_64>
+        <SysWin10_32>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="10" MinorVersion="0" ProductType="1"/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysWin10_32>
+        <SysWin10_64>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="10" MinorVersion="0" ProductType="1"/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysWin10_64>
+        <SysServer_2012_64>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="2" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="2" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysServer_2012_64>
+        <SysXp_32>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="5" MinorVersion="1" ProductType="1"/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysXp_32>
+        <SysXp_64>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="5" MinorVersion="1" ProductType="1"/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysXp_64>
+        <SysServer_2008_32>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="0" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="0" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysServer_2008_32>
+        <SysServer_2008_64>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="0" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="0" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysServer_2008_64>
+        <SysServer_2008_R2_32>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="1" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="1" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysServer_2008_R2_32>
+        <SysServer_2008_R2_64>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="1" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="1" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysServer_2008_R2_64>
+        <SysServer_2016_64>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="10" MinorVersion="0" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="10" MinorVersion="0" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysServer_2016_64>
+        <SysVista_32>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="0" ProductType="1"/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysVista_32>
+        <SysVista_64>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="0" ProductType="1"/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysVista_64>
+        <SysWin8_32>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="2" ProductType="1"/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysWin8_32>
+        <SysWin8_64>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="2" ProductType="1"/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysWin8_64>
+        <Office_32>
+            <lar:And>
+                <bar:QM_OfficeInstalled/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </Office_32>
+        <Office_64>
+            <lar:And>
+                <bar:QM_OfficeInstalled/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </Office_64>
+        <SysWin8.1_32>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="3" ProductType="1"/>
+                <bar:Processor Architecture="0"/>
+            </lar:And>
+        </SysWin8.1_32>
+        <SysWin8.1_64>
+            <lar:And>
+                <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="3" ProductType="1"/>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysWin8.1_64>
+
+        <SysServer_2012_R2_64>
+            <lar:And>
+                <lar:Or>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="3" ProductType="2"/>
+                    <bar:WindowsVersion Comparison="EqualTo" MajorVersion="6" MinorVersion="3" ProductType="3"/>
+                </lar:Or>
+                <bar:Processor Architecture="9"/>
+            </lar:And>
+        </SysServer_2012_R2_64>
+    </EnvCategory>
+    <DldLib>
+        <SysWin7_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_SysWin7_64.cab" Md5="9f2764aeb63b6e69c2e1d52b8cf17bbc"/>
+        </SysWin7_64>
+        <SysWin7_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201215100000_SysWin7_32.cab" Md5="7931697900e94ae94d19edcf1c045d9d"/>
+        </SysWin7_32>
+        <Office_32>
+            <Item  SaveFileName="MvlLib0002.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_Office_32.cab" Md5="93b100c7acc8409a618d0837e2865cce"/>
+        </Office_32>
+        <Office_64>
+            <Item  SaveFileName="MvlLib0002.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_Office_64.cab" Md5="befcdadc88ed1db09b1de1addb2ea9c1"/>
+        </Office_64>
+        <SysWin10_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysWin10_32.cab" Md5="8811c91afa5b1616ae0707a69a68fcb7"/>
+        </SysWin10_32>
+        <SysWin10_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysWin10_64.cab" Md5="8aa658a1b0173fc97e940301830b47af"/>
+        </SysWin10_64>
+        <SysServer_2012_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysServer_2012_64.cab" Md5="dd8b974d62cf431ff2ab2343b90a9806"/>
+        </SysServer_2012_64>
+        <SysXp_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_SysXp_32.cab" Md5="c52d9a295f20ca6f6fa0a1e5daf06cd1"/>
+        </SysXp_32>
+        <SysXp_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_SysXp_64.cab" Md5="1f402ee4582953651b24fc89a149f4a6"/>
+        </SysXp_64>
+        <win_2000>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_win_2000.cab" Md5="369fdbaa40945e4cca6bcc0a3ee35e9f"/>
+        </win_2000>
+        <win_server_2003>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_win_server_2003.cab" Md5="a8f8fc655c190096be581fe0b01a980b"/>
+        </win_server_2003>
+        <win_server_2003_x64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_win_server_2003_x64.cab" Md5="90e18b29c2c69901aa5c19c1dacb11d4"/>
+        </win_server_2003_x64>
+        <SysServer_2008_R2_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_SysServer_2008_R2_32.cab" Md5="5dbfe8007398cbfa43bbc1ab5c10dea0"/>
+        </SysServer_2008_R2_32>
+        <SysVista_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_SysVista_32.cab" Md5="97f0f2bba4f3d1cfac90a54663bddc28"/>
+        </SysVista_32>
+        <SysServer_2016_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysServer_2016_64.cab" Md5="d182c11c074977eaac69a688d92840e6"/>
+        </SysServer_2016_64>
+        <SysSysServer_2019_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysSysServer_2019_64.cab" Md5="4c4088be89bb9604a36d29602382b956"/>
+        </SysSysServer_2019_64>
+        <SysVista_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20201118100001_SysVista_64.cab" Md5="c04ecbeed829e8a03a3d8a56d88f9369"/>
+        </SysVista_64>
+        <SysWin8_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysWin8_32.cab" Md5="f79ee61047eec8572dfbaa37e83855c5"/>
+        </SysWin8_32>
+        <SysWin8_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysWin8_64.cab" Md5="98275df91bd3d9b0a8b604065589c84c"/>
+        </SysWin8_64>
+        <SysWin8.1_32>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysWin8.1_32.cab" Md5="00a6b33afcecff5d69e9ebb7cc62c500"/>
+        </SysWin8.1_32>
+        <SysWin8.1_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysWin8.1_64.cab" Md5="5853995838a7f25b96099c3d4845f99a"/>
+        </SysWin8.1_64>
+        <SysServer_2012_R2_64>
+            <Item  SaveFileName="MvlLib0001.cab" Url="http://dlied6.qq.com/invc/QQPatch/20210616060000_SysServer_2012_R2_64.cab" Md5="cab341aab6551291a97d133adeca8fd2"/>
+        </SysServer_2012_R2_64>
+    </DldLib>
+</TvlLib>

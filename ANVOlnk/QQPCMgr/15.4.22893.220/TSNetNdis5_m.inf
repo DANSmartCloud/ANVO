@@ -1,0 +1,92 @@
+; --  TSNetNdis5_m.INF --
+;
+; TSNetNdis5 Miniport INF file
+;
+
+; ----------------------------------------------------------------------
+; Notes:
+; 0. The term "filter" is used here to refer to an NDIS IM driver that
+;    implements a 1:1 relationship between upper and lower bindings.
+; 1. Items specifically required for a filter have been marked with
+;    "!!--Filter Specific--!!" keyword
+; 2. A filter DOES NOT require a notify object for proper installation.
+;    A notify object is only required if one wants to have better control
+;    over binding operations or if one wants to receive notifications
+;    when other components get installed/removed/bound/unbound.
+;    This sample uses a notify object as an example only. If you do not
+;    want to use a notify object, please comment out the lines that add
+;    ClsId and ComponentDll registry keys.
+; ----------------------------------------------------------------------
+
+[Version]
+signature  = "$Windows NT$"
+Class      = Net
+ClassGUID  = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider   = %Msft%
+DriverVer  = 01/01/2019,1.0.0.0
+
+[ControlFlags]
+ExcludeFromSelect = TSNetNdis5mp
+
+[DestinationDirs]
+DefaultDestDir=12
+; No files to copy 
+
+[Manufacturer]
+%Msft% = MSFT,NTx86,NTia64,NTamd64
+
+;For Win2K
+
+[MSFT]
+%TSNetNdis5mp_Desc% = TSNetNdis5mp.ndi, TSNetNdis5mp
+
+;For WinXP and later
+
+[MSFT.NTx86]
+%TSNetNdis5mp_Desc% = TSNetNdis5mp.ndi, TSNetNdis5mp
+
+[MSFT.NTia64]
+%TSNetNdis5mp_Desc% = TSNetNdis5mp.ndi, TSNetNdis5mp
+
+[MSFT.NTamd64]
+%TSNetNdis5mp_Desc% = TSNetNdis5mp.ndi, TSNetNdis5mpx64
+
+
+[TSNetNdis5mp.ndi]
+AddReg  = TSNetNdis5mp.ndi.AddReg
+Characteristics = 0x29 ;NCF_NOT_USER_REMOVABLE | NCF_VIRTUAL | NCF_HIDDEN
+
+[TSNetNdis5mp.ndi.AddReg]
+HKR, Ndi, Service,  0,  TSNetNdis5mp
+
+[TSNetNdis5mp.ndi.Services]
+AddService = TSNetNdis5mp,0x2, TSNetNdis5mp.AddService
+
+
+[TSNetNdis5mp.AddService]
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TSNetNdis5.sys
+AddReg         = TSNetNdis5mp.AddService.AddReg
+
+
+[TSNetNdis5mp.AddService.AddReg]
+; ----------------------------------------------------------------------
+; Add any miniport-specific parameters here.  These are params that your
+; filter device is going to use.
+;
+;HKR, Parameters, ParameterName,  0x10000, "MultiSz", "Parameter", "Value"
+;HKR, Parameters, ParameterName2, 0x10001, 4
+
+[Strings]
+Msft = "Tencent"
+TSNetNdis5mp_Desc = "TSNetNdis5 Miniport"
+
+[SourceDisksNames]
+;None 
+
+[SourceDisksFiles]
+;None
+
+

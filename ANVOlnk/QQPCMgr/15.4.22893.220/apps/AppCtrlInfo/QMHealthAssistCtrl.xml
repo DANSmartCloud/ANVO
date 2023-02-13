@@ -1,0 +1,28 @@
+<Apps>
+	<App appname="QMHealthAssist" clsid="6B27F3E6-6EAF-4e36-ABF5-30ECF932A75C" enable="3" forcedownload="11" forceinstall="11" supportsys="1111111111" version="1.1.0">
+		<icon clsid="2736321F-47EA-4C3A-B376-8BDD5785D875" md5="22f8f37ac52bc780f0d3c15bc6c74cab" path="https://s.pc.qq.com/pcmgr/logo/v15/QMHealthAssist.svg" />
+		<url md5="83fcc2ce35e236c76360fa04bd3d24e1" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMHealthAssistSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMHealthAssist.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMHealthAssist|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMHealthAssist|Version">
+			<run autorunparam="/silent" file="..\..\HealthAssistor.exe" param="/entry=toolbox" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="HealthAssistor.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMHealthAssist" />
+                <item action="file" path="AntiBlueRaySoftList.etf" />
+                <item action="file" path="HealthAssistor.dat" />
+                <item action="file" path="HealthAssistor.exe" />
+                <item action="file" path="HealthAssistor.rdb" />
+                <item action="file" path="HealthAssistor_Gymnastics.rdb" />
+                <item action="file" path="HealthAssistor_Gymnastics_Def.zip" />
+                <item action="file" path="HealthAssitorRecord.dll" />
+                <item action="file" path="QMLockKeyboard.dll" />
+                <item action="file" path="QQPCLockScreen.dat" />
+                <item action="file" path="QQPCLockScreen.exe" />
+                <item action="file" path="QQPCLockScreen.rdb" />
+                <item action="file" path="SoftwareTypeIdFilter.etf" />
+                <item action="dir" path="QMTrayPlugin\QMHealthAssistDispatch" />
+				<item action="dir" path="plugins\QMHealthAssist" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

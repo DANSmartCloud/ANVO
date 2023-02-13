@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无法加载 - 电脑管家</title>
+		<meta name="author" content="yongdongwei" />
+		<style type="text/css">
+        html {
+            overflow-y: hidden;
+        }
+		body{
+            background-color:#FFFFFF;
+            font: 16px/15px "微软雅黑",tahoma;
+            margin: 0 !important;
+        }
+		.wrap{
+            width: 846px;
+            height: 522px;
+            margin: 0 auto;
+            background: url('image/bg.svg') center center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            border: 1px solid #89C7DF;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 45px;
+            padding: 0 20px;
+            width: 846px;
+            box-sizing: border-box;
+        }
+        .header .left {
+            background-image: url('image/gj_icon.png');
+            background-repeat: no-repeat;
+            background-size: 16px 18px;
+            background-position: left center;
+            padding-left: 19px;
+            font-size: 12px;
+            line-height: 18px;
+            color: #252525;
+        }
+        .btn_minisize {
+            display: inline-block;
+            width:20px; 
+            height:20px;
+            background:url('image/error_minisize.png');
+            background-size: cover;
+            cursor: pointer;
+        }
+        .btn_close { 
+            display: inline-block;
+            width:20px; 
+            height:20px;
+            background:url('image/error_close.png');
+            background-size: cover;
+            cursor: pointer;
+        }
+        .main {
+            background: #FFFFFF;
+            width: 846px;
+            height: 477px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main .title {
+            margin: 0 auto;
+            width: fit-content;
+            background-image: url('image/icon_warn.png');
+            background-repeat: no-repeat;
+            background-size: 14px 14px;
+            background-position: left center;
+            padding-left: 20px;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+        .main .sub-title {
+            margin: 10px auto 0;
+            width: fit-content;
+            /* font-size: 16px; */
+            line-height: 21px;
+            /* color: #6C6C6C; */
+            color: rgba(143,143,143,1);
+            font-size: 12px;
+            font-weight: 400;
+            font-family: "Microsoft YaHei";
+            text-align: center;
+        }
+        .main .refresh-btn {
+            margin: 20px auto 0;
+            width: 90px;
+            height: 30px;
+            opacity: 1;
+            background: rgba(32,73,238,1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            border-radius: 2px;
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+            color: rgba(255,255,255,1);
+            font-weight: 400;
+            font-family: "Microsoft YaHei";
+            line-height: 28px;
+        }
+        .main .disconnect-img{
+            margin: 0 auto;
+            width: 300px;
+            height: 225px;
+            opacity: 1;
+        }
+		</style>
+		
+	</head>
+	<body ondragstart="return false">
+		<div class="wrap">
+            <div class="header" onmousedown="window.external.OnWebLButtonDown()" onmouseup="window.external.OnWebLButtonUp();">
+                <div class="left">
+                    腾讯电脑管家-个人中心
+                </div>
+                <div class="right">
+                    <div class="btn_minisize" onclick="window.external.OnMiniSize();"></div>
+                    <div class="btn_close" onclick="window.external.OnClose();"></div>
+                </div>
+            </div>
+            <div class="main">
+                <!-- <div class="title">网络未连接</div>
+                <div class="sub-title">请检查你的网络设置后，刷新重试</div>
+                <div class="refresh-btn" onclick="window.external.Refresh();">立即刷新</div> -->
+                <img src="./image/disconnect.png" class="disconnect-img">
+                <div class="sub-title">网络未连接，请刷新后重试</div>
+                <div class="refresh-btn" onclick="window.external.Refresh();">刷新</div>
+            </div>
+			<!-- <a href="javascript:window.external.OnClose();" class="btn_close"></a>
+			<div class="banner" id="banner"><img class="errimg" src="image/net_err.png"></div>
+			<div class="text">网络出问题了，<a href="javascript: window.external.Refresh();" hidefocus=true>刷新一下</a>恢复与地球的通讯吧！</div> -->
+		</div>
+		<script type="text/javascript">
+//		var h = (typeof window.innerHeight != 'undefined' ? window.innerHeight : document.body.offsetHeight);
+		var theWidth, theHeight;
+		// Window dimensions:
+		if (window.innerWidth) {
+			theWidth=window.innerWidth;
+		}
+		else if (document.documentElement && document.documentElement.clientWidth) {
+			theWidth=document.documentElement.clientWidth;
+		}
+		else if (document.body) {
+			theWidth=document.body.clientWidth;
+		}
+		if (window.innerHeight) {
+			theHeight=window.innerHeight;
+		}
+		else if (document.documentElement && document.documentElement.clientHeight) {
+			theHeight=document.documentElement.clientHeight;
+		}
+		else if (document.body) {
+			theHeight=document.body.clientHeight;
+		}
+		if(theHeight < 500) {
+			//document.getElementById('banner').style.marginTop = '30px';
+		}
+		</script>
+    </body>
+</html>

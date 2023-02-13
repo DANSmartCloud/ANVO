@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="QQ游戏" catalog="6" appclsid="874E9895-6C44-47DE-BF89-01288D22E267" appname="GameLobbyPlugin" enable="1" supportsys="1111111111">
+		<icon path="GameLobbyPlugin.svg" />
+		<description>
+			<![CDATA[QQ游戏]]>
+		</description>
+		<tip>
+			<![CDATA[全球最大的游戏平台，放松心情，安全游戏]]>
+		</tip>
+	</App>
+</Apps>

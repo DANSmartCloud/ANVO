@@ -1,0 +1,25 @@
+<Apps>
+	<App appname="HWPlugin" clsid="13BDB137-0097-4814-813B-4F6A1B37A548" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="205296BB-D116-49ab-BF31-139087F56B2C" md5="15c71dea88dddcc715898fd02d091827" path="https://s.pc.qq.com/pcmgr/logo/v15/HWPlugin.svg" />
+		<url md5="87f586f3039e6029b4228211da19f1b9" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMHardwareSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMHardwareSetupAuto_New.nsi" />
+		<install path="..\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\HWPlugin|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\HWPlugin|Version">
+			<run file="..\..\QQPCHardware.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QQPCHardware.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\HWPlugin" />
+				<item action="file" path="QQPCHardware.exe" />
+				<item action="file" path="QQPCHardware.dat" />
+				<item action="file" path="QQPCHardware.rdb" />
+                <item action="file" path="dbgeng.dll" />
+                <item action="file" path="dbghelp.dll" />
+                <item action="file" path="DPInst32.exe" />
+                <item action="file" path="DPInst64.exe" />
+                <item action="file" path="HardwareBrandIconConfig.dat" />
+                <item action="file" path="HardwareBrandIconConfig.xml" />
+                <item action="file" path="QQHwMgr.dll" />
+				<item action="dir" path="plugins\HWPlugin" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

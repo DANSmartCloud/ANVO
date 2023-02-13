@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无法加载 - 电脑管家</title>
+		<meta name="author" content="yongdongwei" />
+		<style type="text/css">
+		body{background-color:#FFFFFF;font: 16px/15px "微软雅黑",tahoma;}
+		.wrap{min-height: 100;min-width: 100;overflow:hidden;margin:0 auto;}
+		.banner{margin:2px auto 0;text-align: center;overflow:hidden;}
+		.errimg{max-width: 100%; max-height: 100%;}
+		.text{height:30px;margin:0 auto;text-align:center;color:#9c978e;margin-top:12px;line-height:30px;}
+		.text a{color:#1e85da;text-decoration: none;}
+		.text a:hover{color:#1e85da;text-decoration: none;}
+		.text a:active{color:#1e85da;text-decoration: none;}
+		.btn_close {display:block; position:absolute; z-index:7; width:16px; height:16px;background:url(image/close.png) center no-repeat; top:10px; right:10px;}
+		</style>
+		
+	</head>
+	<body ondragstart="return false">
+		<div class="wrap">
+			<div class="text">网络出问题了</div>
+			<div class="text"><a href="javascript: window.external.Refresh();" hidefocus=true>刷新一下</a></div>
+		</div>
+		<script type="text/javascript">
+//		var h = (typeof window.innerHeight != 'undefined' ? window.innerHeight : document.body.offsetHeight);
+		var theWidth, theHeight;
+		// Window dimensions:
+		if (window.innerWidth) {
+			theWidth=window.innerWidth;
+		}
+		else if (document.documentElement && document.documentElement.clientWidth) {
+			theWidth=document.documentElement.clientWidth;
+		}
+		else if (document.body) {
+			theWidth=document.body.clientWidth;
+		}
+		if (window.innerHeight) {
+			theHeight=window.innerHeight;
+		}
+		else if (document.documentElement && document.documentElement.clientHeight) {
+			theHeight=document.documentElement.clientHeight;
+		}
+		else if (document.body) {
+			theHeight=document.body.clientHeight;
+		}
+		if(theHeight < 500) {
+			//document.getElementById('banner').style.marginTop = '30px';
+		}
+		</script>
+    </body>
+</html>

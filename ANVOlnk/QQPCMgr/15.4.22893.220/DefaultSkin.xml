@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skinlist>
+  <skin id="68" name="冰山一角" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/518d8dc197284461a560f05a4d67f39e.png" smallmd5="518d8dc197284461a560f05a4d67f39e" largepic="http://s.pc.qq.com/guanjia/gjskin/data/304cb343d15290fec89fb9488b2352a9.png" largemd5="304cb343d15290fec89fb9488b2352a9"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/9d6c00a64695c74d3963715e2189124e.png" smallmd5_full="9d6c00a64695c74d3963715e2189124e" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/078b621f960bc9f62c75edb367aa0ad3.png" largemd5_full="078b621f960bc9f62c75edb367aa0ad3"
+			showindex="1"/>
+  <skin id="70" name="极地穿越" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/e15f2e82435e1bfd4bf74924006c0a0e.png" smallmd5="e15f2e82435e1bfd4bf74924006c0a0e" largepic="http://s.pc.qq.com/guanjia/gjskin/data/63f891ab7931349fced0d87224fddd39.png" largemd5="63f891ab7931349fced0d87224fddd39"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/6c89f1e0d917e59f1f6508ec4b8f4020.png" smallmd5_full="6c89f1e0d917e59f1f6508ec4b8f4020" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/05c4c72a264290a83f6de8112b88e97e.png" largemd5_full="05c4c72a264290a83f6de8112b88e97e"
+			showindex="3"/>
+  <skin id="71" name="极限飞鼠" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/98b357546e6446308a46cc818071f1a2.png" smallmd5="98b357546e6446308a46cc818071f1a2" largepic="http://s.pc.qq.com/guanjia/gjskin/data/af5200eda86cfc70f882342be1c59849.png" largemd5="af5200eda86cfc70f882342be1c59849"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/98fbbcd596e587f39275fd127b3bc772.png" smallmd5_full="98fbbcd596e587f39275fd127b3bc772" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/9da8f049a07c937bbd7cb43a7b1bd9a4.png" largemd5_full="9da8f049a07c937bbd7cb43a7b1bd9a4"
+			showindex="4"/>
+  <skin id="72" name="即日启程" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/858fbd4b558f0e5ad8ff38489edb4434.png" smallmd5="858fbd4b558f0e5ad8ff38489edb4434" largepic="http://s.pc.qq.com/guanjia/gjskin/data/fb473485c1fe5f275052a0b46c15c1e0.png" largemd5="fb473485c1fe5f275052a0b46c15c1e0"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/67a80ad380340715c89e6a7839079a56.png" smallmd5_full="67a80ad380340715c89e6a7839079a56" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/3a4b9c2fde745cad322d3d6f7be18c03.png" largemd5_full="3a4b9c2fde745cad322d3d6f7be18c03"
+			showindex="5"/>
+  <skin id="75" name="神秘海域" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/f283fd745d47e96e9e9a5e925935fbbe.png" smallmd5="f283fd745d47e96e9e9a5e925935fbbe" largepic="http://s.pc.qq.com/guanjia/gjskin/data/fbe33517a4bc633575a90ae6038b7959.png" largemd5="fbe33517a4bc633575a90ae6038b7959"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/abb57edd592c6dc7158188880cc24f80.png" smallmd5_full="abb57edd592c6dc7158188880cc24f80" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/adadf5cb25d4b685a8cdea72945274b2.png" largemd5_full="adadf5cb25d4b685a8cdea72945274b2"
+			showindex="8"/>
+  <skin id="76" name="未来之途" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/33eee547accec775cbd9d3fe34eada49.png" smallmd5="33eee547accec775cbd9d3fe34eada49" largepic="http://s.pc.qq.com/guanjia/gjskin/data/b489687d391e29e4892260204643d588.png" largemd5="b489687d391e29e4892260204643d588"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/574a7650a7c42d9564ddc2f09318f994.png" smallmd5_full="574a7650a7c42d9564ddc2f09318f994" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/646e63ce66d6386b5159515fb07ed026.png" largemd5_full="646e63ce66d6386b5159515fb07ed026"
+			showindex="9"/>
+  <skin id="77" name="星际之城" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/5963f88cac90027875b790f084ab2f50.png" smallmd5="5963f88cac90027875b790f084ab2f50" largepic="http://s.pc.qq.com/guanjia/gjskin/data/c5dbb43c7ff3fc77752f8aded02986d9.png" largemd5="c5dbb43c7ff3fc77752f8aded02986d9"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/98756b2953bb5bd65cf206154e47cf96.png" smallmd5_full="98756b2953bb5bd65cf206154e47cf96" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/50de8ae5f57285ed9b3bf34297657bb7.png" largemd5_full="50de8ae5f57285ed9b3bf34297657bb7"
+			showindex="10"/>
+  <skin id="78" name="魅影迷都" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/6f41f4914a42ae92a487d6c8266a00d2.png" smallmd5="6f41f4914a42ae92a487d6c8266a00d2" largepic="http://s.pc.qq.com/guanjia/gjskin/data/7be5b0b913c703e9458237cb9f535ffb.png" largemd5="7be5b0b913c703e9458237cb9f535ffb"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/30ff47f04bad25fb17b32a76eadb240b.png" smallmd5_full="30ff47f04bad25fb17b32a76eadb240b" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/ad5e8ac66ed66712ce88e789d8873de0.png" largemd5_full="ad5e8ac66ed66712ce88e789d8873de0"
+			showindex="11"/>
+  <skin id="83" name="空灵幻境" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/174cfebd82149b585c07a945c7a94ab6.png" smallmd5="174cfebd82149b585c07a945c7a94ab6" largepic="http://s.pc.qq.com/guanjia/gjskin/data/7162e3807e858fbdb24c5144b38140f4.png" largemd5="7162e3807e858fbdb24c5144b38140f4"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/992d6b931fc570214f4a06152ff7b6f9.png" smallmd5_full="992d6b931fc570214f4a06152ff7b6f9" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/64fdc0c114f8a79ddfdf2873a33838b1.png" largemd5_full="64fdc0c114f8a79ddfdf2873a33838b1"
+			showindex="13"/>
+  <skin id="84" name="寥廓荒原" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/db377f81c4e4bf04554d8828cd33135f.png" smallmd5="db377f81c4e4bf04554d8828cd33135f" largepic="http://s.pc.qq.com/guanjia/gjskin/data/7e409499bdc8f9553385d7135c8762fd.png" largemd5="7e409499bdc8f9553385d7135c8762fd"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/a9f6a4d231496119a95ed90cfde77021.png" smallmd5_full="a9f6a4d231496119a95ed90cfde77021" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/9101c96eb5add5feca3519668f0c438f.png" largemd5_full="9101c96eb5add5feca3519668f0c438f"
+			showindex="14"/>
+  <skin id="85" name="虚幻格林" detail=""
+			smallpic="http://s.pc.qq.com/guanjia/gjskin/data/55a6e0fbb236d9876050466f65150a82.png" smallmd5="55a6e0fbb236d9876050466f65150a82" largepic="http://s.pc.qq.com/guanjia/gjskin/data/09b8c68c34f9a80eb602b00190df987a.png" largemd5="09b8c68c34f9a80eb602b00190df987a"
+			smallpic_full="http://s.pc.qq.com/guanjia/gjskin/data/75470f0d685f3b8240a5cbf5e20434bc.png" smallmd5_full="75470f0d685f3b8240a5cbf5e20434bc" largepic_full="http://s.pc.qq.com/guanjia/gjskin/data/95ea509b12b45fbca2260bc952d2cd26.png" largemd5_full="95ea509b12b45fbca2260bc952d2cd26"
+			showindex="15"/>
+</skinlist>

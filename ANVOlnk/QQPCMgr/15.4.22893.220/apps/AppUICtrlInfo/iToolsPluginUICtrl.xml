@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="iPhone助手" catalog="6" appclsid="87960DE6-C94B-4BDF-9E93-99327215E33F" appname="iToolsPlugin" enable="1" supportsys="1111111111">
+		<icon path="iToolsPlugin.svg" />
+		<description>
+			<![CDATA[ios设备一键换机备份]]>
+		</description>
+		<tip>
+			<![CDATA[IOS设备一键换机、备份、还原]]>
+		</tip>
+	</App>
+</Apps>

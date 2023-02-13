@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolList>
+
+	<Tool ToolName="挖矿木马防护" ToolDescription="避免因CPU占用过载造成的电脑卡慢发热，" ToolImgPath="\popframe2\icon\tool-icon-wakuang.svg" ToolLinkName="了解详情" ToolLinkURL="http://guanjia.qq.com/act/brand/201808trojan/" ToolType="0" ToolOpenSwitch="1" ToolRegPath="PopFrameSecurityProtectService_wakuang" MsgText="关闭【挖矿木马防护】，电脑将面临被挖矿风险。您确定要关闭此防护吗？" ToolButtonName="">
+	</Tool>
+	<Tool ToolName="win7专项防护" ToolDescription="全方位系统防护，持续安全保障，" ToolImgPath="\popframe2\icon\tool-icon-win7-prot.svg" ToolLinkName="了解详情" ToolLinkURL="https://guanjia.qq.com/avast/893/index.html" ToolType="0" ToolOpenSwitch="1" ToolRegPath="https://guanjia.qq.com/avast/893/index.html" MsgText="" ToolButtonName="">
+	</Tool>
+	<Tool ToolName="反勒索防护" ToolDescription="拦截勒索病毒，保护文档安全，" ToolImgPath="\popframe2\icon\tool-icon-lesuo.svg" ToolLinkName="了解详情" ToolLinkURL="https://guanjia.qq.com/pr/ls/?uid=6e6ad4ff5cef6851dc2564d17baad49e?ADTAG=media.innerenter.gj_product" ToolType="1" ToolOpenSwitch="0" ToolRegPath="43B48C8B-E496-4bca-ABD5-BEB079767167" MsgText="" ToolButtonName="打开工具">
+	</Tool>
+	<Tool ToolName="反诈骗防护" ToolDescription="快速准确查询诈骗信息，" ToolImgPath="\popframe2\icon\tool-icon-zhapian.svg" ToolLinkName="了解详情" ToolLinkURL="https://guanjia.qq.com/online_server/txwz/" ToolType="1" ToolOpenSwitch="0" ToolRegPath="F710AD66-60B9-41d3-B6EC-0E54CCB65984" MsgText="" ToolButtonName="打开工具">
+	</Tool>
+</ToolList>

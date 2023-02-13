@@ -1,0 +1,10 @@
+<Apps>
+	<App appname="QMDynamicPackage" clsid="F3839FD5-772D-4EC3-ADDE-FBC04E8654E3" enable="1" forcedownload="1" forceinstall="1" supportsys="1111111111" version="1.0.0">
+		<url md5="34814c9072035899067a565d9aeeae20" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMDynamicPackageSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="True" name="QMDynamicPackage.nsi" />
+		<install path="..\" pathkey="" pathtype="0" verkey="">
+			<run file="QMLogEx64.dll" param="" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

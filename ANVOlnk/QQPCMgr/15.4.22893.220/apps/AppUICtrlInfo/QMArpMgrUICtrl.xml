@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="ARP防火墙" catalog="3" appclsid="7CD20812-0414-4345-84A9-EC332CF07718" appname="QMArpMgr" enable="1" supportsys="1111111111">
+		<icon path="QMArpMgr.svg" />
+		<description>
+			<![CDATA[保障通讯数据安全]]>
+		</description>
+		<tip>
+			<![CDATA[ARP防火墙在系统内核层拦截虚假ARP数据包并主动通告网关本机正确的MAC地址，保障通讯数据安全]]>
+		</tip>
+	</App>
+</Apps>

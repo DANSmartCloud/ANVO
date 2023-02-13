@@ -1,0 +1,15 @@
+﻿
+<plugin index="275" version="1.1.0" name="时间助手" ShowIndex="60.66" singleton="1" catalog="6" appclsid="{8D3D2CF8-B397-4a44-A98C-186F5676FA99}" pluginid="{8D3D2CF8-B397-4a44-A98C-186F5676FA99}">
+    <icon path="TimeHelperPlugin.png" />
+    <tip>
+      <![CDATA[方便查看日历天气等信息的手边工具]]>
+    </tip>
+  </plugin>
+  <app name="TimeHelperPlugin" clsid="{8D3D2CF8-B397-4a44-A98C-186F5676FA99}">
+    <directory path="TimeHelperPlugin"/>
+    <entry file="TimeHelperPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>

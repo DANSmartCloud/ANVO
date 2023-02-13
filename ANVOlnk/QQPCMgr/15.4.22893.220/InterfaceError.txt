@@ -1,0 +1,2 @@
+Interface Error: 
+[QQPCMgr\15.4.22893.220\qmtrayplugin\QMSmbPlugin\QMSmbPlugin.dll] has invalid interface [ITrayTimerCallback], lpVtbl = 0x52d4ea84

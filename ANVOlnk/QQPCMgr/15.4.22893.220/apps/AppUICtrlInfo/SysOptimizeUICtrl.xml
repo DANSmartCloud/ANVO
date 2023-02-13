@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="清除痕迹" catalog="4" appclsid="7AD48CA3-D3DA-4408-AF0F-282C17C3E15A" appname="SysOptimize" enable="1" supportsys="1111111111">
+		<icon path="SysOptimize.svg" />
+		<description>
+			<![CDATA[定期清除痕迹，保护隐私]]>
+		</description>
+		<tip>
+			<![CDATA[定期清除使用计算机时留下的各类痕迹，能够有效保护个人隐私]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HPTrojanScanItem>
+	
+	<!--     移动设备自动播放功能    -->
+  <ScanItem id="44" name="QMHPSCAN_AutoPlay" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{70E7DE4C-5C33-E111-B86C-0800200C9A66}"/>
+  	<ShowParm havesub="0" showyellowtip="0">  
+  		<title text="检查移动设备自动播放功能"/>
+  		<desc commontext="检查移动设备自动播放功能" warntext="移动设备自动播放功能未禁用，病毒木马可利用此功能自启动" warnhavenum="0" cleaningtext="正在禁用" />
+  		<btn cleantext="禁用" safetxt="已禁用"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查注册表编辑器是否被禁用    -->
+  <ScanItem id="45" name="QMHPSCAN_DisableReg" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{FBCADC4E-9F66-9C4B-8C33-C88774919284}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查注册表编辑器和任务管理器是否被禁用"/>
+  		<desc commontext="检查注册表编辑器和任务管理器是否被禁用" warntext="注册表和任务管理器设置发现异常，可能导致其无法正常使用" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem>
+    
+  <!--     检查windows与IE目录是否存在风险    -->
+  <ScanItem id="52" name="QMHPSCAN_WinDirIEDir" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{C18D398E-4D59-FF4E-A8EF-19B152B965EA}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查Windows与IE目录是否存在风险"/>
+  		<desc commontext="检查Windows与IE目录是否存在风险" warntext="Windows与IE目录下发现风险，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查常见路径下是否存在非法文件    -->
+  <ScanItem id="53" name="QMHPSCAN_CommonDir" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{4815CEE5-6D4E-FF4E-BD11-641AF7D4EFFC}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查常见路径下是否存在非法文件"/>
+  		<desc commontext="检查常见路径下是否存在非法文件" warntext="常见路径下存在非法文件，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+    
+  <!--     检查桌面是否有异常图标    -->
+  <ScanItem id="54" name="QMHPSCAN_DesktopIcon" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{221956FF-91F1-3A4D-8DCB-C502AFB578AC}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查桌面是否有异常图标"/>
+  		<desc commontext="检查桌面是否有异常图标" warntext="桌面发现异常图标，双击时可能执行病毒木马或跳转到风险站点" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查IE收藏夹    -->
+  <ScanItem id="55" name="QMHPSCAN_IEFavorite" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{B14FFDE5-BA0C-CA4B-BF2B-5C24889089E6}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查IE收藏夹中是否存在风险"/>
+  		<desc commontext="检查IE收藏夹中是否存在风险" warntext="IE浏览器收藏夹发现恶意程序，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查开始菜单、快速启动栏IE快捷方式    -->
+  <ScanItem id="56" name="QMHPSCAN_Shortcut" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{1D542AED-49D6-8849-9C25-0E6B28345723}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查开始菜单和快速启动栏的IE快捷方式"/>
+  		<desc commontext="检查开始菜单和快速启动栏的IE快捷方式" warntext="开始菜单、快速启动栏IE快捷方式异常，可能是推广链接" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+      
+  <!--     检查IE默认主页设置     -->
+  <ScanItem id="57" name="QMHPSCAN_IEHomepage" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{9F67DA0D-43C8-434B-BC8B-F7C82208BDD8}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查IE默认主页设置"/>
+  		<desc commontext="检查IE默认主页设置" warntext="IE主页中发现风险站点，可能是通过捆绑或推广渠道所设置" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查常用浏览器快捷方式    -->
+  <ScanItem id="58" name="QMHPSCAN_BrwShortcut" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{44794183-515E-F144-A553-AB3A2920ABB4}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查常用浏览器快捷方式"/>
+  		<desc commontext="检查常用浏览器快捷方式" warntext="常用浏览器快捷方式发现异常，可能会影响您正常设置主页" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查启动文件夹和快速启动栏    -->
+  <ScanItem id="59" name="QMHPSCAN_StartupDir" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{1EA4C3BE-95B4-3E4E-82B5-723CC461233B}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查启动文件夹和快速启动栏"/>
+  		<desc commontext="检查启动文件夹和快速启动栏" warntext="启动文件夹和快速启动栏内发现恶意程序，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查是否存在桌面广告、恶意推广类文件    -->
+  <ScanItem id="60" name="QMHPSCAN_DesktopAD" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{4AF50BEC-87F5-264F-BB59-672590A1E0B1}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查是否存在桌面广告、恶意推广类文件"/>
+  		<desc commontext="检查是否存在桌面广告、恶意推广类文件" warntext="系统桌面发现广告、恶意推广类文件，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查异常的快捷方式、url或文件夹    -->
+<!--   <ScanItem id="61" name="QMHPSCAN_BadShortcut" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{3437BD1C-FB22-2348-9509-41FA77698292}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查异常的快捷方式、URL或文件夹"/>
+  		<desc commontext="检查异常的快捷方式、URL或文件夹" warntext="发现异常的快捷方式、URL或文件夹，访问时可能执行恶意程序" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem>  -->
+  
+  <!--     检查收藏夹异常的快捷方式、url或文件夹    -->
+  <ScanItem id="151" name="QMHPSCAN_FavBadShortcut" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{668EC841-A04B-48B6-96FB-2367CF63B791}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查收藏夹异常的快捷方式、URL或文件夹"/>
+  		<desc commontext="检查收藏夹异常的快捷方式、URL或文件夹" warntext="收藏夹发现异常链接，访问时可能执行恶意程序" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查开始菜单异常的快捷方式、url或文件夹    -->
+  <ScanItem id="152" name="QMHPSCAN_StartMenuBadShortcut" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{97706F76-91F7-4234-BB95-AEBDF3D273ED}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查开始菜单异常的快捷方式、URL或文件夹"/>
+  		<desc commontext="检查开始菜单异常的快捷方式、URL或文件夹" warntext="开始菜单发现异常链接，访问时可能执行恶意程序" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查桌面异常的快捷方式、url或文件夹    -->
+  <ScanItem id="153" name="QMHPSCAN_DesktopBadShortcut" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{9ED7B462-EEA0-48FA-BBB7-2B12ED320D2D}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查桌面异常的快捷方式、URL或文件夹"/>
+  		<desc commontext="检查桌面异常的快捷方式、URL或文件夹" warntext="桌面发现异常链接，访问时可能执行恶意程序" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查是否存在可疑后缀名文件    -->
+  <ScanItem id="62" name="QMHPSCAN_AbnormalExt" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{0BF7DCBE-1F70-1E4A-912A-9C90FBB3403D}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查是否存在可疑后缀名文件"/>
+  		<desc commontext="检查是否存在可疑后缀名文件" warntext="发现可疑后缀名文件，可能是恶意程序伪装" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查Hosts是否存在URL定向劫持    -->
+  <ScanItem id="63" name="QMHPSCAN_HstRedirect" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{844636EC-E52C-6B42-8EF0-9E03E3A7709F}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查Hosts是否存在URL定向劫持"/>
+  		<desc commontext="检查Hosts是否存在URL定向劫持" warntext="发现URL被劫持，可能导致您访问恶意或推广类网站" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查系统内存中是否存在病毒木马     -->
+  <ScanItem id="64" name="QMHPSCAN_Memory" havescamparam="1" clsid="{00000001-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="11" value="0"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查系统内存中是否存在病毒木马"/>
+  		<desc commontext="检查系统内存中是否存在病毒木马" warntext="系统内存中发现病毒木马，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查系统启动项    -->
+  <ScanItem id="65" name="QMHPSCAN_Autorun" havescamparam="0" clsid="{00000004-0001-0000-A1BB-DAA43720A1A2}">
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查是否存在危险的启动项"/>
+  		<desc commontext="检查是否存在危险的启动项" warntext="系统启动项中发现风险，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查浏览器插件是否安全    -->
+  <ScanItem id="66" name="QMHPSCAN_BrwPlugin" havescamparam="0" clsid="{00000200-0001-0000-A1BB-DAA43720A1A2}">
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查浏览器插件是否安全"/>
+  		<desc commontext="检查浏览器插件是否安全" warntext="发现可疑浏览器插件，可能引入未知风险" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查IE浏览器加载项是否安全    -->
+  <ScanItem id="68" name="QMHPSCAN_IEPlugin" havescamparam="0" clsid="{00004020-0001-0000-A1BB-DAA43720A1A2}">
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查IE浏览器加载项是否安全"/>
+  		<desc commontext="检查IE浏览器加载项是否安全" warntext="IE浏览器加载项发现风险，可能引入未知风险" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查资源管理器插件是否安全    -->
+  <ScanItem id="69" name="QMHPSCAN_MgrPlugin" havescamparam="0" clsid="{00004013-0001-0000-A1BB-DAA43720A1A2}">
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查资源管理器插件是否安全"/>
+  		<desc commontext="检查资源管理器插件是否安全" warntext="资源管理器插件发现风险，建议立即清除" warnhavenum="0" cleaningtext="正在清除" />
+  		<btn cleantext="清除" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查About协议    -->
+  <ScanItem id="70" name="QMHPSCAN_About" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{287CFE33-A58A-E641-8A93-BD514649D8C4}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查About协议"/>
+  		<desc commontext="检查About协议" warntext="About协议被篡改，可能导致您访问恶意或推广类网站" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查搜索快捷键（WIN+F）是否被篡改    -->
+  <ScanItem id="71" name="QMHPSCAN_WinF" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{3F271E6A-9240-2C4E-8970-CF7AC85BA61A}"/>
+  	<ShowParm havesub="1" showyellowtip="0">  
+  		<title text="检查搜索快捷键（WIN+F）是否被篡改"/>
+  		<desc commontext="检查搜索快捷键（WIN+F）是否被篡改" warntext="搜索快捷键（WIN+F）被篡改 ，该功能无法正常使用" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检测快捷方式默认配置    -->
+  <ScanItem id="72" name="QMHPSCAN_ShortcutSet" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{7DC892AF-9400-7243-A6DC-86682A315D09}"/>
+  	<ShowParm havesub="1" showyellowtip="1">  
+  		<title text="检查快捷方式默认配置"/>
+  		<desc commontext="检查快捷方式默认配置" warntext="快捷方式默认配置存在异常，可能导致Lnk文件打不开" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     软件安全策略    -->
+  <ScanItem id="74" name="QMHPSCAN_SoftPolicy" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{7C9204C0-68B1-8140-A312-DAA720AF769F}"/>
+  	<ShowParm havesub="1" showyellowtip="0">  
+  		<title text="检查软件安全策略"/>
+  		<desc commontext="检查软件安全策略" warntext="软件安全策略存在异常，可能导致无法正常使用部分软件" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem>   
+    
+  <!--     检查IP安全策略是否启用    -->
+  <ScanItem id="75" name="QMHPSCAN_IpPolicy" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{CB8525BA-31C5-C44C-BFBA-E61285FECC13}"/>
+  	<ShowParm havesub="1" showyellowtip="0">  
+  		<title text="检查IP安全策略是否启用"/>
+  		<desc commontext="检查IP安全策略是否启用" warntext="IP安全策略存在异常，可能导致您无法正常访问部分站点" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem> 
+  
+  <!--     检查DNS服务器设置    -->
+  <ScanItem id="76" name="QMHPSCAN_DNSServer" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+  	<ScanParam id="1000" type="8" value="{80ABC65E-80E2-B64E-8345-DD9DE2DD77C2}"/>
+  	<ShowParm havesub="1" showyellowtip="0">  
+  		<title text="检查DNS服务器设置"/>
+  		<desc commontext="检查DNS服务器设置" warntext="DNS设置被篡改，可能导致您无法上网或跳转到恶意网站" warnhavenum="0" cleaningtext="正在修复" />
+  		<btn cleantext="修复" safetxt="无风险"/>
+  	</ShowParm> 
+  </ScanItem>    
+  
+  <!--     系统敏感设置    -->
+  <ScanItem id="77" name="QMHPSCAN_SystemSet" havescamparam="0" clsid="{00004101-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统敏感设置"/>
+      <desc commontext="检查系统敏感设置" warntext="存在异常的系统设置，可能导致不能使用部分系统功能" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+  
+  <!--     检查系统文件是否缺失    -->
+  <ScanItem id="79" name="QMHPSCAN_SysFilLos" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{E7E143DD-EC93-8E4F-BFDF-FF8986DD184F}"/>
+    <ShowParm havesub="1" showyellowtip="0">
+      <title text="检查系统文件是否缺失"/>
+      <desc commontext="检查系统文件是否缺失" warntext="发现系统文件缺失，可能导致您的系统异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查系统服务配置项是否被篡改    -->
+  <ScanItem id="80" name="QMHPSCAN_SysSerCfg" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{6432508F-CBEE-264E-92E2-831E561978D2}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统服务配置项是否被篡改"/>
+      <desc commontext="检查系统服务配置项是否被篡改" warntext="系统服务配置项被篡改，可能是病毒木马造成的，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+
+  <!--     检查IE工具栏搜索引擎    -->
+  <ScanItem id="81" name="QMHPSCAN_IESearchEngine" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{682706D3-0E2F-0E43-970B-A43831134729}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE工具栏搜索引擎"/>
+      <desc commontext="检查IE工具栏搜索引擎" warntext="IE搜素工具栏中发现可疑搜索引擎，可能导致您搜索时跳转到其它网站" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查分区关联启动项    -->
+  <ScanItem id="82" name="QMHPSCAN_DiskPartAutoRun" havescamparam="0" clsid="{00000010-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查分区关联启动项"/>
+      <desc commontext="检查分区关联启动项" warntext="分区关联启动项异常，当您双击打开某盘符时可能激活病毒" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查执行挂钩启动项    -->
+  <ScanItem id="83" name="QMHPSCAN_RunHookAutoRun" havescamparam="0" clsid="{00000020-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查执行挂钩启动项"/>
+      <desc commontext="检查执行挂钩启动项" warntext="执行挂钩启动项异常，病毒木马可能随资源管理器一起启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查AppInit加载项    -->
+  <ScanItem id="84" name="QMHPSCAN_AppInitLoad" havescamparam="0" clsid="{00000100-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查AppInit加载项"/>
+      <desc commontext="检查AppInit加载项" warntext="AppInit加载项异常，病毒木马可能随资源管理器一起启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查映像劫持项    -->
+  <ScanItem id="85" name="QMHPSCAN_ImageHijack" havescamparam="0" clsid="{00000400-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查映像劫持项"/>
+      <desc commontext="检查映像劫持项" warntext="映像劫持项异常，可能导致被劫持的程序无法正常使用" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查常见位置快捷方式    -->
+  <ScanItem id="86" name="QMHPSCAN_OsCriticalDir" havescamparam="0" clsid="{00001000-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查常见位置快捷方式"/>
+      <desc commontext="检查常见位置快捷方式" warntext="常见位置快捷方式发现风险，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查运行框关联项    -->
+  <ScanItem id="87" name="QMHPSCAN_RunFrameAssoc" havescamparam="0" clsid="{00004001-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查运行框关联项"/>
+      <desc commontext="检查运行框关联项" warntext="运行框关联项异常，使用“运行”功能时可能激活病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查系统关键配置启动项    -->
+  <ScanItem id="88" name="QMHPSCAN_OsCriticalSet" havescamparam="0" clsid="{00004002-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统关键配置启动项"/>
+      <desc commontext="检查系统关键配置启动项" warntext="系统关键配置启动项异常，病毒可能在开机时被激活" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查计划任务启动项    -->
+  <ScanItem id="89" name="QMHPSCAN_TaskAutoRun" havescamparam="0" clsid="{00004003-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查计划任务启动项"/>
+      <desc commontext="检查计划任务启动项" warntext="计划任务中发现异常，病毒木马可能利用计划任务启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查文件关联项    -->
+  <ScanItem id="90" name="QMHPSCAN_FileExtAssoc" havescamparam="0" clsid="{00004004-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查文件关联项"/>
+      <desc commontext="检查文件关联项" warntext="文件关联异常，打开某些格式文件（如txt，doc）时会激活病毒" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查输入法加载项    -->
+  <ScanItem id="91" name="QMHPSCAN_ImeLoad" havescamparam="0" clsid="{00004005-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查输入法加载项"/>
+      <desc commontext="检查输入法加载项" warntext="输入法加载项异常，当您使用输入法时可能激活病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查动态链接库加载项    -->
+  <ScanItem id="92" name="QMHPSCAN_DllLoad" havescamparam="0" clsid="{00004006-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查动态链接库加载项"/>
+      <desc commontext="检查动态链接库加载项" warntext="动态链接库加载项异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查兼容模式相关项    -->
+  <ScanItem id="93" name="QMHPSCAN_CompatibleMode" havescamparam="0" clsid="{00004007-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查兼容模式相关项"/>
+      <desc commontext="检查兼容模式相关项" warntext="兼容模式相关项异常，切换到此模式时可能激活病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查安全模式加载项    -->
+<ScanItem id="94" name="QMHPSCAN_SafeModeLoad" havescamparam="0" clsid="{00004008-0001-0000-A1BB-DAA43720A1A2}">
+  <ShowParm havesub="1" showyellowtip="1">
+    <title text="检查安全模式加载项"/>
+    <desc commontext="检查安全模式加载项" warntext="安全模式加载项，当进入安全模式时可能激活病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+    <btn cleantext="修复" safetxt="无风险"/>
+  </ShowParm>
+</ScanItem>
+
+<!--     检查实时调试器    -->
+  <ScanItem id="95" name="QMHPSCAN_RuntimeDebug" havescamparam="0" clsid="{00004009-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查实时调试器"/>
+      <desc commontext="检查实时调试器" warntext="实时调试器异常，使用实时调试功能时可能激活病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查打印机关联项    -->
+  <ScanItem id="96" name="QMHPSCAN_PrinterAssoc" havescamparam="0" clsid="{00004010-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查打印机关联项"/>
+      <desc commontext="检查打印机关联项" warntext="打印机关联项异常，使用打印机时可能激活病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查网络服务供应商    -->
+  <ScanItem id="97" name="QMHPSCAN_NetProvider" havescamparam="0" clsid="{00004011-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查网络服务供应商"/>
+      <desc commontext="检查网络服务供应商" warntext="网络服务供应商异常，可能导致您的网络异常或信息泄露" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查文件图标关联项    -->
+  <ScanItem id="98" name="QMHPSCAN_FileIconAssoc" havescamparam="0" clsid="{00004012-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查文件图标关联项"/>
+      <desc commontext="检查文件图标关联项" warntext="文件图标关联项异常，可能导致桌面图标显示不正常" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查链路广播协议    -->
+  <ScanItem id="100" name="QMHPSCAN_BroadcastProtocol" havescamparam="0" clsid="{00004015-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查链路广播协议"/>
+      <desc commontext="检查链路广播协议" warntext="链路广播协议异常，可能导致您的网络异常或信息泄露" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查开机自检项    -->
+  <ScanItem id="101" name="QMHPSCAN_AutorunChk" havescamparam="0" clsid="{00004016-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查开机自检项"/>
+      <desc commontext="检查开机自检项" warntext="开机自检项异常，系统开机自检时可能加载病毒木马" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查环境变量关键项    -->
+  <ScanItem id="102" name="QMHPSCAN_KeyEnvironmentVar" havescamparam="0" clsid="{00004017-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查环境变量关键项"/>
+      <desc commontext="检查环境变量关键项" warntext="环境变量关键项发现风险，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查语言栏加载项    -->
+  <ScanItem id="103" name="QMHPSCAN_LanguageBarLoad" havescamparam="0" clsid="{00004018-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查语言栏加载项"/>
+      <desc commontext="检查语言栏加载项" warntext="语言栏加载项异常，可能导致系统文字显示不正常" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查登录加载项    -->
+  <ScanItem id="104" name="QMHPSCAN_LogonLoad" havescamparam="0" clsid="{00004019-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查登录加载项"/>
+      <desc commontext="检查登录加载项" warntext="登录加载项异常，病毒木马可能随Winlogon一起启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查IE浏览器工具项    -->
+  <ScanItem id="105" name="QMHPSCAN_IEtools" havescamparam="0" clsid="{00004020-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE浏览器工具项"/>
+      <desc commontext="检查IE浏览器工具项" warntext="IE浏览器工具项异常，病毒木马可能随浏览器一起启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查WMI启动项    -->
+  <ScanItem id="107" name="QMHPSCAN_WmiAutoRun" havescamparam="0" clsid="{00004040-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查WMI启动项"/>
+      <desc commontext="检查WMI启动项" warntext="WMI启动项异常，病毒木马可能利用此功能设置自启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查重启移动启动项    -->
+  <ScanItem id="108" name="QMHPSCAN_RestartMove" havescamparam="0" clsid="{00004100-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查重启移动启动项"/>
+      <desc commontext="检查重启移动启动项" warntext="重启移动启动项异常，重启系统时病毒可静默启动" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查硬盘主引导区    -->
+  <ScanItem id="109" name="QMHPSCAN_MBRRepair" havescamparam="0" clsid="{00004103-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查硬盘主引导区"/>
+      <desc commontext="检查硬盘主引导区" warntext="硬盘主引导区发现高危风险，建议立即修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="无风险"/>
+    </ShowParm>
+  </ScanItem>
+  
+  <!--     检查数字签名服务    -->
+  <ScanItem id="112" name="QMHPSCAN_CryptSvc" havescamparam="0" clsid="{00008000-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查数字签名服务是否正常"/>
+      <desc commontext="检查数字签名服务是否正常" warntext="数字签名服务异常，建议立即修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+  
+  <!--     检查LSP网络完整性    -->
+  <ScanItem id="113" name="QMHPSCAN_LspIntegrity" havescamparam="0" clsid="{00008001-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查LSP网络是否完整"/>
+      <desc commontext="检查LSP网络是否完整" warntext="LSP网络异常，建议立即修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查电脑管家云查杀引擎是否正常工作    -->
+  <ScanItem id="114" name="QMHPSCAN_QMCloud" havescamparam="0" clsid="{00008002-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查电脑管家云查杀引擎是否正常工作"/>
+      <desc commontext="检查电脑管家云查杀引擎是否正常工作" warntext="电脑管家云查杀引擎异常，建议立即修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查是否存在QQ盗号木马    -->
+  <ScanItem id="115" name="QMHPSCAN_QQPswTroj" havescamparam="0" clsid="{00004098-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查QQ是否感染最新的流行盗号木马"/>
+      <desc commontext="检查QQ是否感染最新的流行盗号木马" warntext="发现QQ盗号木马，建议立即清除" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="清除" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查Http关联项是否正常    -->
+  <ScanItem id="116" name="QMHPSCAN_HttpAsso" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{34C1C00B-4538-9645-B7F1-3704FC621125}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查Http关联项是否正常"/>
+      <desc commontext="检查Http关联项是否正常" warntext="Http关联项存在异常，可能导致您无法正常打开网址链接" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查IE常用功能项是否正常    -->
+  <ScanItem id="117" name="QMHPSCAN_IESelect" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{3D7B9CD4-C8CA-4B4D-9BEF-98043D956DCA}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE常用功能项是否正常"/>
+      <desc commontext="检查IE常用功能项是否正常" warntext="IE常用功能项存在异常，可能导致您无法使用IE浏览器" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查系统启动配置是否正常    -->
+  <ScanItem id="118" name="QMHPSCAN_RebootCfg" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{D8DA1545-3BBE-A948-B920-0AE21D895ED5}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统启动配置是否正常"/>
+      <desc commontext="检查系统启动配置是否正常" warntext="系统启动配置存在异常，可能导致开机时部分功能不能使用" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查是否存在AutoCad病毒    -->
+  <ScanItem id="119" name="QMHPSCAN_AutocadVirus" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{E7E143DD-EC93-8E4F-BFDF-FF8986DD306F}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查是否存在AutoCad病毒"/>
+      <desc commontext="检查是否存在AutoCad病毒" warntext="发现AutoCad类病毒，建议清除" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="清除" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查系统服务配置是否被篡改    -->
+  <ScanItem id="120" name="QMHPSCAN_ServicesSet" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{6432508F-CBEE-264E-92E2-831E561978D2}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统服务配置是否被篡改"/>
+      <desc commontext="检查系统服务配置是否被篡改" warntext="系统服务配置被篡改，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查我的文档图标是否正常    -->
+  <ScanItem id="121" name="QMHPSCAN_MyDocumentIcon" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{2B5B456A-D77C-AB42-AF44-CFCC49E9DA2E}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查“我的文档”图标属性是否正常"/>
+      <desc commontext="检查“我的文档”图标属性是否正常" warntext="“我的文档”图标属性异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查IE默认html页是否存在风险    -->
+  <ScanItem id="122" name="QMHPSCAN_IEHtmlPage" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{04D4E35E-A6CD-024F-9461-E90F6F8CED80}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE默认html页是否存在风险"/>
+      <desc commontext="检查IE默认html页是否存在风险" warntext="IE默认html页发现风险，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查360浏览器主页是否正常    -->
+  <ScanItem id="123" name="QMHPSCAN_360HomePage" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{7E87A84B-9789-EA48-988F-73EF62AFC35C}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查360浏览器主页是否正常"/>
+      <desc commontext="检查360浏览器主页是否正常" warntext="360浏览器主页可能存在风险，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查IE扩展组件是否正常    -->
+  <ScanItem id="124" name="QMHPSCAN_IEExtensions" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{221FE09F-5F20-774D-986A-EFC4124DFE25}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE扩展组件是否正常"/>
+      <desc commontext="检查IE扩展组件是否正常" warntext="IE扩展组件中发现异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查桌面默认系统图标是否正常    -->
+  <ScanItem id="125" name="QMHPSCAN_DesktopIcon" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{6BBF81DD-F53D-FA48-9DF3-697784E29272}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查桌面默认系统图标是否正常"/>
+      <desc commontext="检查桌面默认系统图标是否正常" warntext="桌面默认系统图标中发现异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查搜狗浏览器主页是否正常    -->
+  <ScanItem id="126" name="QMHPSCAN_SougouHomePage" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{8AB1FA4F-CEB3-9740-B605-9964D35D19BD}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查搜狗浏览器主页是否正常"/>
+      <desc commontext="检查搜狗浏览器主页是否正常" warntext="搜狗浏览器主页可能存在风险，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查桌面IE图标是否正常    -->
+  <ScanItem id="127" name="QMHPSCAN_DesktopIE" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{43E11316-C8F5-C241-B08C-77820CCF3C5D}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查桌面IE图标是否正常"/>
+      <desc commontext="检查桌面IE图标是否正常" warntext="桌面IE图标属性中发现异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查文件夹选项显示文件功能是否正常    -->
+  <ScanItem id="128" name="QMHPSCAN_ShowFile" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{39AD3994-7289-7F44-8FD4-BE1D1D13D365}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查文件夹选项显示文件功能是否正常"/>
+      <desc commontext="检查文件夹选项显示文件功能是否正常" warntext="发现显示隐藏文件功能被破坏，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查桌面IE图标是否被隐藏    -->
+  <ScanItem id="129" name="QMHPSCAN_IEHide" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{E71B0599-C687-E44F-A7AD-91348AD8A7D3}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查桌面IE图标是否被隐藏"/>
+      <desc commontext="检查桌面IE图标是否被隐藏" warntext="桌面IE图标被隐藏，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查文件夹右键关联是否正常    -->
+  <ScanItem id="130" name="QMHPSCAN_FoldAsso" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{24CB2A3A-A03B-8440-825E-CFCBC48DE28E}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查文件夹右键关联是否正常"/>
+      <desc commontext="检查文件夹右键关联是否正常" warntext="文件夹右键关联存在异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查文件夹选项设置是否被破坏    -->
+  <ScanItem id="131" name="QMHPSCAN_FoldSet" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{E26EE1C9-F381-724E-9879-1E1CD0014A55}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查文件夹选项设置是否被破坏"/>
+      <desc commontext="检查文件夹选项设置是否被破坏" warntext="文件夹选项设置被破坏，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查工具栏“链接”按钮是否正常    -->
+  <ScanItem id="132" name="QMHPSCAN_IELinkButton" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{53C64EE1-466A-6840-A1AF-1A8BF58E8CD1}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查工具栏“链接”按钮是否正常"/>
+      <desc commontext="检查工具栏“链接”按钮是否正常" warntext="工具栏“链接“按钮发现异常，建议清除" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查IE信任页是否正常    -->
+  <ScanItem id="133" name="QMHPSCAN_IETrust" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{843558DD-25FF-4170-AA95-04E1E05EAEA7}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE信任页是否正常"/>
+      <desc commontext="检查IE信任页是否正常" warntext="IE信任页中发现异常项，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查常用文件或文件夹是否被隐藏    -->
+  <ScanItem id="134" name="QMHPSCAN_HideFile" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{98B117C1-18D2-3444-A63B-579DCB8028FD}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查常用文件或文件夹是否被隐藏"/>
+      <desc commontext="检查常用文件或文件夹是否被隐藏" warntext="发现常用文件或文件夹被隐藏，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查傲游浏览器主页是否正常    -->
+  <ScanItem id="135" name="QMHPSCAN_MaxthonHP" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{C78B0066-4955-2742-9F3E-C09EBFD05654}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查傲游浏览器主页是否正常"/>
+      <desc commontext="检查傲游浏览器主页是否正常" warntext="傲游浏览器主页可能存在风险，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+
+  <!--     检查系统驱动项是否正常    -->
+  <ScanItem id="136" name="QMHPSCAN_sysDrivers" havescamparam="0" clsid="{00000080-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统驱动项是否正常"/>
+      <desc commontext="检查系统驱动项是否正常" warntext="系统目录下存在可疑驱动程序，建议立即清除" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="清除" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查系统服务项是否正常    -->
+  <ScanItem id="137" name="QMHPSCAN_sysServices" havescamparam="0" clsid="{00000040-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统服务项是否正常"/>
+      <desc commontext="检查系统服务项是否正常" warntext="系统服务项中发现风险，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查QQ创建的快捷方式是否被篡改    -->
+  <ScanItem id="140" name="QMHPSCAN_QQLink" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{776094E5-3945-3442-A065-F42C92023DB8}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查QQ创建的快捷方式是否被篡改"/>
+      <desc commontext="检查QQ创建的快捷方式是否被篡改" warntext="QQ创建的快捷方式被篡改，可能已经感染病毒" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>
+  
+  <!--     检查是否存在被劫持的QQ类组件    -->
+  <ScanItem id="141" name="QMHPSCAN_QQClassComponent" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{80738131-9119-FC43-9B50-5418C82DBAFA}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查是否存在被劫持的QQ类组件"/>
+      <desc commontext="检查是否存在被劫持的QQ类组件" warntext="QQ类组件被劫持，可能已经感染病毒" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>
+  
+      <!--     检查QQ    -->
+  <ScanItem id="142" name="QMHPSCAN_QQSoftware" havescamparam="1" clsid="{00004021-0001-0000-A1BB-DAA43720A1A2}">
+	<ScanParam id="0" type="11" value="1"/>
+	<ShowParm havesub="1" showyellowtip="1">
+	  <title text="检查QQ目录、文件是否安全"/>
+	  <desc commontext="检查QQ目录、文件是否安全" warntext="QQ目录下存在病毒木马，建议立即清除" warnhavenum="0" cleaningtext="正在清除" />
+	  <btn cleantext="清除" safetxt="安全"/>
+	</ShowParm>
+  </ScanItem>
+	
+  <!--     检查恶评软件    -->
+  <ScanItem id="154" name="QMHPSCAN_Malware" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{99B49399-61BF-B54A-A707-82289D192234}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查恶评软件"/>
+      <desc commontext="检查恶评软件" warntext="发现恶评软件，软件可能是被静默安装到您电脑，建议立即清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>
+
+  <!--     检查ie搜索引擎url    -->
+  <ScanItem id="155" name="QMHPSCAN_IESearchEngineUrl" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{1C90065E-5B35-49C9-88A8-DCAD8A479CB8}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE搜索引擎设置"/>
+      <desc commontext="检查IE搜索引擎设置" warntext="异常搜索引擎加载可能导致您搜索时跳转到其它网站，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>  
+
+  <!--     检查桌面图标背景    -->
+  <ScanItem id="156" name="QMHPSCAN_DesktopBtn" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{01355C67-F5C3-48AD-B2B1-04D7490C653F}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查桌面图标背景"/>
+      <desc commontext="检查桌面图标背景" warntext="桌面图标背景出现异常，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>  
+
+  <!--     检查IE自动配置脚本    -->
+  <ScanItem id="157" name="QMHPSCAN_IEAutoScript" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{E7E143DD-EC93-8E4F-BFDF-FF8986DD295F}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE自动配置脚本"/>
+      <desc commontext="检查IE自动配置脚本" warntext="IE设置中存在可疑的自动配置脚本，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>  
+
+  <!--     检查百度静默推广组件    -->
+  <ScanItem id="158" name="QMHPSCAN_BdPlugin" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{E9BC14D9-BD00-4A24-B53B-0AB5EC02F64B}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查百度静默推广组件"/>
+      <desc commontext="检查百度静默推广组件" warntext="被捆绑安装的百度推广组件，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem>  
+  
+  <!--     检查瑞星静默推广组件    -->
+  <ScanItem id="159" name="QMHPSCAN_RsingPlugin" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{603D5853-92E6-4A11-9ADA-D48E4078A9F7}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查瑞星静默推广组件"/>
+      <desc commontext="检查瑞星静默推广组件" warntext="被捆绑安装的瑞星推广组件，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查系统关键路径  -->
+  <ScanItem id="161" name="QMHPSCAN_CriticalPath" havescamparam="0" clsid="{00000800-0001-0000-A1BB-DAA43720A1A2}">
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统关键路径是否存在风险"/>
+      <desc commontext="检查系统关键路径是否存在风险" warntext="系统关键位置发现风险，建议立即清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+  
+  <!--     检查系统蓝屏设置    -->
+  <ScanItem id="162" name="QMHPSCAN_BlueScreen" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{8F61BDED-BF09-422C-9827-ABF79402A640}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统蓝屏错误设置是否正常"/>
+      <desc commontext="检查系统蓝屏错误设置是否正常" warntext="系统蓝屏错误设置异常，无法保存错误日志，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查文件打开方式    -->
+  <ScanItem id="163" name="QMHPSCAN_FIleOpenStyle" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{A1501462-258A-6348-86B7-95EB1F0EC369}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查常用格式文件打开方式是否异常"/>
+      <desc commontext="检查常用格式文件打开方式是否异常" warntext="文件打开方式或默认图标异常，可能由病毒修改所致，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查IE默认搜索引擎    -->
+  <ScanItem id="164" name="QMHPSCAN_DefaultIESearchEngine" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{2E967F10-A773-E142-BEB8-5F71D0382DA7}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查IE默认搜索引擎是否异常"/>
+      <desc commontext="检查IE默认搜索引擎是否异常" warntext="IE默认搜索引擎被修改，可能是恶意软件在利用搜索功能推广其网站" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查系统常用服务    -->
+  <ScanItem id="165" name="QMHPSCAN_Services" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{60166E64-F832-5B4E-9B94-6F56DA3FA327}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统常用服务是否异常"/>
+      <desc commontext="检查系统常用服务是否异常" warntext="系统常用服务中存在异常设置，可能造成您无法使用部分系统功能" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查系统安全模式    -->
+  <ScanItem id="166" name="QMHPSCAN_SafeMode" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{039F1B12-B444-B045-A494-90CAE3139F9C}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统安全模式设置是否异常"/>
+      <desc commontext="检查系统安全模式设置是否异常" warntext="安全模式设置异常，可能导致系统不能正常进入安全模式" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查系统关键配置    -->
+  <ScanItem id="167" name="QMHPSCAN_CriticalSystemSet" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{51E983CB-61BF-C54F-A705-58447D19FF54}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查关键系统配置是否正常"/>
+      <desc commontext="检查关键系统配置是否正常" warntext="关键系统配置存在异常，建议立即修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查可疑启动项    -->
+  <ScanItem id="168" name="QMHPSCAN_RiskAutoRun" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{4683C990-66B4-E647-88BE-CE0FAC1233F5}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查是否存在可疑启动项"/>
+      <desc commontext="检查是否存在可疑启动项" warntext="系统中发现可疑的启动项，通常是病毒创建或残留，建议清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+
+  <!--     检查被禁用ActiveX控件    -->
+  <ScanItem id="170" name="QMHPSCAN_ActiveX" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{7B3AEF34-DF45-431A-AB0B-EC7234FB90AB}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查ActiveX控件是否被禁用"/>
+      <desc commontext="检查ActiveX控件是否被禁用" warntext="ActiveX被禁用，可能导致网页无法正常浏览，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查WMI    -->
+  <ScanItem id="171" name="QMHPSCAN_WMI" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{1B3AEF43-DF19-431A-AB0B-EC7341FB78AA}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查WMI是否存在安全隐患"/>
+      <desc commontext="检查WMI是否存在安全隐患" warntext="检查WMI是否存在安全隐患" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查回收站图标    -->
+  <ScanItem id="172" name="QMHPSCAN_RecycleIcon" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{30B0C6DE-7683-0A4F-A227-487745BFAEE0}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查检查回收站图标是否异常"/>
+      <desc commontext="检查检查回收站图标是否异常" warntext="回收站配置存在异常，可能被病毒木马修改，建议修复" warnhavenum="0" cleaningtext="正在修复" />
+      <btn cleantext="修复" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem> 
+  
+  <!--     检查系统驱动    -->
+  <ScanItem id="173" name="QMHPSCAN_sysDriversNew" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{54A9CE08-44D2-41B4-B3CB-73EF86C2D1F6}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检查系统驱动是否正常"/>
+      <desc commontext="检查系统驱动是否正常" warntext="发现可疑驱动程序，建议立即清除" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="正常"/>
+    </ShowParm>
+  </ScanItem>
+  
+  <!--     检查勒索病毒    -->
+  <ScanItem id="185" name="QMHPSCAN_WanaCry" havescamparam="1" clsid="{00004000-0001-0000-A1BB-DAA43720A1A2}">
+    <ScanParam id="1000" type="8" value="{5AAAB040-0D38-464C-AC00-C79D1F1DE4B9}"/>
+    <ShowParm havesub="1" showyellowtip="1">
+      <title text="检测是否存在WannaCry勒索病毒"/>
+      <desc commontext="检测是否存在WannaCry勒索病毒" warntext="发现电脑存在WannaCry勒索病毒" warnhavenum="0" cleaningtext="正在清除" />
+      <btn cleantext="清除" safetxt="安全"/>
+    </ShowParm>
+  </ScanItem> 
+  
+</HPTrojanScanItem>

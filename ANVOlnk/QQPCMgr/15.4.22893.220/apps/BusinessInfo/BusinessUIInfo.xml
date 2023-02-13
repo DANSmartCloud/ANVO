@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Catalogs>
+	<Catalog title="效率提升利器" desc="释放你的时间" background=".\BusinessInfo\res\business1_bkg.png">
+		<Detail title="效率提升利器" desc="工作效率提升利器，释放你的时间" background=".\BusinessInfo\res\detail1_bkg.png">
+			<Button clsid="30295729-53E2-428E-B7C3-FE2913DC537B" num="693.5" desc="小编推荐：一键整理你的电脑桌面，桌面整洁提升工作效率" />
+			<Button clsid="65D9CACC-9465-43D0-8ED9-4D0828B5D18D" num="182.5" desc="小编推荐：小火箭深度加速，立即提升你的电脑速度" />
+			<Button clsid="7A4A1F85-A868-4a84-8BB2-CF725FCE1DE4" num="127.8" desc="小编推荐：关闭所有软件，让电脑恢复刚开机时的流畅" />
+			<Button clsid="568A6A54-B62F-41F8-AEDB-18438B9465C1" num="54.8" desc="小编推荐：文档快速打开，手机随时随地查看电脑文档，提高效率" />
+		</Detail>
+	</Catalog>
+	<Catalog title="保护电脑文档" desc="全方位保护你的电脑文档" background=".\BusinessInfo\res\business2_bkg.png">
+		<Detail title="保护电脑文档" desc="全方位保护你的电脑文档，保证文档不丢失" background=".\BusinessInfo\res\detail2_bkg.png">
+			<Button clsid="43B48C8B-E496-4bca-ABD5-BEB079767167" num="332.2" desc="小编推荐：保护电脑文档安全" />
+			<Button clsid="47F3F73F-2D85-4078-BEC9-50A501EADDC0" num="220.8" desc="小编推荐：用于解密被“文档敲诈者木马”加密的文件" />
+			<Button clsid="7C801086-C315-4590-9DA1-5ADBCD8BD039" num="310.3" desc="小编推荐：找回近期误删除或被勒索病毒加密的文档" />
+			<Button clsid="5B07BE19-B421-4e64-B556-4924460FCC4C" num="281" desc="小编推荐：帮助清理电脑中的下载文件，释放磁盘空间" />
+			<Button clsid="4B5FD28F-09B2-49C8-9829-9EF67FBE9025" num="620.5" desc="小编推荐：可以彻底粉粹无法删除的文件" />
+			<Button clsid="5D93149F-41F9-46f4-9824-3208017BDBEE" num="292" desc="小编推荐：检测病毒漏洞并修复，还你一个安心的电脑" />
+			<Button clsid="568A6A54-B62F-41F8-AEDB-18438B9465C1" num="54.8" desc="小编推荐：文档快速打开，手机随时随地可以查看" />
+		</Detail>
+	</Catalog>
+	<Catalog title="电脑健康管理" desc="实时掌握电脑健康状况" background=".\BusinessInfo\res\business3_bkg.png">
+		<Detail title="电脑健康管理" desc="实时了解网速，硬件，漏洞等各方面电脑健康状况，让电脑时刻健康运行" background=".\BusinessInfo\res\detail3_bkg.png">
+			<Button clsid="DC11C4EE-A210-46f6-BB15-EDE2B6E3F6D5" num="4015" desc="小编推荐：刚装的高速宽带，让我测测我的网速到底有多快！" />
+			<Button clsid="13BDB137-0097-4814-813B-4F6A1B37A548" num="2482" desc="小编推荐：游戏总是卡慢，硬件没跟上？一键了解自己电脑硬件状况" />
+			<Button clsid="E7733812-A50D-4cbf-ACA6-9230FD3B8135" num="2591.5" desc="小编推荐：电脑装了很多软件，影响运行速度，不如载掉不用的软件" />
+			<Button clsid="A131103F-6155-4C92-9EC4-34839D2D3AA6" num="1423.5" desc="小编推荐：浏览器主页被劫持，上网惨遭钓鱼，都能帮你一一解决" />
+			<Button clsid="5A07BE19-B421-4e64-B556-4924460FCB4C" num="1861.5" desc="小编推荐：潜在漏洞危害电脑健康，及时发现并修复，安全上网" />
+			<Button clsid="8B6557DD-A4AF-48d6-B96F-66DB0D485EAF" num="511" desc="小编推荐：钟爱的商品即将开始秒杀，赶紧提前将网速保护起来" />
+			<Button clsid="7C1BEE95-30D9-45A5-B9EA-18779B8452BF" num="332.2" desc="小编推荐：正在看剧，网速不流畅，看看哪些软件正在“抢”网速！" />
+		</Detail>
+	</Catalog>
+</Catalogs>

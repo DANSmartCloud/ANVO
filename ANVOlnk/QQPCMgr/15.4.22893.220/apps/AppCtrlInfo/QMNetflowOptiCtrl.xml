@@ -1,0 +1,11 @@
+<Apps>
+	<App appname="QMNetflowOpti" clsid="D6AA12D5-56E8-40ec-B75B-2451F98AE67C" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="9D7439AB-1B0D-41A9-B666-1E731694CD73" md5="a272830a8ef81c62e509ada59d80c531" path="https://s.pc.qq.com/pcmgr/logo/v15/QMNetflowOpti.svg" />
+		<url md5="80bc0bcda7cb140f3938aaf950d1ad87" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMNetConnectSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" ignore_makeplugin="True" name="QMNetflowOpti.nsi" />
+		<install path="..\plugins\QMNetMon" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMNetConnect|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMNetConnect|Version">
+			<run file="QQPCNetFlow.exe" param="/doctor /jmppg=speed" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

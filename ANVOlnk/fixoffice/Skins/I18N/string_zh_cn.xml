@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin version="1.0" load="1" type="string|font" language="zh_CN">
+
+  <!--  Font相关内容不需要翻译  -->
+  <Font>
+    <Font id ="DefaultFont" face ="微软雅黑" height ="12" />
+    <Font id="font8"  face ="微软雅黑" height ="8" bold="0"/>
+    <Font id="font9"  face ="微软雅黑" height ="9" bold="0"/>
+    <Font id="font10"  face ="微软雅黑" height ="10" bold="0"/>
+    <Font id="font10b"  face ="微软雅黑" height ="10" bold="1"/>
+    <Font id="font10Arial"  face ="Arial Unicode MS" height ="10" bold="0"/>
+    <Font id="font10ArialUMS"  face ="Arial Unicode MS" height ="10" bold="0"/>
+    <Font id="font10NoteBoldb"  face ="Note Bold" height ="10" bold="1"/>
+    <Font id="font11"  face ="微软雅黑" height ="11" />
+    <Font id="font11b" face ="微软雅黑" height ="11" underline="0" bold="1"/>
+    <Font id="font12"  face ="微软雅黑" height ="12" underline="0" bold="0"/>
+    <Font id="font12b" face ="微软雅黑" height ="12" underline="0" bold="1"/>
+    <Font id="font12u" face ="微软雅黑" height ="12" underline="1" bold="0"/>
+    <Font id="font13"  face ="微软雅黑" height ="13" underline="0" bold="0"/>
+    <Font id="font13b" face ="微软雅黑" height ="13" underline="0" bold="1"/>
+    <Font id="font14"  face ="微软雅黑" height ="14" underline="0" bold="0"/>
+    <Font id="font14b" face ="微软雅黑" height ="14" underline="0" bold="1"/>
+    <Font id="font14s" face ="微软雅黑" height ="14" underline="0" bold="0"  strikeout="1"/>
+    <Font id="font14u" face ="微软雅黑" height ="14" underline="1" bold="0"  />
+    <Font id="font15"  face ="微软雅黑" height ="15" underline="0" bold="0"/>
+    <Font id="font15b" face ="微软雅黑" height ="15" underline="0" bold="1"/>
+    <Font id="font16"  face ="微软雅黑" height ="16" underline="0" bold="0"/>
+    <Font id="font16b" face ="微软雅黑" height ="16" underline="0" bold="1"/>
+    <Font id="font17b" face ="微软雅黑" height ="17" underline="0" bold="1"/>
+    <Font id="font18"  face ="微软雅黑" height ="18" underline="0" bold="0"/>
+    <Font id="font18b" face ="微软雅黑" height ="18" underline="0" bold="1"/>
+    <Font id="font20b" face ="微软雅黑" height ="20" underline="0" bold="1"/>
+    <Font id="font20" face ="微软雅黑" height ="20" underline="0"/>
+    <Font id="font21" face ="微软雅黑" height ="21" unlineline="0"/>
+    <Font id="font21b" face ="微软雅黑" height ="21" unlineline="0" bold="1"/>
+    <Font id="font22"  face ="微软雅黑" height ="22" underline="0" bold="0"/>
+    <Font id="font22b" face ="微软雅黑" height ="22" underline="0" bold="1"/>
+    <Font id="font23b" face ="微软雅黑" height ="23" underline="0" bold="1"/>
+    <Font id="font24" face ="微软雅黑" height ="24" underline="0" bold="0" TextRenderHint="3"/>
+    <Font id="font24b" face ="微软雅黑" height ="24" underline="0" bold="1"/>
+    <Font id="font26" face ="微软雅黑" height ="26" underline="0" bold="0" />
+    <Font id="font26b" face ="微软雅黑" height ="26" underline="0" bold="1" />
+    <Font id="font28" face ="微软雅黑" height ="28" underline="0" bold="0" />
+    <Font id="font28b" face ="微软雅黑" height ="28" underline="0" bold="1" />
+    <Font id="font30"  face ="微软雅黑" height ="30" underline="0" bold="0"/>
+    <Font id="font30b"  face ="微软雅黑" height ="30" underline="0" bold="1"/>
+    <Font id="font32"  face ="微软雅黑" height ="32" unlineline="0" bold="0"/>
+    <Font id="font32b"  face ="微软雅黑" height ="32" unlineline="0" bold="1"/>
+    <Font id="font34"  face ="微软雅黑" height ="34" underline="0" bold="0"/>
+    <Font id="font35"  face ="微软雅黑" height ="35" underline="0" bold="0"/>
+    <Font id="font36"  face ="微软雅黑" height ="36" unlineline="0" bold="0"/>
+    <Font id="font36b"  face ="微软雅黑" height ="36" unlineline="0" bold="1"/>
+    <Font id="font40"  face="微软雅黑" height="40" underline="0" bold="0" TextRenderHint="3"/>
+    <Font id="font40b"  face="微软雅黑" height="40" underline="0" bold="1"/>
+    <Font id="font42"  face ="微软雅黑" height ="42" underline="0" bold="0"/>
+    <Font id="font45"  face="微软雅黑" height="45" underline="0" bold="0"/>
+    <Font id="font48"  face="微软雅黑" height="48" unlineline="0" bold="0"/>
+    <Font id="font48b"  face="微软雅黑" height="48" unlineline="0" bold="1"/>
+    <Font id="font50"  face="微软雅黑" height="50" underline="0" bold="0"/>
+    <Font id="font60"  face="微软雅黑" height="60" underline="0" bold="0"/>
+    <Font id="font60b"  face="微软雅黑" height="60" unlineline="0" bold="1"/>
+    <Font id="font72b"  face="微软雅黑" height="72" unlineline="0" bold="1"/>
+    <Font id="font78b"  face="微软雅黑" height="78b" unlineline="0" bold="1"/>
+    <Font id="font230"  face="楷体" height="230" unlineline="0" bold="0"/>
+  </Font>
+  
+  <!--  id不要修改  把中文成对应的语言即可 
+  
+    1.格式化关键字  %d, %s 等带百分号的字符不要删除
+    2.看到类似 中括号 相关的格式，请勿删除。 比如{c #a47d55}xxxx{/c} 说明需要"xxxx"这段话需要指定为#a47d55 这个颜色
+  -->
+  <String>
+
+    <!--FixPPTCom Begin-->
+    <String id="APP_Name">FixOffice</String>
+    <String id="FixPPTCom_Startup_Office_Tip">请先运行需要修复的PowerPoint或者WPS演示，然后点击【开始修复】按钮。</String>
+    <String id="FixPPTCom_Browse_Tip">手动选择Powerpoint路径(注意:请自动修复失败时再尝试)</String>
+    <String id="FixPPTCom_Browse_Path">路径:</String>
+    <String id="FixPPTCom_Browse_ButtonName">浏览</String>
+    <String id="FixPPTCom_Fix_ButtonName">开始修复</String>
+    <String id="FixPPTCom_Fix_ResultTip">请按开始按钮进行修复</String>
+    <String id="FixPPTCom_Fix_Sucess">修复Office完成，修复成功!</String>
+    <String id="FixPPTCom_Fix_Failed">修复Office完成，修复失败!</String>
+
+    <String id="FixPPTCom_Office_Path">Office路径:</String>
+    <String id="FixPPTCom_Bit32">32位</String>
+    <String id="FixPPTCom_Bit64">64位</String>
+
+    <String id="FixPPTCom_PowerPoint_Running">PowerPoint处于运行状态</String>
+    <String id="FixPPTCom_WPP_Running">WPP处于运行状态</String>
+
+    <String id="MessageBox_Fix_PowerPoint">修复PowerPoint</String>
+    <String id="MessageBox_Fix_WPP">修复WPP</String>
+    <String id="MessageBox_Both_Running">发现PowerPoint、WPP两款软件同时在运行，请选择一个需要修复的软件！</String>
+    <!--FixPPTCom End-->
+
+    <!--MessageBox Begin-->
+    <String id="MessageBox_StrCancel">取消</String>
+    <String id="MessageBox_StrCertain">确定</String>
+    <String id="MessageBox_StrYes">是</String>
+    <String id="MessageBox_StrNo">否</String>
+    <String id="MessageBox_StrAbort">放弃</String>
+    <String id="MessageBox_StrRetry">重试</String>
+    <String id="MessageBox_StrIgnore">跳过</String>
+    <String id="MessageBox_StrContinue">继续</String>
+    <String id="MessageBox_Error">错误</String>
+    <String id="MessageBox_Tips">提示</String>
+    <!--MessageBox End-->
+    
+  </String>
+</skin>

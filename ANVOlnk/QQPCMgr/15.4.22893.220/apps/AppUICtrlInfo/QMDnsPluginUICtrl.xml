@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="DNS选优" catalog="3" appclsid="4067870A-CFF9-442d-91EC-6A4397B83209" appname="QMDnsPlugin" enable="1" supportsys="1111111111">
+		<icon path="QMDnsPlugin.svg" />
+		<description>
+			<![CDATA[选最优DNS服务，提升网速]]>
+		</description>
+		<tip>
+			<![CDATA[根据近的DNS检测结果，启用最优的DNS服务器，提高访问网站的速度]]>
+		</tip>
+	</App>
+</Apps>

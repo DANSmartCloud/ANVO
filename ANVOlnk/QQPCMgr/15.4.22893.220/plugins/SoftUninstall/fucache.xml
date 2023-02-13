@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FastUninst>
+	<item sid="25950" sTagType="0" name="iFonts字体助手" DisplayIcon="D:\software\iFontsClient\iFonts字体助手.exe"/>
+	<item sid="0" sTagType="0" name="Tencent QQMail Plugin" DisplayIcon='"C:\Program Files (x86)\QQMailPlugin\uninstall.exe"'/>
+	<item sid="2061" sTagType="0" name="迅雷" DisplayIcon="D:\software\Thunder\Program\Thunder.exe"/>
+	<item sid="26542" sTagType="0" name="ToDesk" DisplayIcon="D:\software\ToDesk\ToDesk.exe"/>
+	<item sid="11488" sTagType="0" name="微信" DisplayIcon="D:\software\weixin\WeChat\WeChat.exe"/>
+	<item sid="56510" sTagType="0" name="vivo手机助手 版本 2.2.4.10" DisplayIcon="D:\software\vivo\vivo手机助手\vivo手机助手.exe"/>
+	<item sid="56606" sTagType="0" name="百度网盘" DisplayIcon="D:\BaiduNetdisk\BaiduNetdisk.exe"/>
+	<item sid="4514" sTagType="0" name="酷狗音乐" DisplayIcon="D:\software\KuGou\KGMusic\KuGou.exe"/>
+	<item sid="210" sTagType="0" name="金山打字通" DisplayIcon="D:\software\Typeeasy\11.9\TypeEasy.exe"/>
+	<item sid="1061" sTagType="0" name="Everything 1.4.1.1022 (x64)" DisplayIcon="D:\software\Everything\Everything.exe"/>
+	<item sid="12014" sTagType="0" name="好压 - 2345" DisplayIcon="D:\software\HaoZip\HaoZip.exe"/>
+</FastUninst>
+

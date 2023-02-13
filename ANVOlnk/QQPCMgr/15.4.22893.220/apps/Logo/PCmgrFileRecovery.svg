@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>工具箱图标</title>
+    <defs>
+        <linearGradient x1="112.5%" y1="150%" x2="112.5%" y2="49.999994%" id="linearGradient-1">
+            <stop stop-color="#A64CFF" offset="0%"></stop>
+            <stop stop-color="#C270FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0010622%" y1="0%" x2="50.0010622%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="33.3333%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工具箱图标">
+            <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            <path d="M20.0001,32 C14.8624,32 10.4789,28.7713 8.76773,24.2323 L6.48499,26.5151 C8.90989,31.5361 14.0505,35 20.0001,35 C28.2843,35 35.0001,28.2843 35.0001,20 C35.0001,11.7157 28.2843,5 20.0001,5 C11.7158,5 5.00006,11.7157 5.00006,20 C5.00006,20.0002 5.00006,19.9998 5.00006,20 L2.25732,20.0006 L6.49996,24.2432 L10.7426,20.0006 L7.9995,20.0006 C7.9995,13.3731 13.3726,8 20.0001,8 C26.6275,8 32.0001,13.3726 32.0001,20 C32.0001,26.6274 26.6275,32 20.0001,32 Z" id="路径" fill="#892EFF" fill-rule="nonzero"></path>
+            <circle id="椭圆形" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(20.000000, 20.000000) scale(-1, 1) translate(-20.000000, -20.000000) " cx="20" cy="20" r="10"></circle>
+            <polygon id="路径" fill="url(#linearGradient-2)" fill-rule="nonzero" points="19 14 21 14 21 19.5858 23.7071 22.2929 22.2929 23.7071 19 20.4142"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--- 使用notepad++编辑 -->
+<Configurations Ver="3" DataVer="1">  
+  <MBRVirusKiller enable="1">
+	<VirusItem name="yinhun" idx="1" showname="隐魂2">
+		<UI category="MBR病毒" desc="发现硬盘主引导区（简称MBR）被篡改，感染后您的电脑可能被黑客控制" iconfilename="Virus.png"/>
+		<!--- md5 均为小写 -->
+  		<Sign Offset="0" len="256" md5="3ff2e011d0edc97e7e4e1f03d50183c8"/>
+	  	<!--- <Sign Offset="0" len="512" md5="9b0b41e508d13fedb9d9b675bc808aaa"/> 支持多段特征，是AND的关系 -->
+		<!--- Sector 0为下标起始，offset -->
+		<Fix Sector="1">
+			<Verfiy Offest="510" len="2" md5="db20f93337d01784b8695bb8ad51b979"/>
+		</Fix>		
+	</VirusItem>
+	<VirusItem name="anyun3" idx="2" showname="暗云3">
+		<UI category="MBR病毒" desc="发现硬盘主引导区（简称MBR）被篡改，感染后您的电脑可能被黑客控制" iconfilename="Anyun.png"/>
+		<!--- md5 均为小写 -->
+  		<Sign Offset="0" len="256" md5="f29842b95b2856db7cdff3531132c9cb"/>
+	  	<!--- <Sign Offset="0" len="512" md5="9b0b41e508d13fedb9d9b675bc808aaa"/> 支持多段特征，是AND的关系 -->
+		<!--- Sector 0为下标起始，offset -->
+		<Fix Sector="1">
+			<Verfiy Offest="510" len="2" md5="db20f93337d01784b8695bb8ad51b979"/>
+		</Fix>		
+	</VirusItem>
+  </MBRVirusKiller>
+  <VBRVirusKiller enable="1">
+  	<VirusItem name="VBR" idx="1" showname="异鬼"> <!-- Win7 -->
+			<UI category="VBR病毒" desc="异鬼系列病毒隐藏在刷机软件中传播，通过劫持浏览器主页牟利，感染后您的电脑可能被黑客控制" iconfilename="Ghost2.png"/>
+      <Sign Offset="634" Len="12" Bin="8CC88ED8C1E004FA8BE0FBE8" />
+      <Sign Offset="3056" Len="16" Bin="660E0FB7060B180CB61E400DF77FE31F" />      
+		</VirusItem>
+    <VirusItem name="VBR" idx="2" showname="异鬼"> <!-- WinXP -->
+      <UI category="VBR病毒" desc="异鬼系列病毒隐藏在刷机软件中传播，通过劫持浏览器主页牟利，感染后您的电脑可能被黑客控制" iconfilename="Ghost2.png"/>
+      <Sign Offset="632" Len="4" Bin="660FB706" Condition="1" /> <!-- Condition != 0 为Not条件特征 -->
+      <Sign Offset="3056" Len="16" Bin="8C00C88ED8C1E004FA8BE8FB00E803FE" />
+    </VirusItem>
+    <VirusItem name="VBR" idx="3" showname="异鬼">  <!-- Win10 -->
+      <UI category="VBR病毒" desc="异鬼系列病毒隐藏在刷机软件中传播，通过劫持浏览器主页牟利，感染后您的电脑可能被黑客控制" iconfilename="Ghost2.png"/>
+      <Sign Offset="793" Len="12" Bin="8CC88ED8C1E004FA8BE0FBE8" />
+      <Sign Offset="3264" Len="16" Bin="660E0FB7060B180CB61E400DF77FE31F" />
+    </VirusItem>
+
+  </VBRVirusKiller>
+</Configurations>

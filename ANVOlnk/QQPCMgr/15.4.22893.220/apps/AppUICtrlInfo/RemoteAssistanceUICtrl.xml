@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="专家协助" catalog="6" appclsid="ABAA1B16-BF64-47B7-863C-07D5C1C15232" appname="RemoteAssistance" enable="1" supportsys="1111111111">
+		<icon path="RemoteAssistance.svg" />
+		<description>
+			<![CDATA[1对1解决电脑问题]]>
+		</description>
+		<tip>
+			<![CDATA[联想人工服务，权威工程师1对1为您解决电脑问题]]>
+		</tip>
+	</App>
+</Apps>

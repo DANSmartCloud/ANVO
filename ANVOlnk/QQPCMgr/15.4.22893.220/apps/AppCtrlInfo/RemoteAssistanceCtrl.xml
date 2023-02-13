@@ -1,0 +1,17 @@
+<Apps>
+	<App appname="RemoteAssistance" clsid="ABAA1B16-BF64-47B7-863C-07D5C1C15232" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="511B1921-C026-4D95-AF17-8ABFBE1D03CF" md5="8ef98a94300662a873b76e843f095a23" path="https://s.pc.qq.com/pcmgr/logo/v15/RemoteAssistance.svg" />
+		<url md5="fbe4806f8e5b0ba2efaf1d27a2dbef91" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMRemoteAssistanceSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMRemoteAssistance.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\ProRemoteAssistance|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\ProRemoteAssistance|Install">
+			<run file="..\..\RemoteAssistance.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="RemoteAssistance.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\ProRemoteAssistance" />
+                <item action="file" path="RemoteAssistance.exe" />
+				<item action="file" path="RemoteAssistance.dat" />
+				<item action="dir" path="plugins\RemoteAssistance" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

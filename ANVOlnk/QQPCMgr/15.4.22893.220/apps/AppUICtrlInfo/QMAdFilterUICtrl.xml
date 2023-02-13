@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="网页广告过滤" catalog="3" appclsid="164FC5A0-485C-448A-8FC2-E363D6F2A4D9" appname="QMAdFilter" enable="1" supportsys="1111111111">
+		<icon path="QMAdFilter.svg" />
+		<description>
+			<![CDATA[阻止广告弹出清爽上网]]>
+		</description>
+		<tip>
+			<![CDATA[阻止垃圾广告弹出，保持上网清爽体验]]>
+		</tip>
+	</App>
+</Apps>

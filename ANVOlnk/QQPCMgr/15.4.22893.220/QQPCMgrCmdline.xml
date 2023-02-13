@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Created with XMLFox -->
+<Cmdline>
+	<cmd class="0" total="21">
+		<scmd name="/rtvul" typeid="104" displaystyle="8" />
+		<scmd name="/ScanVul" typeid="103" displaystyle="2" />
+		<scmd name="/leakScanVul" typeid="102" displaystyle="2" />
+		<scmd name="/QQScanVul" typeid="103" displaystyle="2" />
+		<scmd name="/ScanRepair" typeid="102" displaystyle="4" />
+		<scmd name="/MainScan" typeid="101" displaystyle="1" />
+		<scmd name="/internet" typeid="107" displaystyle="0" />
+		<scmd name="/setup" typeid="105" displaystyle="0" />
+		<scmd name="/drupdate" typeid="108" displaystyle="0" />
+		<scmd name="/tip" typeid="102" displaystyle="0" />
+		<scmd name="/tray" typeid="106" displaystyle="32" />
+		<scmd name="/loader:" typeid="101" displaystyle="64" />
+		<scmd name="/systemstartuptip" typeid="109" displaystyle="256" />
+		<scmd name="/systemspeedtip" typeid="110" displaystyle="512" />
+		<scmd name="/slient" typeid="117" displaystyle="16" />
+		<scmd name="/loadexit" typeid="202" displaystyle="128" />
+		<scmd name="/TAB_FUNCTIONLIST_BYDESKTOPICON" typeid="113" displaystyle="0" />
+		<scmd name="/personalCenter" typeid="114" displaystyle="1024" />
+		<scmd name="/pullLogin" typeid="115" displaystyle="2048" />
+		<scmd name="pcmgrrepairieextensions:///" typeid="116" displaystyle="4096"/>
+		<scmd name="/MainScanFix" typeid="117" displaystyle="8192"/>
+	</cmd>
+	
+	<cmd class="1" total="4">
+		<scmd name="##parent=QQ2009&amp;page=upgrade" typeid="103" displaystyle="0" >
+			<app name="QQPCSoftMgr.exe" param="/parent=QQPCMgr /page=upgrade" />
+		</scmd>
+		<scmd name="##parent=QQ2010&amp;page=upgrade" typeid="103" displaystyle="0" >
+			<app name="QQPCSoftMgr.exe" param="/parent=QQPCMgr /page=upgrade" />
+		</scmd>
+		<scmd name="##parent=QQ2010" typeid="103" displaystyle="0" >
+			<app name="QQPCSoftMgr.exe" param="/parent=QQPCMgr /page=basic" />
+		</scmd>
+		<scmd name="##parent=QQ2009" typeid="103" displaystyle="0" >
+			<app name="QQPCSoftMgr.exe" param="/parent=QQPCMgr /page=basic" />
+		</scmd>
+	</cmd>
+	
+	<cmd class="2" total="1">
+		<from>
+			<fparam name="/FROM_UNKNOWN" typeid="0" />
+			<fparam name="/FROM_OPTION_CARD" typeid="1" />
+			<fparam name="/FROM_HOMEPAGE_CHECKUP" typeid="2" />
+			<fparam name="/FROM_HOMEPAGE_RECOMMEND" typeid="3" />
+			<fparam name="/FROM_NORMAL" typeid="101" />
+			<fparam name="/FROM_TIPS" typeid="102" />
+			<fparam name="/FROM_QQ" typeid="103" />
+			<fparam name="/FROM_RT_VUL" typeid="104" />
+			<fparam name="/FROM_SETUP" typeid="105" />
+			<fparam name="/FROM_RTP_TRAY" typeid="106" />
+			<fparam name="/FROM_WEB_INVOKE" typeid="107" />
+			<fparam name="/FROM_UPGRADE" typeid="108" />
+			<fparam name="/FROM_STARTUP_TIPS" typeid="109" />
+			<fparam name="/FROM_SPEED_TIPS" typeid="110" />
+			<fparam name="/From_UNPINSTARTMENU" typeid="111" />
+			<fparam name="/FROM_QDESK" typeid="113" />
+			<fparam name="/FROM_SUBHEALTH" typeid="114" />
+			<fparam name="/From_kingsan" typeid="115" />
+			<fparam name="/FROM_TRAY_START_BY_MASTER" typeid="151" />
+			<fparam name="/FROM_TRAY_START_AUTO" typeid="152" />
+		</from>
+		<tab>
+			<tparam name="/TAB_HOME" realname="MainTab_Home" style="0" />
+			<tparam name="/TAB_TROJAN" realname="MainTab_Trojan" style="1" >
+				<plugin name="查杀木马">
+					<param name="" msgid="1301" />
+				</plugin>
+			</tparam>
+			<tparam name="/TAB_VUL" realname="MainTab_ToolBox" style="1" >
+				<plugin name="修复漏洞"/>
+			</tparam>
+			<tparam name="/TAB_SYSCLEAN" realname="MainTab_SysOpt" style="1" >
+				<plugin name="系统首页">
+					<param name="" msgid="69648"/>
+				</plugin>
+			</tparam>
+			<tparam name="/TAB_SYSSTARTUP" realname="MainTab_SysStartUp" style="1">
+				<plugin name="电脑加速">
+					<param name="" msgid="69799"/>
+				</plugin>
+			</tparam>
+			<tparam name="/TAB_RTP" realname="MainTab_ToolBox" style="1" >
+				<plugin name="实时防护">
+					<param name="实时防护" msgid="1001"/>
+				</plugin>
+			</tparam>
+			<tparam name="/TAB_SOFTANALYZE" realname="MainTab_SoftMgr" style="1" >
+				<plugin name="软件分析">
+					<param name="软件分析" msgid="69666" />
+				</plugin>
+			</tparam>
+			<tparam name="/TAB_AUTHRADAR" realname="MainTab_AuthRadar" style="1" >
+				<plugin name="权限雷达">
+					<param name="" msgid="3073" />
+				</plugin>
+			</tparam>
+			<tparam name="/TAB_FUNCTIONLIST" realname="MainTab_ToolBox" style="0" />
+			<tparam name="/TAB_ALLSOFT" realname="ID_TABBTN_SOFTMGR" style="2" >
+				<app name="QQPCSoftMgr.exe" param="" />
+			</tparam>
+		</tab>
+		<act name="/ACT_" />
+		<plugin name="/PLUGIN_" />
+		<pluginparam name="/PARAM_" />
+		<addpluginconfig name="/APP_" />
+	</cmd>
+	
+	<cmd class="3" total="3">
+		<mcmd name="-urlprotocol" typeid="107" hasbrother="1" >
+			<brother name="qqpcmgr.webgame" />
+			<real>MainTab_Home 网页游戏诊所</real>
+		</mcmd>
+
+		<mcmd name="-safebox" typeid="107" hasbrother="1">
+			<brother name="qqpcmgr.qqpcsafebox" />
+			<real>MainTab_Home 财产保镖</real>
+		</mcmd>
+		<mcmd name="/enable" typeid="112" hasbrother="0">
+			<real>MainTab_Home 实时防护</real>
+		</mcmd>
+	</cmd>
+</Cmdline>

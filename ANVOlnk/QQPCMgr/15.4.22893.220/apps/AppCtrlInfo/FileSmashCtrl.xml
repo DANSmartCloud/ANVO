@@ -1,0 +1,17 @@
+<Apps>
+	<App appname="FileSmash" clsid="4B5FD28F-09B2-49C8-9829-9EF67FBE9025" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.1.0">
+		<icon clsid="1675FA95-AD0F-4DED-A51C-6DF256DA9F9D" md5="6e1b3679bbf1ed831e85c332296c5652" path="https://s.pc.qq.com/pcmgr/logo/v15/FileSmash.svg" />
+		<url md5="5f93f5655c3e1a6ba540e448e60bcc9c" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMFileSmashSetup_15.4.22863.217__1656416664369.exe" pkgtype="0" />
+		<nsi name="QMFileSmash.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\FileSmash|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\FileSmash|Version">
+			<run file="..\..\FileSmash.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="FileSmash.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\FileSmash" />
+                <item action="file" path="FileSmash.exe" />
+				<item action="file" path="FileSmash.dat" />
+				<item action="dir" path="plugins\FileSmash" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

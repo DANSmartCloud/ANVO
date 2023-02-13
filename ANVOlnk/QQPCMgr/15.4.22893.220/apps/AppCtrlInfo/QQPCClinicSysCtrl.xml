@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="56B017C1-AA86-46B8-9290-CFDF98369C48" appname="QQPCClinicSys" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="7CFCBB92-2570-4762-996C-621635D90A2D" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCClinicSys.svg" md5="5dee6b7eb9a1ea87e196cc69b53b7eaf" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCMgr.exe" param="/TAB_SYSSTARTUP" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

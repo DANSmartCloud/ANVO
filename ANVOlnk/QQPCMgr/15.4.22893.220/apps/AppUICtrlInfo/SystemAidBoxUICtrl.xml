@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="系统急救箱" catalog="4" appclsid="734E8C07-82CA-4ed8-818B-8F7DB3E95EF1" appname="SystemAidBox" enable="1" supportsys="1111111111">
+		<icon path="SystemAidBox.svg" />
+		<description>
+			<![CDATA[强力查杀顽固病毒木马]]>
+		</description>
+		<tip>
+			<![CDATA[强力查杀顽固病毒木马]]>
+		</tip>
+	</App>
+</Apps>

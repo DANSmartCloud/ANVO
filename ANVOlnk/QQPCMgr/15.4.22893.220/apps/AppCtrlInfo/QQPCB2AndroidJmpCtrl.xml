@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="9706C67B-2F94-461D-AE82-10DE2E216929" appname="QQPCB2AndroidJmp" version="5.8.1" enable="0" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="9CF049B3-8AF0-4337-9AA9-787C0D187A50" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCB2AndroidJmp.svg" md5="320b4a53255c5d0adc7787e0f576124f" />
+		<url pkgtype="0" path="http://dlied6.qq.com/invc/xfspeed/qqpcmgr/other/QQPhoneManager-5.8.1_710201.5233.pa.exe" param="/S /InstallFromQMgr=1" md5="9f682d3389265c23f7ec62321e4deeec" />
+		<install pathtype="1" path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{365ADADE-814B-400C-877C-95E9F684BBEB}|InstallPath" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{365ADADE-814B-400C-877C-95E9F684BBEB}|DisplayVersion">
+			<run file="QQPhoneManager.exe" param="&quot;-qqpcmgr&quot; -nochksupdate" />
+			<uninstall file="uninstall.exe" param="/S" />
+		</install>
+	</App>
+</Apps>

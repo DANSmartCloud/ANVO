@@ -1,0 +1,18 @@
+[Root] 
+Hide=0 
+AlignType=1 
+IEMax=11 
+CfgID=1 
+HideBShowupBtn=0
+HideInstBtn=1
+HideSettingBtn=0
+App=QQPCSoftMgr.exe 
+Param=/softdetailid=24345 /parent=user7100 
+SettingBtnText=更多浏览器安全设置
+Text=当前主页已处于锁定并保护状态，上网更安全。
+NShowupText=不再显示
+SepWidthTextSetting=10
+bSettingBtnUnderLine=1
+ShowTime=30
+Title=
+InstBtnText=

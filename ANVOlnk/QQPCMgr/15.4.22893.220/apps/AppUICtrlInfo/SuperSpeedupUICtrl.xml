@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="极致加速" catalog="4" appclsid="7A4A1F85-A868-4a84-8BB2-CF725FCE1DE4" appname="SuperSpeedup" enable="1" supportsys="1111111111">
+		<icon path="SuperSpeedup.svg" />
+		<description>
+			<![CDATA[使电脑恢复到开机时的流畅]]>
+		</description>
+		<tip>
+			<![CDATA[关闭所有软件，让电脑恢复刚开机时的流畅]]>
+		</tip>
+	</App>
+</Apps>

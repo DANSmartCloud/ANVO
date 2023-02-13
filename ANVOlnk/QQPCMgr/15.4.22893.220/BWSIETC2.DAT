@@ -1,0 +1,21 @@
+[Root] 
+Hide=0 
+AlignType=1 
+IEMax=11 
+CfgID=1 
+HideBShowupBtn=0
+HideInstBtn=1
+HideSettingBtn=0
+App=QQPCSoftMgr.exe 
+Param=/softdetailid=24345 /parent=user7100 
+SettingBtnText=设置主页安全
+Text=您IE浏览器主页尚未锁定，有被恶意篡改风险。
+NShowupText=不再显示
+SepWidthTextSetting=10
+ColorSettingBtnText=16777215
+ColorSettingBtnBGLeft=4278242440
+ShowTime=30
+DayInt=0
+DayTwiceClose=0
+Title=
+InstBtnText=

@@ -1,0 +1,18 @@
+<Apps>
+	<App appname="QMTencentNews" clsid="BA50EC17-2941-4942-A769-B1FC7CD4FAA2" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="5811C140-E3F3-49E3-9EC0-403CA8B9E236" md5="5244435f73e7222d9eeaa578e13c73f2" path="https://s.pc.qq.com/pcmgr/logo/v15/TencentNews.svg" />
+		<url md5="77616f4592e94439e5d2f3cd8176ecbb" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMTencentNewsSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="QMTencentNews.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMTencentNews|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMTencentNews|Version">
+			<run file="..\..\QMTencentNews.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMTencentNews.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMTencentNews" />
+				<item action="file" path="QMTencentNews.dat" />
+                <item action="file" path="QMTencentNews.exe" />
+                <item action="file" path="QMTencentNews.rdb" />
+				<item action="dir" path="plugins\QMTencentNews" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

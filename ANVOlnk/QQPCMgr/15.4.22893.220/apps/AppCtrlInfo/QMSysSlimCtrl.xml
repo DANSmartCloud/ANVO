@@ -1,0 +1,18 @@
+<Apps>
+	<App appname="QMSysSlim" clsid="29715424-B1AD-4ceb-BCBF-E50697DA8602" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.1.0">
+		<icon clsid="1C9CB737-F229-40CD-A770-B3B91BAEC9C4" md5="87df79e01db1f0840a6620075aab7d11" path="https://s.pc.qq.com/pcmgr/logo/v15/QMSysSlim.svg" />
+		<url md5="0d09b82fe17d15ec808967d850ca8704" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMSysSlimSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMSysSlim.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMSysSlim|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMSysSlim|Version">
+			<run file="..\..\QMSysSlim.exe" param="/parent=funclist /page=upgrade" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMSysSlim.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMSysSlim" />
+                <item action="file" path="QMSysSlim.dat" />
+                <item action="file" path="QMSysSlim.exe" />
+                <item action="file" path="QMSysSlim.rdb" />
+				<item action="dir" path="plugins\QMSysSlim" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="文件恢复工具" catalog="2" appclsid="7C801086-C315-4590-9DA1-5ADBCD8BD039" appname="PCmgrFileRecovery" enable="1" supportsys="1111111111">
+		<icon path="PCmgrFileRecovery.svg" />
+		<description>
+			<![CDATA[恢复意外丢失的文件]]>
+		</description>
+		<tip>
+			<![CDATA[勒索病毒专用，文件恢复工具]]>
+		</tip>
+	</App>
+</Apps>

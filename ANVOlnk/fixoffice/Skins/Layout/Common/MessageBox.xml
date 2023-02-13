@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skin version="1.0">
+
+<Window id="MessageBox" minWidth="430" minHeight="262" resize="0" move="0" shadow="1"> 
+
+  <Layout style="Picture" bk.image="#bk_window_main">
+    <!--弹框Title背景-->
+    <Layout mode="horzfill" pos="4|0,0,0,52">
+      <Control id="title_left" flip="0" style="Picture" pos="LT|0,0,81,0" bk.image="#download_Dlg_title_left_bk"/>
+      <Control id="title_mid"  flip="0" style="Picture" autosize="1" bk.image="#download_Dlg_title_mid_bk"/>
+      <Control id="title_right"  flip="0" style="Picture" pos="RT|0,0,26,0" bk.image="#download_Dlg_title_right_bk"/>
+    </Layout>
+    <!--title-->
+    <Layout pos="4|1,0,1,52" >
+      <Control id="title_label" text="" style="Label" pos="LTLB|20,0,296,0" txt.font="font16b" txt.halign="left" 
+               txt.valign="center" txt.singleline="1" txt.endellipsis="1" txt.color="#N23"/>               
+      <Button  id="btn_warning_close" pos="RTRB|50,8,14,8" bk.image="#download_Dlg_btn_close" bk.msgseq="0,1,2,0,0"/>
+    </Layout>
+    <!--提示信息-->
+    <Layout  id="cleanDlg_content" pos="LTRB|4,52,4,1" mode="vertfill">
+      <Layout id="layout_center" pos="LTRB|0,0,0,0" mode="horzfill" inset="20,0,20,0" SpaceX="14" >
+          <Control id="warning_pic" visible="0" style="Picture" bk.image="" pos="9|0,-1,48,48"/>
+          <Label id="content_label" pos="LTRB|0,0,0,0" txt.singleline="0" valign="center" halign="left" txt.color="#N07" txt.font="font16"/>
+      </Layout>
+
+      <!--bottom 按钮-->
+      <Layout id="chk_option_layout" mode="horzfill" pos="9|0,0,0,25" visible="0" inset="27,0,27,5">
+        <AutoSizeCheckBox id="chk_option" check="1" maxWidth="300" pos="8|0,0,0,0" bk.pos="9|0,-1,12,12" bk.image="#chk_option"
+                        ckbk.pos="9|0,-1,12,12" ckbk.image="#chk_option" txt.color="#N09"
+                        txt.font="font12" txt.halign="left" txt.valign="center" txt.endellipsis="1" txt.state="all|ckall"/>
+        <Control />
+      </Layout>
+
+      <!--bottom 按钮-->
+      <Layout id="Bottom_layout" mode="righttoleft" pos="4|0,0,0,50" SpaceX="12" inset="20,0,20,0">
+    </Layout>
+
+  </Layout>
+  </Layout>
+
+</Window>
+
+<Window id="MessageBoxEx" minWidth="430" minHeight="262" resize="0" move="0" shadow="1">
+
+  <Layout pos="LT|-1,-1,430,262" style="Picture" bk.image="#bk_window_main">
+    <!--弹框Title背景-->
+    <Layout mode="horzfill" pos="4|0,0,0,52">
+      <Control id="title_left" flip="0"  style="Picture" pos="LT|0,0,81,0" bk.image="#download_Dlg_title_left_bk"/>
+      <Control id="title_mid" flip="0" style="Picture" autosize="1" bk.image="#download_Dlg_title_mid_bk"/>
+      <Control id="title_right" flip="0" style="Picture" pos="RT|0,0,26,0" bk.image="#download_Dlg_title_right_bk"/>
+    </Layout>
+    <!--title-->
+    <Layout pos="4|1,0,1,52" >
+      <Control id="title_label" text="" style="Label" pos="LTLB|20,0,296,0" txt.font="font16b" txt.halign="left"
+                txt.valign="center" txt.singleline="1" txt.endellipsis="1" txt.color="#DLBtnNorTxtColor"/>
+      <Button  id="btn_warning_close" pos="RTRB|50,8,14,8" bk.image="#download_Dlg_btn_close" bk.msgseq="0,1,2,0,0"/>
+    </Layout>
+    <!--提示信息-->
+    <Layout  id="cleanDlg_content" pos="LTRB|4,52,4,11" >
+      <Layout pos="LTRB|0,0,0,50" mode="vertfill" inset="27,0,27,0">
+          <Layout id="layout_center" pos="9|0,0,368,100" mode="horzfill" SpaceX="14" >
+            <Control id="warning_pic" visible="0" style="Picture" bk.image="" pos="9|0,-1,48,48"/>
+            <HtmlLabel id="content_label" pos="LTRB|0,0,0,0" txt.font="font16" halign="left" EnableMouse="0" singleline="0" />
+          </Layout>
+          
+          <Label id="CreateMode" pos="9|0,0,368,60" txt.valign="top" txt.singleline="0" txt.color="666666" txt.font="font12" text="#MessageBoxEx_CreateMode" />
+      </Layout>
+      <!--bottom 按钮-->
+      <Layout id="Bottom_layout" mode="righttoleft" pos="6|0,50,0,20" SpaceX="12" inset="20,0,20,0">
+      </Layout>
+
+    </Layout>
+  </Layout>
+
+</Window>  
+  
+<Window id="PasswordBox" minWidth="430" minHeight="232" resize="0" move="0" shadow="1">
+  <Layout pos="LTRB|0,0,0,0" style="Picture" bk.image="#bk_window_main">
+     <!--弹框Title背景-->
+    <Layout mode="horzfill" pos="4|0,0,0,42">
+      <Control id="title_left" flip="0" style="Picture" pos="LT|0,0,81,0" bk.image="#download_Dlg_title_left_bk"/>
+      <Control id="title_mid" flip="0" style="Picture" autosize="1" bk.image="#download_Dlg_title_mid_bk"/>
+      <Control id="title_right" flip="0" style="Picture" pos="RT|0,0,26,0" bk.image="#download_Dlg_title_right_bk"/>
+    </Layout>
+    <!--title-->
+    <Layout pos="4|1,0,1,42" >
+      <Control id="title_label" text="" style="Label" pos="LTLB|20,0,296,0" txt.font="font16b" txt.halign="left" 
+               txt.valign="center" txt.singleline="1" txt.endellipsis="1" txt.color="#N23"/>               
+      <Button  id="btn_dialog_close" pos="RTRB|40,8,14,8" bk.image="#download_Dlg_btn_close" bk.msgseq="0,1,2,0,0"/>
+    </Layout>
+
+    <!--提示信息-->
+    <Layout  id="cleanDlg_content" pos="LTRB|4,52,4,11" >
+      <Layout id="layout_center" pos="LTRB|0,0,0,50" mode="vertfill" inset="27,0,27,0" SpaceX="20" >
+          <Control pos="LT|0,0,0,3"/>
+          <Label id="content_label" pos="LTRT|0,0,0,50" txt.singleline="0" valign="center" halign="center" txt.color="#N07" txt.font="font14"/>
+          <Control pos="LT|0,0,0,5"/>
+          <Container pos="LTRT|0,0,0,60" valign="center" halign="left">
+              <XML id="EditLayoutStyle" alayout.icon.bk.image="#icon_password" alayout.b_txt.text="#Lp_DefaultUserPasswordTip"
+                   alayout.ed.emptytips="#Lp_DefaultUserPasswordTip" alayout.ed.maxutf8char="60" alayout.btn_layout.pos="5|49,18,25,0" alayout.ed.password="1" alayout.ed.exceptlimit="chinese" 
+                   alayout.ed.txt_empty.font="font14"  alayout.ed.txt_empty.textcolor="#N06"
+                   alayout.emptytext="#Uc_PwdNotBeNull" alayout.id="edit_password"/>
+
+              <Container pos="5|25,18,0,0">
+                <Button id="btn_hide_pwd" pos="9|-1,-1,15,8" bk.image="#btn_hide_pwd" tooltip="#StrShowPwd"/>
+                <Button id="btn_show_pwd" pos="9|-1,-1,15,8" bk.image="#btn_show_pwd" visible="0" tooltip="#StrHidePwd"/>
+              </Container>
+          </Container>
+
+      </Layout>
+      <!--bottom 按钮-->
+      <Layout id="Bottom_layout" mode="righttoleft" pos="6|0,40,0,10" SpaceX="12" inset="20,0,20,0">
+      </Layout>
+
+    </Layout>
+  </Layout>
+</Window>
+  
+<Window id="LoadingBox" minWidth="430" minHeight="262" resize="0" move="0" shadow="1"> 
+
+  <Layout pos="LT|-1,-1,430,262" style="Picture" bk.image="#bk_window_main">
+    <!--弹框Title背景-->
+    <Layout mode="horzfill" pos="4|0,0,0,52">
+      <Control id="title_left" flip="0" style="Picture" pos="LT|0,0,81,0" bk.image="#download_Dlg_title_left_bk"/>
+      <Control id="title_mid"  flip="0" style="Picture" autosize="1" bk.image="#download_Dlg_title_mid_bk"/>
+      <Control id="title_right" flip="0" style="Picture" pos="RT|0,0,26,0" bk.image="#download_Dlg_title_right_bk"/>
+    </Layout>
+    <!--title-->
+    <Layout pos="4|1,0,1,52" >
+      <Control id="title_label" text="" style="Label" pos="LTLB|20,0,296,0" txt.font="font16b" txt.halign="left" 
+               txt.valign="center" txt.singleline="1" txt.endellipsis="1" txt.color="#N23"/>               
+      <Button  id="btn_warning_close" pos="RTRB|50,8,14,8" bk.image="#download_Dlg_btn_close" bk.msgseq="0,1,2,0,0"/>
+    </Layout>
+    <!--提示信息-->
+    <Layout id="cleanDlg_content" pos="LTRB|4,52,4,11" >
+      <!--提示内容-->
+      <Layout id="tipContent" visible="0">
+          <Layout id="layout_center" pos="LTRB|0,0,0,50" mode="horzfill" inset="27,0,27,0" SpaceX="20" >
+              <Control id="warning_pic" visible="0" style="Picture" bk.image="" pos="9|0,-1,48,48"/>
+              <Label id="content_label" pos="LTRB|0,0,0,0" txt.singleline="0" valign="center" halign="left" txt.color="#N07" txt.font="font16"/>
+          </Layout>
+          <!--bottom 按钮-->
+          <Layout id="Bottom_layout" mode="righttoleft" pos="6|0,50,0,20" SpaceX="12" inset="20,0,20,0">
+          </Layout>
+      </Layout>
+      
+      <!--正在登录 加载内容-->
+      <Layout id="loadingContent" visible="1">
+          <XML id="ContentLoadingStyle" ani_loading.pos="9|-1,55,54,54"/>
+          <Label id="loading_label" pos="4|0,132,0,153" txt.singleline="0" txt.valign="center" txt.halign="center" txt.color="#N07" txt.font="font16"/>
+      </Layout>
+    </Layout>
+  </Layout>
+
+</Window>
+  
+<Window id="MessageTipWnd">
+   <Layout mode="horzfill" style="Picture" bk.image="#bk_toast" inset="5,5,5,5">
+     <Control/>
+     <Control style="Picture" id="icon" pos="LT|0,-1,32,39" bk.image="#icon_flower" />
+     <Control pos="LT|0,0,10,1" />
+     <AutoSizeButton style="Label" id="words" pos="LTLB|0,0,1,0"  txt.pos ="LTRB|0,0,0,0" txt.valign="center" txt.endellipsis="1" txt.textcolor="#Color_White" txt.font="font18"/>
+     <Control/>
+   </Layout>
+</Window>
+  
+  <Style>
+    <Style id="Warning_btn_yellow_style">
+      <AutoSizeButton id="warning_btn"  text="" txt.textcolor="#N04|#H03|#P03|#D01" font="font12"
+                 pos="9|0,0,88,30"  bk.imgseq="0,1,2,0,0" bk.image="#bk_btn_darkyellow"
+               txt.pos="8|17,0,17,0" maxHeight="30" maxWidth="200" txt.endellipsis="1" txt.singleline="1"/>
+    </Style>
+    <Style id="Warning_btn_red_style">
+      <AutoSizeButton id="warning_btn"  text="" txt.textcolor="#N01|#H01|#P01|#D01" font="font12"
+                 pos="9|0,0,88,30"  bk.imgseq="0,1,2,0,0" bk.image="#bk_btn_red"
+               txt.pos="8|17,0,17,0" maxHeight="30" maxWidth="200" txt.endellipsis="1" txt.singleline="1"/>
+    </Style>
+
+    <Style id="Style_Label">
+      <Text id="txt" singleline="1" valign="center" halign="left" txt.color="333333" txt.font="font16" visible="0"/>
+      <Text singleline="0" valign="center" halign="left" txt.color="333333" txt.font="font16" />
+    </Style>
+    
+  </Style>
+</skin>

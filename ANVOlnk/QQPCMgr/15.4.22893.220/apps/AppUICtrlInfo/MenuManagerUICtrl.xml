@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="管理右键菜单" catalog="6" appclsid="AF74992A-D827-4852-B719-7F6AC2FF5DFB" appname="MenuManager" enable="1" supportsys="1111111111">
+		<icon path="MenuManager.svg" />
+		<description>
+			<![CDATA[管理文件和文件夹等]]>
+		</description>
+		<tip>
+			<![CDATA[管理文件、文件夹和浏览器的右键菜单]]>
+		</tip>
+	</App>
+</Apps>

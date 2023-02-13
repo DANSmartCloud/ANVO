@@ -1,0 +1,15 @@
+<Apps>
+	<App appname="PCmgrFileRecovery" clsid="7C801086-C315-4590-9DA1-5ADBCD8BD039" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.4.0">
+		<icon clsid="D8F3C82D-5503-4864-99BF-66F374668004" md5="a9ee7262004201e73664b756c41a84d7" path="https://s.pc.qq.com/pcmgr/logo/v15/PCmgrFileRecovery.svg" />
+		<url md5="87e761b4ccdb9466077ac1117a5bb022" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMPCmgrFileRecoverySetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="PCmgrFileRecovery.nsi" />
+		<install path="..\plugins\PCmgrFileRecovery\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\PCmgrFileRecovery|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\PCmgrFileRecovery|Version">
+			<run file="PCmgrFileRecovery.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="PCmgrFileRecovery.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\PCmgrFileRecovery" />
+                <item action="dir" path="plugins\PCmgrFileRecovery" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

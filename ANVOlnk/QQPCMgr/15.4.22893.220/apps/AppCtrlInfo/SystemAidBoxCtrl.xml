@@ -1,0 +1,12 @@
+<Apps>
+	<App appname="SystemAidBox" clsid="734E8C07-82CA-4ed8-818B-8F7DB3E95EF1" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.2">
+		<icon clsid="DCBA42EA-2B6D-44CF-BD8E-CC78C3DA9C2C" md5="247f3114619d66043324cb065930a70f" path="https://s.pc.qq.com/pcmgr/logo/v15/SystemAidBox.svg" />
+		<url md5="cc99a1d4d0c0b4693e284f10eac99f0f" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMSystemAidBoxSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMSystemAidBox.nsi" />
+		<install path="..\plugins\SystemAidBox\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SystemAidBox|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SystemAidBox|Version">
+			<run file="SystemAidBox.exe" param="" />
+			<uninstall file="" param="">
+			</uninstall>
+		</install>
+	</App>
+</Apps>

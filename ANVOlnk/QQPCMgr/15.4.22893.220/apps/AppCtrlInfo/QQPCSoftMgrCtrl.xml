@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="D1DAB619-C2DB-4365-9C8C-D71AA504843C" appname="QQPCSoftMgr" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="42D5CFC6-13E4-4E73-B98B-04F94D11E425" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCSoftMgr.svg" md5="2f8f8bb53407adcba793b0f97a48f2d5" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCSoftMgr.exe" param="/parent=funclist" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

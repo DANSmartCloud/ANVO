@@ -1,0 +1,10 @@
+<Apps>
+	<App appname="QMQbclientSetup" clsid="071887FF-D87B-47ED-B215-790805F57F86" enable="1" forcedownload="1" forceinstall="1" supportsys="1111111111" version="1.0.0">
+		<url md5="ae82d0bf8e5df9a339f6bbabc5349937" param="/S" path="http://dlied6.qq.com/invc/xfspeed/plugin/QBClientPackage/QMqbclientSetup_15_20_10058_201.exe" pkgtype="0" />
+		<nsi ignore="True" name="" />
+		<install path="..\qbclient\" pathkey="" pathtype="0" verkey="">
+			<run file="qbcore.dll" param="" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

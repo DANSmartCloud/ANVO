@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--category id=80预留， 要增加新的category请直接添加到最后面--> 
+<categories version="1.0" displaycnt = "6">
+	<category id="20" name="腾讯专区" metroicon="metro_icon_tencent" tabicon="tab_icon_tencent" xporder="2">
+		<tag name="all">
+		    <problem id="1412" type="local"/>
+			<problem id="1001" type="local"/>
+			<problem id="1015" type="local"/>
+			<problem id="1408" type="local"/>
+			<problem id="1413" type="local"/>
+			<problem id="1027" type="local"/>
+			<problem id="1016" type="local"/>
+			<problem id="1300" type="local"/>
+			<problem id="1221" type="local"/>
+			<problem id="1220" type="local"/>
+			<problem id="1089" type="local"/>
+			<problem id="1500" type="local"/>
+			<problem id="1401" type="local"/>
+			<problem id="1227" type="local"/>
+			<problem id="1402" type="local"/>
+			<problem id="1201" type="local"/>
+			<problem id="1073" type="local"/>
+			<problem id="1605" type="local"/>
+			<problem id="1090" type="local"/>
+			<problem id="1034" type="local"/>
+			<problem id="1222" type="local"/>
+			<problem id="1074" type="local"/>
+			<problem id="1228" type="local"/>
+			<problem id="1400" type="local"/>
+			<problem id="1091" type="local"/>
+			<problem id="1077" type="local"/>
+			<problem id="1076" type="local"/>
+			<problem id="1411" type="local"/>
+			<problem id="1078" type="local"/>
+			<problem id="1080" type="local"/>
+			<problem id="1083" type="local"/>
+			<problem id="1075" type="local"/>
+			<problem id="1092" type="local"/>
+			<problem id="1081" type="local"/>
+			<problem id="1097" type="local"/>
+			<problem id="1079" type="local"/>
+			<problem id="10040" type="web"/>
+			<problem id="10015" type="web"/>
+			<problem id="10035" type="web"/>
+			<problem id="10054" type="web"/>
+			<problem id="10299" type="web"/>
+			<problem id="10057" type="web"/>
+			<problem id="10241" type="web"/>
+			<problem id="10244" type="web"/>
+			<problem id="10245" type="web"/>
+			<problem id="10246" type="web"/>
+			<problem id="10247" type="web"/>
+			<problem id="10248" type="web"/>
+			<problem id="10253" type="web"/>
+			<problem id="10254" type="web"/>
+			<problem id="10260" type="web"/>
+			<problem id="10269" type="web"/>
+			<problem id="10270" type="web"/>
+			<problem id="10279" type="web"/>
+			<problem id="10306" type="web"/>
+		</tag>
+		
+		<tag name="冒险岛2崩溃" flag="hot">
+			<problem id="1413" type="local"/>				
+		</tag>
+		
+		<tag name="QQ空间" flag="hot">
+			<problem id="1001" type="local"/>
+			<problem id="1016" type="local"/>
+			<problem id="1015" type="local"/>
+			<problem id="1075" type="local"/>
+			<problem id="1027" type="local"/>			
+			<problem id="10253" type="web"/>
+			<problem id="10306" type="web"/>			
+		</tag>
+		
+
+		<tag name="腾讯游戏" flag="hot">
+            <problem id="1412" type="local"/>
+		    <problem id="1408" type="local"/>
+			<problem id="1413" type="local"/>
+			<problem id="1089" type="local"/>
+			<problem id="1090" type="local"/>
+			<problem id="1091" type="local"/>
+			<problem id="1092" type="local"/>
+			<problem id="1076" type="local"/>
+			<problem id="1077" type="local"/>
+			<problem id="1078" type="local"/>
+			<problem id="1079" type="local"/>
+			<problem id="1080" type="local"/>
+			<problem id="1081" type="local"/>
+			<problem id="1083" type="local"/>			
+			<problem id="1097" type="local"/>	
+			<problem id="1075" type="local"/>
+			<problem id="1001" type="local"/>		
+			<problem id="1220" type="local"/>
+			<problem id="1221" type="local"/>
+			<problem id="1222" type="local"/>			
+			<problem id="1015" type="local"/>
+			<problem id="1500" type="local"/>
+			<problem id="1411" type="local"/>
+			<problem id="10260" type="web"/>
+			<problem id="10248" type="web"/>
+			<problem id="10270" type="web"/>
+			<problem id="10247" type="web"/>
+			<problem id="10246" type="web"/>
+			<problem id="10279" type="web"/>
+			<problem id="10245" type="web"/>
+		</tag>
+		
+		<tag name="QQ" flag="hot">
+			<problem id="1016" type="local"/>
+			<problem id="1227" type="local"/>
+			<problem id="1605" type="local"/>
+			<problem id="1034" type="local"/>
+			<problem id="1401" type="local"/>
+			<problem id="1402" type="local"/>
+			<problem id="10269" type="web"/>
+			<problem id="10254" type="web"/>
+			<problem id="10241" type="web"/>
+			<problem id="10057" type="web"/>
+			<problem id="10054" type="web"/>
+			<problem id="10040" type="web"/>
+		</tag>
+				
+		<tag name="腾讯视频">
+			<problem id="1073" type="local"/>
+			<problem id="1201" type="local"/>
+			<problem id="1074" type="local"/>		
+			<problem id="1300" type="local"/>
+			<problem id="1400" type="local"/>
+			<problem id="1228" type="local"/>
+			<problem id="10244" type="web"/>
+			<problem id="10022" type="web"/>
+			<problem id="10035" type="web"/>
+			<problem id="10015" type="web"/>
+			<problem id="10075" type="web"/>
+			<problem id="10015" type="web"/>
+		</tag>
+		
+		<tag name="QQ聊天时间">
+			<problem id="1034" type="local"/>
+			<problem id="10030" type="web"/>
+		</tag>
+	</category>
+	
+	<category id="30" name="桌面图标" metroicon="metro_icon_desktop" tabicon="tab_icon_desktop" xporder="5">
+		<tag name="all">
+			<problem id="1300" type="local"/>
+			<problem id="1070" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="1012" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1405" type="local"/>
+			<problem id="1009" type="local"/>
+			<problem id="1007" type="local"/>
+			<problem id="1019" type="local"/>
+			<problem id="1024" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1010" type="local"/>
+			<problem id="1026" type="local"/>
+			<problem id="1025" type="local"/>
+			<problem id="1023" type="local"/>
+			<problem id="1011" type="local"/>
+			<problem id="1407" type="local"/>
+			<problem id="10029" type="web"/>
+			<problem id="10034" type="web"/>
+			<problem id="10039" type="web"/>
+			<problem id="10043" type="web"/>
+			<problem id="10044" type="web"/>
+			<problem id="10088" type="web"/>
+			<problem id="10183" type="web"/>
+			<problem id="10198" type="web"/>
+			<problem id="10199" type="web"/>
+			<problem id="10232" type="web"/>
+			<problem id="10235" type="web"/>
+			<problem id="10267" type="web"/>
+			<problem id="10268" type="web"/>
+			<problem id="10272" type="web"/>
+			<problem id="10313" type="web"/>
+			<problem id="10316" type="web"/>
+			<problem id="10319" type="web"/>
+			<problem id="10323" type="web"/>
+			<problem id="10331" type="web"/>
+			
+		</tag>
+		
+		<tag name="图标显示异常" flag="hot">
+			<problem id="1009" type="local"/>			
+			<problem id="1025" type="local"/>
+			<problem id="1024" type="local"/>
+			<problem id="1026" type="local"/>
+			<problem id="1012" type="local"/>
+			<problem id="1007" type="local"/>
+			<problem id="10272" type="web"/>
+			<problem id="10034" type="web"/>
+			<problem id="10235" type="web"/>
+			<problem id="10267" type="web"/>
+			<problem id="10029" type="web"/>
+		</tag>
+		
+		<tag name="图标消失">
+			<problem id="1010" type="local"/>
+			<problem id="1011" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1405" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="10029" type="web"/>
+			<problem id="10039" type="web"/>
+			<problem id="10034" type="web"/>
+			<problem id="10043" type="web"/>
+			<problem id="10064" type="web"/>
+			<problem id="10316" type="web"/>
+			<problem id="10331" type="web"/>
+		</tag>
+		
+		<tag name="快捷方式">
+			<problem id="1070" type="local"/>
+			<problem id="1009" type="local"/>
+			<problem id="1025" type="local"/>
+			<problem id="1407" type="local"/>
+			<problem id="10319" type="web"/>
+			<problem id="10272" type="web"/>
+			<problem id="10088" type="web"/>
+		</tag>
+					
+		<tag name="声音图标">
+			<problem id="1021" type="local"/>
+			<problem id="1300" type="local"/>
+			<problem id="1020" type="local"/>
+		</tag>
+		
+		<tag name="蓝色阴影">
+			<problem id="1012" type="local"/>
+		</tag>
+		
+		<tag name="任务栏">
+			<problem id="1019" type="local"/>
+			<problem id="1023" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="10038" type="web"/>
+			<problem id="10016" type="web"/>			
+			<problem id="10323" type="web"/>
+			<problem id="10198" type="web"/>
+			<problem id="10183" type="web"/>
+			<problem id="10313" type="web"/>
+		</tag>
+	</category>
+	
+	<category id="40" name="上网异常" metroicon="metro_icon_internet" tabicon="tab_icon_internet" xporder="3">
+		<tag name="all">
+			<problem id="1608" type="local"/>
+			<problem id="1005" type="local"/>
+			<problem id="1409" type="local"/>
+			<problem id="1001" type="local"/>
+			<problem id="1003" type="local"/>
+			<problem id="1029" type="local"/>
+			<problem id="1300" type="local"/>
+			<problem id="1002" type="local"/>
+			<problem id="1015" type="local"/>
+			<problem id="1603" type="local"/>
+			<problem id="1403" type="local"/>
+			<problem id="1027" type="local"/>
+			<problem id="1200" type="local"/>
+			<problem id="1016" type="local"/>
+			<problem id="1601" type="local"/>
+			<problem id="1401" type="local"/>
+			<problem id="1402" type="local"/>
+			<problem id="1201" type="local"/>
+			<problem id="1028" type="local"/>
+			<problem id="1604" type="local"/>
+			<problem id="1607" type="local"/>
+			<problem id="1606" type="local"/>
+			<problem id="1609" type="local"/>
+			<problem id="10350" type="web"/>
+			<problem id="10250" type="web"/>
+			<problem id="10264" type="web"/>
+			<problem id="10263" type="web"/>
+			<problem id="10251" type="web"/>
+			<problem id="10299" type="web"/>
+			<problem id="10328" type="web"/>
+			<problem id="10333" type="web"/>
+			<problem id="10321" type="web"/>
+			<problem id="10307" type="web"/>
+			<problem id="10262" type="web"/>
+			<problem id="10326" type="web"/>
+			<problem id="10248" type="web"/>
+			<problem id="10247" type="web"/>
+			<problem id="10246" type="web"/>
+			<problem id="10245" type="web"/>
+			<problem id="10244" type="web"/>
+			<problem id="10241" type="web"/>
+			<problem id="10240" type="web"/>
+			<problem id="10233" type="web"/>
+			<problem id="10230" type="web"/>
+			<problem id="10222" type="web"/>
+			<problem id="10220" type="web"/>
+			<problem id="10213" type="web"/>
+			<problem id="10209" type="web"/>
+			<problem id="10200" type="web"/>
+			<problem id="10191" type="web"/>
+			<problem id="10189" type="web"/>
+			<problem id="10182" type="web"/>
+			<problem id="10060" type="web"/>
+			<problem id="10051" type="web"/>
+			<problem id="10050" type="web"/>
+			<problem id="10019" type="web"/>
+			<problem id="10041" type="web"/>
+		</tag>
+		
+		<tag name="抢火车票" flag="hot">
+			<problem id="1609" type="local"/>
+			<problem id="1200" type="local"/>			
+			<problem id="10350" type="web"/>
+			<problem id="10385" type="web"/>
+		</tag>
+		
+		<tag name="上网慢" flag="hot">
+			<problem id="1409" type="local"/>
+			<problem id="1608" type="local"/>
+			<problem id="10262" type="web"/>
+			<problem id="10230" type="web"/>
+			
+		</tag>
+		
+		<tag name="能上QQ不能上网" flag="hot">
+			<problem id="1003" type="local"/>
+			<problem id="1005" type="local"/>
+			<problem id="10060" type="web"/>
+		</tag>
+	
+		<tag name="IE报错">
+			<problem id="1005" type="local"/>
+			<problem id="1403" type="local"/>
+			<problem id="1027" type="local"/>
+			<problem id="1601" type="local"/>
+			<problem id="10051" type="web"/>
+			<problem id="10019" type="web"/>
+			<problem id="10060" type="web"/>
+			<problem id="10029" type="web"/>
+			<problem id="10080" type="web"/>
+			<problem id="10081" type="web"/>
+			<problem id="10082" type="web"/>
+			<problem id="10084" type="web"/>
+			<problem id="10333" type="web"/>
+			<problem id="10328" type="web"/>
+		</tag>
+
+		<tag name="网页打不开">
+			<problem id="1609" type="local"/>
+			<problem id="1029" type="local"/>
+			<problem id="1003" type="local"/>
+			<problem id="1005" type="local"/>
+			<problem id="1027" type="local"/>
+			<problem id="1001" type="local"/>
+			<problem id="1603" type="local"/>
+			<problem id="1604" type="local"/>
+			<problem id="1606" type="local"/>
+			<problem id="1607" type="local"/>			
+			<problem id="10326" type="web"/>
+			<problem id="10321" type="web"/>
+			<problem id="10307" type="web"/>
+			<problem id="10251" type="web"/>
+			<problem id="10209" type="web"/>
+			<problem id="10060" type="web"/>
+			<problem id="10051" type="web"/>
+			<problem id="10050" type="web"/>
+			<problem id="10019" type="web"/>
+		</tag>
+		
+		<tag name="视频">
+			<problem id="1002" type="local"/>
+			<problem id="1201" type="local"/>
+			<problem id="1028" type="local"/>
+			<problem id="1300" type="local"/>
+			<problem id="10244" type="web"/>
+			<problem id="10182" type="web"/>
+		</tag>
+<!-- 		<tag name="网页字体">
+			<problem id="1027" type="local"/>
+			<problem id="10041" type="web"/>
+		</tag> -->
+	</category>
+	
+	<category id="110" name="软件硬件" metroicon="metro_icon_softhard" tabicon="tab_icon_software" xporder="4">
+		<tag name="all">	
+			<problem id="1016" type="local"/>
+			<problem id="1220" type="local"/>
+			<problem id="1221" type="local"/>
+			<problem id="1222" type="local"/>
+			<problem id="1223" type="local"/>
+			<problem id="1605" type="local"/>
+			<problem id="1224" type="local"/>
+			<problem id="1225" type="local"/>
+			<problem id="1227" type="local"/>
+			<problem id="1228" type="local"/>
+			<problem id="1230" type="local"/>
+			<problem id="1034" type="local"/>
+			<problem id="1017" type="local"/>
+			<problem id="1002" type="local"/>
+			<problem id="1089" type="local"/>
+			<problem id="1001" type="local"/>
+			<problem id="1015" type="local"/>
+			<problem id="1074" type="local"/>
+			<problem id="1022" type="local"/>
+			<problem id="1701" type="local"/>
+			
+			
+			<problem id="1300" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1028" type="local"/>
+			<problem id="1301" type="local"/>
+			<problem id="1302" type="local"/>
+			<problem id="10332" type="web"/>
+			<problem id="10327" type="web"/>
+			<problem id="10309" type="web"/>
+			<problem id="10300" type="web"/>
+			<problem id="10275" type="web"/>
+			<problem id="10269" type="web"/>
+			<problem id="10266" type="web"/>
+			<problem id="10261" type="web"/>
+			<problem id="10257" type="web"/>
+			<problem id="10254" type="web"/>
+			<problem id="10243" type="web"/>
+			<problem id="10241" type="web"/>
+			<problem id="10193" type="web"/>
+			<problem id="10056" type="web"/>
+			<problem id="10022" type="web"/>
+			<problem id="10330" type="web"/>
+			<problem id="10329" type="web"/>
+			<problem id="10322" type="web"/>
+			<problem id="10318" type="web"/>
+			<problem id="10298" type="web"/>
+			<problem id="10297" type="web"/>
+			<problem id="10296" type="web"/>
+			<problem id="10295" type="web"/>
+			<problem id="10289" type="web"/>
+			<problem id="10264" type="web"/>
+			<problem id="10259" type="web"/>
+			<problem id="10258" type="web"/>
+			<problem id="10255" type="web"/>
+			<problem id="10252" type="web"/>
+			<problem id="10249" type="web"/>
+			<problem id="10237" type="web"/>
+			<problem id="10236" type="web"/>
+			<problem id="10221" type="web"/>
+			<problem id="10215" type="web"/>
+			<problem id="10214" type="web"/>
+			<problem id="10212" type="web"/>
+			<problem id="10185" type="web"/>
+			<problem id="10184" type="web"/>
+			<problem id="10049" type="web"/>
+			<problem id="10047" type="web"/>
+			<problem id="10046" type="web"/>
+			<problem id="10023" type="web"/>
+			<problem id="10017" type="web"/>
+			<problem id="10007" type="web"/>			
+		</tag>
+
+
+		<tag name="QQ" flag="hot">
+			<problem id="1016" type="local"/>
+			<problem id="1034" type="local"/>
+			<problem id="1605" type="local"/>
+			<problem id="1227" type="local"/>
+			<problem id="10175" type="web"/>
+			<problem id="10057" type="web"/>
+			<problem id="10054" type="web"/>
+			<problem id="10040" type="web"/>
+			<problem id="10075" type="web"/>
+			<problem id="10035" type="web"/>
+			<problem id="10022" type="web"/>
+			<problem id="10015" type="web"/>
+			<problem id="10210" type="web"/>
+			<problem id="10226" type="web"/>
+			
+			<problem id="10269" type="web"/>
+			<problem id="10254" type="web"/>
+			<problem id="10241" type="web"/>
+			<problem id="10022" type="web"/>
+		</tag>
+		<tag name="声音">
+			<problem id="1074" type="local"/>
+			<problem id="1228" type="local"/>
+			<problem id="1300" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1028" type="local"/>
+			<problem id="10015" type="web"/>
+			<problem id="10035" type="web"/>
+			<problem id="10007" type="web"/>
+			<problem id="10035" type="web"/>
+			<problem id="10022" type="web"/>
+			<problem id="10015" type="web"/>
+			<problem id="10075" type="web"/>
+			<problem id="10264" type="web"/>
+			<problem id="10249" type="web"/>			
+		</tag>
+		
+		<tag name="Office">
+			<problem id="1017" type="local"/>
+			<problem id="10062" type="web"/>
+			<problem id="10078" type="web"/>
+			<problem id="10091" type="web"/>
+		</tag>
+
+		<tag name="丢失dll文件">
+			<problem id="1220" type="local"/>
+			<problem id="1221" type="local"/>
+			<problem id="1222" type="local"/>
+			<problem id="1223" type="local"/>
+			<problem id="1224" type="local"/>
+			<problem id="1225" type="local"/>
+			<problem id="1227" type="local"/>
+			<problem id="1228" type="local"/>
+			<problem id="1230" type="local"/>
+			<problem id="1701" type="local"/>
+			<problem id="1801" type="local"/>
+			<problem id="10275" type="web"/>
+			<problem id="10257" type="web"/>
+		</tag>
+		<tag name="U盘">
+		<problem id="10046" type="web"/>
+		<problem id="10047" type="web"/>
+		<problem id="10017" type="web"/>
+			<problem id="10212" type="web"/>
+			<problem id="10296" type="web"/>
+			<problem id="10298" type="web"/>
+			<problem id="10255" type="web"/>
+			<problem id="10297" type="web"/>
+		</tag>
+		<tag name="摄像头">
+			<problem id="1301" type="local"/>	
+			<problem id="10023" type="web"/>
+			<problem id="10049" type="web"/>
+			<problem id="10330" type="web"/>
+			<problem id="10049" type="web"/>
+		</tag>
+
+		<tag name="鼠标">
+			<problem id="10024" type="web"/>
+			<problem id="10074" type="web"/>
+			<problem id="10318" type="web"/>
+			<problem id="10322" type="web"/>
+			<problem id="10184" type="web"/>
+			<problem id="10185" type="web"/>
+			<problem id="10329" type="web"/>
+		</tag>		
+
+		<tag name="输入法">
+			<problem id="1022" type="local"/>
+			<problem id="10332" type="web"/>
+			<problem id="10327" type="web"/>
+		</tag>		
+	</category>
+
+	<category id="60" name="系统综合" metroicon="metro_icon_system" tabicon="tab_icon_system" xporder="7">
+		<tag name="all">
+			<problem id="1409" type="local"/>
+			<problem id="1410" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="1030" type="local"/>
+			<problem id="1022" type="local"/>
+			<problem id="1018" type="local"/>
+			<problem id="1026" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1602" type="local"/>
+			<problem id="1019" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1023" type="local"/>
+			<problem id="1501" type="local"/>
+			<problem id="1032" type="local"/>
+			<problem id="1031" type="local"/>
+			<problem id="1404" type="local"/>
+			<problem id="1405" type="local"/>
+			<problem id="1406" type="local"/>
+			<problem id="10332" type="web"/>
+			<problem id="10327" type="web"/>
+			<problem id="10325" type="web"/>
+			<problem id="10324" type="web"/>
+			<problem id="10323" type="web"/>
+			<problem id="10320" type="web"/>
+			<problem id="10315" type="web"/>
+			<problem id="10314" type="web"/>
+			<problem id="10313" type="web"/>
+			<problem id="10310" type="web"/>
+			<problem id="10292" type="web"/>
+			<problem id="10291" type="web"/>
+			<problem id="10290" type="web"/>
+			<problem id="10288" type="web"/>
+			<problem id="10287" type="web"/>
+			<problem id="10273" type="web"/>
+			<problem id="10265" type="web"/>
+			<problem id="10256" type="web"/>
+			<problem id="10231" type="web"/>
+			<problem id="10228" type="web"/>
+			<problem id="10227" type="web"/>
+			<problem id="10226" type="web"/>
+			<problem id="10225" type="web"/>
+			<problem id="10224" type="web"/>
+			<problem id="10223" type="web"/>
+			<problem id="10219" type="web"/>
+			<problem id="10218" type="web"/>
+			<problem id="10211" type="web"/>
+			<problem id="10210" type="web"/>
+			<problem id="10206" type="web"/>
+			<problem id="10203" type="web"/>
+			<problem id="10202" type="web"/>
+			<problem id="10197" type="web"/>
+			<problem id="10196" type="web"/>
+			<problem id="10194" type="web"/>
+			<problem id="10195" type="web"/>
+			<problem id="10192" type="web"/>
+			<problem id="10190" type="web"/>
+			<problem id="10186" type="web"/>
+			<problem id="10183" type="web"/>
+			<problem id="10181" type="web"/>
+			<problem id="10053" type="web"/>
+			<problem id="10052" type="web"/>
+			<problem id="10042" type="web"/>
+			<problem id="10041" type="web"/>
+			<problem id="10038" type="web"/>
+			<problem id="10033" type="web"/>
+			<problem id="10018" type="web"/>
+			<problem id="10016" type="web"/>
+			<problem id="10386" type="web"/>
+			<problem id="10387" type="web"/>
+			<problem id="10388" type="web"/>
+			<problem id="10389" type="web"/>
+			<problem id="10390" type="web"/>
+			<problem id="10391" type="web"/>
+			<problem id="10392" type="web"/>
+			<problem id="10393" type="web"/>
+			<problem id="10394" type="web"/>
+			<problem id="10395" type="web"/>
+			<problem id="10396" type="web"/>
+			<problem id="10397" type="web"/>
+			<problem id="10398" type="web"/>
+			<problem id="10399" type="web"/>
+			<problem id="10400" type="web"/>
+			<problem id="10401" type="web"/>
+			<problem id="10402" type="web"/>
+		</tag>
+		
+		<tag name="Win 8系统" flag="hot">
+			<problem id="1801" type="local"/>
+			<problem id="10386" type="web"/>
+			<problem id="10387" type="web"/>
+			<problem id="10388" type="web"/>
+			<problem id="10389" type="web"/>
+			<problem id="10390" type="web"/>
+			<problem id="10391" type="web"/>
+			<problem id="10392" type="web"/>
+			<problem id="10393" type="web"/>
+			<problem id="10394" type="web"/>
+			<problem id="10395" type="web"/>
+			<problem id="10396" type="web"/>
+			<problem id="10397" type="web"/>
+			<problem id="10398" type="web"/>
+			<problem id="10399" type="web"/>
+			<problem id="10400" type="web"/>
+			<problem id="10401" type="web"/>
+			<problem id="10402" type="web"/>
+		</tag>
+		
+		<tag name="开机慢" flag="hot">
+			<problem id="1801" type="local"/>
+			<problem id="1410" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1501" type="local"/>
+			<problem id="10053" type="web"/>
+			<problem id="10033" type="web"/>
+			<problem id="10018" type="web"/>
+			<problem id="10218" type="web"/>
+			<problem id="10190" type="web"/>
+			<problem id="10195" type="web"/>
+			<problem id="10197" type="web"/>
+			<problem id="10242" type="web"/>
+			<problem id="10315" type="web"/>
+			
+		</tag>
+		
+		<tag name="输入法" flag="hot">
+			<problem id="1022" type="local"/>
+			<problem id="10327" type="web"/>
+			<problem id="10332" type="web"/>
+			<problem id="10042" type="web"/>
+		</tag>
+		
+		<tag name="任务栏">
+			<problem id="1019" type="local"/>
+			<problem id="1023" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="10016" type="web"/>
+			<problem id="10038" type="web"/>
+			<problem id="10226" type="web"/>
+			<problem id="10210" type="web"/>
+			<problem id="10183" type="web"/>
+			<problem id="10313" type="web"/>
+			<problem id="10323" type="web"/>
+		</tag>
+		
+		<tag name="任务管理器">
+			<problem id="1018" type="local"/>
+			<problem id="10072" type="web"/>
+			<problem id="10292" type="web"/>
+		</tag>
+
+		<tag name="磁盘图标">
+			<problem id="1801" type="local"/>
+			<problem id="1026" type="local"/>
+			<problem id="10031" type="web"/>
+			<problem id="10055" type="web"/>
+			<problem id="10048" type="web"/>
+			<problem id="10066" type="web"/>
+			<problem id="10070" type="web"/>
+			
+			<problem id="10048" type="web"/>
+			<problem id="10324" type="web"/>
+			<problem id="10032" type="web"/>
+			
+		</tag>		
+	</category>
+	
+	<category id="100" name="全国维修" metroicon="metro_icon_lenovo" tabicon="tab_icon_hardware" xporder="6">
+		<tag name="all">
+			<problem id="2001" type="local"/>
+			<problem id="2002" type="local"/>
+			<problem id="2003" type="local"/>
+			<problem id="2004" type="local"/>
+			<problem id="2005" type="local"/>
+			<problem id="2006" type="local"/>
+			<problem id="2024" type="local"/>
+			<problem id="2007" type="local"/>
+			<problem id="2008" type="local"/>
+			<problem id="2009" type="local"/>
+			<problem id="2010" type="local"/>
+			<problem id="2011" type="local"/>
+			<problem id="2012" type="local"/>
+			<problem id="2013" type="local"/>
+			<problem id="2014" type="local"/>
+			<problem id="2015" type="local"/>
+			<problem id="2016" type="local"/>
+			<problem id="2017" type="local"/>
+			<problem id="2018" type="local"/>
+			<problem id="2019" type="local"/>
+			<problem id="2020" type="local"/>
+			<problem id="2021" type="local"/>
+			<problem id="2022" type="local"/>
+			<problem id="2023" type="local"/>
+		</tag>
+		
+		<tag name="硬件故障" flag="hot">
+			<problem id="2024" type="local"/>
+			<problem id="2001" type="local"/>
+			<problem id="2002" type="local"/>
+			<problem id="2003" type="local"/>
+			<problem id="2004" type="local"/>
+			<problem id="2005" type="local"/>
+			<problem id="2006" type="local"/>
+		</tag>
+
+		<tag name="数据恢复" flag="hot">
+			<problem id="2007" type="local"/>
+			<problem id="2008" type="local"/>
+			<problem id="2009" type="local"/>
+			<problem id="2010" type="local"/>
+		</tag>
+
+		<tag name="手机维护" flag="hot">
+			<problem id="2011" type="local"/>
+			<problem id="2012" type="local"/>
+			<problem id="2013" type="local"/>
+			<problem id="2014" type="local"/>
+		</tag>
+
+		<tag name="硬件升级">
+			<problem id="2015" type="local"/>
+			<problem id="2016" type="local"/>
+			<problem id="2017" type="local"/>
+			<problem id="2018" type="local"/>
+		</tag>
+
+		<tag name="系统重装">
+			<problem id="2019" type="local"/>
+		</tag>
+
+		<tag name="保养">
+			<problem id="2020" type="local"/>
+			<problem id="2021" type="local"/>
+			<problem id="2022" type="local"/>
+		</tag>
+	</category>
+	
+	<category id="90" name="XP专区" metroicon="metro_icon_xpsystem" tabicon="tab_icon_system" xporder="1">
+		<tag name="all">
+		    <problem id="1415" type="local"/>
+			<problem id="1608" type="local"/>
+			<problem id="1410" type="local"/>
+			<problem id="1409" type="local"/>
+			<problem id="1012" type="local"/>
+			<problem id="1022" type="local"/>
+			<problem id="1405" type="local"/>
+			<problem id="1223" type="local"/>
+			<problem id="1224" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="1701" type="local"/>
+			<problem id="1018" type="local"/>
+			<problem id="1019" type="local"/>
+			<problem id="1602" type="local"/>
+			<problem id="1024" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1026" type="local"/>
+			<problem id="1031" type="local"/>
+			<problem id="1023" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1030" type="local"/>
+			<problem id="1404" type="local"/>
+			<problem id="1406" type="local"/>
+			<problem id="1032" type="local"/>
+			<problem id="1501" type="local"/>
+			<problem id="10332" type="web"/>
+			<problem id="10327" type="web"/>
+			<problem id="10325" type="web"/>
+			<problem id="10324" type="web"/>
+			<problem id="10323" type="web"/>
+			<problem id="10320" type="web"/>
+			<problem id="10315" type="web"/>
+			<problem id="10314" type="web"/>
+			<problem id="10313" type="web"/>
+			<problem id="10310" type="web"/>
+			<problem id="10292" type="web"/>
+			<problem id="10291" type="web"/>
+			<problem id="10290" type="web"/>
+			<problem id="10288" type="web"/>
+			<problem id="10287" type="web"/>
+			<problem id="10273" type="web"/>
+			<problem id="10265" type="web"/>
+			<problem id="10256" type="web"/>
+			<problem id="10231" type="web"/>
+			<problem id="10228" type="web"/>
+			<problem id="10227" type="web"/>
+			<problem id="10226" type="web"/>
+			<problem id="10225" type="web"/>
+			<problem id="10224" type="web"/>
+			<problem id="10223" type="web"/>
+			<problem id="10219" type="web"/>
+			<problem id="10218" type="web"/>
+			<problem id="10211" type="web"/>
+			<problem id="10210" type="web"/>
+			<problem id="10206" type="web"/>
+			<problem id="10203" type="web"/>
+			<problem id="10202" type="web"/>
+			<problem id="10197" type="web"/>
+			<problem id="10196" type="web"/>
+			<problem id="10194" type="web"/>
+			<problem id="10195" type="web"/>
+			<problem id="10192" type="web"/>
+			<problem id="10190" type="web"/>
+			<problem id="10186" type="web"/>
+			<problem id="10183" type="web"/>
+			<problem id="10181" type="web"/>
+			<problem id="10053" type="web"/>
+			<problem id="10052" type="web"/>
+			<problem id="10042" type="web"/>
+			<problem id="10041" type="web"/>
+			<problem id="10038" type="web"/>
+			<problem id="10033" type="web"/>
+			<problem id="10018" type="web"/>
+			<problem id="10016" type="web"/>
+			<problem id="10386" type="web"/>
+			<problem id="10387" type="web"/>
+			<problem id="10388" type="web"/>
+			<problem id="10389" type="web"/>
+			<problem id="10390" type="web"/>
+			<problem id="10391" type="web"/>
+			<problem id="10392" type="web"/>
+			<problem id="10393" type="web"/>
+			<problem id="10394" type="web"/>
+			<problem id="10395" type="web"/>
+			<problem id="10396" type="web"/>
+			<problem id="10397" type="web"/>
+			<problem id="10398" type="web"/>
+			<problem id="10399" type="web"/>
+			<problem id="10400" type="web"/>
+			<problem id="10401" type="web"/>
+			<problem id="10402" type="web"/>
+		</tag>
+		
+		<tag name="开机慢" flag="hot">
+			<problem id="1410" type="local"/>
+			<problem id="1409" type="local"/>
+			<problem id="1020" type="local"/>
+			<problem id="1501" type="local"/>
+			<problem id="10053" type="web"/>
+			<problem id="10033" type="web"/>
+			<problem id="10018" type="web"/>
+			<problem id="10218" type="web"/>
+			<problem id="10190" type="web"/>
+			<problem id="10195" type="web"/>
+			<problem id="10197" type="web"/>
+			<problem id="10242" type="web"/>
+			<problem id="10315" type="web"/>
+		</tag>
+		
+		<tag name="图标阴影" flag="hot">
+		    <problem id="1012" type="local"/>
+		</tag>
+		
+		<tag name="显示桌面消失" flag="hot">
+		    <problem id="1405" type="local"/>
+		</tag>
+		
+		<tag name="任务栏" >
+			<problem id="1019" type="local"/>
+			<problem id="1023" type="local"/>
+			<problem id="1021" type="local"/>
+			<problem id="1033" type="local"/>
+			<problem id="10016" type="web"/>
+			<problem id="10038" type="web"/>
+			<problem id="10226" type="web"/>
+			<problem id="10210" type="web"/>
+			<problem id="10183" type="web"/>
+			<problem id="10313" type="web"/>
+			<problem id="10323" type="web"/>
+		</tag>
+		
+		<tag name="输入法" >
+			<problem id="1022" type="local"/>
+			<problem id="10327" type="web"/>
+			<problem id="10332" type="web"/>
+			<problem id="10042" type="web"/>
+		</tag>
+		
+		<tag name="任务管理器">
+			<problem id="1018" type="local"/>
+			<problem id="10072" type="web"/>
+			<problem id="10292" type="web"/>
+		</tag>
+	</category>
+</categories>

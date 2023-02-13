@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QMTaskConfig>
+  <ManualIDList value="1001,1022,1023,1024,1025,1027,1026" />
+  <ConfilictList>
+	<Item main="1" sub="0" />
+	<Item main="2" sub="0" />
+    <Item main="1001" sub="0" />
+	<Item main="25" sub="0" />
+    <Item main="1025" sub="0" />
+	<Item main="23" sub="0" />
+	<Item main="1023" sub="0" />
+	<Item main="24" sub="0" />
+	<Item main="1024" sub="0" />
+	<Item main="26" sub="0" />
+	<Item main="1026" sub="0" />
+	<Item main="27" sub="0" />
+	<Item main="1027" sub="0" />
+	<Item main="1022" sub="0" />
+  </ConfilictList>
+</QMTaskConfig>

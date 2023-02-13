@@ -1,0 +1,19 @@
+[Root] 
+Hide=0 
+AlignType=1 
+IEMax=11 
+CfgID=1 
+HideBShowupBtn=0
+HideInstBtn=0
+HideSettingBtn=0
+App=QQPCSoftMgr.exe 
+Param=/softdetailid=24345 /parent=user7100 
+SettingBtnText=更多浏览器安全设置
+Text=当前IE主页有被篡改风险，是否锁定该主页并保护？
+NShowupText=不再显示
+SepWidthTextSetting=110
+bSettingBtnUnderLine=1
+InstBtnText=锁定保护
+SepWidthTextInst=10
+DayInt=0
+Title=

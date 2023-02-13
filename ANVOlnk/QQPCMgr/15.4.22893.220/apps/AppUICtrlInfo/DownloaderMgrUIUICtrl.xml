@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="文件清理" catalog="2" appclsid="5B07BE19-B421-4e64-B556-4924460FCC4C" appname="DownloaderMgrUI" enable="1" supportsys="1111111111">
+		<icon path="DownloaderMgrUI.svg" />
+		<description>
+			<![CDATA[清理下载文件释放磁盘空间]]>
+		</description>
+		<tip>
+			<![CDATA[帮助您清理电脑中的下载文件，释放磁盘空间]]>
+		</tip>
+	</App>
+</Apps>

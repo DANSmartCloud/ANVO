@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="613644D1-2FE8-43f4-8491-FEF87AADAE49" appname="qmadblock" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" smb="0" smbfeature="adblockConfig" smbkey="switch">
+		<icon clsid="FB5D2ECF-3E87-4051-8871-222D56375E47" path="https://s.pc.qq.com/pcmgr/logo/v15/qmadblock.svg" md5="32c369926364d2bae822c349bab02cd2" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="qmadblock.exe" param="/parent=funclist /page=upgrade" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

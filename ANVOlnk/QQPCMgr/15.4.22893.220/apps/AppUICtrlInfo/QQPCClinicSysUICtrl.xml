@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="开机慢" catalog="4" appclsid="56B017C1-AA86-46B8-9290-CFDF98369C48" appname="QQPCClinicSys" enable="1" supportsys="1111111111">
+		<icon path="QQPCClinicSys.svg" />
+		<description>
+			<![CDATA[优化开机启动项]]>
+		</description>
+		<tip>
+			<![CDATA[开机时间长，开机启动项过多导致卡慢]]>
+		</tip>
+	</App>
+</Apps>

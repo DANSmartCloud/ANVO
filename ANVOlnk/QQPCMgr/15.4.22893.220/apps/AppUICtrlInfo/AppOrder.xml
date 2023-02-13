@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="Win10升级工具" clsid="0A4E6D47-48EF-4B17-AC9B-FDC879887425" appname="Win10Update" />
+	<App name="企鹅守护" clsid="9905B7F5-5CD2-481c-B207-34D4E8120A02" appname="QMKidsPoct" />
+	<App name="软件管理" clsid="D1DAB619-C2DB-4365-9C8C-D71AA504843C" appname="QQPCSoftMgr" />
+	<App name="测试网速" clsid="DC11C4EE-A210-46f6-BB15-EDE2B6E3F6D5" appname="QMNetSpeedTest" />
+	<App name="权限雷达" clsid="59927AF6-8958-4dfb-9F7D-8AC4BE564E33" appname="QQPCAuthorityRadar" />
+	<App name="电脑诊所" clsid="54635529-CB07-4641-9707-4F2CD3E1569D" appname="QQPCClinic" />
+	<App name="硬件检测" clsid="13BDB137-0097-4814-813B-4F6A1B37A548" appname="HWPlugin" />
+	<App name="桌面整理" clsid="30295729-53E2-428E-B7C3-FE2913DC537B" appname="DesktopMgrPlugin" />
+	<App name="修复漏洞" clsid="5A07BE19-B421-4e64-B556-4924460FCB4C" appname="QQPCLeakScan" />
+	<App name="浏览器保护" clsid="A131103F-6155-4C92-9EC4-34839D2D3AA6" appname="IEStartPage" />
+	<App name="软件卸载" clsid="E7733812-A50D-4cbf-ACA6-9230FD3B8135" appname="qqpcuninstalljump" />
+	<App name="系统急救箱" clsid="734E8C07-82CA-4ed8-818B-8F7DB3E95EF1" appname="SystemAidBox" />
+	<App name="清理垃圾" clsid="F34017BF-232D-4f73-8EE9-FEDEC7B70902" appname="SysGarbageJmp" />
+	<App name="网络修复" clsid="7CB65BF5-BAA6-4B5F-89C0-7E3CFD214F4C" appname="QQPCClinicNetRepair" />
+	<App name="清除痕迹" clsid="7AD48CA3-D3DA-4408-AF0F-282C17C3E15A" appname="SysOptimize" />
+	<App name="文件粉碎" clsid="4B5FD28F-09B2-49C8-9829-9EF67FBE9025" appname="FileSmash" />
+	<App name="软件搬家" clsid="ECC3482A-BFA7-4C89-BBD1-07B3DBADE7DF" appname="SoftMove" />
+	<App name="DNS选优" clsid="4067870A-CFF9-442d-91EC-6A4397B83209" appname="QMDnsPlugin" />
+	<App name="网络连接" clsid="8B6557DD-A4AF-48d6-B96F-66DB0D485EAF" appname="QMNetConnect" />
+	<App name="应用宝" clsid="2409605C-977B-435D-840B-F73642F6320D" appname="QQPCB1AndroidJmp" />
+	<App name="iPhone助手" clsid="87960DE6-C94B-4BDF-9E93-99327215E33F" appname="iToolsPlugin" />
+	<App name="文档守护者" clsid="43B48C8B-E496-4bca-ABD5-BEB079767167" appname="QMDocProtect" />
+	<App name="腾讯手游助手" clsid="F0E33770-7F0C-4764-9A73-EB8BDEC85C92" appname="AppMarketPlugin" />
+	<App name="开机加速" clsid="779997B7-BA62-414d-B15D-F36B37E3D883" appname="SysStartupMgrJmp" />
+	<App name="流量监控" clsid="7C1BEE95-30D9-45A5-B9EA-18779B8452BF" appname="NetMon" />
+	<App name="软件弹窗拦截" clsid="613644D1-2FE8-43f4-8491-FEF87AADAE49" appname="qmadblock" />
+	<App name="健康小助手" clsid="6B27F3E6-6EAF-4e36-ABF5-30ECF932A75C" appname="QMHealthAssist" />
+	<App name="最近文档" clsid="568A6A54-B62F-41F8-AEDB-18438B9465C1" appname="DocManagerPlugin" />	
+	<App name="无线安全助手" clsid="8C6A0D80-8C88-4e57-9DD5-D12B45FF48DB" appname="QQPCWifiSafe" />
+	<App name="上网慢" clsid="1917F963-FA9E-4487-AF96-FE81999A1EA9" appname="QQPCClinicNet" />
+	<App name="开机慢" clsid="56B017C1-AA86-46B8-9290-CFDF98369C48" appname="QQPCClinicSys" />
+	<App name="网速保护" clsid="D6AA12D5-56E8-40ec-B75B-2451F98AE67C" appname="QMNetflowOpti" />
+	<App name="软件升级" clsid="186AAFE0-17F9-4cfb-8DDE-76F88597E3C6" appname="qqpcupgradejump" />
+	<!-- <App name="购物广告拦截" clsid="E6AF8CB1-C86E-4187-848E-EDCD4B8CCAD5" appname="QMSpAdBlock" /> -->
+	<App name="时间助手" clsid="AECD71BB-C25D-4CC2-A9B7-B0A06E852A19" appname="TimeHelperPlugin" />
+	<App name="管理右键菜单" clsid="AF74992A-D827-4852-B719-7F6AC2FF5DFB" appname="MenuManager" />
+	<App name="ARP防火墙" clsid="7CD20812-0414-4345-84A9-EC332CF07718" appname="QMArpMgr" />
+	<App name="文件解密" clsid="47F3F73F-2D85-4078-BEC9-50A501EADDC0" appname="FileUnlocker" />
+	<App name="小Q书桌" clsid="A352FE5D-EDF7-43a9-A85D-1068AB08CF51" appname="qqpclaunch" />
+	<App name="QQ助手" clsid="0A013B2D-FD18-4c8f-B799-CD34521712B7" appname="QQAssistor" />
+	<App name="QQ游戏" clsid="874E9895-6C44-47DE-BF89-01288D22E267" appname="GameLobbyPlugin" />	
+	<App name="微云" clsid="D5AD57E1-BD58-41A8-97DF-27597686439F" appname="qqpcweiyundiskjmp" />
+	<App name="专家协助" clsid="ABAA1B16-BF64-47B7-863C-07D5C1C15232" appname="RemoteAssistance" />
+	<App name="手机锁屏专杀" clsid="B307A59F-93A7-42A1-B78C-7795680C1AF4" appname="ScreenLockKiller" />
+	<App name="3G流量统计" clsid="8B214BC8-59B7-435a-8E41-1E90E4FA0BAD" appname="QMNetMobileFlux" />
+	<App name="路由器管家" clsid="740F7FD1-D292-48d2-89AA-40872199079C" appname="QMRouterMgr" />
+<!-- 	<App name="勒索病毒免疫" clsid="5D93149F-41F9-46f4-9824-3208017BDBEE" appname="QMVulDetector" /> -->
+	<App name="文件恢复工具" clsid="7C801086-C315-4590-9DA1-5ADBCD8BD039" appname="PCmgrFileRecovery" />
+	<App name="文档找回" clsid="7EDDD23E-E147-42b1-B514-5088CAC51198" appname="QMDocFindBack" />
+	<App name="插件清理" clsid="ABFD8122-8E93-43f0-940F-58CFFE4F46F3" appname="SysMalwareJmp" />
+	<App name="极致加速" clsid="7A4A1F85-A868-4a84-8BB2-CF725FCE1DE4" appname="SuperSpeedup" />
+<!-- 		<App name="觅鱼优惠券" clsid="75B2400A-CE17-4A04-AF3E-304A7BE18626" appname="QMMiYu" /> -->
+	<App name="我的手机" clsid="9706C67B-2F94-461D-AE82-10DE2E216929" appname="QQPCB2AndroidJmp" />
+	<App name="深度加速" clsid="65D9CACC-9465-43D0-8ED9-4D0828B5D18D" appname="DeepSpeedup" />
+	<App name="腾讯新闻" clsid="BA50EC17-2941-4942-A769-B1FC7CD4FAA2" appname="TencentNews" />
+	<App name="网页广告过滤" clsid="3A3EDEEB-A445-4864-85EF-03458F2FD704" appname="QMAdFilter" />
+	<App name="文件清理" clsid="5B07BE19-B421-4e64-B556-4924460FCC4C" appname="DownloaderMgrUI" />
+	<App name="系统盘瘦身" clsid="29715424-B1AD-4ceb-BCBF-E50697DA8602" appname="QMSysSlim" />
+	<App name="游戏加速" clsid="A75DC060-4FF0-4f48-9E0E-3875E8872CA5" appname="QMGameSpeedup" />
+	<App name="诈骗信息查询" clsid="F710AD66-60B9-41d3-B6EC-0E54CCB65984" appname="QMAntiFraud" />
+	<App name="游戏中心" clsid="BF624378-E0C6-434d-8A72-D4AD48ADC00C" appname="QMGameCenter" />
+	<App name="经典开始菜单" clsid="CACE3E4E-EE63-4595-A236-5DE89246076F" appname="QMStartMenu" />
+	<App name="Win10优化" clsid="D2825A18-E0C7-4BB6-BD8A-84376ADDF543" appname="QMWin10Helper" />
+	<App name="帐号宝" clsid="7636BA3B-FAD2-440E-A646-745E07426B4C" appname="QMAccountProtection" />
+	<App name="腾讯网游加速器" clsid="3775A2F8-5BA8-444F-8566-3B6F74D199C9" appname="QMProxyAccelerator" />
+<!--	<App name="DoH客户端" clsid="050FC2A7-035A-4C6B-BA1E-AEA155EB8F11" appname="BoHPlugin" /> -->
+</Apps>

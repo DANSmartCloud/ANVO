@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="F0E33770-7F0C-4764-9A73-EB8BDEC85C92" appname="AppMarketPlugin" version="1.0.0.1" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="894AB69A-D910-4399-A759-850768EEA032" path="https://s.pc.qq.com/pcmgr/logo/v15/AppMarketPlugin.svg" md5="61191f594c6a4a9b21e8d34088caebfb" />
+		<url pkgtype="0" path="http://dlied6.qq.com/invc/xfspeed/qqpcmgr/other/AppMarketSetup_2.0.4903.123.exe" param="/S" md5="83f82b54a9810b1c74ffc05845301eb9" />
+		<install pathtype="1" path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\MobileGamePC\AppMarket|InstallPath" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\MobileGamePC\AppMarket|Version">
+			<run file="AppMarket.exe" param="" />
+			<uninstall file="GF186\TUninstall.exe" param="-s" />
+		</install>
+	</App>
+</Apps>

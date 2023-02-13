@@ -1,0 +1,1 @@
+此程序是由DAN智云-陈德林开发的易语言程序。此程序从2023.2.13开始开放源代码。开源协议为Apache License 2.0 ，GithubRepository地址：https://github.com/DANSmartCloud/ANVO

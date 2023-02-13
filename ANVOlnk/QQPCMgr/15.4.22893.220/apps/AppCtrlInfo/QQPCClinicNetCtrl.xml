@@ -1,0 +1,39 @@
+<Apps>
+	<App appname="QMQQPCClinic" clsid="1917F963-FA9E-4487-AF96-FE81999A1EA9" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="5CDEBEF3-F1FD-40D4-9719-6F3C2F872189" md5="ca3820c4597fbaa9e7d1c0211c4b06f0" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCClinicNet.svg" />
+		<url md5="4ad6508fea35f41d92b76507d0cce41e" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMQQPCClinicSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" ignore_makeplugin="True" name="QQPCClinic_bak.nsi" />
+		<install path="..\" pathkey="" pathtype="0" verkey="">
+			<run file="QQPCClinic.exe" param="/from=21 /detail=1409" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QQPCClinic.exe" />
+				
+				<item action="file" path="QQPCClinic.dat" />
+                <item action="file" path="QQPCClinic.exe" />
+                <item action="file" path="QQPCClinic.rdb" />
+                <item action="file" path="TSClinicWebFix.dll" />
+                <item action="file" path="CategoryConfig.xml" />
+                <item action="file" path="ProblemInfo.xml" />
+                <item action="file" path="QQPCClinicNet.png" />
+                <item action="file" path="QQPCClinicSys.png" />
+                <item action="file" path="ClinicTrayConfig.xml" />
+                <item action="file" path="DNSHookDomainList2.0.xml" />
+                <item action="file" path="NetRepairPage.js" />
+                <item action="file" path="SupportDomain.xml" />
+                <item action="file" path="zspic.png" />
+                <item action="file" path="Check_Router.png" />
+                <item action="file" path="Check_Wireless.png" />
+                <item action="file" path="TurnOnAdapter.png" />
+                <item action="file" path="Both_Disconnected.png" />
+                <item action="file" path="QQPCClinicNetRepair.png" />
+                <item action="file" path="QQPCClinicHelper.exe" />
+                <item action="file" path="QQPCClinicHelper64.exe" />
+                <item action="file" path="sBoth_Disconnected.png" />
+                <item action="file" path="sCheck_Router.png" />
+                <item action="file" path="sCheck_Wireless.png" />
+                <item action="file" path="sTurnOnAdapter.png" />
+				
+			</uninstall>
+		</install>
+	</App>
+</Apps>

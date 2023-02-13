@@ -1,0 +1,85 @@
+
+[Version]
+Signature  = "$Windows NT$"
+Class      = NetService
+ClassGUID  = {4D36E974-E325-11CE-BFC1-08002BE10318}
+Provider   = %Msft%
+DriverVer  = 01/01/2019,1.0.0.0
+
+[Manufacturer]
+%Msft% = MSFT,NTx86,NTia64,NTamd64
+
+[ControlFlags]
+
+[MSFT]
+%TSNetNdis5x64_Desc% = TSNetNdis5x64.ndi, TSNetNdis5x64
+
+[MSFT.NTx86]
+%TSNetNdis5x64_Desc% = TSNetNdis5x64.ndi, TSNetNdis5x64
+
+[MSFT.NTia64]
+%TSNetNdis5x64_Desc% = TSNetNdis5x64.ndi, TSNetNdis5x64
+
+[MSFT.NTamd64]
+%TSNetNdis5x64_Desc% = TSNetNdis5x64.ndi, TSNetNdis5x64
+
+[TSNetNdis5x64.ndi]
+AddReg          = TSNetNdis5x64.ndi.AddReg, TSNetNdis5x64.AddReg
+Characteristics = 0x4410 ;  NCF_FILTER | NCF_NDIS_PROTOCOL !--Filter Specific--!!
+CopyFiles       = TSNetNdis5x64.Files.Sys
+CopyInf         = TSNetNdis5x64_m.inf
+
+[TSNetNdis5x64.ndi.Remove]
+DelFiles = TSNetNdis5x64.Files.Sys
+
+[TSNetNdis5x64.ndi.Services]
+AddService = TSNetNdis5x64,, TSNetNdis5x64.AddService
+
+[TSNetNdis5x64.AddService]
+DisplayName    = %TSNetNdis5x64Service_Desc%
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TSNetNdis5x64.sys
+AddReg         = TSNetNdis5x64.AddService.AddReg
+
+[TSNetNdis5x64.ndi.Remove.Services]
+DelService=TSNetNdis5x64
+DelService=TSNetNdis5x64mp
+
+[TSNetNdis5x64.AddService.AddReg]
+
+[SourceDisksNames]
+1=%DiskDescription%,"",,
+
+[SourceDisksFiles]
+TSNetNdis5x64.sys=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+TSNetNdis5x64.Files.Sys   = 12   ; %windir%\System32\drivers
+
+[TSNetNdis5x64.Files.Sys]
+TSNetNdis5x64.sys,,,2
+
+[TSNetNdis5x64.ndi.AddReg]
+HKR, Ndi, HelpText, , %TSNetNdis5x64_HELP%
+HKR, Ndi,            FilterClass,         , failover
+HKR, Ndi,            FilterDeviceInfId,   , TSNetNdis5x64mp
+HKR, Ndi,            Service,             , TSNetNdis5x64
+HKR, Ndi\Interfaces, UpperRange,          , noupper
+HKR, Ndi\Interfaces, LowerRange,          , nolower
+HKR, Ndi\Interfaces, FilterMediaTypes,    , "ethernet, tokenring, fddi, wan"
+
+[TSNetNdis5x64.AddReg]
+HKR, Parameters, Param1, 0, 4
+
+[Strings]
+Msft = "Tencent"
+DiskDescription = "Tencent TSNetNdis5x64 Driver Disk"
+
+TSNetNdis5x64_Desc = "TSNetNdis5x64 Driver"
+TSNetNdis5x64_HELP = "TSNetNdis5x64 Driver"
+TSNetNdis5x64Service_Desc = "TSNetNdis5x64 Service"
+
+

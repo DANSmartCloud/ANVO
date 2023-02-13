@@ -1,0 +1,16 @@
+<Apps>
+	<App appname="QQPCWifiSafe" clsid="8C6A0D80-8C88-4e57-9DD5-D12B45FF48DB" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="A127E954-73C9-4DE4-A46F-6C08E359CF68" md5="c17f0719af8a257a9f98ca0f7e32a07c" path="https://s.pc.qq.com/pcmgr/logo/v15/QQPCWifiSafe.svg" />
+		<url md5="cdf3fa45eb9b5efd45b4ee5a9024bd63" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMQQPCWifiSafeSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMQQPCWifiSafe.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\WifiSafe|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\WifiSafe|Version">
+			<run file="QQPCWifiSafe.exe" param="/function" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QQPCWifiSafe.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\WifiSafe" />
+				<item action="dir" path="plugins\QQPCWifiSafe" />
+                <item action="dir" path="QMTrayPlugin\QMWifiSafeTrayPlugin" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

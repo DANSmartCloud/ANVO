@@ -1,0 +1,15 @@
+<Apps>
+	<App appname="FileUnlocker" clsid="47F3F73F-2D85-4078-BEC9-50A501EADDC0" enable="3" forcedownload="0" forceinstall="0" supportsys="1100110010" version="2.3.0">
+		<icon clsid="269DBD73-58A6-4B11-A6E9-DC22AA832112" md5="53a9977a35e76a4e3c1baf57ba3bb2e8" path="https://s.pc.qq.com/pcmgr/logo/v15/FileUnlocker.svg" />
+		<url md5="52012891a61662c6c03a9ae59a83bfbb" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMFileUnlockerSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMFileUnlocker.nsi" />
+		<install path="..\plugins\FileUnlocker\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\FileUnlocker|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\FileUnlocker|Version">
+			<run file="FileUnlocker.exe" param="/parent=funclist" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="FileUnlocker.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\FileUnlocker" />
+				<item action="dir" path="Plugins\FileUnlocker" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

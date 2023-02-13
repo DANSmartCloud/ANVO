@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="企鹅守护" catalog="3" appclsid="9905B7F5-5CD2-481c-B207-34D4E8120A02" appname="QMKidsPoct" enable="1" isnew="1" supportsys="1111111111">
+		<icon path="QMKidsPoct.svg" />
+		<description>
+			<![CDATA[守护孩子上网环境]]>
+		</description>
+		<tip>
+			<![CDATA[过滤网络不良信息，守护孩子上网环境！]]>
+		</tip>
+	</App>
+</Apps>

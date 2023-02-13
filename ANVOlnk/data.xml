@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datas>
+  <Colors default="1">
+    <color>#FFFF0000</color>
+    <color>#FF008080</color>
+    <color>#FF6600CC</color>
+    <color>#FFFFFFFF</color>
+    <color>#FF000000</color>
+    <color>#FFFFFF00</color>
+  </Colors>
+  <Opacity>5</Opacity>
+  <QuickKeys>
+    <Quick Open="true">
+      <name>
+				"鼠标"
+			</name>
+      <key>
+				"Ctrl+Space"
+			</key>
+    </Quick>
+    <Quick Open="false">
+      <name>
+				"画笔"
+			</name>
+      <key>
+				"Ctrl+Z"
+			</key>
+    </Quick>
+    <Quick Open="false">
+      <name>
+				"图形"
+			</name>
+      <key>
+				"Ctrl+X"
+			</key>
+    </Quick>
+    <Quick Open="false">
+      <name>
+				"文本"
+			</name>
+      <key>
+				"Ctrl+C"
+			</key>
+    </Quick>
+  </QuickKeys>
+</Datas>

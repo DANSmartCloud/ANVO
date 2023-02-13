@@ -1,0 +1,19 @@
+<Apps>
+	<App appname="QMKidsPoct" clsid="9905B7F5-5CD2-481c-B207-34D4E8120A02" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="611DC974-39DA-4808-A013-1B135DA09EA3" md5="1f566365a1e588bf3f9a4f4a4941e5b1" path="https://s.pc.qq.com/pcmgr/logo/v15/QMKidsPoct.svg" />
+		<url md5="bd1a6ad64cee7fa7f618056ec6b37907" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMKidsPoctSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="QMKidsPoct.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMKidsPoct|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMKidsPoct|Version">
+			<run file="..\..\QMKidsPoct.exe" param="##souce=toolbox" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMKidsPoct.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMKidsPoct" />
+				<item action="file" path="QMKidsPoct.dat" />
+                <item action="file" path="QMKidsPoct.exe" />
+                <item action="file" path="QMKidsPoct.rdb" />
+                <item action="file" path="QRCodeBinder.dll" />
+				<item action="dir" path="plugins\QMKidsPoct" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

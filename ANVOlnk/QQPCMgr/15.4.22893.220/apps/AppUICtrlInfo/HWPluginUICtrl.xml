@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="硬件检测" catalog="6" appclsid="13BDB137-0097-4814-813B-4F6A1B37A548" appname="HWPlugin" enable="1" supportsys="1111111111">
+		<icon path="HWPlugin.svg" />
+		<description>
+			<![CDATA[监测电脑配置，评测性能]]>
+		</description>
+		<tip>
+			<![CDATA[快速检测电脑配置，评测您的电脑性能]]>
+		</tip>
+	</App>
+</Apps>

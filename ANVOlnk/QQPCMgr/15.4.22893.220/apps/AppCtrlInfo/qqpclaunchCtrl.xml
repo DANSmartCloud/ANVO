@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="A352FE5D-EDF7-43a9-A85D-1068AB08CF51" appname="qqpclaunch" version="2.4.1279.203" enable="3" forcedownload="0" forceinstall="0" supportsys="000011111111">
+		<icon clsid="D5630821-3F38-456D-91A6-A5B766CBD738" path="https://pm.myapp.com/invc/xfspeed/plugin/logo/qqpclaunch.png" md5="b9b2371ca72c4457faf72c037154b675" />
+		<url pkgtype="0" path="http://dlied6.qq.com/invc/xfspeed/qqpcmgr/other/QDeskSetup2.4.1279.203.exe" param="/S" md5="dc559c8c49b6dc1a0e921079d1a5edc5" />
+		<install pathtype="1" path="..\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QDesk|InstallDir" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QDesk|Version">
+			<run file="QDesk.exe" param="/low=1 /parent=qqpcmgr" />
+			<uninstall file="uninst.exe" param="/S" />
+		</install>
+	</App>
+</Apps>

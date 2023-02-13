@@ -1,0 +1,22 @@
+<Apps>
+	<App appname="IEStartPage" clsid="A131103F-6155-4C92-9EC4-34839D2D3AA6" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="A0979256-FB5B-436A-8FB3-745D792F8877" md5="205e2ed848ceb36c18e7dd4884a668ea" path="https://s.pc.qq.com/pcmgr/logo/v15/IEStartPage.svg" />
+		<url md5="20456c6ee4757a23627610bf271ad8bb" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMIEStartPageSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="IEStartPage.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\IEStartPage|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\IEStartPage|Version">
+			<run file="..\..\IEStartPage.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="IEStartPage.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\IEStartPage" />
+				<item action="file" path="IEStartPage.dat" />
+                <item action="file" path="IEStartPage.rdb" />
+				<item action="file" path="IEStartPage.tpc" />
+				<item action="file" path="supplyID.xml" />
+				<item action="file" path="browserlist.dat" />
+                <item action="file" path="searchlist.dat" />
+                <item action="file" path="TPBrowser.dat" />
+				<item action="dir" path="plugins\IEStartPage" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,18 @@
+<Apps>
+	<App appname="QMDnsPlugin" clsid="4067870A-CFF9-442d-91EC-6A4397B83209" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="A528DF58-167B-414A-B396-33E393B14F82" md5="aae8a627b71c61807ebb51495dd9c10a" path="https://s.pc.qq.com/pcmgr/logo/v15/QMDnsPlugin.svg" />
+		<url md5="139dbe1aed99bba45cc61fef633b89f5" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMQMDnsSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMDnsAuto_New.nsi" />
+		<install path="..\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMDnsPlugin|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMDnsPlugin|Version">
+			<run file="..\..\QMDns.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMDns.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMDnsPlugin" />
+				<item action="file" path="QMDns.dat" />
+                <item action="file" path="QMDns.exe" />
+                <item action="file" path="QMDns.rdb" />
+				<item action="dir" path="plugins\QMDnsPlugin" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

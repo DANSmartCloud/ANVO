@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="186AAFE0-17F9-4cfb-8DDE-76F88597E3C6" appname="qqpcupgradejump" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="39250887-A51F-421F-A08D-5477015CC61D" path="https://s.pc.qq.com/pcmgr/logo/v15/qqpcupgradejump.svg" md5="4a7033ce751c058ef8556e753dd7d163" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCSoftMgr.exe" param="/parent=funclist /page=upgrade" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root version="1.0">
+	<mixfixer id="1" name="断网修复">
+		<fixer id="2" name="网络硬件配置"  check="检测网卡是否启用、网线是否插好"   checking="正在检测网卡是否启用、网线是否插好…" checkresult0="网络硬件配置正常" checkresult1="网线未连接，网络无法连通" checkresult2="网线未连接，网络无法连通" checkresult3="网线未连接，网络无法连通" checkresult4="网卡被禁用，网络无法连通" checkresult5="网卡驱动存在异常" repairing="正在自动修复网络硬件配置…" repairresult0="" image1="ClinicData\pic\Check_Router.png" image2="ClinicData\pic\Check_Wireless.png" image3="ClinicData\pic\Both_Disconnected.png" image4="ClinicData\pic\TurnOnAdapter.png"/>
+		<fixer id="5" name="DHCP服务"  check="检测DHCP服务是否开启、相关注册表设置是否完好"  checking="正在检测DHCP服务是否开启、相关注册表设置是否完好…"  checkresult0="DHCP服务已开启、相关注册表设置完好" checkresult1="DHCP服务未开启,无法自动获取ip地址" checkresult2="DHCP相关注册表设置缺失" repairing="正在修复DHCP相关配置…" repairresult0="" image=""/>
+		<fixer id="8" name="IP地址配置" check="检测IP地址是否存在错误或冲突的异常情况"   checking="正在检测IP地址是否存在错误或冲突的异常情况…" checkresult0="IP地址配置正常" checkresult1="IP地址错误，网络无法连通" checkresult2="IP地址冲突，网络无法连通" repairing="正在修复IP地址配置…" repairresult0="" repairresult1="IP地址错误，网络无法连通" image=""/>
+		<fixer id="9" name="DNS配置" check="检测DNS配置是否正常"   checking="正在检测DNS配置是否正常…" checkresult0="DNS配置正常" checkresult1="DNS配置错误，网页打不开（修复此项会替换原有的DNS配置）" repairing="正在选择最优DNS… " repairresult0="" repairresult1="DNS配置错误，网页打不开" image=""/>
+		<fixer id="10" name="hosts文件" check="检测hosts文件配置是否正常"   checking="正在检测hosts文件配置是否正常…" checkresult0="hosts文件配置正常"  checkresult1="hosts文件配置异常（修复此项会屏蔽hosts中的配置）" repairing="正在修复hosts文件配置…" repairresult0="" repairresult1="hosts文件配置异常" image=""/>
+		<fixer id="11" name="IE代理设置"  check="若配置了IE代理服务器，检测能否访问网络"   checking="正在检测IE代理配置是否正常…" checkresult0="IE代理配置正常" checkresult1=" IE代理配置错误（修复此项会取消您的IE代理服务器勾选）" repairing="正在修复IE代理配置…" repairresult0="" repairresult1="IE代理配置错误" image=""/>
+		<!--
+		<fixer id="12" name="Flash插件"  check="检测Flash是否安装或版本是否过低"   checking="正在检测Flash是否安装或版本是否过低…" checkresult0="Flash已安装，版本符合要求" checkresult1="Flash未安装，导致部分网页的页面、图片等无法显示" checkresult2="Flash版本过低，导致部分网页的页面、图片等无法显示" repairing="正在安装Flash插件… " repairresult0="" image=""/>
+		-->
+		<fixer id="13" name="电脑能否上网"   check="检测您的电脑是否可以正常、流畅地访问网页"   checking="正在检测您的电脑是否可以正常、流畅地访问网页…" checkresult0="您的电脑可以正常、流畅地访问网页"   checkresult1="您的电脑无法正常访问网页，网络存在异常" checkresult2="您的电脑无法正常访问网页，网络存在异常" repairing="正在深度修复您的网络异常问题…" repairresult0=""  repairresult1="您的电脑无法正常访问网页，网络存在异常" image=""/>	
+	</mixfixer>
+</root>

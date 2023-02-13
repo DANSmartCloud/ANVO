@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="文件粉碎" catalog="2" appclsid="4B5FD28F-09B2-49C8-9829-9EF67FBE9025" appname="FileSmash" enable="1" supportsys="1111111111">
+		<icon path="FileSmash.svg" />
+		<description>
+			<![CDATA[彻底粉碎无法删除文件]]>
+		</description>
+		<tip>
+			<![CDATA[可以彻底粉碎无法删除的文件]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="深度加速" catalog="4" appclsid="65D9CACC-9465-43D0-8ED9-4D0828B5D18D" appname="DeepSpeedup" enable="1" supportsys="1111111111">
+		<icon path="DeepSpeedup.svg" />
+		<description>
+			<![CDATA[定位电脑卡慢进程恢复流畅]]>
+		</description>
+		<tip>
+			<![CDATA[快速定位、关闭电脑卡慢的进程，让电脑恢复流畅]]>
+		</tip>
+	</App>
+</Apps>

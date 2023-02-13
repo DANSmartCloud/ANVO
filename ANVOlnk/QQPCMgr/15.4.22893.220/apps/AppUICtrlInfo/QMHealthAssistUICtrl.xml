@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="健康小助手" catalog="6" appclsid="6B27F3E6-6EAF-4e36-ABF5-30ECF932A75C" appname="QMHealthAssist" enable="1" supportsys="1111111111">
+		<icon path="QMHealthAssist.svg" />
+		<description>
+			<![CDATA[定时关机，制定休息方案]]>
+		</description>
+		<tip>
+			<![CDATA[设定定时关机和休息方案，帮您养成健康的电脑使用习惯，舒缓上网疲劳]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,18 @@
+<Apps>
+	<App appname="SuperSpeedup" clsid="7A4A1F85-A868-4a84-8BB2-CF725FCE1DE4" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="3563B86B-B59B-48C0-8A52-DB2DAA242739" md5="9f1dcbffe4ed72f8eb26b26ddb74d4ff" path="https://s.pc.qq.com/pcmgr/logo/v15/SuperSpeedup.svg" />
+		<url md5="b483618987071fcad413ef92c29111b7" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMSuperSpeedupSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="SuperSpeedup.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SuperSpeedup|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SuperSpeedup|Version">
+			<run file="..\..\SuperSpeedup.exe" param="/parent=toolbox" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="SuperSpeedup.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SuperSpeedup" />
+				<item action="file" path="SuperSpeedup.dat" />
+                <item action="file" path="SuperSpeedup.exe" />
+                <item action="file" path="SuperSpeedup.rdb" />
+				<item action="dir" path="plugins\SuperSpeedup" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="文件解密" catalog="2" appclsid="47F3F73F-2D85-4078-BEC9-50A501EADDC0" appname="FileUnlocker" enable="1" supportsys="1100110010">
+		<icon path="FileUnlocker.svg" />
+		<description>
+			<![CDATA[解密被木马加密的文件]]>
+		</description>
+		<tip>
+			<![CDATA[用于解密被“文档敲诈者木马”加密的文件]]>
+		</tip>
+	</App>
+</Apps>

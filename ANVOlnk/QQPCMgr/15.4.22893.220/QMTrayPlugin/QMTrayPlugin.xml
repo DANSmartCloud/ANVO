@@ -1,0 +1,44 @@
+<pluginlist>
+<plugin_item guid="{4963B1DF-9AC1-4c29-97F7-0053CBA0CA20}" name="QMCtrlCenter" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{DFC70400-34B8-45DB-9F0B-62AE956D48BF}" name="QMSwitchesMgrPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{0D429625-4244-446B-B422-A5918148881E}" name="QMAlphaCenterPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{7B886F1A-6F86-46EF-929D-8D6C2DEF8EB9}" name="QMSysOptimizeAssist" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{CB5C5A01-0A56-4C0A-8551-81CCDD538293}" name="QMLogCtrl" priority="0" uiflag="0" IpcMsgRange="100001,0"/>
+<plugin_item guid="{F8B7774B-D9C2-4DED-896D-7BEC6C4D4C73}" name="QMPerfCtrl" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{607A9AA2-4A29-4078-A36E-D39C833CBA1B}" name="QMRtpPlugin" priority="0" uiflag="0" IpcMsgRange="20051,20026,20031,20050,20004,0"/>
+<plugin_item guid="{5658C231-B521-4F4E-B118-8681B8482033}" name="QMAVTrayPlugin" priority="0" uiflag="1" IpcMsgRange="2147591648,1000,0"/>
+<plugin_item guid="{2F1573AB-7C68-41C4-A4C7-0C203B1D7178}" name="QMLoginPlugin" priority="0" uiflag="1" IpcMsgRange="0"/>
+<!--<plugin_item guid="{AC6685F5-D498-4fca-B52A-644752A4306D}" name="QMSugar" priority="0" uiflag="0" IpcMsgRange="0"/>-->
+<plugin_item guid="{601489A3-96A5-42EE-B527-FE648AD617C0}" name="QMMobileTrayPlugin" priority="0" uiflag="1" IpcMsgRange="3034,0"/>
+<plugin_item guid="{D477EF64-0BAC-49DC-BD58-61FAA6A63256}" name="QMTrojanPlugin" priority="0" uiflag="1" IpcMsgRange="20319,2147588648,1000,0"/>
+<plugin_item guid="{74AE895F-1C24-4433-ABB6-BF7D2C2F5AF2}" name="QMHookCtrl" priority="0" uiflag="1" IpcMsgRange="1003450,0"/>
+<plugin_item guid="{9BDAB1B2-596D-498E-8B20-AAB9112F1FD0}" name="QMWebFWCtrl" priority="0" uiflag="1" IpcMsgRange="20003,20070,20071,20072,103005,103006,103007,0"/>
+<plugin_item guid="{605F3BEA-E2B7-4E23-BFCB-546921AE4538}" name="QMNewsTips" priority="2" uiflag="0" IpcMsgRange="20011,100003,0"/>
+<plugin_item guid="{069BE883-8A89-4B74-A66D-B5326FB29FC5}" name="QMHwFloatWnd" priority="2" uiflag="1" IpcMsgRange="20204,0"/>
+<plugin_item guid="{4FD0E3A1-DA47-4EB4-B606-02101FFB0B41}" name="QMVulPlugin" priority="0" uiflag="1" IpcMsgRange="20008,20045,0"/>
+<plugin_item guid="{D7040B8F-B265-46C7-B009-45C1C2F7547D}" name="QMBJTrayPlugin" priority="1" uiflag="1" IpcMsgRange="20032,2147504648,1000,2147589648,1000,0"/>
+<plugin_item guid="{0D6632F5-57D2-4427-8FC3-208DC6C15ECA}" name="QMSoftPlugin" priority="2" uiflag="1" IpcMsgRange="0"/>
+<plugin_item guid="{D9C70EDD-07A3-41B6-8846-9083B86A8303}" name="QMSoftSubscribePlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<!--<plugin_item guid="{5C6C49A6-8C39-41f0-BB5A-27F2AA84A7FD}" name="GameUpgradeTrayPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>-->
+<plugin_item guid="{FFA2E541-1A30-44D0-B44A-CF344BB6BBED}" name="QMUpdateModule" priority="2" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{9AF1FD44-346E-4240-8C61-EBB0986C9B92}" name="QMKCheck" priority="2" uiflag="0" IpcMsgRange="0"/>
+<!--<plugin_item guid="{5F444F87-DCC6-40E9-BFC2-FC09507C115B}" name="QBoxPlugin" priority="2" uiflag="0" IpcMsgRange="0"/>-->
+<plugin_item guid="{54FB2301-1E74-4571-A63E-241D0B9A8CAF}" name="QMAutoRunHelp" priority="2" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{88CD0CD0-8B94-4537-81DD-3ED3503650A6}" name="QMTPIEStartPage" priority="0" uiflag="0" IpcMsgRange="1007001,1003078,1003079,0"/>
+<plugin_item guid="{4A9A321D-447E-459B-B4D8-AA4B28AD83DA}" name="QMSafeShutTrayPlugin" priority="2" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{F2CAE44E-CE7C-4630-9A8F-369AA5AC2A2C}" name="QMAutoTaskPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{9F7EBAB1-BC35-4060-81D4-02621EC013B6}" name="QMAlphaBack" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{E692A7E7-7C33-42B3-B420-A90F3578CE80}" name="QMSmbPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{F2CAE450-CE7C-4630-9A8F-369AA5AC2A2C}" name="QMStartupMonitorNotify" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{1C4C733E-8F5B-4775-9419-C34116D7186B}" name="QMUDiskMgr" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{E80A5DC4-8E80-4539-96A0-4BFE873C2BB0}" name="QMSXTrayPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{56B63670-BC2D-4927-8382-D2F22C2B3F15}" name="QMClinicTrayPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{990DEAFF-60C4-4132-8596-A030A419F2E0}" name="QMDnsMonitor" priority="0" uiflag="0" IpcMsgRange="1000003,1000004,0"/>
+<plugin_item guid="{4306D4EF-41FF-4E86-A4F5-2D79E81EE9A9}" name="QMTpkTrayPlugin" priority="0" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{09DF509C-F7B7-4184-9DCF-8D0259E3794C}" name="QMWifiSafeTrayPlugin" priority="2" uiflag="0" IpcMsgRange="0"/>
+<plugin_item guid="{B8AB9A83-FE95-4DAC-A7E7-D6588A4CCEC6}" name="QMArpRtpTrayPlugin" priority="2" uiflag="0" IpcMsgRange="0"/>
+<!--<plugin_item guid="{C651CD3F-9A3C-4A56-B5FA-9B78C29D4CBE}" name="QMTrayDetector" priority="0" uiflag="0" IpcMsgRange="0" />-->
+<plugin_item guid="{5ae8621a-5d1f-485d-967a-bfd4f148dca1}" name="QMSccTrayPlugin" priority="0" uiflag="1" IpcMsgRange="2147591648,1000,0" />
+<plugin_item guid="{93C1EE82-9318-44bd-A323-659ED7C79E80}" name="QMCmcTrayPlugin" priority="0" uiflag="1" IpcMsgRange="20003,20070,20071,20072,103005,103006,103007,0" />
+<plugin_item guid="{B17EE8C4-4EAB-44D2-813C-9F1995B0120A}" name="QMTeenagerModel" priority="0" uiflag="1" IpcMsgRange="0"/>
+</pluginlist>

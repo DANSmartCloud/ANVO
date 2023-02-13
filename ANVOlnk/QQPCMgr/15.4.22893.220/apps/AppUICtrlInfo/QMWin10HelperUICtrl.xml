@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="Win10优化" catalog="6" appclsid="D2825A18-E0C7-4BB6-BD8A-84376ADDF543" appname="QMWin10Helper" enable="1" supportsys="001100000000">
+		<icon path="QMWin10Helper.svg" />
+		<description>
+			<![CDATA[优化Windows 10系统]]>
+		</description>
+		<tip>
+			<![CDATA[优化Windows 10系统]]>
+		</tip>
+	</App>
+</Apps>

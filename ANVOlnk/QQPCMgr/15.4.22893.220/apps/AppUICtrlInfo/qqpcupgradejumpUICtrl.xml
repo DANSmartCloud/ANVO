@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="软件升级" catalog="5" appclsid="186AAFE0-17F9-4cfb-8DDE-76F88597E3C6" appname="qqpcupgradejump" enable="1" supportsys="1111111111">
+		<icon path="qqpcupgradejump.svg" />
+		<description>
+			<![CDATA[一键升级智能安装]]>
+		</description>
+		<tip>
+			<![CDATA[一键升级智能安装]]>
+		</tip>
+	</App>
+</Apps>

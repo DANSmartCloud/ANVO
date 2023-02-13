@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="测试网速" catalog="3" appclsid="DC11C4EE-A210-46f6-BB15-EDE2B6E3F6D5" appname="QMNetSpeedTest" enable="1" supportsys="1111111111">
+		<icon path="QMNetSpeedTest.svg" />
+		<description>
+			<![CDATA[简单便捷测试网速]]>
+		</description>
+		<tip>
+			<![CDATA[简单便捷的测试网速小工具]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+
+<plugin name="syshomepage" version="1.0">
+	<info />
+</plugin>
+
+  <file-systems>
+    <file-system name="@thisbundle:" path="SysHomePage" />
+    <file-system name="@thisxtml:" path="@thisbundle:Xtml" />
+    <file-system name="@thisres:" path="@thisbundle:res" />
+	<file-system name="FTSysCommon:" path="..\\..\\FtSysCommonMgrGF" />
+	<file-system name="FTSysCommonRes:" path="FTSysCommon:res" />
+	<file-system name="common:" path="..\\..\\QQPCCommonMgr" />	
+	<file_system name="commonres:" path="common:res"/> 
+  </file-systems>
+  <core-configs>
+  </core-configs>
+  <gf-config>
+	<configs>
+        <config file="@thisres:Config\\SysHomePageConfig.xml"/>
+    </configs>
+  </gf-config>
+  <i18n-config  path="@thisbundle:">
+    <locale id="2052" />
+     <StringBundle>
+      <configfile name="SysHomePageString.xml" />
+      <configfile name="StringBundle.xml" />
+      <configfile name="ItemString.xml"/>
+      <configfile name="tips.xml"/>
+     </StringBundle>
+  </i18n-config>
+</tpc>

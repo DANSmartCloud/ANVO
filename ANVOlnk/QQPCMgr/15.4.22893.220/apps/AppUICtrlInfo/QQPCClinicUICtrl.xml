@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="电脑诊所" catalog="4" appclsid="54635529-CB07-4641-9707-4F2CD3E1569D" appname="QQPCClinic" enable="1" supportsys="1111111111">
+		<icon path="QQPCClinic.svg" />
+		<description>
+			<![CDATA[电脑问题，轻松解决]]>
+		</description>
+		<tip>
+			<![CDATA[电脑问题，轻松解决]]>
+		</tip>
+	</App>
+</Apps>

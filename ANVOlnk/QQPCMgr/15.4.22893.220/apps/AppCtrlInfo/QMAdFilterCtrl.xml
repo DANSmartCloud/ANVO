@@ -1,0 +1,31 @@
+<Apps>              
+	<App appname="QMAdFilter" clsid="164FC5A0-485C-448A-8FC2-E363D6F2A4D9" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="B91BB0EC-6672-49A0-ACA5-181A66E23633" md5="3bda19f1477c34d1bda95103af555d58" path="https://s.pc.qq.com/pcmgr/logo/v15/QMAdFilter.svg" />
+		<url md5="b95f3e65ad6d887da0b72f8ebba1faf4" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMAdFilterSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="QMAdFilter.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMAdFilter|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMAdFilter|Version">
+			<run file="..\..\QMAdFilter.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMAdFilter.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMAdFilter" />
+				<item action="file" path="QMAdFilter(big).png" />
+				<item action="file" path="QMAdFilter.exe" />
+				<item action="file" path="QMAdFilter.rdb" />
+				<item action="file" path="QMAdFilter.dat" />
+				<item action="file" path="AdFilterConfigFile.xml" />
+				<item action="file" path="tsadlibpw.xml" />
+				<item action="file" path="tsadlibfloat.xml" />
+				<item action="file" path="tsadlibpower.xml" />
+				<item action="file" path="tsadlibcss.xml" />
+				<item action="file" path="tsadlibexcept.xml" />
+				<item action="file" path="AdfilterExtension.sext" />
+				<item action="file" path="tsadlibforce.xml" />
+				<item action="file" path="tsadlibwhiteac.xml" />
+				<item action="file" path="tsadlibcssac.xml" />
+				<item action="file" path="tsadlibblackac.xml" />
+				<item action="file" path="tsadlibexceptac.xml" />
+				<item action="dir" path="plugins\QMAdFilter" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

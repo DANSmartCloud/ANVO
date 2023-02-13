@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="软件搬家" catalog="5" appclsid="ECC3482A-BFA7-4C89-BBD1-07B3DBADE7DF" appname="SoftMove" enable="1" supportsys="1111111111">
+		<icon path="SoftMove.svg" />
+		<description>
+			<![CDATA[快速稳定搬移磁盘的大文件]]>
+		</description>
+		<tip>
+			<![CDATA[软件搬家能够帮助您快速、稳定的搬移磁盘中的大文件]]>
+		</tip>
+	</App>
+</Apps>

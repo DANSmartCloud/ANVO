@@ -1,0 +1,11 @@
+<Apps>
+	<App appname="QMArpMgr" clsid="7CD20812-0414-4345-84A9-EC332CF07718" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="F5E37FA2-F8BF-437C-B16F-5AA1E9BEDA20" md5="422ffff31715541ddbb1a94e9f47b00e" path="https://s.pc.qq.com/pcmgr/logo/v15/QMArpMgr.svg" />
+		<url md5="726b3dea9043472560bfcf4b02e88bb0" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMArpMgrSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMArpMgr.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\ArpFW|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\ArpFW|Version">
+			<run file="QMArpMgr.exe" param="/pcmgr" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

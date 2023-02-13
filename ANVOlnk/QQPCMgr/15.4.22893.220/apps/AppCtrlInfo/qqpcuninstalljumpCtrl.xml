@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="E7733812-A50D-4cbf-ACA6-9230FD3B8135" appname="qqpcuninstalljump" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="7205E90A-CE34-4900-81AD-728103D75225" path="https://s.pc.qq.com/pcmgr/logo/v15/qqpcuninstalljump.svg" md5="857157ca66913bc72e28f063e7ab2eb5" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCSoftMgr.exe" param="/parent=funclist /page=uninst" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

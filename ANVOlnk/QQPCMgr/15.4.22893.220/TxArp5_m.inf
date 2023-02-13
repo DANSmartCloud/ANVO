@@ -1,0 +1,52 @@
+[Version]
+signature  = "$Windows NT$"
+Class      = Net
+ClassGUID  = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider   = %QQMgr%
+DriverVer  = 10/01/2002,5.0.2195.0
+
+[ControlFlags]
+ExcludeFromSelect = TX_MPARP
+
+[DestinationDirs]
+DefaultDestDir=12
+
+[Manufacturer]
+%QQMgr% = QQMGR,NTx86,NTia64,NTamd64
+
+[QQMGR]
+%MPARP_Desc% = MPARP.ndi, TX_MPARP
+
+[QQMGR.NTx86]
+%MPARP_Desc% = MPARP.ndi, TX_MPARP
+
+[QQMGR.NTia64]
+%MPARP_Desc% = MPARP.ndi, TX_MPARP
+
+[QQMGR.NTamd64]
+%MPARP_Desc% = MPARP.ndi, TX_MPARP
+
+[MPARP.ndi]
+Characteristics = 0x1;
+
+[MPARP.ndi.Services]
+AddService = TxArp,0x2, MPARP.AddService
+
+[MPARP.AddService]
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TxArp.sys
+
+[Strings]
+QQMgr = "QQMgr"
+MPARP_Desc = "QQ¹Ü¼ÒARP·À»ðÇ½Çý¶¯"
+
+[SourceDisksNames]
+;None 
+
+[SourceDisksFiles]
+;None
+
+
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="经典开始菜单" catalog="6" appclsid="CACE3E4E-EE63-4595-A236-5DE89246076F" appname="QMStartMenu" enable="1" supportsys="001100000000">
+		<icon path="QMStartMenu.svg" />
+		<description>
+			<![CDATA[Windows 7风格开始菜单]]>
+		</description>
+		<tip>
+			<![CDATA[经典好用的Windows 7风格开始菜单]]>
+		</tip>
+	</App>
+</Apps>

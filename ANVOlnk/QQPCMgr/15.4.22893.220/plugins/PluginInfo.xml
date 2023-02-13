@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Plugins>
+  <catalogs>
+    <catalog id="1" name="QQPCMgr" />
+    <catalog id="2" name="SettingCenter"/>
+    <catalog id="3" name="QQPCSysOptimize"/>
+  </catalogs>
+  <plugin index="40" version="1.0" name="体检详情" singleton="1" catalog="1" container="1" appclsid="{E71EDAA6-311F-4678-A8B1-B536FEB5EE4E}" pluginid="{E71EDAA6-311F-4678-A8B1-B536FEB5EE4E}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[首页体检]]>
+    </tip>
+  </plugin>
+  <app name="HPScanUIPlugin" clsid="{E71EDAA6-311F-4678-A8B1-B536FEB5EE4E}">
+    <directory path="HPScanUIPlugin"/>
+    <entry file="HPScanUIPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="16" version="1.0" name="杀毒详情" catalog="1" ShowIndex="90.1" singleton="1" appclsid="{39e68be2-a897-43b1-bd15-60027c43cbe4}" pluginid="{39e68be2-a897-43b1-bd15-60027c43cbe4}" rId="">
+    <icon path="QMTrojanScan.png" />
+    <tip>
+      <![CDATA[查杀木马杀毒主页]]>
+    </tip>
+  </plugin>
+  <app name="qmtrojanscan" clsid="{39e68be2-a897-43b1-bd15-60027c43cbe4}">
+    <directory path="qmtrojanscan"/>
+    <entry file="QMTrojanScan.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="0" version="1.0" name="清理垃圾详情页" ShowIndex="90.1" singleton="1" catalog="1" container="1" appclsid="{CC68B368-C77D-4303-9C79-9DD5623AC0C6}" pluginid="{CC68B368-C77D-4303-9C79-9DD5623AC0C6}" rId="">
+    <icon path="tab_icon_sys_opt_sys_homepage.png" />
+    <ParentName name="清理垃圾模块" />
+    <tip>
+      <![CDATA[系统优化首页]]>
+    </tip>
+  </plugin>
+  <app name="SysHomePage" clsid="{CC68B368-C77D-4303-9C79-9DD5623AC0C6}">
+    <directory path="SysHomePage"/>
+    <entry file="SysHomePage.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="59" version="1.0" name="加速详情" ShowIndex="90.1" singleton="1" catalog="1" container="1" appclsid="{D8B841DB-A61A-48c5-80A2-99E2340EEAB4}" pluginid="{D8B841DB-A61A-48c5-80A2-99E2340EEAB4}" rId="">
+    <icon path="StartupMgr.png" />
+    <tip>
+      <![CDATA[禁用不必要的启动项]]>
+    </tip>
+  </plugin>
+  <app name="StartupMgr" clsid="{D8B841DB-A61A-48c5-80A2-99E2340EEAB4}">
+    <directory path="StartupMgr"/>
+    <entry file="StartupMgr.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+   <plugin index="500" version="1.0" name="工具箱" singleton="1" catalog="1" container="1" appclsid="{AB4A65D2-1CAB-4682-A015-64082451AD4A}" pluginid="{AB4A65D2-1CAB-4682-A015-64082451AD4A}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[工具箱]]>
+    </tip>
+  </plugin>
+  <app name="ToolBoxUIPlugin" clsid="{AB4A65D2-1CAB-4682-A015-64082451AD4A}">
+    <directory path="ToolBoxUIPlugin"/>
+    <entry file="ToolBoxUIPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="41" version="1.0" name="权限雷达插件" singleton="1" catalog="1" appclsid="{2113E48B-A397-4710-ABB3-1A3390C654DB}" pluginid="{2113E48B-A397-4710-ABB3-1A3390C654DB}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[权限雷达]]>
+    </tip>
+  </plugin>
+  <app name="QMAuthorityMgrPlugin" clsid="{2113E48B-A397-4710-ABB3-1A3390C654DB}">
+    <directory path="QMAuthorityMgrPlugin"/>
+    <entry file="QMAuthorityMgrPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <!--		安全类		-->
+  <plugin index="0" version="1.0" name="实时防护" ShowIndex="90.1" singleton="1" catalog="1" appclsid="{914438D6-1EC4-434a-B6EC-20F84894C395}" pluginid="{914438D6-1EC4-434a-B6EC-20F84894C395}" rId="21">
+    <icon path="RtpPage.png" />
+    <tip>
+      <![CDATA[实时、全方位保护您的电脑免受木马攻击]]>
+    </tip>
+  </plugin>
+  <app name="RtpPage" clsid="{914438D6-1EC4-434a-B6EC-20F84894C395}">
+    <directory path="RtpPage"/>
+    <entry file="RtpPage.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="0" version="1.0" name="系统修复" ShowIndex="20.1" singleton="1" catalog="0" appclsid="{F8F0F03C-A404-4bd7-A3CF-943A6340B1BD}" pluginid="{F8F0F03C-A404-4bd7-A3CF-943A6340B1BD}" rId="8">
+    <icon path="ierepair.png" />
+    <ParentName name="修复漏洞模块" />
+    <tip>
+      <![CDATA[修复系统常见问题，安全使用电脑]]>
+    </tip>
+  </plugin>
+  <app name="QMTrojanRepair" clsid="{F8F0F03C-A404-4bd7-A3CF-943A6340B1BD}">
+    <directory path="QMTrojanRepair"/>
+    <entry file="QMTrojanRepair.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="15" version="1.0" name="系统加速" ShowIndex="90.1" singleton="1" catalog="0" container="1" appclsid="{DADFE379-C879-4724-8DA3-9FA6CC8B9350}" pluginid="{DADFE379-C879-4724-8DA3-9FA6CC8B9350}" rId="">
+    <icon path="SysSpeedUp.png" />
+    <ParentName name="电脑加速模块" />
+    <tip>
+      <![CDATA[加速系统运行]]>
+    </tip>
+  </plugin>
+  <app name="SysSpeedUpJmp" clsid="{DADFE379-C879-4724-8DA3-9FA6CC8B9350}">
+    <directory path="SysSpeedUpJmp"/>
+    <entry file="SysSpeedUpJmp.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <!--		其他类		-->
+  <plugin index="21" version="1.0" name="new清理垃圾" ShowIndex="90.1" singleton="1" catalog="3" container="1" appclsid="{80DA4A52-A10F-4fc6-87EE-2D2152663FD7}" pluginid="{80DA4A52-A10F-4fc6-87EE-2D2152663FD7}" rId="">
+    <icon path="SysCleanPage.png" />
+    <tip>
+      <![CDATA[清理系统垃圾]]>
+    </tip>
+  </plugin>
+  <app name="SysCleanPage" clsid="{80DA4A52-A10F-4fc6-87EE-2D2152663FD7}">
+    <directory path="SysCleanPage"/>
+    <entry file="SysCleanPage.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="15" version="1.0" name="new系统加速" ShowIndex="90.1" singleton="1" catalog="3" container="1" appclsid="{642056CC-88B5-4695-A319-9AC529EDF383}" pluginid="{642056CC-88B5-4695-A319-9AC529EDF383}" rId="">
+    <icon path="SysSpeedUp.png" />
+    <tip>
+      <![CDATA[加速系统运行]]>
+    </tip>
+  </plugin>
+  <app name="SysSpeedUp" clsid="{642056CC-88B5-4695-A319-9AC529EDF383}">
+    <directory path="SysSpeedUp"/>
+    <entry file="SysSpeedUp.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="3" version="1.0" name="new清理插件" ShowIndex="90.1" singleton="1" catalog="3" container="1" appclsid="{EDD73E2E-4C6A-4B2E-90DC-9C2BDD153E0B}" pluginid="{EDD73E2E-4C6A-4B2E-90DC-9C2BDD153E0B}" rId="">
+    <icon path="malware.png" />
+    <tip>
+      <![CDATA[帮助您全面提升系统安全级别，及时了解系统插件情况]]>
+    </tip>
+  </plugin>
+  <app name="MalWare" clsid="{EDD73E2E-4C6A-4B2E-90DC-9C2BDD153E0B}">
+    <directory path="MalWare"/>
+    <entry file="MalWare.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="23" version="1.0" name="new下载管理" ShowIndex="90.1" singleton="1" catalog="3" container="1" appclsid="{F0F0C694-6BFC-48b6-A687-0BFFEFF5C095}" pluginid="{F0F0C694-6BFC-48b6-A687-0BFFEFF5C095}" rId="">
+    <icon path="StartupMgr.png" />
+    <tip>
+      <![CDATA[禁用不必要的启动项]]>
+    </tip>
+  </plugin>
+  <app name="DownloaderMgrUI" clsid="{F0F0C694-6BFC-48b6-A687-0BFFEFF5C095}">
+    <directory path="downloadermgrui"/>
+    <entry file="downloadermgrui.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="19" version="1.0" name="new清除痕迹" ShowIndex="90.1" singleton="1" catalog="3" container="1" appclsid="{93EE9810-5E7E-48bb-9F63-89F34A8DF2CE}" pluginid="{93EE9810-5E7E-48bb-9F63-89F34A8DF2CE}" rId="">
+    <icon path="QMTraceClear.png" />
+    <tip>
+      <![CDATA[定期清除使用计算机时留下的各类痕迹，能够有效保护个人隐私]]>
+    </tip>
+  </plugin>
+  <app name="TraceClear" clsid="{93EE9810-5E7E-48bb-9F63-89F34A8DF2CE}">
+    <directory path="TraceClear"/>
+    <entry file="TraceClear.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="28" version="1.0" name="设置中心升级插件" singleton="1" catalog="2" container="1" appclsid="{6B1BE5B5-5989-4BF7-A76E-79D29727CF4F}" pluginid="{6B1BE5B5-5989-4BF7-A76E-79D29727CF4F}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心升级插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCGeneralPlugin" clsid="{6B1BE5B5-5989-4BF7-A76E-79D29727CF4F}">
+    <directory path="QMSCGeneralPlugin"/>
+    <entry file="QMSCGeneralPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="29" version="1.0" name="设置中心杀毒插件" singleton="1" catalog="2" container="1" appclsid="{AEEE0CBD-CC30-4DB4-BD96-67B419F5894A}" pluginid="{AEEE0CBD-CC30-4DB4-BD96-67B419F5894A}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心杀毒插件]]>
+    </tip>
+  </plugin>
+  <app name="QMTrojanScan" clsid="{AEEE0CBD-CC30-4DB4-BD96-67B419F5894A}">
+    <directory path="QMTrojanScan"/>
+    <entry file="QMTrojanScan.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="30" version="1.0" name="设置中心常规设置插件" singleton="1" catalog="2" container="1" appclsid="{02B489FB-890F-48A3-9629-A00F17522EF2}" pluginid="{02B489FB-890F-48A3-9629-A00F17522EF2}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心常规设置插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCGeneralPlugin" clsid="{02B489FB-890F-48A3-9629-A00F17522EF2}">
+    <directory path="QMSCGeneralPlugin"/>
+    <entry file="QMSCGeneralPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="31" version="1.0" name="设置中心硬件管理插件" singleton="1" catalog="2" container="1" appclsid="{E4BCA5F2-0FC7-48CA-A060-32B522F3B326}" pluginid="{E4BCA5F2-0FC7-48CA-A060-32B522F3B326}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心硬件管理插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCGeneralPlugin" clsid="{E4BCA5F2-0FC7-48CA-A060-32B522F3B326}">
+    <directory path="QMSCGeneralPlugin"/>
+    <entry file="QMSCGeneralPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="40" version="1.0" name="设置中心远程协助插件" singleton="1" catalog="2" container="1" appclsid="{B362C59C-6C45-44DF-935E-9CBFACACF2D0}" pluginid="{B362C59C-6C45-44DF-935E-9CBFACACF2D0}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心远程协助插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCGeneralPlugin" clsid="{B362C59C-6C45-44DF-935E-9CBFACACF2D0}">
+    <directory path="QMSCGeneralPlugin"/>
+    <entry file="QMSCGeneralPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="32" version="1.0" name="设置中心实时防护插件" singleton="1" catalog="2" container="1" appclsid="{DABC15F7-D839-4438-8481-68E286419B8F}" pluginid="{DABC15F7-D839-4438-8481-68E286419B8F}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心实时防护插件]]>
+    </tip>
+  </plugin>
+  <app name="RtpPage" clsid="{DABC15F7-D839-4438-8481-68E286419B8F}">
+    <directory path="RtpPage"/>
+    <entry file="RtpPage.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="37" version="1.0" name="设置中心上网安全插件" singleton="1" catalog="2" container="1" appclsid="{025EE497-08FE-48cd-8C11-22F2314B8662}" pluginid="{025EE497-08FE-48cd-8C11-22F2314B8662}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心上网安全插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCEntrancePlugin" clsid="{025EE497-08FE-48cd-8C11-22F2314B8662}">
+    <directory path="QMSCEntrancePlugin"/>
+    <entry file="QMSCEntrancePlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+
+  <plugin index="33" version="1.0" name="设置中心手机管理插件" singleton="1" catalog="2" container="1" appclsid="{F78FDE9D-7FB8-4D11-A3C9-9247B7DC098D}" pluginid="{F78FDE9D-7FB8-4D11-A3C9-9247B7DC098D}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心手机管理插件]]>
+    </tip>
+  </plugin>
+  <app name="qmmobilesettingcenter" clsid="{F78FDE9D-7FB8-4D11-A3C9-9247B7DC098D}">
+    <directory path="qmmobilesettingcenter"/>
+    <entry file="qmmobilesettingcenter.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="34" version="1.0" name="设置中心修复漏洞插件" singleton="1" catalog="2" container="1" appclsid="{D88ADEA0-FA8A-4CD6-8E75-E360CDA8BD45}" pluginid="{D88ADEA0-FA8A-4CD6-8E75-E360CDA8BD45}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心修复漏洞插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCVulPlugin" clsid="{D88ADEA0-FA8A-4CD6-8E75-E360CDA8BD45}">
+    <directory path="QMSCVulPlugin"/>
+    <entry file="QMSCVulPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="35" version="1.0" name="设置中心系统优化插件" singleton="1" catalog="2" container="1" appclsid="{5013D377-790E-473F-A0D3-51C40B653D00}" pluginid="{5013D377-790E-473F-A0D3-51C40B653D00}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心系统优化插件]]>
+    </tip>
+  </plugin>
+  <app name="SysCleanPage" clsid="{5013D377-790E-473F-A0D3-51C40B653D00}">
+    <directory path="SysCleanPage"/>
+    <entry file="SysCleanPage.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="36" version="1.0" name="设置中心代理设置插件" singleton="1" catalog="2" container="1" appclsid="{1416420B-C3D7-4AE5-A003-428FE5E71815}" pluginid="{1416420B-C3D7-4AE5-A003-428FE5E71815}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心代理设置插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCGeneralPlugin" clsid="{1416420B-C3D7-4AE5-A003-428FE5E71815}">
+    <directory path="QMSCGeneralPlugin"/>
+    <entry file="QMSCGeneralPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="37" version="1.0" name="设置中心U盘防护插件" singleton="1" catalog="2" container="1" appclsid="{9F56C0DD-24C2-4c64-8EB0-F3948500D6BD}" pluginid="{9F56C0DD-24C2-4c64-8EB0-F3948500D6BD}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心入口防护插件]]>
+    </tip>
+  </plugin>
+  <app name="QMSCEntrancePlugin" clsid="{9F56C0DD-24C2-4c64-8EB0-F3948500D6BD}">
+    <directory path="QMSCEntrancePlugin"/>
+    <entry file="QMSCEntrancePlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="38" version="1.0" name="设置中心电脑诊所插件" singleton="1" catalog="2" container="1" appclsid="{0171B972-70D2-48fa-AD60-201659868510}" pluginid="{0171B972-70D2-48fa-AD60-201659868510}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心手机管理插件]]>
+    </tip>
+  </plugin>
+  <app name="qmclinicsettingcenter" clsid="{0171B972-70D2-48fa-AD60-201659868510}">
+    <directory path="qmclinicsettingcenter"/>
+    <entry file="qmclinicsettingcenter.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="39" version="1.0" name="设置中心权限管理插件" singleton="1" catalog="2" container="1" appclsid="{57F58631-9D8F-4133-8262-12E3E4934EB7}" pluginid="{57F58631-9D8F-4133-8262-12E3E4934EB7}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心权限管理插件]]>
+    </tip>
+  </plugin>
+  <app name="QMAuthorityMgrPlugin" clsid="{57F58631-9D8F-4133-8262-12E3E4934EB7}">
+    <directory path="qmauthoritymgrplugin"/>
+    <entry file="QMAuthorityMgrPlugin.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>
+  <plugin index="40" version="1.0" name="设置中心软件安装插件" singleton="1" catalog="2" container="1" appclsid="{E589E3C3-388A-45c9-AA0F-3E6BEA8D9B03}" pluginid="{E589E3C3-388A-45c9-AA0F-3E6BEA8D9B03}" rId="">
+    <icon path="NewPlugin.png" />
+    <tip>
+      <![CDATA[设置中心软件安装插件]]>
+    </tip>
+  </plugin>
+  <app name="RtpPage" clsid="{E589E3C3-388A-45c9-AA0F-3E6BEA8D9B03}">
+    <directory path="RtpPage"/>
+    <entry file="RtpPage.dll"/>
+    <aversion>
+      <gf version="1.56" />
+      <framework version="1.0" />
+    </aversion>
+  </app>  
+</Plugins>

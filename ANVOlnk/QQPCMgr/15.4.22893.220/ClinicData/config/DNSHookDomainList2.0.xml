@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root version="1.0" valid = "1">
+
+	<key id="1402" title="无法使用QQ账号登陆相关网站？" desc="ptlogin2.qq.com不能正常连通或跳转，导致无法登录腾讯业务。" iconurl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/ptlogin_logo.png" timeout = "12000" inertime ="20000" errorcount = "2">
+		<domain name="ptlogin2.qq.com" url="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/ptlogin2.xml" keyname="ptlogin2" />
+	</key>
+
+	<key id="1603" title="百度打不开？" desc="www.baidu.com不能正常连通或跳转，导致无法使用百度服务。" iconurl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/baidu_logo.png" timeout = "12000" inertime ="20000" errorcount = "2">
+		<domain name="www.baidu.com" url="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/DNSHook_Baidu.xml" keyname="baidu" />
+	</key>
+		
+	<key id="1604" title="google打不开？" desc="www.google.com.hk不能正常连通或跳转，导致无法使用谷歌服务。" iconurl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/google_logo.png" timeout = "12000" inertime ="60000" errorcount = "2">
+		<domain name="www.google.com.hk" url="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/DNSHook_Google.xml" keyname="google" />
+	</key>
+		
+	<key id="1609" title="火车订票网站打不开？" desc="www.12306.cn不能正常连通或跳转。" iconurl = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/12306_logo.png" timeout = "12000" inertime ="60000" errorcount = "2">
+ 		<domain name="www.12306.cn"/>
+  	</key>
+	
+</root>

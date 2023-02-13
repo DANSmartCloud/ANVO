@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicTrayConfig version="1.0">
+	<ExtTipInfo>
+		<info 
+		tipsid = "4" 
+		problemid = "1005" 
+		source = "27" 
+		type = "3" 
+		idParam = "0" 
+		iconUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_iexplore48_48.png"
+		title ="IE浏览器出错崩溃"
+		desc = "电脑诊所一键专业修复。"
+		/>
+		<info 
+		tipsid = "3" 
+		problemid = "1401" 
+		source = "28" 
+		type = "0" 
+		idParam = "0" 
+		iconUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq.png"
+		title ="QQ快速登录异常?"
+		desc = "电脑诊所一键专业修复。"
+		/>
+	</ExtTipInfo>
+	
+    <precept>
+		<info problemid = "1001" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1082" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1200" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1220" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1221" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1222" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1223" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1224" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1225" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1226" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1227" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1228" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1603" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1402" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1604" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1231" delay = "1" showtime = "20" elapse = "1440"/>
+		<info problemid = "1701" delay = "1" showtime = "20" elapse = "1440"/>
+	</precept>	
+	
+	<DllMissed version="1.0">
+		<common
+			iconUrl = "iconicon"
+			title = "无法启动 %s"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+		/>
+		<exeicon>
+			<info exe = "qq.exe" 				url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq.png"/>
+			<info exe = "qqmusic.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqmusiclogo.png"/>
+			<info exe = "thunder.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder7.png"/>
+			<info exe = "qqbrowser.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__qqbrowserlogo.png"/>
+			<info exe = "PlantsVsZombies.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/PlantsVsZombies.png"/>
+			<info exe = "qqlive.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/qqlivelogo.png"/>
+			<info exe = "photoshop.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_photoshop.png"/>
+			<info exe = "qqgame.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo.png"/>
+			<info exe = "qvodplayer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_QvodPlayer.png"/>
+			<info exe = "xmp.exe" 				url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_xmp.png"/>
+		</exeicon>
+		<exeiconext>
+			<info exe = "qq.exe" 				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq48_48.png"/>
+			<info exe = "qqmusic.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqmusiclogo48_48.png"/>
+			<info exe = "thunder.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "qqbrowser.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__qqbrowserlogo48_48.png"/>
+			<info exe = "PlantsVsZombies.exe" 		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/PlantsVsZombies48_48.png"/>
+			<info exe = "qqlive.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/qqlivelogo48_48.png"/>
+			<info exe = "qqgame.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo48_48.png"/>
+			<info exe = "qvodplayer.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_QvodPlayer48_48.png"/>
+			<info exe = "xmp.exe" 				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_xmp48_48.png"/>
+			<!--iconurl 20131016-->            
+			<info exe = "acdsee.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_acdsee48_48.png"/>
+			<info exe = "aliim.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_aliim48_48.png"/>
+			<info exe = "baidumusic.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_baidumusic48_48.png"/>
+			<info exe = "baiduplayer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_baiduplayer48_48.png"/>
+			<info exe = "devilmaycry4_dx10.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_devilmaycry48_48.png"/>
+			<info exe = "flashplayerinstaller.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/flash_logo.png"/>
+			<info exe = "installflashplayer.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/flash_logo.png"/>
+			<info exe = "funshion.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_funshion48_48.png"/>
+			<info exe = "funshionservice.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_funshion48_48.png"/>
+			<info exe = "hulk.exe" 			        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_hulk48_48.png"/>
+			<info exe = "hkship.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_hkship48_48.png"/>
+			<info exe = "hl4pddz.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_hlddz48_48.png"/>
+			<info exe = "hldouniu.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_hldouniu48_48.png"/>
+			<info exe = "hlscmj.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_hlscmj48_48.png"/>
+			<info exe = "kugou.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kugou48_48.png"/>
+			<info exe = "kcleaner.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kcleaner48_48.png"/>
+			<info exe = "kxetray.exe" 	    		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kxetray48_48.png"/>
+			<info exe = "lolclient.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_lol48_48.png"/>
+			<info exe = "my.exe" 			        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_my48_48.png"/>
+			<info exe = "nba2k13.exe" 		        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_nab2k48_48.png"/>
+			<info exe = "nba2k14.exe"		        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_nba2k48_48.png"/>
+			<info exe = "newermj.exe" 		      	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_newermj48_48.png"/>
+			<info exe = "nvcplui.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_nvcplui48_48.png"/>
+			<info exe = "nfs11.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_nfs48_48.png"/>
+			<info exe = "nfs13.exe" 		        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_nfs48_48.png"/>
+			<info exe = "nfsmw.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_nfs48_48.png"/>
+			<info exe = "pes2014.exe" 		        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_pes48_48.png"/>
+			<info exe = "pccompanion.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_pccompanion48_48.png"/>
+			<info exe = "ppstream.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_ppstream48_48.png"/>
+			<info exe = "ppsbrowser.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_ppstream48_48.png"/>
+			<info exe = "qiyiclient.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qiyiclient48_48.png"/>
+			<info exe = "desktip.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qiyiclient48_48.png"/>
+			<info exe = "qyfollowvideo.exe"			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qiyiclient48_48.png"/>
+			<info exe = "qqexternal.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq48_48.png"/>
+			<info exe = "qqexternalex.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq48_48.png"/>
+			<info exe = "qqprotect.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq48_48.png"/>
+			<info exe = "accel.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo48_48.png"/>
+			<info exe = "ieproc.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo48_48.png"/>
+			<info exe = "qqgamelogic.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo48_48.png"/>
+			<info exe = "qqgameandroidmanager.exe"		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo48_48.png"/>
+			<info exe = "snswebbrowser.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqgamelogo48_48.png"/>
+			<info exe = "webplayer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_stormplayer48_48.png"/>
+			<info exe = "qqliveexternal.exe" 		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/qqlivelogo48_48.png"/>
+			<info exe = "qqliveup.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/qqlivelogo48_48.png"/>
+			<info exe = "qqmusicsvr.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqmusiclogo48_48.png"/>
+			<info exe = "qqpenguin.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqpenguin48_48.png"/>
+			<info exe = "qqphonemanager.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqphonemanager48_48.png"/>
+			<info exe = "qqyxs.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqyxs48_48.png"/>
+			<info exe = "qtalk.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qtalk48_48.png"/>
+			<info exe = "qvoddaily.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qvodplayer48_48.png"/>
+			<info exe = "qvodterminal.exe" 			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qvodplayer48_48.png"/>
+			<info exe = "sgtool.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_sgtool48_48.png"/>
+			<info exe = "shoujizhushou.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_shoujizhushou48_48.png"/>
+			<info exe = "shplayer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_shplayer48_48.png"/>
+			<info exe = "sohunews.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_shplayer48_48.png"/>
+			<info exe = "sohuva.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_shplayer48_48.png"/>
+			<info exe = "sogouexlorer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_sogouexplorer48_48.png"/>
+			<info exe = "stormplayer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_stormplayer48_48.png"/>
+			<info exe = "thunderexternal.exe" 		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "thunderplatform.exe" 		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "xbrowser.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "xmp.exe" 			    	url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_xmp48_48.png"/>
+			<info exe = "vstart.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_vstart48_48.png"/>
+			<info exe = "wandoujia2.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wandoujia48_48.png"/>
+			<info exe = "wandoujia_helper.exe" 		url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wandoujia48_48.png"/>
+			<info exe = "2345explorer.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_2345explorer48_48.png"/>
+			<info exe = "yy.exe" 			        url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_yy48_48.png"/>
+			<info exe = "xiuxiu.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_xiuxiu48_48.png"/>
+			<info exe = "mthuabao.exe"			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_xiuxiu48_48.png"/>
+			<info exe = "youkudesktop.exe" 			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_youku48_48.png"/>
+			<!--20131107-->
+			<info exe = "baidupinyin.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_bdpinyin48_48.png"/>
+			<info exe = "baidubrowser.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_bdbrowser48_48.png"/>
+			<info exe = "wt_wifi.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wifigx48_48.png"/>
+			<info exe = "wps.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wps48_48.png"/>
+			<info exe = "calendarmain.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_calendar48_48.png"/>
+			<info exe = "pes2013.exe"			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_pes48_48.png"/>
+			<info exe = "worldoftanks.exe"			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wot48_48.png"/>
+			<info exe = "client.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_client48_48.png"/>
+			<!--20140408-->
+			<info exe = "sgimeguard.exe"			url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_sgtool48_48.png"/>
+			<info exe = "txupd.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq48_48.png"/>
+			<info exe = "kupdata.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kxetray48_48.png"/>
+			<info exe = "fruitninja.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_fruitninja48_48.png"/>
+			<info exe = "qqliveexternal.exe"		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/qqlivelogo_48_48.png"/>
+			<info exe = "liebao.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_liebao48_48.png"/>
+			<info exe = "kislive.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kxetray48_48.png"/>
+			<info exe = "pplive.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_pplive48_48.png"/>
+			<info exe = "kkv.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_xmp48_48.png"/>
+			<info exe = "kiestrayagent.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kies48_48.png"/>
+			<info exe = "kxescore.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kxetray48_48.png"/>
+			<info exe = "qqpmexternal.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqpmexternal48_48.png"/>
+			<info exe = "timwp.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qq48_48.png"/>
+			<info exe = "qqpetagent.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqpenguin48_48.png"/>
+			<info exe = "kwifi.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kwifi48_48.png"/>
+			<info exe = "wow.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wow48_48.png"/>
+			<info exe = "qvodtip.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qvodplayer48_48.png"/>
+			<info exe = "maupdat.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqpmexternal48_48.png"/>
+			<info exe = "xlueops.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "thunderservicelite.exe"	url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "thundernewtask.exe"		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "xliveud.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__thunder748_48.png"/>
+			<info exe = "sm5_win.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_sm5win48_48.png"/>
+			<info exe = "qqbrowserliveup.exe"		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon__qqbrowserlogo48_48.png"/>
+			<info exe = "baofengplatform.exe"		url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_stormplayer48_48.png"/>
+			<info exe = "qzonemusic.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qqmusiclogo48_48.png"/>
+			<info exe = "kbootopt.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kxetray48_48.png"/>
+			<info exe = "kismain.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_kxetray48_48.png"/>
+			<info exe = "baidupcsuiteservice.exe"	url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_baidusjzs48_48.png"/>
+			<info exe = "sogoumobiletoolhelper.exe"	url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_sogousjzs48_48.png"/>
+			<info exe = "qvodweb.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qvodplayer48_48.png"/>
+			<info exe = "c+wclient.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_cwclient48_48.png"/>
+			<info exe = "baiduan.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_baiduan48_48.png"/>
+			<info exe = "baidusdtray.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_baidusd48_48.png"/>
+			<info exe = "baidusdrepair.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_baidusd48_48.png"/>
+			<info exe = "formatfactory.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_formatfactory48_48.png"/>
+			<info exe = "qingbangong.exe"			url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wps48_48.png"/>
+			<info exe = "et.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_wps48_48.png"/>
+			<info exe = "k8gm.exe"					url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_k8gm48_48.png"/>
+			<info exe = "k8rtlfix.exe"				url = "http://dlied6.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_k8gm48_48.png"/>
+			<info exe = "qtweb.exe" 		    	url = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/tipsicon_qtalk48_48.png"/>
+
+		</exeiconext>
+		
+		<info		problemid = "1220"		dllname = "d3dx9_24.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_25.dll"/>	
+		<info		problemid = "1220"		dllname = "d3dx9_26.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_27.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_28.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_29.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_30.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_31.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_32.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_33.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_34.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_35.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_36.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_37.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_38.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_39.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_40.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_41.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_42.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx9_43.dll"/>
+
+		<info		problemid = "1220"		dllname = "d3dx10_33.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_34.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_35.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_36.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_37.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_38.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_39.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_40.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_41.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_42.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx10_43.dll"/>
+
+		<info		problemid = "1220"		dllname = "d3dx11_42.dll"/>
+		<info		problemid = "1220"		dllname = "d3dx11_43.dll"/>
+		
+		<info		problemid = "1220"		dllname = "XINPUT1_1.dll"/>
+		<info		problemid = "1220"		dllname = "XINPUT1_2.dll"/>
+		<info		problemid = "1220"		dllname = "XINPUT1_3.dll"/>
+		<info		problemid = "1220"		dllname = "XINPUT9_1_0.dll"/>
+		
+		<info		problemid = "1221"		dllname = "MSVCP90.dll"/>
+		<info		problemid = "1221"		dllname = "MSVCR90.dll"/>
+		<info		problemid = "1221"		dllname = "MSVCM90.dll"/>
+		<info		problemid = "1221"		dllname = "MFC90.dll"/>
+		<info		problemid = "1221"		dllname = "MFC90U.dll"/>
+		<info		problemid = "1221"		dllname = "ATL90.dll"/>
+		
+		<info		problemid = "1221"		dllname = "MSVCP100.dll"/>
+		<info		problemid = "1221"		dllname = "MSVCR100.dll"/>
+		<info		problemid = "1221"		dllname = "MFC100.dll"/>
+		<info		problemid = "1221"		dllname = "MFC100U.dll"/>
+		<info		problemid = "1221"		dllname = "ATL100.dll"/>
+
+		<info		problemid = "1221"		dllname = "MSVCP80.dll"/>
+		<info		problemid = "1221"		dllname = "MSVCR80.dll"/>
+		<info		problemid = "1221"		dllname = "MFC80.dll"/>
+		<info		problemid = "1221"		dllname = "MFC80U.dll"/>
+		<info		problemid = "1221"		dllname = "ATL80.dll"/>
+		
+		<info		problemid = "1221"		dllname = "MSVCP71.dll"/>
+		<info		problemid = "1221"		dllname = "MSVCR71.dll"/>
+		<info		problemid = "1221"		dllname = "MFC71.dll"/>
+		<info		problemid = "1221"		dllname = "MFC71U.dll"/>
+		<info		problemid = "1221"		dllname = "ATL71.dll"/>
+		<info		problemid = "1701"		dllname = "msvcrt.dll"/>
+
+		<info		problemid = "1223"		dllname = "olepro32.dll" osversion="5"/>
+		<info		problemid = "1223"		dllname = "msvbvm60.dll" osversion="5"/>
+		
+		<info		problemid = "1224"		dllname = "msjava.dll" osversion="5"/>
+
+		<info		problemid = "1225"		dllname = "libeay32.dll" />
+		<info		problemid = "1225"		dllname = "ssleay32.dll" />
+		
+		<info		problemid = "1230"		dllname = "SSOCommon.dll" />
+
+		<info
+			problemid = "1403"
+			dllname = "urlmon.dll"
+			title = "无法定位序数于动态链接库上？"
+			descript = "IE组件出现异常，电脑诊所一键修复。"
+			osversion="6"
+		/>
+		<!--20140506-->
+		<info
+			problemid = "1231"
+			dllname = "adb_dev.dll"
+			exename = "wandoujia_helper.exe"
+			title = "豌豆荚无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wandoujia_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "豌豆荚"
+			SoftInstallTime = "6000"
+			fixtitle = "豌豆荚无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "webctrl.dll"
+			exename = "qvodplayer.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "netutil.dll"
+			exename = "qvodweb.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "singleton.dll"
+			exename = "C+WClient.exe"
+			title = "天翼宽带客户端无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/cwclient_clinic.exe"
+			SoftParam = "/silent"
+			SoftName = "天翼宽带客户端"
+			SoftInstallTime = "6000"
+			fixtitle = "天翼宽带客户端无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "bdmscriptvm.dll"
+			exename = "baiduan.exe"
+			title = "百度卫士无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/baiduan_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度卫士"
+			SoftInstallTime = "6000"
+			fixtitle = "百度卫士无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "bdmswnestcore.dll"
+			exename = "baiduan.exe"
+			title = "百度卫士无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/baiduan_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度卫士"
+			SoftInstallTime = "6000"
+			fixtitle = "百度卫士无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "bdmframeWork.dll"
+			exename = "baidusdrepair.exe"
+			title = "百度杀毒无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/baidusd_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度杀毒"
+			SoftInstallTime = "6000"
+			fixtitle = "百度杀毒无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "bdlogicutils.dll"
+			exename = "baidusdtray.exe"
+			title = "百度杀毒无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/baidusd_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度杀毒"
+			SoftInstallTime = "6000"
+			fixtitle = "百度杀毒无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "bdmskin.dll"
+			exename = "baidusdtray.exe"
+			title = "百度杀毒无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/baidusd_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度杀毒"
+			SoftInstallTime = "6000"
+			fixtitle = "百度杀毒无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "mediainfo.dll"
+			exename = "formatfactory.exe"
+			title = "格式工厂无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/formatfactory_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "格式工厂"
+			SoftInstallTime = "6000"
+			fixtitle = "格式工厂无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "qtcore4.dll"
+			exename = "qingbangong.exe"
+			title = "WPS无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "WPS"
+			SoftInstallTime = "6000"
+			fixtitle = "WPS无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "kso.dll"
+			exename = "wps.exe"
+			title = "WPS无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "WPS"
+			SoftInstallTime = "6000"
+			fixtitle = "WPS无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "kso.dll"
+			exename = "et.exe"
+			title = "WPS无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "WPS"
+			SoftInstallTime = "6000"
+			fixtitle = "WPS无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "qtcore4.dll"
+			exename = "wps.exe"
+			title = "WPS无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "WPS"
+			SoftInstallTime = "6000"
+			fixtitle = "WPS无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "gma.dll"
+			exename = "funshionservice.exe"
+			title = "风行无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/funshion_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "风行"
+			SoftInstallTime = "6000"
+			fixtitle = "风行无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "k8common.dll"
+			exename = "k8gm.exe"
+			title = "快吧游戏无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/k8gm_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快吧游戏"
+			SoftInstallTime = "6000"
+			fixtitle = "快吧游戏无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "k8common.dll"
+			exename = "k8rtlfix.exe"
+			title = "快吧游戏无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/k8gm_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快吧游戏"
+			SoftInstallTime = "6000"
+			fixtitle = "快吧游戏无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "common.dll"
+			exename = "qtweb.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<!--20140408-->
+		<info
+			problemid = "1231"
+			dllname = "uactool.dll"
+			exename = "thunderservicelite.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "mp.dll"
+			exename = "thunderservicelite.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "xlluaruntime.dll"
+			exename = "thundernewtask.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "mp.dll"
+			exename = "thunder.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "basecommunity.dll"
+			exename = "thunder.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "mini_unzip_dll.dll"
+			exename = "xmp.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "zlib1.dll"
+			exename = "xlliveud.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "xlstat.dll"
+			exename = "xlliveud.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "libpng13.dll"
+			exename = "xlueops.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "libcurl.dll"
+			exename = "wandoujia2.exe"
+			title = "豌豆荚无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wandoujia_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "豌豆荚"
+			SoftInstallTime = "6000"
+			fixtitle = "豌豆荚无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "gbase.dll"
+			exename = "ppstream.exe"
+			title = "PPS影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/pps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "PPS影音"
+			SoftInstallTime = "6000"
+			fixtitle = "PPS影音无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "zlib1.dll"
+			exename = "ppstream.exe"
+			title = "PPS影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/pps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "PPS影音"
+			SoftInstallTime = "6000"
+			fixtitle = "PPS影音无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "shapp.dll"
+			exename = "sohuva.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "shcontrol.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "crt.dll"
+			exename = "baofengplatform.exe"
+			title = "暴风影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/stormplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "暴风影音"
+			SoftInstallTime = "6000"
+			fixtitle = "暴风影音无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "log_report.dll"
+			exename = "baiduplayer.exe"
+			title = "百度影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/baiduplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度影音"
+			SoftInstallTime = "6000"
+			fixtitle = "百度影音无法运行"
+		/>
+		<info
+			problemid = "1231"
+			dllname = "qbutils.dll"
+			exename = "qqbrowserliveup.exe"
+			title = "QQ浏览器无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqbrowser_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QQ浏览器"
+			SoftInstallTime = "6000"
+			fixtitle = "QQ浏览器无法运行"
+		/>
+		<!--20131107-->
+		<info
+			problemid = "1231"		
+			dllname = "bdaucommon.dll"
+			exename = "baidupinyin.exe"
+			title = "百度输入法无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/bdpinyin_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度输入法"
+			SoftInstallTime = "6000"
+			fixtitle = "百度输入法无法运行"
+		/>
+        	<info
+			problemid = "1231"
+			dllname = "bdcommon.dll"
+			exename = "baidubrowser.exe"
+			title = "百度浏览器无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/bdbrowser_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度浏览器"
+			SoftInstallTime = "6000"
+			fixtitle = "百度浏览器无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "bdnetdll.dll"
+			exename = "baidupinyin.exe"
+			title = "百度输入法无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/bdpinyin_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "百度输入法"
+			SoftInstallTime = "6000"
+			fixtitle = "百度输入法无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "Common.dll"
+			exename = "QTalk.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "dulib.dll"
+			exename = "wt_wifi.exe"
+			title = "wifi共享精灵无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wifigx_clinic.exe"
+			SoftParam = "/sp- /verysilent"
+			SoftName = "wifi共享精灵"
+			SoftInstallTime = "6000"
+			fixtitle = "wifi共享精灵无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "flyfoxlocalplayer.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "imdllbuild.dll"
+			exename = "qtalk.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "kcomctl.dll"
+			exename = "wps.exe"
+			title = "WPS无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wps_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "WPS"
+			SoftInstallTime = "6000"
+			fixtitle = "WPS无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "libcef.dll"
+			exename = "wandoujia_helper.exe"
+			title = "豌豆荚无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wandoujia_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "豌豆荚"
+			SoftInstallTime = "6000"
+			fixtitle = "豌豆荚无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "libcef.dll"
+			exename = "wandoujia2.exe"
+			title = "豌豆荚无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wandoujia_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "豌豆荚"
+			SoftInstallTime = "6000"
+			fixtitle = "豌豆荚无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "libexpat.dll"
+			exename = "xlliveud.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "mvckernel.dll"
+			exename = "qtalk.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "netutil.dll"
+			exename = "qvodtips.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "skinbase.dll"
+			exename = "calendarmain.exe"
+			title = "人生日历无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/calendar_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "人生日历"
+			SoftInstallTime = "6000"
+			fixtitle = "人生日历无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "updateassist.dll"
+			exename = "aliim.exe"
+			title = "阿里旺旺无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/aliim_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "阿里旺旺"
+			SoftInstallTime = "6000"
+			fixtitle = "阿里旺旺无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "xgraphic32.dll"
+			exename = "qqlive.exe"
+			title = "腾讯视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqlive_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "腾讯视频"
+			SoftInstallTime = "6000"
+			fixtitle = "腾讯视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "zlib.dll"
+			exename = "qqlive.exe"
+			title = "腾讯视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqlive_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "腾讯视频"
+			SoftInstallTime = "6000"
+			fixtitle = "腾讯视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "zlib.dll"
+			exename = "qtalk.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "hwsignature.dll"
+			exename = "sgtool.exe"
+			title = "搜狗输入法无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/sginput_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狗输入法"
+			SoftInstallTime = "6000"
+			fixtitle =  "搜狗输入法无法运行"
+		/>
+		<!--id1231 20131018-->
+		<info
+			problemid = "1231"		
+			dllname = "adb_dev.dll"
+			exename = "wandoujia2.exe"
+			title = "豌豆荚无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wandoujia_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "豌豆荚"
+			SoftInstallTime = "6000"
+			fixtitle = "豌豆荚无法运行"
+		/>		
+		<info
+			problemid = "1231"		
+			dllname = "adbtools.dll"
+			exename = "qqphonemanager.exe"
+			title = "手机管家无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqphonemanager_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "手机管家"
+			SoftInstallTime = "30000"
+			fixtitle =  "手机管家无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "appnet.dll"
+			exename = "qiyiclient.exe"
+			title = "爱奇艺视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qiyi_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "爱奇艺视频"
+			SoftInstallTime = "6000"
+			fixtitle = "爱奇艺视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "apptools.dll"
+			exename = "qqphonemanager.exe"
+			title = "手机管家无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqphonemanager_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "手机管家"
+			SoftInstallTime = "30000"
+			fixtitle = "手机管家无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "apputil.dll"
+			exename = "qtalk.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "avformat.dll"
+			exename = "stormplayer.exe"
+			title = "暴风影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/stormplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "暴风影音"
+			SoftInstallTime = "6000"
+			fixtitle = "暴风影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "common.dll"
+			exename = "qqlive.exe"
+			title = "腾讯视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqlive_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "腾讯视频"
+			SoftInstallTime = "6000"
+			fixtitle = "腾讯视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "core.dll"
+			exename = "kugou.exe"
+			title = "酷狗音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/kugou_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "酷狗音乐"
+			SoftInstallTime = "6000"
+			fixtitle = "酷狗音乐无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "crt.dll"
+			exename = "stormplayer.exe"
+			title = "暴风影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/stormplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "暴风影音"
+			SoftInstallTime = "6000"
+			fixtitle = "暴风影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "daemonproxy.dll"
+			exename = "qqphonemanager.exe"
+			title = "手机管家无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqphonemanager_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "手机管家"
+			SoftInstallTime = "6000"
+			fixtitle = "手机管家无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "gdi42.dll"
+			exename = "plantsvszombies.exe"
+			title = "植物大战僵尸无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/plantvszombies_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "植物大战僵尸"
+			SoftInstallTime = "6000"
+			fixtitle = "植物大战僵尸无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "guistandalone.dll"
+			exename = "qqphonemanager.exe"
+			title = "手机管家无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqphonemanager_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "手机管家"
+			SoftInstallTime = "6000"
+			fixtitle = "手机管家无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "livelog.dll"
+			exename = "qqlive.exe"
+			title = "腾讯视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqlive_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "腾讯视频"
+			SoftInstallTime = "6000"
+			fixtitle = "腾讯视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "mexplorer.dll"
+			exename = "pccompanion.exe"
+			title = "索尼pc套件无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/pccompanion_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "索尼pc套件"
+			SoftInstallTime = "6000"
+			fixtitle = "索尼pc套件无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "mobileidentifydll.dll"
+			exename = "kugou.exe"
+			title = "酷狗音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/kugou_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "酷狗音乐"
+			SoftInstallTime = "6000"
+			fixtitle = "酷狗音乐无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "netutil.dll"
+			exename = "qvodplayer.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "pcfile.dll"
+			exename = "xiuxiu.exe"
+			title = "美图秀秀无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/xiuxiu_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "美图秀秀"
+			SoftInstallTime = "6000"
+			fixtitle = "美图秀秀无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "playctrl.dll"
+			exename = "qvodplayer.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "qbutils.dll"
+			exename = "qqbrowser.exe"
+			title = "QQ浏览器无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqbrowser_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QQ浏览器"
+			SoftInstallTime = "6000"
+			fixtitle = "QQ浏览器无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "qtcommon.dll"
+			exename = "qtalk.exe"
+			title = "QT语音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qtalk_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QT语音"
+			SoftInstallTime = "6000"
+			fixtitle = "QT语音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "quilib.dll"
+			exename = "qiyiclient.exe"
+			title = "爱奇艺视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qiyi_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "爱奇艺视频"
+			SoftInstallTime = "6000"
+			fixtitle = "爱奇艺视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "qvodstatistic.dll"
+			exename = "qvodplayer.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "shplayercommon.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "shrestool.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "sohuept.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "sohutool.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "statistics.dll"
+			exename = "kugou.exe"
+			title = "酷狗音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/kugou_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "酷狗音乐"
+			SoftInstallTime = "6000"
+			fixtitle = "酷狗音乐无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "testspeedui.dll"
+			exename = "shplayer.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "toolkit.dll"
+			exename = "qqphonemanager.exe"
+			title = "手机管家无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqphonemanager_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "手机管家"
+			SoftInstallTime = "6000"
+			fixtitle = "手机管家无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "wwutils.dll"
+			exename = "aliim.exe"
+			title = "阿里旺旺无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/aliim_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "阿里旺旺"
+			SoftInstallTime = "6000"
+			fixtitle = "阿里旺旺无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "xlfsio.dll"
+			exename = "thunder.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "xlluaruntime.dll"
+			exename = "xmp.exe"
+			title = "迅雷看看无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷看看"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷看看无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "xlue.dll"
+			exename = "thunder.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "xvidcore.dll"
+			exename = "stormplayer.exe"
+			title = "暴风影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/stormplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "暴风影音"
+			SoftInstallTime = "6000"
+			fixtitle = "暴风影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "zlib1.dll"
+			exename = "thunder.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "netutil.dll"
+			exename = "qvodterminal.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "appnet.dll"
+			exename = "qyfollowvideo.exe"
+			title = "爱奇艺视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qiyi_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "爱奇艺视频"
+			SoftInstallTime = "6000"
+			fixtitle = "爱奇艺视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "zlib1.dll"
+			exename = "accel.exe"
+			title = "QQ游戏无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqgame_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "QQ游戏"
+			SoftInstallTime = "6000"
+			fixtitle = "QQ游戏无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "livelog.dll"
+			exename = "qqliveup.exe"
+			title = "腾讯视频无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qqlive_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "腾讯视频"
+			SoftInstallTime = "6000"
+			fixtitle = "腾讯视频无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "netutil.dll"
+			exename = "qvoddaily.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+
+		<info
+			problemid = "1231"		
+			dllname = "xlluaruntime.dll"
+			exename = "thunderexternal.exe"
+			title = "迅雷无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/thunder_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "迅雷"
+			SoftInstallTime = "6000"
+			fixtitle = "迅雷无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "appnet.dll"
+			exename = "desktip.exe"
+			title = "爱奇艺无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qiyi_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "爱奇艺视频"
+			SoftInstallTime = "6000"
+			fixtitle = "爱奇艺无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "sohutool.dll"
+			exename = "sohuva.exe"
+			title = "搜狐影音无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/shplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "搜狐影音"
+			SoftInstallTime = "6000"
+			fixtitle = "搜狐影音无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "libcurl.dll"
+			exename = "wandoujia_helper.exe"
+			title = "豌豆荚无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/wandoujia_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "豌豆荚"
+			SoftInstallTime = "6000"
+			fixtitle = "豌豆荚无法运行"
+		/>
+		<info
+			problemid = "1231"		
+			dllname = "dxva2.dll"
+			exename = "qvodplayer.exe"
+			title = "快播无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+			SoftUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/pe/qvodplayer_clinic.exe"
+			SoftParam = "/S"
+			SoftName = "快播"
+			SoftInstallTime = "6000"
+			fixtitle = "快播无法运行"
+		/>
+		<!--id1227 20140506-->
+		<info
+			problemid = "1227"		
+			dllname = "libtcmalloc.dll"
+			exename = "qqprotect.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "asynctask.dll"
+			exename = "qqprotect.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1228"
+			dllname = "qqplayer.dll"
+			exename = "qzonemusic.exe"
+			title = " QQ音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "libtcmalloc.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "libpng.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "ximage.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "xgraphic32.dll"
+			exename = "qqexternalex.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "common.dll"
+			exename = "qqexternal.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "qqprotect.dll"
+			exename = "qqprotect.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>       
+		<info
+			problemid = "1227"		
+			dllname = "xplatformex.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "xplatform.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "xgraphic32.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "afbase.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "afutil.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "afctrl.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>       
+		<info
+			problemid = "1228"		
+			dllname = "QQMusicCommon.dll"
+			exename = "QQMusicSvr.exe"
+			title = "QQ音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>
+		<info
+			problemid = "1227"		
+			dllname = "arkgraphic.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/>  
+		<info
+			problemid = "1227"		
+			dllname = "tinyxml.dll"
+			exename = "qq.exe"
+			title = "QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""		
+		/> 
+		<!--原文件-->
+		<info
+			problemid = "1227"
+			dllname = "zlib.dll"
+			exename = "qqprotect.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"
+			dllname = "gf.dll"
+			exename = "qq.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"
+			dllname = "AppUtil.dll"
+			exename = "qq.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"
+			dllname = "Common.dll"
+			exename = "qq.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"
+			dllname = "zlib.dll"
+			exename = "qq.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"
+			dllname = "QSLogic.dll"
+			exename = "qq.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1227"
+			dllname = "KernelUtil.dll"
+			exename = "qq.exe"
+			title = " QQ无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		
+		<info
+			problemid = "1228"
+			dllname = "Common.dll"
+			exename = "qqmusic.exe"
+			title = "QQ音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1228"
+			dllname = "zlib.dll"
+			exename = "qqmusic.exe"
+			title = " QQ音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1228"
+			dllname = "QQMusicCommon.dll"
+			exename = "qqmusic.exe"
+			title = " QQ音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1228"
+			dllname = "QQMusic_GFWrapper.dll"
+			exename = "qqmusic.exe"
+			title = " QQ音乐无法运行？"
+			descript = "系统丢失文件: QQMusi...per.dll，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		<info
+			problemid = "1228"
+			dllname = "QQPlayer.dll"
+			exename = "qqmusic.exe"
+			title = " QQ音乐无法运行？"
+			descript = "系统丢失文件: %s，电脑诊所一键修复。"
+			osversion="0"
+			MgrVersion = ""
+		/>
+		
+	</DllMissed>	
+	
+	<WebConfig>
+	
+		<!--证书-->
+		<Certificate version="1.0"> 
+			<info	name = "12306" problemid = "1200" cername = "srca" iconUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/12306.png" iconUrlEx= "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/12306_48_48.png">
+				<title><![CDATA[未安装“安全证书”，购票有风险]]></title>
+				<descript><![CDATA[电脑诊所一键专业修复。]]></descript>
+				<url name = "http://www.12306.cn/mormhweb/kyfw/" />
+				<url name = "https://kyfw.12306.cn/otn/regist/init" />
+				<url name = "https://kyfw.12306.cn/otn/leftTicket/init" />
+				<url name = "https://kyfw.12306.cn/otn/queryOrder/init" />
+				<url name = "https://kyfw.12306.cn/otn/" />
+				<url name = "https://kyfw.12306.cn/otn/leftTicketPrice/init" />
+				<url name = "https://kyfw.12306.cn/otn/lcxxcx/init" />
+				<url name = "http://www.12306.cn/mormhweb/kyfw/reg/" />
+				<url name = "http://www.12306.cn/mormhweb/kyfw/wstp/" />
+				<url name = "http://www.12306.cn/mormhweb/kyfw/ypcx/" />
+				<url name = "http://www.12306.cn/mormhweb/kyfw/lcskbcx/" />
+				<url name = "http://www.12306.cn/mormhweb/kyfw/pjcx/" />
+				<url name = "https://kyfw.12306.cn/otn/queryAgencySellTicket/init" />
+				<url name = "http://www.12306.cn/mormhweb/kyfw/tldsdcx/" />
+				
+			</info>
+		</Certificate>
+		
+		<!--flash-->
+		<FlashFix version="2.0" problemid = "1082" minFlashVersion = "" iconUrl = "http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/flash_logo.png" HPFlashVersion = "11.8.800.94"> 
+			<title><![CDATA[Flash版本过旧，无法观看视频?]]></title>
+			<descript><![CDATA[安装Flash不成功，或网页总是提醒下载最新版.]]></descript>
+			<browser id="1"/>
+			<browser id="62"/>
+			<domain name="v.qq.com"/>
+		</FlashFix>
+		
+	</WebConfig>
+	
+
+</ClinicTrayConfig>

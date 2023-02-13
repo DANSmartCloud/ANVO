@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecommendItems>
+  <Item id="1" name="SysSlim" icon="SysSlim.png" text="系统盘瘦身" tip="清理系统盘垃圾，提高系统盘运行速度" command="29715424-B1AD-4ceb-BCBF-E50697DA8602"
+	param="/parent=funclist /page=upgrade"/>
+  <Item id="2" name="FileClean" icon="FileClean.png" text="文件清理" tip="帮助您清理电脑中的下载文件，释放磁盘空间" command="QQPCTray.exe" param="/showui /TAB_FUNCTIONLIST /APP_5B07BE19-B421-4e64-B556-4924460FCC4C"/>
+</RecommendItems>

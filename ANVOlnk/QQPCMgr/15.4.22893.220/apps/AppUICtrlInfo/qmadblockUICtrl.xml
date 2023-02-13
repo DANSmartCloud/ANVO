@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="软件弹窗拦截" catalog="5" appclsid="613644D1-2FE8-43f4-8491-FEF87AADAE49" appname="qmadblock" enable="1" supportsys="1111111111" smb="0" smbfeature="adblockConfig" smbkey="switch">
+		<icon path="qmadblock.svg" />
+		<description>
+			<![CDATA[自动拦截软件弹窗]]>
+		</description>
+		<tip>
+			<![CDATA[自动拦截软件弹窗，提供清静的使用环境]]>
+		</tip>
+	</App>
+</Apps>

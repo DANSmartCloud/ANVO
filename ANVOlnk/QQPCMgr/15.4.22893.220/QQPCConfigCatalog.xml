@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogs>
+	<catalog index="0" title="常规设置" containername="SettingGeneralPage" pluginname="设置中心常规设置插件" cmdline="GENERAL" inmini="1" inLenovo="1"/>
+	<catalog index="1" title="杀毒" containername="SettingTrojanCloud" pluginname="设置中心杀毒插件" cmdline="TROJAN" inmini="1" inLenovo="1"/>
+	<catalog index="2" title="实时防护" containername="SettingRTP" pluginname="设置中心实时防护插件" cmdline="RTP" inmini="1" inLenovo="1"/>
+	<catalog index="3" title="清理加速" containername="SettingGarbagePage" pluginname="设置中心系统优化插件" cmdline="GARBAGE" inmini="0" inLenovo="1"/>
+	<catalog index="4" title="漏洞修复" containername="SettingVulPage" pluginname="设置中心修复漏洞插件" cmdline="VUL" inmini="0" inLenovo="1"/>
+	<catalog index="5" title="上网安全" containername="SettingWebSafe" pluginname="设置中心上网安全插件" cmdline="WEBSAFE" inmini="1" inLenovo="1"/>
+	<catalog index="6" title="U盘防护" containername="SettingEntrance" pluginname="设置中心U盘防护插件" cmdline="EP" inmini="1" inLenovo="1"/>	
+	<catalog index="7" title="电脑诊所" containername="SettingClinic" pluginname="设置中心电脑诊所插件" cmdline="CLINIC" inmini="0" inLenovo="1"/>
+	<catalog index="9" title="硬件管理" containername="SettingHWMgr" pluginname="设置中心硬件管理插件" cmdline="HARDWARE" inmini="0" inLenovo="1"/>
+	<catalog index="10" title="版本升级" containername="SettingUpdate" pluginname="设置中心升级插件" cmdline="UPDATE" inmini="1" inLenovo="1"/>
+	<catalog index="11" title="权限雷达" containername="SettingAuthMgr" pluginname="设置中心权限管理插件" cmdline="AUTHMGR" inmini="1" inLenovo="1"/>
+	<catalog index="12" title="软件安装" containername="SettingPacketBlock" pluginname="设置中心软件安装插件" cmdline="PacketBlock" inmini="1" inLenovo="1"/>
+	<catalog index="13" title="远程协助" containername="SettingRemoting" pluginname="设置中心远程协助插件" cmdline="REMOTECTRL" inmini="1" inLenovo="1"/>
+</catalogs>

@@ -1,0 +1,17 @@
+<Apps>
+	<App appname="MenuManager" clsid="AF74992A-D827-4852-B719-7F6AC2FF5DFB" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="0D4B8F6A-AD26-4816-A0C2-E938BB8B03DC" md5="3c62e56a77b043615c790647c5a71ab2" path="https://s.pc.qq.com/pcmgr/logo/v15/MenuManager.svg" />
+		<url md5="0b5d4cf274f6d47e4084f591a228c696" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMMenuManagerSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMMenuManager.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SysRMenuManager|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SysRMenuManager|Version">
+			<run file="..\..\MenuManager.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="MenuManager.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SysRMenuManager" />
+                <item action="file" path="MenuManager.exe" />
+				<item action="file" path="MenuManager.dat" />
+                <item action="dir" path="Plugins\MenuManager" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="上网慢" catalog="3" appclsid="1917F963-FA9E-4487-AF96-FE81999A1EA9" appname="QQPCClinicNet" enable="1" supportsys="1111111111">
+		<icon path="QQPCClinicNet.svg" />
+		<description>
+			<![CDATA[解决网页游戏视频卡慢问题]]>
+		</description>
+		<tip>
+			<![CDATA[解决网页打开慢，视频游戏卡等问题，帮助您全面提升上网速度]]>
+		</tip>
+	</App>
+</Apps>

@@ -1,0 +1,21 @@
+<Apps>
+	<App appname="SoftMove" clsid="ECC3482A-BFA7-4C89-BBD1-07B3DBADE7DF" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="149F6DD5-2032-46FB-8D14-242C763F5DC9" md5="85df357cdb54acddcb2d905b6061409e" path="https://s.pc.qq.com/pcmgr/logo/v15/SoftMove.svg" />
+		<url md5="feb426670407d45716abb63a3321a778" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMSoftwareSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi name="QMSoftwareSetupAuto_New.nsi" />
+		<install path="..\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SoftMove|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SoftMove|Version">
+			<run file="..\..\SoftMove.exe" param="" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="SoftMove.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\SoftMove" />
+                <item action="file" path="SoftMove.dat" />
+                <item action="file" path="SoftMove.exe" />
+                <item action="file" path="SoftMove.rdb" />
+                <item action="file" path="DIFxAPI.dll" />
+                <item action="file" path="QQPCInstAssist.dat" />
+				<item action="dir" path="plugins\InstAssist" />
+                <item action="dir" path="plugins\SoftMove" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="清理垃圾" catalog="4" appclsid="F34017BF-232D-4f73-8EE9-FEDEC7B70902" appname="SysGarbageJmp" enable="1" supportsys="1111111111">
+		<icon path="SysGarbageJmp.svg" />
+		<description>
+			<![CDATA[清理磁盘和注册表垃圾]]>
+		</description>
+		<tip>
+			<![CDATA[清理磁盘和注册表中的垃圾]]>
+		</tip>
+	</App>
+</Apps>

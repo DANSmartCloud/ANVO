@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResInfo>
+	<Info 
+	strShowType="1" 
+	strEventType="4" 
+	
+	strTool1Rid="500037" 
+	strTool1PicPath="res" 
+	strTool1PicName="1.png" 
+	strTool1Text="IT管理员速领福利"
+	strTool1Type="3"  
+	strTool1Path=""  
+	strTool1Exe=""
+	strTool1Cmd="" 
+	strTool1Url="https://team.qq.com/group/create?qd=1004&amp;sq=100001" 
+	
+	strTool2Rid="" 
+	strTool2PicPath="res"
+	strTool2PicName="2.png"
+	strTool2Text=""   
+	strTool2Type=""
+	strTool2Path="" 
+	strTool2Exe=""
+	strTool2Cmd="" 
+	strTool2Url="" 
+	/>
+</ResInfo>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="应用宝" catalog="6" appclsid="2409605C-977B-435D-840B-F73642F6320D" appname="QQPCB1AndroidJmp" enable="1" supportsys="1111111111">
+		<icon path="QQPCB1AndroidJmp.svg" />
+		<description>
+			<![CDATA[免费下载热门游戏和软件]]>
+		</description>
+		<tip>
+			<![CDATA[免费下载热门安卓手机游戏和软件，轻松管理您的手机]]>
+		</tip>
+	</App>
+</Apps>

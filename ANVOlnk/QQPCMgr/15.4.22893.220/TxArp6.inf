@@ -1,0 +1,82 @@
+
+[version]
+Signature   = "$Windows NT$"
+Class     	= NetService
+ClassGUID  	= {4D36E974-E325-11CE-BFC1-08002BE10318}
+Provider    = %QQMgr%
+DriverVer	=10/01/2010,1.0.1.0
+
+[Manufacturer]
+%QQMgr%=QQMGR,NTx86,NTia64,NTamd64
+
+[QQMGR]
+%TxArp_Desc%=Install, MS_TxArp
+
+[QQMGR.NTx86]
+%TxArp_Desc%=Install, MS_TxArp
+
+[QQMGR.NTia64]
+%TxArp_Desc%=Install, MS_TxArp
+
+[QQMGR.NTamd64]
+%TxArp_Desc%=Install, MS_TxArp
+
+[Install]
+AddReg=Inst_Ndi
+Characteristics=0x40000
+NetCfgInstanceId="{90D9F45D-B255-4301-A767-5D96972CEF5D}"
+
+[SourceDisksNames]
+1=%TxArp_Desc%,"",,
+
+[SourceDisksFiles]
+TxArp6.sys=1
+
+[DestinationDirs]
+DefaultDestDir=12
+TxArp.copyfiles.sys=12
+
+[TxArp.copyfiles.sys]
+TxArp6.sys,,,2
+
+;-------------------------------------------------------------------------
+; Ndi installation support
+;-------------------------------------------------------------------------
+[Inst_Ndi]
+HKR, Ndi,Service,,"TxArp"
+HKR, Ndi,CoServices,0x00010000,"TxArp"
+HKR, Ndi,HelpText,,%TxArp_HelpText%
+HKR, Ndi,FilterClass,, compression
+HKR, Ndi,FilterType,0x00010001,0x00000002
+HKR, Ndi\Interfaces,UpperRange,,"noupper"
+HKR, Ndi\Interfaces,LowerRange,,"nolower"
+HKR, Ndi\Interfaces, FilterMediaTypes,,"ethernet"
+HKR, Ndi,FilterRunType, 0x00010001, 1 
+
+;-------------------------------------------------------------------------
+; Service installation support
+;-------------------------------------------------------------------------
+[Install.Services]
+AddService=TxArp,,TxArp_Service_Inst
+
+[TxArp_Service_Inst]
+DisplayName     = %TxArp_Desc%
+ServiceType     = 1 ;SERVICE_KERNEL_DRIVER
+StartType       = 1 ;SERVICE_SYSTEM_START
+ErrorControl    = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary   = %12%\TxArp6.sys
+LoadOrderGroup  = NDIS
+Description     = %TxArp_Desc%
+
+[Install.Remove.Services]
+DelService=TxArp,0x200
+
+[Strings]
+QQMgr = "QQMgr"
+TxArp_Desc = "QQ管家ARP防火墙."
+TxArp_HelpText = "QQ管家ARP防火墙驱动."
+
+
+
+
+

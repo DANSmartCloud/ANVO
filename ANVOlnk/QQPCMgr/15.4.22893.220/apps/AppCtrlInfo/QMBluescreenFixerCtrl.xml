@@ -1,0 +1,10 @@
+<Apps>
+	<App appname="QMBluescreenFixer" clsid="64D6182E-3F1B-46E7-BBDE-EBC342F1B3F2" enable="1" forcedownload="1" forceinstall="1" supportsys="1111111100" version="1.0.0">
+		<url md5="e7ef92b6e866578803f0698cdf837c93" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMBlueScreenFixSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="True" name="QMBlueScreenFixSetupAuto_New.nsi" />
+		<install path="..\plugins\QMBluescreenFixer\" pathkey="" pathtype="0" verkey="">
+			<run file="guanjiafix.img" param="" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

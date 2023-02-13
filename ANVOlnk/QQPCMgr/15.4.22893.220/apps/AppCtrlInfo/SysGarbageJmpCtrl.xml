@@ -1,0 +1,35 @@
+<Apps>
+	<App appname="SysGarbageJmp" clsid="F34017BF-232D-4f73-8EE9-FEDEC7B70902" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="E65A9E3A-AC0F-43F7-B500-379078A3FC4C" md5="1d6880805c95e1b453c2d7ef70d8e2e6" path="https://s.pc.qq.com/pcmgr/logo/v15/SysGarbageJmp.svg" />
+		<url md5="3d5cf2a023d9fd0bcb33d24e0e9233ec" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMQQPCSysOptimizeSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" ignore_makeplugin="True" name="QQPCSysOptimize_sysgarbage.nsi" />
+		<install path="..\" pathkey="" pathtype="0" verkey="">
+			<run file="QQPCSysOptimize.exe" param="/TAB_SYSCLEAN" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QQPCSysOptimize.exe" />
+				
+				<item action="file" path="DownloaderMgrUI.tpc" />
+				<item action="file" path="DownloaderMgrUI.rdb" />
+				<item action="file" path="DownloaderMgrUI.dll" />
+				<item action="file" path="DownloaderMgrUI.png" />
+				<item action="file" path="SysCleanPage.dll" />
+				<item action="file" path="syscleanpage.tpc" />
+				<item action="file" path="SysCleanPage.rdb" />
+				<item action="file" path="MalWare.tpc" />
+				<item action="file" path="MalWare.rdb" />
+				<item action="file" path="MalWare.dll" />
+				<item action="file" path="malware.png" />
+				<item action="file" path="TraceClear.dll" />
+				<item action="file" path="TraceClear.rdb" />
+				<item action="file" path="traceclear.tpc" />
+				<item action="file" path="SysSpeedUp.dll" />
+				<item action="file" path="SysSpeedUp.rdb" />
+				<item action="file" path="sysspeedup.tpc" />
+				<item action="file" path="QQPCSysOptimize.rdb" />
+				<item action="file" path="QQPCSysOptimize.exe" />
+				<item action="file" path="QQPCSysOptimize.dat" />
+				
+			</uninstall>
+		</install>
+	</App>
+</Apps>

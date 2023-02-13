@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="网速保护" catalog="3" appclsid="D6AA12D5-56E8-40ec-B75B-2451F98AE67C" appname="QMNetflowOpti" enable="1" supportsys="1111111111">
+		<icon path="QMNetflowOpti.svg" />
+		<description>
+			<![CDATA[保护网速，上网更流畅]]>
+		</description>
+		<tip>
+			<![CDATA[网速保护让您玩游戏、听音乐、看网页更流畅]]>
+		</tip>
+	</App>
+</Apps>

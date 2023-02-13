@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="无线安全助手" catalog="3" appclsid="8C6A0D80-8C88-4e57-9DD5-D12B45FF48DB" appname="QQPCWifiSafe" enable="1" supportsys="1111111111">
+		<icon path="QQPCWifiSafe.svg" />
+		<description>
+			<![CDATA[监测无线网络是否安全]]>
+		</description>
+		<tip>
+			<![CDATA[监测无线网络是否安全的工具]]>
+		</tip>
+	</App>
+</Apps>

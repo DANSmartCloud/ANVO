@@ -1,0 +1,11 @@
+<Apps>
+	<App appname="DeepSpeedupSrc" clsid="869DFAF3-1478-4437-A566-860520BBAE2C" enable="1" forcedownload="1" forceinstall="1" supportsys="1111111111" version="1.0.0">
+		<icon clsid="" md5="" path="" />
+		<url md5="0eab863e85d4bd5a0ba0806c6f2d967d" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMRealTimeSpeedupSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="True" name="QMRealTimeSpeedupSetupAuto_New.nsi" />
+		<install path="..\plugins\DeepSpeedup\" pathkey="" pathtype="0" verkey="">
+			<run file="DeepSpeedup.rdb" param="" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

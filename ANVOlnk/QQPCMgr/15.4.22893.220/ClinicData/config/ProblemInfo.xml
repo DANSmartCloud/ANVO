@@ -1,0 +1,5997 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problemes version="1.0" preview_url="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/v1_" preview_url_webkit="https://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/v1_">
+    <!-- 获取Web诊所URL -->
+    <webclinicurl>
+        <![CDATA[http://guanjia.qq.com/web_clinic]]>
+    </webclinicurl>
+    <webclinicurl_webkit>
+        <![CDATA[https://guanjia.qq.com/web_clinic]]>
+    </webclinicurl_webkit>	
+    <!-- 获取诊所论坛 -->
+    <clinicforumurl>
+        <![CDATA[http://bbs.guanjia.qq.com/forum.php?mod=forumdisplay&fid=103]]>
+    </clinicforumurl>
+    <clinicforumurl_webkit>
+        <![CDATA[https://bbs.guanjia.qq.com/forum.php?mod=forumdisplay&fid=103]]>
+    </clinicforumurl_webkit>	
+    <!-- 分类页中本地修复点的预览图片路径 -->
+    <previewurl>
+        <![CDATA[http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/v1_]]>
+    </previewurl>
+	<previewurl_webkit>
+        <![CDATA[https://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/v1_]]>
+    </previewurl_webkit>
+    <!-- 确认页中的图片路径 -->
+    <confirmurl>
+        <![CDATA[http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/v2_]]>
+    </confirmurl>
+    <confirmurl_webkit>
+        <![CDATA[https://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/v2_]]>
+    </confirmurl_webkit>	
+    <!-- 图文修复点的COMMON URL  -->
+    <teletexturl>
+        <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/]]>
+    </teletexturl>
+    <teletexturl_webkit>
+        <![CDATA[https://guanjia.qq.com/web_clinic/pictrue_client/]]>
+    </teletexturl_webkit>	
+    <!-- 微博分享中的描述 -->
+    <weiboshare>
+        <imgurl_webkit>
+            <![CDATA[https://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/wb_share_v4.png]]>
+        </imgurl_webkit>
+        <imgurl>
+            <![CDATA[http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/image/wb_share_v4.png]]>
+        </imgurl>		
+        <wbdesc>
+            <![CDATA[#电脑管家-电脑诊所# 帮我解决了%s的电脑问题，以后大家电脑有什么疑难杂症都可以找管家电脑诊所解决，快去试试吧。 http://guanjia.qq.com/]]>
+        </wbdesc>
+        <wbdesc>
+            <![CDATA[#电脑管家-电脑诊所# %s的问题被管家电脑诊所完美搞定！再也不用麻烦别人来修理电脑了，下次有电脑问题，直接去找管家电脑诊所吧。http://guanjia.qq.com/]]>
+        </wbdesc>
+        <wbdesc>
+            <![CDATA[%s困扰了我好几天了，经过#电脑管家-电脑诊所#问诊治疗后，问题已经被彻底解决，推荐亲们使用喔～ http://guanjia.qq.com/]]>
+        </wbdesc>
+    </weiboshare>
+
+    <problem id="1001" imgcount="3" type="local" flag="new" remotehelp="true" >
+        <title>
+            <![CDATA[QQ空间无法正常显示]]>
+        </title>
+        <description>
+            <![CDATA[QQ空间部分图片显示小红叉，空间内布局偏移，字体、颜色显示不正常]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+            </include>
+        </support>
+        <similar>
+            <prob id="1016" />
+            <prob id="1015" />
+            <prob id="1005" />
+        </similar>
+    </problem>
+
+    <problem id="1002" imgcount="2" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[网络视频看不了]]>
+        </title>
+        <description>
+            <![CDATA[优酷、腾讯、土豆等网站视频显示白屏、绿屏或黑屏，看不了]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+        <similar>
+            <prob id="1016" />
+            <prob id="1015" />
+			<prob id="1082" />
+        </similar>
+    </problem>
+
+    <problem id="1003" imgcount="2" type="local" flag="new" forumid="10361">
+        <title>
+            <![CDATA[能上QQ但打不开网页]]>
+        </title>
+        <description>
+            <![CDATA[QQ能正常使用，但打不开任何网页]]>
+        </description>
+        <cause>
+            <![CDATA[1、使用了无效的DNS服务器
+2、设置了无效的HTTP代理服务器
+3、WinSock目录被恶意软件修改]]>
+        </cause>
+        <similar>
+            <prob id="1005" />
+            <prob id="1027" />
+			<prob id="1015" />
+        </similar>
+    </problem>
+
+    <problem id="1005" imgcount="1" type="local"  forumid="10301" >
+        <title>
+            <![CDATA[IE浏览器出错崩溃]]>
+        </title>
+        <description>
+            <![CDATA[浏览器经常在启动或打开某些网页时，出错关闭]]>
+        </description>
+        <cause>
+            <![CDATA[1、IE组件未注册
+2、IE设置被破坏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项将重置IE设置，请备份您的IE主页、代理服务器等设置。]]>
+        </attention>
+		<similar>
+            <prob id="1027" />
+            <prob id="1029" />
+			<prob id="1601" />
+        </similar>
+    </problem>
+
+    <problem id="1007" imgcount="2" type="local"  forumid="10286" >
+        <title>
+            <![CDATA[桌面图标删除不了]]>
+        </title>
+        <description>
+            <![CDATA[电脑桌面出现了一些恶意的图标，无法成功的删除]]>
+        </description>
+        <cause>
+            <![CDATA[1、文件被其他程序占用
+2、没有删除的权限
+3、感染了木马或病毒]]>
+        </cause>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1012" />
+            <prob id="1024" />
+			<prob id="1070" />
+        </similar>
+    </problem>
+
+    <problem id="1009" imgcount="1" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[快捷方式变成未知图标]]>
+        </title>
+        <description>
+            <![CDATA[部分快捷方式图标变成不认识图标]]>
+        </description>
+        <cause>
+            <![CDATA[1、图标缓存过旧
+2、相关注册表项被破坏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+		<similar>
+            <prob id="1025" />
+            <prob id="1070" />
+			<prob id="1407" />
+        </similar>
+    </problem>
+
+    <problem id="1010" imgcount="2" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[“我的电脑”图标消失]]>
+        </title>
+        <description>
+            <![CDATA[桌面上“我的电脑”图标消失了，不知道怎么还原]]>
+        </description>
+        <cause>
+            <![CDATA[1、在组策略中被禁用了
+2、图标被删除了]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+		<similar>
+            <prob id="1011" />
+            <prob id="1033" />
+			<prob id="1405" />
+        </similar>
+    </problem>
+
+    <problem id="1011" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[“回收站”图标消失]]>
+        </title>
+        <description>
+            <![CDATA[桌面“回收站”图标消失了，不知道怎么还原]]>
+        </description>
+        <cause>
+            <![CDATA[1、在组策略中被禁用了
+2、图标被删除了]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+		<similar>
+            <prob id="1010" />
+            <prob id="1032" />
+			<prob id="1033" />
+        </similar>
+    </problem>
+
+    <problem id="1012" imgcount="1" type="local"  forumid="10368" >
+        <title>
+            <![CDATA[桌面图标有蓝色阴影]]>
+        </title>
+        <description>
+            <![CDATA[桌面上的图标和文字有蓝色，或者其他颜色的阴影]]>
+        </description>
+        <cause>
+            <![CDATA[1、视觉效果被调整为最佳性能
+2、启用了活动桌面]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+		<similar>
+            <prob id="1007" />
+            <prob id="1024" />
+			<prob id="1405" />
+        </similar>
+    </problem>
+
+    <problem id="1015" imgcount="3" type="local" flag="new" remotehelp="true" >
+        <title>
+            <![CDATA[网页游戏玩不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ农场、QQ超市等网页游戏打不开，页面无法显示或者显示错误]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+        <similar>
+            <prob id="1001" />
+            <prob id="1005" />
+			<prob id="1409" />
+        </similar>
+    </problem>
+
+    <problem id="1016" imgcount="2" type="local" flag="hot" remotehelp="true" >
+        <title>
+            <![CDATA[QQ上的空间等按钮点不开]]>
+        </title>
+        <description>
+            <![CDATA[QQ面板上的空间、微博、邮箱等小按钮点击后没有反应，相关网页没有出现]]>
+        </description>
+        <cause>
+            <![CDATA[1、默认浏览器关联缺失
+2、cookie隐私等级设置过高
+3、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项会重置默认浏览器为IE浏览器。]]>
+        </attention>
+        <similar>
+            <prob id="1001" />
+            <prob id="1005" />
+			<prob id="1402" />
+        </similar>
+    </problem>
+
+    <problem id="1017" imgcount="3" type="local"  forumid="10281" >
+        <title>
+            <![CDATA[Word等Office文档打不开]]>
+        </title>
+        <description>
+            <![CDATA[Word、Outlook、Excel等Office文档打开出错，或者只能以安全模式打开]]>
+        </description>
+        <cause>
+            <![CDATA[1、Office配置文件出错]]>
+        </cause>
+		<similar>
+            <prob id="1221" />
+            <prob id="1228" />
+			<prob id="1301" />
+        </similar>
+    </problem>
+
+    <problem id="1018" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[任务管理器菜单栏消失]]>
+        </title>
+        <description>
+            <![CDATA[任务管理器菜单栏、标题栏找不到了]]>
+        </description>
+        <cause>
+            <![CDATA[1、使用了其他操作系统的任务管理器
+2、组策略配置异常]]>
+        </cause>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1019" />
+            <prob id="1023" />
+			<prob id="1406" />
+        </similar>
+    </problem>
+
+    <problem id="1019" imgcount="2" type="local"  forumid="10404" >
+        <title>
+            <![CDATA[任务栏变宽或移位]]>
+        </title>
+        <description>
+            <![CDATA[桌面任务栏变宽、变窄，或者位置发生了变化]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1018" />
+            <prob id="1023" />
+			<prob id="1406" />
+        </similar>
+    </problem>
+
+    <problem id="1020" imgcount="3" type="local"  forumid="10378" >
+        <title>
+            <![CDATA[开关机没有声音]]>
+        </title>
+        <description>
+            <![CDATA[打开电脑或关闭电脑时没有声音]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、缺少了系统声音文件]]>
+        </cause>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+        <similar>
+            <prob id="1021" />
+			<prob id="1074" />
+			<prob id="1300" />
+        </similar>
+    </problem>
+
+    <problem id="1021" imgcount="2" type="local"  forumid="10367" >
+        <title>
+            <![CDATA[音量小喇叭图标消失]]>
+        </title>
+        <description>
+            <![CDATA[电脑有声音，但是桌面任务栏右下角的音量小喇叭图标找不到了]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关系统文件未注册
+2、桌面图标缓存过旧
+3、相关注册表异常]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <similar>
+            <prob id="1010" />
+			<prob id="1028" />
+			<prob id="1300" />
+        </similar>
+    </problem>
+
+    <problem id="1022" imgcount="2" type="local"  forumid="10277" >
+        <title>
+            <![CDATA[输入法无法使用]]>
+        </title>
+        <description>
+            <![CDATA[任务栏右下角输入法图标消失，或者使用输入法快捷键无法切换]]>
+        </description>
+        <cause>
+            <![CDATA[1、输入法进程未自动启动
+2、缺少必要的系统文件
+3、输入法被删除]]>
+        </cause>
+    </problem>
+
+    <problem id="1023" imgcount="2" type="local"  forumid="10377" >
+        <title>
+            <![CDATA[任务栏的按钮太宽或太窄]]>
+        </title>
+        <description>
+            <![CDATA[桌面任务栏上的按钮变得太宽，或者太窄]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统相关设置异常
+2、任务栏使用了小图标]]>
+        </cause>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1018" />
+			<prob id="1019" />
+			<prob id="1404" />
+        </similar>
+    </problem>
+
+    <problem id="1024" imgcount="2" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[桌面图标太大或太小]]>
+        </title>
+        <description>
+            <![CDATA[桌面上的图标太大或太小，间距变得太宽或太窄]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统相关设置异常]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1007" />
+			<prob id="1012" />
+			<prob id="1407" />
+        </similar>
+    </problem>
+
+    <problem id="1025" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[快捷方式图标有黑方块]]>
+        </title>
+        <description>
+            <![CDATA[电脑桌面快捷方式小箭头变成了黑色方块，或被未知图标挡住]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、桌面图标缓存过旧]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+		<similar>
+            <prob id="1009" />
+			<prob id="1012" />
+			<prob id="1070" />
+        </similar>
+    </problem>
+
+    <problem id="1026" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[磁盘图标显示为未知图标]]>
+        </title>
+        <description>
+            <![CDATA[打开“我的电脑”本地磁盘(C盘、D盘等)图标显示为未知图标]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、桌面图标缓存过旧
+3、磁盘根目录下有异常文件]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1009" />
+		</similar>
+    </problem>
+
+    <problem id="1027" imgcount="1" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[网页变成白底蓝字]]>
+        </title>
+        <description>
+            <![CDATA[网页没有背景颜色，或者变成白色底、蓝色字]]>
+        </description>
+        <cause>
+            <![CDATA[1、对比度设置异常
+2、设置了网页背景颜色]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需要关闭IE浏览器。]]>
+        </attention>
+		<similar>
+            <prob id="1029" />
+			<prob id="1073" />
+			<prob id="1403" />
+        </similar>
+    </problem>
+
+    <problem id="1028" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[不能在线听歌]]>
+        </title>
+        <description>
+            <![CDATA[腾讯音乐、百度MP3等音乐网站不能在线听歌，或一直处于加载中]]>
+        </description>
+        <cause>
+            <![CDATA[1、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需要关闭IE浏览器。]]>
+        </attention>
+		<similar>
+            <prob id="1074" />
+			<prob id="1300" />
+			<prob id="1400" />
+        </similar>
+    </problem>
+
+    <problem id="1029" imgcount="2" type="local"  forumid="10285" >
+        <title>
+            <![CDATA[网站内的链接打不开]]>
+        </title>
+        <description>
+            <![CDATA[能浏览网站主页，但网站内的二级页面打开后处于加载中状态，或显示页面出错]]>
+        </description>
+        <cause>
+            <![CDATA[1、IE缓存未清理
+2、IE组件未注册
+3、相关注册表项异常]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需要关闭IE浏览器。]]>
+        </attention>
+		<similar>
+            <prob id="1005" />
+			<prob id="1402" />
+			<prob id="1603" />
+        </similar>
+    </problem>
+
+    <problem id="1030" imgcount="3" type="local" forumid="10413"   >
+        <title>
+            <![CDATA[系统搜索功能失效]]>
+        </title>
+        <description>
+            <![CDATA[系统搜索按钮消失，或点击搜索按钮没反应]]>
+        </description>
+        <cause>
+            <![CDATA[1、组策略被禁用
+2、相关系统组件未注册
+3、工具栏配置被取消]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+		<similar>
+            <prob id="1022" />
+			<prob id="1031" />
+			<prob id="1404" />
+        </similar>
+    </problem>
+
+    <problem id="1031" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[用户帐号功能失效]]>
+        </title>
+        <description>
+            <![CDATA[控制面板中的用户帐户功能无法使用，打开后提示出错      ]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关系统组件未注册
+2、相关注册表项异常]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+		<similar>
+            <prob id="1030" />
+			<prob id="1032" />
+			<prob id="1407" />
+        </similar>
+    </problem>
+
+    <problem id="1032" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[“我的电脑”地址栏消失]]>
+        </title>
+        <description>
+            <![CDATA[“我的电脑”中没有地址栏，或者“前进”、“后退”等标准按钮不见了]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+		<similar>
+            <prob id="1010" />
+			<prob id="1026" />
+			<prob id="1030" />
+        </similar>
+    </problem>
+
+    <problem id="1033" imgcount="2" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[“网络连接”图标消失]]>
+        </title>
+        <description>
+            <![CDATA[电脑能联网，但是任务栏右下角的“网络”或“本地连接”图标不见了]]>
+        </description>
+        <cause>
+            <![CDATA[1、在组策略中被禁用
+2、在网络配置中选择了隐藏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+            </include>
+            <exclude>
+                <os major="6" minor="0" wow64="true"/>
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1010" />
+			<prob id="1021" />
+			<prob id="1405" />
+        </similar>
+    </problem>
+
+    <problem id="1034" imgcount="2" type="local"  forumid="10383" >
+        <title>
+            <![CDATA[QQ聊天显示的时间异常]]>
+        </title>
+        <description>
+            <![CDATA[使用QQ聊天时，显示发送时间与本地时间不一致]]>
+        </description>
+        <cause>
+            <![CDATA[1、用户的时间或者时区不对]]>
+        </cause>
+        <support>
+            <exclude>
+                <os major="5" minor="2" />
+                <os major="6" minor="0" />
+            </exclude>
+        </support>
+		<similar>
+            <prob id="1227" />
+			<prob id="1404" />
+			<prob id="1605" />
+        </similar>
+    </problem>
+
+    <problem id="1070" imgcount="2" type="local"  forumid="10282" >
+        <title>
+            <![CDATA[去除快捷方式小箭头]]>
+        </title>
+        <description>
+            <![CDATA[桌面快捷方式图标左下角有小箭头，不知如何去掉]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、桌面图标缓存过旧]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+		<similar>
+            <prob id="1009" />
+			<prob id="1025" />
+			<prob id="1407" />
+        </similar>
+    </problem>
+
+    <problem id="1073" imgcount="2" type="local"  forumid="10363" >
+        <title>
+            <![CDATA[腾讯视频在网页上看不了]]>
+        </title>
+        <description>
+            <![CDATA[腾讯在线视频、腾讯新闻等网站上，视频播放区域显示空白，无法观看]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1029" />
+			<prob id="1082" />
+			<prob id="1606" />
+        </similar>
+    </problem>
+
+    <problem id="1074" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[QQ音乐在网页上听不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ在线音乐、QQ空间等网站上，不能在线听歌，或一直处于加载中]]>
+        </description>
+        <cause>
+            <![CDATA[1、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需要关闭IE浏览器。]]>
+        </attention>
+		<similar>
+            <prob id="1073" />
+			<prob id="1228" />
+			<prob id="1400" />
+        </similar>
+	</problem>
+
+    <problem id="1075" imgcount="3" type="local" scriptid="1111">
+        <title>
+            <![CDATA[七雄争霸玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩七雄争霸时，出现网页打不开、无法登录、页面显示错误、黑屏等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1076" />
+			<prob id="1077" />
+        </similar>
+    </problem>
+
+    <problem id="1076" imgcount="2" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="qqsh" />
+        <title>
+            <![CDATA[QQ水浒玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩QQ水浒时，出现网页打不开、无法登录、页面显示错误、黑屏等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1078" />
+			<prob id="1079" />
+        </similar>
+    </problem>
+
+    <problem id="1077" imgcount="1" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="fightingpet" />
+        <title>
+            <![CDATA[Q宠大乐斗玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩Q宠大乐斗时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1079" />
+			<prob id="1080" />
+        </similar>
+    </problem>
+
+    <problem id="1078" imgcount="1" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="luoke" />
+        <title>
+            <![CDATA[洛克王国玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩洛克王国时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1081" />
+			<prob id="1083" />
+        </similar>
+    </problem>
+
+    <problem id="1079" imgcount="1" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="chengqq" />
+        <title>
+            <![CDATA[摩登城市玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩摩登城市时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1089" />
+			<prob id="1090" />
+        </similar>
+    </problem>
+
+    <problem id="1080" imgcount="1" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="yeqq" />
+        <title>
+            <![CDATA[夜店之王玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩夜店之王时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1092" />
+			<prob id="1097" />
+        </similar>
+    </problem>
+
+    <problem id="1081" imgcount="1" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="mengsanguo" />
+        <title>
+            <![CDATA[萌三国玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩萌三国时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、网页缓存未清除
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1075" />
+			<prob id="1076" />
+        </similar>
+    </problem>
+
+    
+
+    <problem id="1083" imgcount="2" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="shushan" />
+        <title>
+            <![CDATA[蜀山传奇玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩蜀山传奇时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1077" />
+			<prob id="1078" />
+        </similar>
+    </problem>
+
+    <problem id="1089" imgcount="2" type="local"  forumid="10336" scriptid="1111">
+        <title>
+            <![CDATA[QQ农场玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩QQ农场时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1079" />
+			<prob id="1080" />
+        </similar>
+    </problem>
+
+    <problem id="1090" imgcount="2" type="local"  forumid="10358" scriptid="1111">
+        <title>
+            <![CDATA[QQ牧场玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩QQ牧场时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1081" />
+			<prob id="1083" />
+        </similar>
+    </problem>
+
+    <problem id="1091" imgcount="2" type="local"     >
+        <title>
+            <![CDATA[QQ餐厅玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩QQ餐厅时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1089" />
+			<prob id="1090" />
+        </similar>
+    </problem>
+
+    <problem id="1092" imgcount="2" type="local"    scriptid="1111" >
+        <title>
+            <![CDATA[魔法卡片玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩魔法卡片时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1091" />
+			<prob id="1097" />
+        </similar>
+    </problem>
+
+    <problem id="1097" imgcount="2" type="local" scriptid="1111">
+        <param DnsUrl="http://dldir2.qq.com/invc/xfspeed/qqpcmgr/clinic/config/QGame.xml" />
+        <param DnsKey="baoshi" />
+        <title>
+            <![CDATA[宝石总动员玩不了]]>
+        </title>
+        <description>
+            <![CDATA[玩宝石总动员时，出现网页打不开、加载失败、白屏、游戏内连接失败等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1015" />
+			<prob id="1074" />
+			<prob id="1075" />
+        </similar>
+    </problem>
+
+    <problem id="1111" imgcount="2" type="local" IsShow="0">
+        <title>
+            <![CDATA[馫馫]]>
+        </title>
+        <description>
+            <![CDATA[]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关注册表项异常
+2、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+    </problem>
+
+    <problem id="1200" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[火车票网站证书错误]]>
+        </title>
+        <description>
+            <![CDATA[访问12306购买火车票时，提示证书错误或无效，不能正常浏览 ]]>
+        </description>
+        <cause>
+            <![CDATA[1、证书未安装或安装不正确
+2、证书相关的服务出现异常]]>
+        </cause>
+		<similar>
+            <prob id="1027" />
+			<prob id="1601" />
+			<prob id="1609" />
+        </similar>
+    </problem>
+
+    <problem id="1201" imgcount="2" type="local"  forumid="10379" >
+        <title>
+            <![CDATA[看视频上下分屏]]>
+        </title>
+        <description>
+            <![CDATA[观看优酷、土豆、腾讯等网络视频时出现视频画面上下分屏、花屏、绿屏等]]>
+        </description>
+        <cause>
+            <![CDATA[1、硬件加速未关闭
+]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ、IE、音频播放器等正在运行的程序。]]>
+        </attention>
+		<similar>
+            <prob id="1002" />
+			<prob id="1073" />
+			<prob id="1601" />
+        </similar>
+    </problem>
+
+    <problem id="1220" imgcount="1" type="local"  forumid="10360" >
+        <title>
+            <![CDATA[丢失d3dx**.dll]]>
+        </title>
+        <description>
+            <![CDATA[玩游戏时提示丢失d3dx**.dll文件]]>
+        </description>
+        <cause>
+            <![CDATA[1、DirectX组件被破坏]]>
+        </cause>
+        <similar>
+            <prob id="1221" />
+            <prob id="1222" />
+			<prob id="1223" />
+        </similar>
+    </problem>
+
+    <problem id="1221" imgcount="1" type="local"  forumid="10369" >
+        <title>
+            <![CDATA[丢失VC++组件]]>
+        </title>
+        <description>
+            <![CDATA[系统提示丢失MSVC**.dll,MFC**.dll,ATL**.dll文件]]>
+        </description>
+        <cause>
+            <![CDATA[1、VC++组件未安装或被破坏]]>
+        </cause>
+        <similar>
+            <prob id="1220" />
+			<prob id="1224" />
+			<prob id="1225" />
+        </similar>
+    </problem>
+
+    <problem id="1222" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[丢失MSVCRTD.dll]]>
+        </title>
+        <description>
+            <![CDATA[系统弹出提示丢失MSVCRTD.dll文件]]>
+        </description>
+        <cause>
+            <![CDATA[1、该程序未被正确编译]]>
+        </cause>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+			<prob id="1223" />
+        </similar>
+    </problem>
+
+    <problem id="1223" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[找不到MSVBVM60.DLL]]>
+        </title>
+        <description>
+            <![CDATA[系统提示找不到MSVBVM60.DLL,
+OLEPRO32.DLL文件]]>
+        </description>
+        <cause>
+            <![CDATA[1、VB6相关组件未安装或被损坏]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+			<prob id="1222" />
+        </similar>
+    </problem>
+
+    <problem id="1224" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[丢失msjava.dll]]>
+        </title>
+        <description>
+            <![CDATA[操作系统提示找不到msjava.dll文件]]>
+        </description>
+        <cause>
+            <![CDATA[1、微软java虚拟机组件未安装或被损坏]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+			<prob id="1225" />
+        </similar>
+    </problem>
+
+    <problem id="1225" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[丢失**eay32.dll]]>
+        </title>
+        <description>
+            <![CDATA[系统提示丢失libeay32.dll,
+ssleay32.dll文件]]>
+        </description>
+        <cause>
+            <![CDATA[1、openssl组件未安装或被损坏]]>
+        </cause>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+			<prob id="1224" />
+        </similar>
+    </problem>
+
+    <problem id="1226" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[无法卸载帮5淘]]>
+        </title>
+        <description>
+            <![CDATA[卸载帮5淘时弹出无法找到
+B5TDownloader.dll或B5TExtensions.dll]]>
+        </description>
+        <cause>
+            <![CDATA[1、卸载程序丢失或损坏]]>
+        </cause>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+        </similar>
+    </problem>
+
+    <problem id="1227" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[QQ无法运行]]>
+        </title>
+        <description>
+            <![CDATA[运行QQ时系统提示丢失AppUtil.dll,Common.dll,zlib.dll,QSLogic.dll,KernelUtil.dll,GF.dll等组件]]>
+        </description>
+        <cause>
+            <![CDATA[1、QQ核心组件未安装或被损坏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ。]]>
+        </attention>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+            <prob id="1228" />
+        </similar>
+    </problem>
+
+    <problem id="1228" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[QQ音乐打不开]]>
+        </title>
+        <description>
+            <![CDATA[系统提示找不到Common.dll,
+zlib.dll,QQMusicCommon.dll,QQPlayer.dll等组件]]>
+        </description>
+        <cause>
+            <![CDATA[1、QQ音乐程序重要组件丢失或损坏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ音乐。]]>
+        </attention>
+        <similar>
+            <prob id="1227" />
+            <prob id="1230" />
+			<prob id="1400" />
+        </similar>
+    </problem>
+
+    <problem id="1230" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[丢失SSOCommon.DLL]]>
+        </title>
+        <description>
+            <![CDATA[登录腾讯QQ，QQ游戏等业务，系统弹出提示丢失SSOCommon.DLL，或提示无法手工创建LUI控件  ]]>
+        </description>
+        <cause>
+            <![CDATA[1、腾讯公共核心登录组件未安装或被损坏]]>
+        </cause>
+        <similar>
+            <prob id="1221" />
+            <prob id="1227" />
+			<prob id="1228" />
+        </similar>
+    </problem>
+
+    <problem id="1231" imgcount="1" type="local" IsShow="0">
+        <title>
+            <![CDATA[馫]]>
+        </title>
+        <description>
+            <![CDATA[馫]]>
+        </description>
+        <cause>
+            <![CDATA[1、软件未正确安装
+2、系统组件被破坏
+3、系统组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+                <os major="6" minor="2" />
+            </include>
+        </support>
+        <similar>
+            <prob id="1220" />
+            <prob id="1221" />
+            <prob id="1222" />
+        </similar>
+    </problem>
+
+    <problem id="1300" imgcount="2" type="local"  forumid="10359" >
+        <title>
+            <![CDATA[电脑没有声音]]>
+        </title>
+        <description>
+            <![CDATA[播放音乐、电影都没有声音，音量小喇叭显示异常]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统设置了静音
+2、声音的服务未启用
+3、声卡驱动出现异常
+4、未安装声卡]]>
+        </cause>
+        <similar>
+            <prob id="1020" />
+            <prob id="1021" />
+			<prob id="1400" />
+        </similar>
+    </problem>
+
+    <problem id="1301" imgcount="2" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[摄像头打不开]]>
+        </title>
+        <description>
+            <![CDATA[摄像头不能打开，QQ视频无法显示图像，不能使用视频预览等功能]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关服务异常
+2、相关组件未被注册
+3、驱动异常]]>
+        </cause>
+        <similar>
+            <prob id="1300" />
+			<prob id="1302" />
+			<prob id="1605" />
+        </similar>
+    </problem>
+	
+    <problem id="1302" imgcount="2" type="local" forumid="10414">
+        <title>
+            <![CDATA[显卡驱动问题致显示异常]]>
+        </title>
+        <description>
+            <![CDATA[看电影、打开网页、玩游戏时，页面出现抖动或花屏，屏幕分辨率、颜色质量无法调节。]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关服务异常
+2、相关组件未被注册
+3、显卡驱动异常]]>
+        </cause>
+		<attention>
+            <![CDATA[修复此项需重装驱动，预计耗时10-20分钟，可能需要重启电脑。]]>                  
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+            </include>
+        </support>
+        <similar>
+            <prob id="1015" />
+			<prob id="1201" />
+            <prob id="1300" />
+        </similar>
+    </problem>
+
+    <problem id="1400" imgcount="2" type="local"     >
+        <title>
+            <![CDATA[QQ空间背景音乐无法播放]]>
+        </title>
+        <description>
+            <![CDATA[空间背景音乐无法播放，重复提示下载音乐控件]]>
+        </description>
+        <cause>
+            <![CDATA[1、QQ音乐控件被破坏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE浏览器等正在运行的程序。]]>
+        </attention>
+		<similar>
+		    <prob id="1074" />
+            <prob id="1228" />
+			<prob id="1300" />
+        </similar>
+    </problem>
+
+    <problem id="1401" imgcount="1" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[QQ无法快速登录]]>
+        </title>
+        <description>
+            <![CDATA[快速登录插件损坏，QQ帐号无法快速登录]]>
+        </description>
+        <cause>
+            <![CDATA[1、QQ快速登录插件被破坏
+]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE浏览器等正在运行的程序。]]>
+        </attention>
+		<similar>
+		    <prob id="1227" />
+            <prob id="1402" />
+			<prob id="1605" />
+        </similar>
+    </problem>
+
+    <problem id="1402" imgcount="1" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[无法用QQ登录相关网站]]>
+        </title>
+        <description>
+            <![CDATA[ptlogin2.qq.com不能正常连通，无法使用QQ帐号登录相关网站]]>
+        </description>
+        <cause>
+            <![CDATA[1、IE组件未注册
+2、域名解析器获得IP有误]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE浏览器等正在运行的程序。]]>
+        </attention>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+		    <prob id="1227" />
+            <prob id="1401" />
+			<prob id="1605" />
+        </similar>
+    </problem>
+
+    <problem id="1403" imgcount="2" type="local"  forumid="10357" >
+        <title>
+            <![CDATA[IE无法定位动态链接库]]>
+        </title>
+        <description>
+            <![CDATA[IE无法打开，一直处于正在连接状态，无法打开带IE内核软件提示无法定位序数459于动态链接urlmon.dll]]>
+        </description>
+        <cause>
+            <![CDATA[1、微软KB2847204补丁导致IE不可用]]>
+        </cause>
+        <support>
+            <exclude>
+                <os major="6" minor="2" />
+            </exclude>
+        </support>
+		<similar>
+		    <prob id="1005" />
+            <prob id="1027" />
+			<prob id="1601" />
+        </similar>
+    </problem>
+
+    <problem id="1404" imgcount="1" type="local"  forumid="10376" >
+        <title>
+            <![CDATA[任务栏不显示时间]]>
+        </title>
+        <description>
+            <![CDATA[任务栏没有显示时钟，无法看到系统时间。]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统时间服务未开启
+2、任务栏属性设置不正确]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项需暂时关闭资源管理器。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+		<similar>
+		    <prob id="1019" />
+            <prob id="1034" />
+			<prob id="1406" />
+        </similar>
+    </problem>
+
+    <problem id="1405" imgcount="2" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[显示桌面消失]]>
+        </title>
+        <description>
+            <![CDATA[快速启动栏显示桌面图标按钮消失]]>
+        </description>
+        <cause>
+            <![CDATA[1、显示桌面按钮被误删]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+		<similar>
+		    <prob id="1007" />
+            <prob id="1024" />
+			<prob id="1033" />
+        </similar>
+    </problem>
+
+    <problem id="1406" imgcount="2" type="local"   >
+        <title>
+            <![CDATA[任务栏不能显示在最前面]]>
+        </title>
+        <description>
+            <![CDATA[系统任务栏不能显示在最前面，或总是被应用程序覆盖]]>
+        </description>
+        <cause>
+            <![CDATA[1、任务栏属性设置错误]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" />
+            </include>
+        </support>
+		<similar>
+		    <prob id="1019" />
+            <prob id="1023" />
+			<prob id="1404" />
+        </similar>
+    </problem>
+
+    <problem id="1407" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[去掉“快捷方式”字样]]>
+        </title>
+        <description>
+            <![CDATA[创建的快捷方式， 总是带有“快捷方式”的字样]]>
+        </description>
+        <cause>
+            <![CDATA[1.注册表键值不对]]>
+        </cause>
+		<similar>
+		    <prob id="1009" />
+            <prob id="1025" />
+			<prob id="1070" />
+        </similar>
+    </problem>
+
+    <problem id="1408" imgcount="1" type="local"  forumid="10374" >
+        <title>
+            <![CDATA[剑灵崩溃]]>
+        </title>
+        <description>
+            <![CDATA[安装剑灵组件失败，玩游戏时出现系统报错、闪退，或提示服务器无法连接、服务器维护中]]>
+        </description>
+        <cause>
+            <![CDATA[1、剑灵必装组件未安装成功
+2、MSVCRTD.dll未被正确编译
+3、本地防火墙阻止链接建立的程序]]>
+        </cause>
+		<similar>
+		    <prob id="1411" />
+            <prob id="1500" />
+		</similar>
+    </problem>
+
+    <problem id="1409" imgcount="1" type="local"  remotehelp="true" subtype="1">
+        <title>
+            <![CDATA[上网慢]]>
+        </title>
+        <description>
+            <![CDATA[启动浏览器慢，打开网页、看视频、玩游戏很卡]]>
+        </description>
+        <cause>
+            <![CDATA[1、网速慢
+2、网速被占用
+3、DNS速度慢
+4、浏览器启动慢]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="2" />
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+                <os major="6" minor="2" />
+            </include>
+        </support>
+		<similar>
+		    <prob id="1410" />
+            <prob id="1608" />
+        </similar>
+    </problem>
+
+    <problem id="1410" imgcount="1" type="local"   subtype="1">
+        <title>
+            <![CDATA[开机慢]]>
+        </title>
+        <description>
+            <![CDATA[开机进入桌面的时间长，进入桌面后很长时间才显示桌面图标]]>
+        </description>
+        <cause>
+            <![CDATA[1、开机启动项过多
+2、不常用软件太多
+3、磁盘垃圾太多
+4、硬件配置太低]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="2" />
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+                <os major="6" minor="2" />
+            </include>
+        </support>
+		<similar>
+		    <prob id="1020" />
+			<prob id="1409" />
+            <prob id="1608" />
+        </similar>
+    </problem>
+
+    <problem id="1411" imgcount="1" type="local"   >
+        <title>
+            <![CDATA[御龙在天登录失败]]>
+        </title>
+        <description>
+            <![CDATA[登录游戏时提示“服务器忙”“连接失败”等，或登录页面显示错误]]>
+        </description>
+        <cause>
+            <![CDATA[1、网络繁忙
+2、浏览器版本过低
+3、DX版本不支持游戏
+]]>
+        </cause>
+		<similar>
+		    <prob id="1075" />
+			<prob id="1408" />
+            <prob id="1500" />
+        </similar>
+    </problem>
+	
+	<problem id="1412" imgcount="3" type="local"     >
+        <title>
+            <![CDATA[QQ飞车玩不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ飞车登录失败，或玩游戏时卡慢、运行报错、商城加载失败等]]>
+        </description>
+        <cause>
+            <![CDATA[1、飞车文件丢失或损坏
+2、网络异常
+3、DX版本过旧]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项将会关闭正在运行的飞车进程。]]>
+        </attention>
+		<similar>
+		    <prob id="1089" />
+			<prob id="1408" />
+            <prob id="1500" />
+        </similar>
+    </problem>
+	
+	<problem id="1413" imgcount="1" type="local" >
+		<title>
+			<![CDATA[冒险岛2崩溃]]>
+		</title>
+		<description>
+			<![CDATA[安装冒险岛2组件失败，玩游戏时出现系统报错、闪退，或提示服务器无法连接、服务器维护中]]>
+		</description>
+		<cause>
+			<![CDATA[1、冒险岛2必装组件未安装成功
+2、MSVCRTD.dll未被正确编译
+3、本地防火墙阻止链接建立的程序]]>
+		</cause>
+		<similar>
+			<prob id="1500" />
+			<prob id="1408" />
+			<prob id="1411" />
+		</similar>
+	</problem>
+	
+	<problem id="1415" imgcount="1" type="local"       >
+        <title>
+            <![CDATA[电脑管家字体有锯齿]]>
+        </title>
+        <description>
+            <![CDATA[XP系统下，在电脑管家界面中，文字出现毛边、锯齿现象]]>
+        </description>
+        <cause>
+            <![CDATA[系统字体库中的黑体被破坏]]>
+        </cause>
+		<support>
+		    <include>
+		        <os major="5" minor="1" />
+		    </include>
+		</support>
+    </problem>
+
+    <problem id="1500" imgcount="2" type="local"  forumid="10308" >
+        <title>
+            <![CDATA[英雄联盟登录失败]]>
+        </title>
+        <description>
+            <![CDATA[输入账号密码选择大区后，出现登陆错误提示框，或页面黑屏]]>
+        </description>
+        <cause>
+            <![CDATA[1、IE缓存未清除
+2、IE组件异常
+3、文件夹路径无效
+]]>
+        </cause>
+		<similar>
+		    <prob id="1090" />
+			<prob id="1408" />
+            <prob id="1412" />
+        </similar>
+    </problem>
+
+    <problem id="1501" imgcount="2" type="local" flag="new"  >
+        <title>
+            <![CDATA[关机报错蓝屏]]>
+        </title>
+        <description>
+            <![CDATA[关机时提示winlogon.exe应用程序错误，并出现蓝屏的现象]]>
+        </description>
+        <cause>
+            <![CDATA[1、输入法设置错误]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+            </include>
+        </support>
+		<similar>
+		    <prob id="1020" />
+			<prob id="1410" />
+        </similar>
+    </problem>
+
+    <problem id="1601" imgcount="1" type="local"  remotehelp="true" >
+        <title>
+            <![CDATA[IE打不开]]>
+        </title>
+        <description>
+            <![CDATA[IE浏览器无法启动]]>
+        </description>
+        <cause>
+            <![CDATA[1、Main权限异常
+2、IE设置问题]]>
+        </cause>
+		<similar>
+		    <prob id="1005" />
+			<prob id="1027" />
+            <prob id="1403" />
+        </similar>
+    </problem>
+
+    <problem id="1602" imgcount="2" type="local"  forumid="10380" >
+        <title>
+            <![CDATA[添加删除程序打不开]]>
+        </title>
+        <description>
+            <![CDATA[在控制面板双击添加删除程序无反应，或提示受到限制、rundll32报错。]]>
+        </description>
+        <cause>
+            <![CDATA[1、组策略被禁用
+2、相关系统组件未注册
+3、其他软件造成]]>
+        </cause>
+		<similar>
+		    <prob id="1016" />
+			<prob id="1017" />
+            <prob id="1301" />
+        </similar>
+    </problem>
+
+    <problem id="1603" imgcount="1" type="local" flag="new" remotehelp="true" scriptid="1606" >
+        <param domain="www.baidu.com" />
+        <title>
+            <![CDATA[百度打不开]]>
+        </title>
+        <description>
+            <![CDATA[百度打不开，提示无法显示此网页]]>
+        </description>
+        <cause>
+            <![CDATA[1、DNS设置错误
+2、网页缓存未清除
+3、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE浏览器等正在运行的程序。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+                <os major="6" minor="0" wow64="false"/>
+                <os major="6" minor="1" wow64="false"/>
+                <os major="6" minor="2" wow64="false"/>
+            </include>
+        </support>
+        <similar>
+            <prob id="1001" />
+            <prob id="1402" />
+            <prob id="1604" />
+        </similar>
+    </problem>
+
+    <problem id="1604" imgcount="1" type="local" flag="new" forumid="10375"  scriptid="1606">
+        <param domain="www.google.com.hk" />
+        <title>
+            <![CDATA[google打不开]]>
+        </title>
+        <description>
+            <![CDATA[google打不开，提示无法显示此网页]]>
+        </description>
+        <cause>
+            <![CDATA[1、DNS设置错误
+2、网页缓存未清除
+3、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+                <os major="6" minor="0" wow64="false"/>
+                <os major="6" minor="1" wow64="false"/>
+                <os major="6" minor="2" wow64="false"/>
+            </include>
+        </support>
+        <similar>
+            <prob id="1001" />
+            <prob id="1402" />
+            <prob id="1603" />
+        </similar>
+    </problem>
+
+    <problem id="1605" imgcount="2" type="local" flag="new"  >
+        <title>
+            <![CDATA[QQ无法安装]]>
+        </title>
+        <description>
+            <![CDATA[QQ无法安装，系统提示安装失败]]>
+        </description>
+        <cause>
+            <![CDATA[1、Windows Installer组件发生错误
+2、相关注册表项异常]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="2" />
+                <os major="5" minor="1" />
+                <os major="6" minor="0" />
+                <os major="6" minor="1" />
+                <os major="6" minor="2" />
+            </include>
+            <exclude>
+                <os major="6" minor="0" wow64="false"/>
+            </exclude>
+        </support>
+		<similar>
+		    <prob id="1003" />
+			<prob id="1227" />
+            <prob id="1401" />
+        </similar>
+    </problem>
+
+    <problem id="1606" imgcount="1" type="local" flag="new"  scriptid="1606">
+        <param domain="www.qq.com" />
+        <title>
+            <![CDATA[腾讯网打不开]]>
+        </title>
+        <description>
+            <![CDATA[腾讯网打不开，提示无法显示此页]]>
+        </description>
+        <cause>
+            <![CDATA[1、DNS设置错误
+2、网页缓存未清除
+3、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+                <os major="6" minor="0" wow64="false"/>
+                <os major="6" minor="1" wow64="false"/>
+                <os major="6" minor="2" wow64="false"/>
+            </include>
+        </support>
+		<similar>
+		    <prob id="1603" />
+			<prob id="1604" />
+            <prob id="1607" />
+        </similar>
+    </problem>
+
+    <problem id="1607" imgcount="1" type="local" flag="new"  scriptid="1606">
+        <param domain="www.163.com" />
+        <title>
+            <![CDATA[网易打不开]]>
+        </title>
+        <description>
+            <![CDATA[网易打不开，提示无法显示此页]]>
+        </description>
+        <cause>
+            <![CDATA[1、DNS设置错误
+2、网页缓存未清除
+3、IE组件未注册]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+                <os major="6" minor="0" wow64="false"/>
+                <os major="6" minor="1" wow64="false"/>
+                <os major="6" minor="2" wow64="false"/>
+            </include>
+        </support>
+		<similar>
+		    <prob id="1603" />
+			<prob id="1604" />
+            <prob id="1606" />
+        </similar>
+    </problem>
+
+    <problem id="1608" imgcount="1" type="local"   subtype="2"  >
+        <title>
+            <![CDATA[上不了网]]>
+        </title>
+        <description>
+            <![CDATA[网络无法连接，网页打不开或无法显示]]>
+        </description>
+        <cause>
+            <![CDATA[1、DNS配置错误
+2、HOSTS文件配置异常
+3、IE代理服务器配置错误]]>
+        </cause>
+		<attention>                 
+			<![CDATA[修复此项可能会关闭IE。]]>
+		</attention>
+        <similar>
+            <prob id="1604" />
+            <prob id="1603" />
+            <prob id="1607" />
+        </similar>
+    </problem>
+
+    <problem id="1609" imgcount="1" type="local"    scriptid="1606" flag="new">
+
+        <param domain="www.12306.cn" />
+        <title>
+            <![CDATA[火车订票网站打不开]]>
+        </title>
+        <description>
+            <![CDATA[访问12306火车订票网站时，网页打不开，提示无法显示此网页]]>
+        </description>
+        <cause>
+            <![CDATA[1、DNS设置错误
+2、网页缓存未清除
+3、IE组件未注册
+]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭IE。]]>
+        </attention>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+                <os major="6" minor="0" wow64="false"/>
+                <os major="6" minor="1" wow64="false"/>
+                <os major="6" minor="2" wow64="false"/>
+            </include>
+        </support>
+		<similar>
+		    <prob id="1200" />
+			<prob id="1603" />
+            <prob id="1604" />
+        </similar>
+    </problem>
+
+    <problem id="1610" imgcount="1" type="local" IsShow="0">                  
+        <title>
+            <![CDATA[馫馫馫]]>
+        </title>
+        <description>
+            <![CDATA[U盘不能打开，检测不到等问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、相关服务异常
+2、相关组件未被注册
+3、驱动异常]]>
+        </cause>
+    </problem>
+    
+    <problem id="1701" imgcount="1" type="local" flag="new"  >
+        <title>
+            <![CDATA[msvcrt.dll出错]]>
+        </title>
+        <description>
+            <![CDATA[系统报错“无法定位输入点_except_handler4_common于动态链接库msvcrt.dll上”，无法运行程序]]>
+        </description>
+        <cause>
+            <![CDATA[1、msvcrt.dll组件被破坏
+2、系统相关组件被替换]]>
+        </cause>
+        <support>
+            <include>
+                <os major="5" minor="1" wow64="false"/>
+            </include>
+        </support>
+		<similar>
+		    <prob id="1221" />
+			<prob id="1224" />
+            <prob id="1230" />
+        </similar>
+    </problem>
+	
+	<problem id="1801" imgcount="1" type="local" subtype="1">
+	
+		<title>
+			<![CDATA[在线系统重装]]>
+		</title>
+		<description>
+			<![CDATA[在网络正常情况下，电脑出现各种疑难状况，彻底解决的操作过于复杂。]]>
+		</description>
+		<cause>
+			<![CDATA[1、非常严重的病毒木马感染 
+2、人工误操作丢失了系统关键文件 
+3、未知原因的电脑异常
+4、电脑长时间使用严重卡顿]]>
+		</cause>
+	</problem>
+	
+	<problem id="2000" imgcount="1" type="local"  scriptid="2000"  subtype="3"  >
+        <title>
+            <![CDATA[馫馫馫馫]]>
+        </title>
+        <description>
+            <![CDATA[ ]]>
+        </description>
+        <cause>
+            <![CDATA[ ]]>
+        </cause>
+    </problem>	
+
+    <problem id="2001" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[无法进入系统]]>
+        </title>
+        <description>
+            <![CDATA[开机报错或出现启动画面后，屏幕显示停止不动，无法正常进入系统]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统故障需要备份数据后重新安装操作系统
+2、主板、内存等出现硬件故障]]>
+        </cause>
+    </problem>
+	
+    <problem id="2002" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[屏幕故障]]>
+        </title>
+        <description>
+            <![CDATA[屏幕出现亮线、亮斑、碎裂现象，或屏幕太暗]]>
+        </description>
+        <cause>
+            <![CDATA[1、液晶屏幕硬件故障需要维修或更换]]>
+        </cause>
+    </problem>
+	
+    <problem id="2003" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[鼠标或键盘故障]]>
+        </title>
+        <description>
+            <![CDATA[鼠标、键盘部分按键失灵，键盘按键脱落无法安装]]>
+        </description>
+        <cause>
+            <![CDATA[鼠标或键盘故障需要清理、维修或购买]]>
+        </cause>
+    </problem>
+	
+    <problem id="2004" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[主机噪音大]]>
+        </title>
+        <description>
+            <![CDATA[主机出风口噪音大，主机温度升高，运行过程中出点的“哒哒”声]]>
+        </description>
+        <cause>
+            <![CDATA[主机风扇需要清洁或更换 或硬盘故障]]>
+        </cause>
+    </problem>
+	
+    <problem id="2005" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[蓝屏死机]]>
+        </title>
+        <description>
+            <![CDATA[启动或使用过程中屏幕突然变蓝并显示一大串字符，无法继续操作，只能重启]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统软件不兼容
+2、内存、显卡或主板等硬件问题]]>
+        </cause>
+    </problem>
+	
+    <problem id="2006" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[电脑故障排查]]>
+        </title>
+        <description>
+            <![CDATA[设备出现无法修复的问题，需要工程师检测判断]]>
+        </description>
+        <cause>
+            <![CDATA[1、 电脑出现间歇性故障
+2、 电脑使用时间长，软硬件损坏]]>
+        </cause>
+    </problem>
+	
+    <problem id="2007" imgcount="1" type="local"  scriptid="2000"  subtype="3" >
+        <title>
+            <![CDATA[SD卡数据恢复]]>
+        </title>
+        <description>
+            <![CDATA[SD卡无法打开，或打开时提示未格式化]]>
+        </description>
+        <cause>
+            <![CDATA[1、照片、文件误删除需要找回
+2、误格式化，误删除]]>
+        </cause>
+    </problem>
+	
+    <problem id="2008" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[U盘数据恢复]]>
+        </title>
+        <description>
+            <![CDATA[U盘卡无法打开，或打开时提示未格式化]]>
+        </description>
+        <cause>
+            <![CDATA[1、误删除照片、文件
+2、误格式化]]>
+        </cause>
+    </problem>
+	
+    <problem id="2009" imgcount="1" type="local"   scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[手机数据恢复]]>
+        </title>
+        <description>
+            <![CDATA[手机通讯录、短信、通话记录应用程序丢失]]>
+        </description>
+        <cause>
+            <![CDATA[1、误删除手机短信、照片
+2、误刷机造成的数据丢失]]>
+        </cause>
+    </problem>
+	
+    <problem id="2010" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[硬盘数据恢复]]>
+        </title>
+        <description>
+            <![CDATA[硬盘数据丢失]]>
+        </description>
+        <cause>
+            <![CDATA[1、硬盘分区合并或分区丢失
+2、重装系统或一键恢复后数据丢失
+3、误删除照片、文件
+4、木马或病毒导致数据丢失]]>
+        </cause>
+    </problem>
+	
+    <problem id="2011" imgcount="1" type="local"   scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[屏幕维修]]>
+        </title>
+        <description>
+            <![CDATA[手机、平板屏幕出现破损、碎裂、漏液，屏幕亮度暗，无法调节]]>
+        </description>
+        <cause>
+            <![CDATA[1、手机跌落摔伤导致屏幕损坏
+2、手机进水导致屏幕短路]]>
+        </cause>
+    </problem>
+	
+    <problem id="2012" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[系统升级]]>
+        </title>
+        <description>
+            <![CDATA[手机运行速度变慢，使用软件清理无效]]>
+        </description>
+        <cause>
+            <![CDATA[1、常规方法无法卸载某些软件
+2、系统无法正常自动更新]]>
+        </cause>
+    </problem>
+	
+    <problem id="2013" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[电池更换]]>
+        </title>
+        <description>
+            <![CDATA[手机短时间内提示电量不足，待机时间短]]>
+        </description>
+        <cause>
+            <![CDATA[1、电池变形
+2、电池使用中或充电中过热]]>
+        </cause>
+    </problem>
+	
+    <problem id="2014" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[手机故障排查]]>
+        </title>
+        <description>
+            <![CDATA[使用过程中出现无法修复的问题，需要工程师检测]]>
+        </description>
+        <cause>
+            <![CDATA[1、手机无法通话、充电、开机等
+2、手机系统功能不正常，软件无法使用等]]>
+        </cause>
+    </problem>
+	
+    <problem id="2015" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[内存升级]]>
+        </title>
+        <description>
+            <![CDATA[系统经常提示内存不足，大型网络游戏卡顿]]>
+        </description>
+        <cause>
+            <![CDATA[1、硬件配置较低需要升级
+2、内存条损坏]]>
+        </cause>
+    </problem>
+	
+    <problem id="2016" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[急速硬盘升级]]>
+        </title>
+        <description>
+            <![CDATA[开机关机速度慢，软件打开速度慢]]>
+        </description>
+        <cause>
+            <![CDATA[1、硬盘损坏
+2、Windows存储得分低
+3、硬盘转速低]]>
+        </cause>
+    </problem>
+	
+    <problem id="2017" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[硬盘容量升级及备份]]>
+        </title>
+        <description>
+            <![CDATA[硬盘剩余空间小，系统提示空间不足]]>
+        </description>
+        <cause>
+            <![CDATA[1、硬盘空间不足，数据无法备份
+2、安装软件时提示空间不足无法安装]]>
+        </cause>
+    </problem>
+	
+    <problem id="2018" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[显卡升级]]>
+        </title>
+        <description>
+            <![CDATA[玩游戏、看视屏时出现卡屏现象]]>
+        </description>
+        <cause>
+            <![CDATA[1、游戏画面不流畅，无法使用最优画面
+2、显卡配置低
+3、Windows 硬件评分图像处理得分低]]>
+        </cause>
+    </problem>
+	
+    <problem id="2019" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[系统重装]]>
+        </title>
+        <description>
+            <![CDATA[Windows系统、MAC系统重新安装]]>
+        </description>
+        <cause>
+            <![CDATA[1、系统无法启动
+2、系统运行慢]]>
+        </cause>
+    </problem>
+	
+    <problem id="2020" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[清洁服务]]>
+        </title>
+        <description>
+            <![CDATA[电脑屏幕、主机箱内尘埃多，需要清理]]>
+        </description>
+        <cause>
+            <![CDATA[1、电脑外观、键盘的表面需要清理
+2、手机、平板的外观需要清理及消毒]]>
+        </cause>
+    </problem>
+	
+    <problem id="2021" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[电脑立体保养]]>
+        </title>
+        <description>
+            <![CDATA[电脑屏幕、主机箱内尘埃多，需要清理]]>
+        </description>
+        <cause>
+            <![CDATA[1、风扇、主板、键盘需要清理
+2、CPU导热材料需要处理
+3、屏幕、外观需要清洁]]>
+        </cause>
+    </problem>
+	
+    <problem id="2022" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[贴膜服务]]>
+        </title>
+        <description>
+            <![CDATA[屏幕灰尘多，触摸屏刮痕，屏幕模糊]]>
+        </description>
+        <cause>
+            <![CDATA[1、手机、平板前后需粘膜防划伤
+2、电脑屏幕高清膜，防窥膜]]>
+        </cause>
+    </problem>
+	
+    <problem id="2023" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[意外维修]]>
+        </title>
+        <description>
+            <![CDATA[手机、平板、电脑意外跌落损坏以及进水后功能使用异常或无法开机]]>
+        </description>
+        <cause>
+            <![CDATA[对设备进行检测和维修服务]]>
+        </cause>
+    </problem>
+	
+	<problem id="2024" imgcount="1" type="local"  scriptid="2000" subtype="3" >
+        <title>
+            <![CDATA[无法开机]]>
+        </title>
+        <description>
+            <![CDATA[设备插上电源，按开关后电源指示灯无法点亮，或电源灯亮但屏幕没有显示]]>
+        </description>
+        <cause>
+            <![CDATA[1、静电导致无法开机
+2、主板、电源等硬件故障]]>
+        </cause>
+    </problem>
+
+	
+
+    <problem id="10007" type="web">
+        <title>
+            <![CDATA[电脑没有声音]]>
+        </title>
+        <description>
+            <![CDATA[电脑听歌、看视频都没有声音，右下角没有音量小喇叭图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10007_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10015" type="web">
+        <title>
+            <![CDATA[QQ音乐听不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ音乐歌曲无法播放，歌曲名变成红字，提示”请检查声卡是否安装“]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10015_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10016" type="web">
+        <title>
+            <![CDATA[系统无法取消任务栏锁定]]>
+        </title>
+        <description>
+            <![CDATA[任务栏被锁定了，无法拖动，“锁定任务栏”前面勾选点击无法去除]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10016_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10017" type="web">
+        <title>
+            <![CDATA[U盘无法安全退出]]>
+        </title>
+        <description>
+            <![CDATA[退出U盘的时候，遇到“无法停止“通用卷”设备，U盘无法安全退出]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10017_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10018" type="web">
+        <title>
+            <![CDATA[开机没有动画]]>
+        </title>
+        <description>
+            <![CDATA[Win7系统下开机时没有显示四个颜色的小球旋转并汇集成Windows的标志，只有进度条]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10018_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10019" type="web">
+        <title>
+            <![CDATA[IE打开链接总是新窗口打开]]>
+        </title>
+        <description>
+            <![CDATA[IE打开链接总是在新窗口打开，而不是新选项卡]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10019_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10022" type="web">
+        <title>
+            <![CDATA[win7下QQ消息声音导致播放音乐变小]]>
+        </title>
+        <description>
+            <![CDATA[Win7下看电影或听音乐，如果QQ来消息，电影或音乐的音量就突然变小]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10022_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10023" type="web">
+        <title>
+            <![CDATA[电脑不显示摄像头图标]]>
+        </title>
+        <description>
+            <![CDATA[摄像头连接电脑，“我的电脑”没有出现摄像头图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10023_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10024" type="web">
+        <title>
+            <![CDATA[鼠标双击程序变成打开属性]]>
+        </title>
+        <description>
+            <![CDATA[对准图标双击鼠标左键，程序或文件没有打开，只显示查看属性]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10024_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10028" type="web">
+        <title>
+            <![CDATA[C盘空间不足]]>
+        </title>
+        <description>
+            <![CDATA[C盘空间容量不足]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10028_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10029" type="web">
+        <title>
+            <![CDATA[IE图标消失]]>
+        </title>
+        <description>
+            <![CDATA[桌面上的IE浏览器图标消失，不知道怎么还原]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10029_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10030" type="web">
+        <title>
+            <![CDATA[电脑时间不能同步]]>
+        </title>
+        <description>
+            <![CDATA[电脑右下角时间总是不对，与北京时间不同步]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10030_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10031" type="web">
+        <title>
+            <![CDATA[光驱盘符不显示]]>
+        </title>
+        <description>
+            <![CDATA[打开“我的电脑”不显示光驱图标，在设备管理器中“CD-ROM”前有个黄色的感叹号。双击提示是“由于其配置信息(注册表中的)不完整或已损坏，Windows 无法启动这个硬件设备。 (代码 19)”
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10031_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10032" type="web">
+        <title>
+            <![CDATA[清空回收站后还是满状态]]>
+        </title>
+        <description>
+            <![CDATA[清空“回收站”后，图标依然还是未清空的状态]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10032_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10033" type="web">
+        <title>
+            <![CDATA[开机要输入用户密码]]>
+        </title>
+        <description>
+            <![CDATA[开机后需要输入密码才能进入系统桌面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10033_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10034" type="web">
+        <title>
+            <![CDATA[无法使用QQ账号登陆相关网站]]>
+        </title>
+        <description>
+            <![CDATA[无法使用快速登录、打开快速登陆只显示普通登陆页面、登录时出现错误页面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10034_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10035" type="web">
+        <title>
+            <![CDATA[QQ空间背景音乐没有声音]]>
+        </title>
+        <description>
+            <![CDATA[打开QQ空间，没有背景音乐，或一直提示“下载QQ空间音乐播放控件”，安装后仍然弹出提示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10035_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10036" type="web">
+        <title>
+            <![CDATA[“魔兽争霸”两边有黑框]]>
+        </title>
+        <description>
+            <![CDATA[打开“魔兽争霸”全屏显示时，显示器左右两边有黑框]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10036_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10038" type="web">
+        <title>
+            <![CDATA[任务栏无法显示在最前面]]>
+        </title>
+        <description>
+            <![CDATA[打开任何程序全屏后，桌面下方任务栏显示位置被覆盖]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10038_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10039" type="web">
+        <title>
+            <![CDATA[桌面常见图标消失了]]>
+        </title>
+        <description>
+            <![CDATA[桌面不显示“我的电脑”、“网上邻居”、“我的文档”和“回收站”图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10039_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10040" type="web">
+        <title>
+            <![CDATA[安装QQ时提示“无法访问Windows Installer服务”]]>
+        </title>
+        <description>
+            <![CDATA[安装QQ时，出现“无法访问Windows Installer服务”的提示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10040_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10041" type="web">
+        <title>
+            <![CDATA[网页字体太大或太小]]>
+        </title>
+        <description>
+            <![CDATA[打开浏览器显示的字体太大或太小]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10041_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10042" type="web">
+        <title>
+            <![CDATA[系统字体太大或太小]]>
+        </title>
+        <description>
+            <![CDATA[文件或者文件夹的名称显示太大或太小]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10042_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10043" type="web">
+        <title>
+            <![CDATA[“显示桌面”图标消失了]]>
+        </title>
+        <description>
+            <![CDATA[桌面快速启动栏的“显示桌面”图标消失]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10043_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10044" type="web">
+        <title>
+            <![CDATA[桌面右侧白屏]]>
+        </title>
+        <description>
+            <![CDATA[桌面左边桌面背景右边白屏]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10044_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10046" type="web">
+        <title>
+            <![CDATA[连接U盘没有安全删除硬件的图标]]>
+        </title>
+        <description>
+            <![CDATA[插上U盘后能使用正常，但任务栏里没有安全删除硬件的图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10046_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10047" type="web">
+        <title>
+            <![CDATA[U盘新建文件提示“介质受写入保护”]]>
+        </title>
+        <description>
+            <![CDATA[在U盘盘符中新建文件，出现“介质受写入保护”提示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10047_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10048" type="web">
+        <title>
+            <![CDATA[打开盘符在新窗口中出现]]>
+        </title>
+        <description>
+            <![CDATA[双击盘符会在新窗口弹出盘符内容]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10048_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10049" type="web">
+        <title>
+            <![CDATA[摄像头打不开]]>
+        </title>
+        <description>
+            <![CDATA[打开“我的电脑”摄像头图标，出现“未能创建视频预览，请检查设备连接”错误提示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10049_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10050" type="web">
+        <title>
+            <![CDATA[打开淘宝提示安全证书过期]]>
+        </title>
+        <description>
+            <![CDATA[访问淘宝网页提示安全证书有问题，无法打开该网站]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10050_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10051" type="web">
+        <title>
+            <![CDATA[IE浏览器打不开]]>
+        </title>
+        <description>
+            <![CDATA[IE打不开，双击没有任何反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10051_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10052" type="web">
+        <title>
+            <![CDATA[电脑不能修改分辨率]]>
+        </title>
+        <description>
+            <![CDATA[“显示 属性”选项框内无法修改电脑屏幕分辨率]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10052_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10053" type="web">
+        <title>
+            <![CDATA[开机需要按F1进入系统]]>
+        </title>
+        <description>
+            <![CDATA[开机提示按F1才可以进入系统]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10053_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10054" type="web">
+        <title>
+            <![CDATA[双击QQ图标反应时间长]]>
+        </title>
+        <description>
+            <![CDATA[双击QQ快捷方式需要长时间才出现登入框 ]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10054_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10055" type="web">
+        <title>
+            <![CDATA[双击盘符提示格式化]]>
+        </title>
+        <description>
+            <![CDATA[打开“我的电脑”后双击磁盘提示需格式化]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10055_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10056" type="web">
+        <title>
+            <![CDATA[添加删除程序打不开]]>
+        </title>
+        <description>
+            <![CDATA[双击添加删除程序提示权限被限制或提示提示rundll32.exe应用程序出错]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10056_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10057" type="web">
+        <title>
+            <![CDATA[网页QQ不能快速登录]]>
+        </title>
+        <description>
+            <![CDATA[登入QQ相关网站（例如：QQ空间、微博、会员官网等）不能点击快速登入 ]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10057_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10058" type="web">
+        <title>
+            <![CDATA[未知文件格式不能打开]]>
+        </title>
+        <description>
+            <![CDATA[文件是未知图标，不知道用什么程序打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10058_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10060" type="web">
+        <title>
+            <![CDATA[网页出现“internet explorer无法打开站点”错误提示]]>
+        </title>
+        <description>
+            <![CDATA[打开网站出现“internet explorer无法打开站点”错误提示  ]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10060_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10061" type="web">
+        <title>
+            <![CDATA[桌面新建文件夹提示“无法创建文件夹”]]>
+        </title>
+        <description>
+            <![CDATA[桌面新建文件夹，提示“无法创建文件夹”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10061_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10062" type="web">
+        <title>
+            <![CDATA[点击office文档中超链接出错]]>
+        </title>
+        <description>
+            <![CDATA[点击office文件中超链接，提示“由于本机的限制 该操作已被取消”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10062_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10064" type="web">
+        <title>
+            <![CDATA[桌面所有图标都消失]]>
+        </title>
+        <description>
+            <![CDATA[电脑桌面上所有图标消失，不知道怎么调出来]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10064_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10065" type="web">
+        <title>
+            <![CDATA[快速启动栏消失]]>
+        </title>
+        <description>
+            <![CDATA[系统任务栏的快速启动栏消失，不知道怎么设置出来]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10065_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10066" type="web">
+        <title>
+            <![CDATA[打开磁盘出现限制提示]]>
+        </title>
+        <description>
+            <![CDATA[双击盘符提示“本次操作由于这台计算机的限制而被取消，请与您的系统管理员联系”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10066_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10067" type="web">
+        <title>
+            <![CDATA[IE浏览器打开无法最大化]]>
+        </title>
+        <description>
+            <![CDATA[双击IE浏览器出现的不是最大化窗口]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10067_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10068" type="web">
+        <title>
+            <![CDATA[IP地址与网络上其他地址有冲突]]>
+        </title>
+        <description>
+            <![CDATA[网络连接图标提示地址冲突]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10068_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10069" type="web">
+        <title>
+            <![CDATA[XP下文件名称消失]]>
+        </title>
+        <description>
+            <![CDATA[打开盘符只看见文件图标，文件名称消失]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10069_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10070" type="web">
+        <title>
+            <![CDATA[打开盘符变成搜索]]>
+        </title>
+        <description>
+            <![CDATA[双击盘符变成搜索界面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10070_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10071" type="web">
+        <title>
+            <![CDATA[电脑屏幕显示不全]]>
+        </title>
+        <description>
+            <![CDATA[电脑屏幕四周出现黑边或者桌面内容显示不完整]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10071_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10072" type="web">
+        <title>
+            <![CDATA[任务管理器无法结束任务]]>
+        </title>
+        <description>
+            <![CDATA[打开任务管理器无法结束程序]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10072_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10073" type="web">
+        <title>
+            <![CDATA[删除文件提示“该项目不存在”]]>
+        </title>
+        <description>
+            <![CDATA[无法删除该文件或文件夹]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10073_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10074" type="web">
+        <title>
+            <![CDATA[鼠标失灵]]>
+        </title>
+        <description>
+            <![CDATA[鼠标指针在桌面上快速移动闪烁，鼠标指针在电脑桌面上不能移动
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10074_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10075" type="web">
+        <title>
+            <![CDATA[QQ没有消息提示声音]]>
+        </title>
+        <description>
+            <![CDATA[电脑听歌有声音，但是QQ好友发消息时没有消息声音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10075_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10076" type="web">
+        <title>
+            <![CDATA[系统托盘提示损坏文件]]>
+        </title>
+        <description>
+            <![CDATA[系统托盘黄色感叹号提示损坏文件]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10076_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10077" type="web">
+        <title>
+            <![CDATA[笔记本键盘上按字母出现数字]]>
+        </title>
+        <description>
+            <![CDATA[笔记本输入字母输入时候变成了数字，输入密码时总是不正确]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10077_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10078" type="web">
+        <title>
+            <![CDATA[打开WORD提示内存不足]]>
+        </title>
+        <description>
+            <![CDATA[打开word文档显示“内存或磁盘空间不足，word 无法显示所请求的字体”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10078_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10080" type="web">
+        <title>
+            <![CDATA[浏览器自动弹出拨号连接窗口]]>
+        </title>
+        <description>
+            <![CDATA[打开浏览器总是自动弹出自动拨号连接窗口，关闭后过一会又会出现]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10080_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10081" type="web">
+        <title>
+            <![CDATA[浏览网页总弹出脚本调试器]]>
+        </title>
+        <description>
+            <![CDATA[访问网页时，弹出错误提示框]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10081_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10082" type="web">
+        <title>
+            <![CDATA[当前页面的脚本发生错误]]>
+        </title>
+        <description>
+            <![CDATA[打开IE浏览器左下角有黄色三角形叹号，提示网页有错]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10082_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10084" type="web">
+        <title>
+            <![CDATA[无法添加网页到IE收藏夹]]>
+        </title>
+        <description>
+            <![CDATA[点击添加收藏夹没有反应、收藏夹内容空白]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10084_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10088" type="web">
+        <title>
+            <![CDATA[图标多出“快捷方式到”几个字]]>
+        </title>
+        <description>
+            <![CDATA[创建桌面图标快捷方式，图标有“快捷方式到”几个字]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10088_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10089" type="web">
+        <title>
+            <![CDATA[数字小键盘开机不启动]]>
+        </title>
+        <description>
+            <![CDATA[键盘上的数字小键盘开机不启动，无法输入密码]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10089_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10090" type="web">
+        <title>
+            <![CDATA[经常提示虚拟内存不足]]>
+        </title>
+        <description>
+            <![CDATA[电脑右下角经常出现“Windows虚拟内存太小”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10090_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10091" type="web">
+        <title>
+            <![CDATA[右键没有新建WORD选项]]>
+        </title>
+        <description>
+            <![CDATA[电脑已经安装Microsoft Office Word，但是点击右键没有新建word文档选项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10091_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10092" type="web">
+        <title>
+            <![CDATA[右键没有新建文本文档选项]]>
+        </title>
+        <description>
+            <![CDATA[桌面点击右键，没有出现”新建文本文档“选项，无法新建文本文档]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10092_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10093" type="web">
+        <title>
+            <![CDATA[桌面变成经典主题界面，无法更改]]>
+        </title>
+        <description>
+            <![CDATA[桌面主题变为Windows经典主题界面，无法调整主题]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10093_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10094" type="web">
+        <title>
+            <![CDATA[电脑开机慢]]>
+        </title>
+        <description>
+            <![CDATA[电脑开机需要长时间才进入桌面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10094_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10096" type="web">
+        <title>
+            <![CDATA[电脑运行卡]]>
+        </title>
+        <description>
+            <![CDATA[打开应用程序慢，右键点击桌面反映迟钝]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10096_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10174" type="web">
+        <title>
+            <![CDATA[游戏不能全屏]]>
+        </title>
+        <description>
+            <![CDATA[打开穿越火线（CF）、魔兽、英雄、仙剑奇侠、红警、星际争霸、冒险岛、都市赛车、极品飞车、CS等游戏，不能整屏出现，两边出现黑边]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10174_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10175" type="web">
+        <title>
+            <![CDATA[QQ登录后不显示在任务栏]]>
+        </title>
+        <description>
+            <![CDATA[登录QQ后，QQ图标没显示在任务栏右下角，无法打开QQ面板]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10175_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10176" type="web">
+        <title>
+            <![CDATA[键盘大写键不能关闭]]>
+        </title>
+        <description>
+            <![CDATA[点击键盘“大写锁定”(Caps Lock)，无法取消大写键，电脑只能输入大写英语]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10176_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10177" type="web">
+        <title>
+            <![CDATA[“添加或删除程序”列表中仍保留已卸载的程序名]]>
+        </title>
+        <description>
+            <![CDATA[程序已经卸载，但是在“添加或删除程序”中依然存在]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10177_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10178" type="web">
+        <title>
+            <![CDATA[点击"开始"没有"注销"]]>
+        </title>
+        <description>
+            <![CDATA[点击"开始"菜单没有"注销"选项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10178_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10179" type="web">
+        <title>
+            <![CDATA[开始菜单栏中没有运行]]>
+        </title>
+        <description>
+            <![CDATA[点击开始菜单没有出现运行选项或提示“本次操作由于计算机的限制而被取消，请与您的系统管理员联系”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10179_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10180" type="web">
+        <title>
+            <![CDATA[电脑自动进入睡眠状态]]>
+        </title>
+        <description>
+            <![CDATA[电脑隔一阵子自动进入睡眠状态，不知道如何解除设置]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10180_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10181" type="web">
+        <title>
+            <![CDATA[控制面板打不开]]>
+        </title>
+        <description>
+            <![CDATA[点击控制面板提示“本次操作由于这台计算机的限制而被取消，请与您的管理员联系”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10181_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10182" type="web">
+        <title>
+            <![CDATA[视频播放有声音但画面静止]]>
+        </title>
+        <description>
+            <![CDATA[观看在线视频只有声音没有画面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10182_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10183" type="web">
+        <title>
+            <![CDATA[任务管理器无法打开]]>
+        </title>
+        <description>
+            <![CDATA[右键点击"任务栏""任务管理器"选项为灰色，无法点击运行]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10183_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10184" type="web">
+        <title>
+            <![CDATA[鼠标右击桌面没反应]]>
+        </title>
+        <description>
+            <![CDATA[鼠标右键点击任何地方没有反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10184_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10185" type="web">
+        <title>
+            <![CDATA[鼠标左键变成右键]]>
+        </title>
+        <description>
+            <![CDATA[鼠标左右键功能相反]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10185_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10186" type="web">
+        <title>
+            <![CDATA[我的电脑文件选项不见了]]>
+        </title>
+        <description>
+            <![CDATA[打开我的电脑“工具”里没有“文件夹选项”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10186_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10189" type="web">
+        <title>
+            <![CDATA[网页密码不能保存]]>
+        </title>
+        <description>
+            <![CDATA[网页不能自动保存以前输入的密码，每次都要重新输入]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10189_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10190" type="web">
+        <title>
+            <![CDATA[XP关机变成经典模式]]>
+        </title>
+        <description>
+            <![CDATA[点击关机出现下拉选择模式而非图标形式]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10190_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10191" type="web">
+        <title>
+            <![CDATA[本地连接无法禁止或开启]]>
+        </title>
+        <description>
+            <![CDATA[无法启用和禁用本地连接，提示连接失败]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10191_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10192" type="web">
+        <title>
+            <![CDATA[打开“我的电脑”提示“数据执行保护”]]>
+        </title>
+        <description>
+            <![CDATA[双击“我的电脑”提示”数据执行保护]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10192_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10193" type="web">
+        <title>
+            <![CDATA[打开软件都弹出windows安全警报]]>
+        </title>
+        <description>
+            <![CDATA[打开程序弹出windows防火墙警报]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10193_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10194" type="web">
+        <title>
+            <![CDATA[更新显卡驱动出错]]>
+        </title>
+        <description>
+            <![CDATA[显卡驱动更新后出现错误]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10194_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10195" type="web">
+        <title>
+            <![CDATA[关机总是提示“正在更新，请不要关闭电脑”]]>
+        </title>
+        <description>
+            <![CDATA[点击关机后出现“正在更新，请不要关闭电脑”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10195_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10196" type="web">
+        <title>
+            <![CDATA[禁止光盘自动运行]]>
+        </title>
+        <description>
+            <![CDATA[插入光盘后系统自动运行]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10196_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10197" type="web">
+        <title>
+            <![CDATA[每次开机都弹出IE广告]]>
+        </title>
+        <description>
+            <![CDATA[开机后弹出IE广告窗口]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10197_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10198" type="web">
+        <title>
+            <![CDATA[任务栏无法拖动]]>
+        </title>
+        <description>
+            <![CDATA[任务栏无法拖动位置和宽度]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10198_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10199" type="web">
+        <title>
+            <![CDATA[刷新桌面显示很慢或卡死]]>
+        </title>
+        <description>
+            <![CDATA[点击桌面右键选择刷新或只是点击右键时，电脑就很慢或电脑卡死]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10199_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10200" type="web">
+        <title>
+            <![CDATA[双击宽带连接要很久出现]]>
+        </title>
+        <description>
+            <![CDATA[双击宽带连接需要很久才弹出对话框]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10200_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10202" type="web">
+        <title>
+            <![CDATA[文件夹属性没有安全选项]]>
+        </title>
+        <description>
+            <![CDATA[右键点击文件夹属性没有安全选项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10202_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10203" type="web">
+        <title>
+            <![CDATA[右击我的电脑找不到管理选项]]>
+        </title>
+        <description>
+            <![CDATA[无法打开“计算机管理”项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10203_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10206" type="web">
+        <title>
+            <![CDATA[登入系统需要按Ctrl+Alt+Delete]]>
+        </title>
+        <description>
+            <![CDATA[每次登入系统都需要按Ctrl+Alt+Delete组合键]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10206_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10207" type="web">
+        <title>
+            <![CDATA[网站打不开]]>
+        </title>
+        <description>
+            <![CDATA[网站打不开，有可能是路由设置了不正确的DNS服务器导致。调整以后最好关闭浏览器重开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10207_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10209" type="web">
+        <title>
+            <![CDATA[IE浏览器打开新页面显示空白]]>
+        </title>
+        <description>
+            <![CDATA[在IE浏览器点击新选项卡出现的是空白页面而非主页]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10209_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10210" type="web">
+        <title>
+            <![CDATA[QQ图标消失]]>
+        </title>
+        <description>
+            <![CDATA[电脑桌面上的QQ图标(QQ快捷键)消失]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10210_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10211" type="web">
+        <title>
+            <![CDATA[TXT文本文档打开方式有两个”记事本”选项]]>
+        </title>
+        <description>
+            <![CDATA[右击文件选择”打开方式”出现两个”记事本”选项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10211_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10212" type="web">
+        <title>
+            <![CDATA[U盘乱码]]>
+        </title>
+        <description>
+            <![CDATA[打开U盘出现乱码文件或文件夹]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10212_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10213" type="web">
+        <title>
+            <![CDATA[浏览器主页被篡改]]>
+        </title>
+        <description>
+            <![CDATA[打开浏览器时出现的不是自己设置的主页而是别的网站]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10213_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10214" type="web">
+        <title>
+            <![CDATA[麦克风没有声音]]>
+        </title>
+        <description>
+            <![CDATA[QQ视频、语音或者网络K歌的时候，麦克风没有声音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10214_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10215" type="web">
+        <title>
+            <![CDATA[没有活动混音器设备可用要安装混音器设备]]>
+        </title>
+        <description>
+            <![CDATA[双击右下角音量图标提示“没有活动混音器设备可用，要安装混音器设备，请转到“控制面板”，鼠标左键点击“打印机和其他硬件”，然后点击“添加硬件”该程序将立即关闭”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10215_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10216" type="web">
+        <title>
+            <![CDATA[网页游戏玩不了]]>
+        </title>
+        <description>
+            <![CDATA[空间的龙之牧场不能玩]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10216_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10218" type="web">
+        <title>
+            <![CDATA[每次开机杀毒软件都自动检测]]>
+        </title>
+        <description>
+            <![CDATA[每次开机后，杀毒软件都会自动弹出开始扫描]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10218_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10219" type="web">
+        <title>
+            <![CDATA[右键计算机点击"管理"无法打开]]>
+        </title>
+        <description>
+            <![CDATA[右键单击计算机点击【管理】无反应，或弹出找不到应用程序报错]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10219_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10220" type="web">
+        <title>
+            <![CDATA[上网速度慢]]>
+        </title>
+        <description>
+            <![CDATA[上网看视频或玩游戏的时候卡,上网下载资料速度慢]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10220_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10221" type="web">
+        <title>
+            <![CDATA[麦克风聊天时有回音或杂音]]>
+        </title>
+        <description>
+            <![CDATA[使用语音聊天时，有回音或者杂音，影响聊天质量]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10221_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10222" type="web">
+        <title>
+            <![CDATA[网速测试]]>
+        </title>
+        <description>
+            <![CDATA[不知道当前网络最大下载和上传速度
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10222_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10223" type="web">
+        <title>
+            <![CDATA[win7右键选择"新建"，弹出列表仅出现文件夹]]>
+        </title>
+        <description>
+            <![CDATA[Win 7 系统中打开某盘符或文件夹后，单击鼠标右键选择新建，弹出列表中只出现一个文件夹选项可选而没有其他选项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10223_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10224" type="web">
+        <title>
+            <![CDATA[系统蓝屏]]>
+        </title>
+        <description>
+            <![CDATA[屏幕变蓝并显示一大串字符，无法操作系统，只能重启]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10224_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10225" type="web">
+        <title>
+            <![CDATA[总是提示提交错误报告]]>
+        </title>
+        <description>
+            <![CDATA[系统出错时总是提示是否需要发送错误报告]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10225_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10226" type="web">
+        <title>
+            <![CDATA[QQ不能传送文件]]>
+        </title>
+        <description>
+            <![CDATA[使用QQ发送文件给对方，出现错误提示“文件发送失败！由于对方QQ/TM的安全设置，您的文件传送请求被拒绝”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10226_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10227" type="web">
+        <title>
+            <![CDATA[打开命令提示符时，提示"已被系统管理员停用"]]>
+        </title>
+        <description>
+            <![CDATA[打开命令提示符时，提示已被系统管理员停用按任意键退出，按任意键后就退出，运行cmd也是一样，右键命令提示符以管理员身份运行也是一样。]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10227_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10228" type="web">
+        <title>
+            <![CDATA[电脑管家文件粉碎]]>
+        </title>
+        <description>
+            <![CDATA[安装电脑管家后没有出现”文件粉碎”选项]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10228_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10229" type="web">
+        <title>
+            <![CDATA[防止其他电脑蹭网]]>
+        </title>
+        <description>
+            <![CDATA[网络被其他电脑连接，占用宽带资源，影响网速]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10229_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10230" type="web">
+        <title>
+            <![CDATA[网页打开反应慢]]>
+        </title>
+        <description>
+            <![CDATA[双击IE图标，反应时间长，需要很久才出现窗口]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10230_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10231" type="web">
+        <title>
+            <![CDATA[重装XP系统]]>
+        </title>
+        <description>
+            <![CDATA[系统出现错误无法启动，只能通过重装系统来修复]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10231_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10232" type="web">
+        <title>
+            <![CDATA[桌面右下角时间消失]]>
+        </title>
+        <description>
+            <![CDATA[桌面右下角的时间消失，无法查看时间]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10232_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10233" type="web">
+        <title>
+            <![CDATA[网页验证码无法显示]]>
+        </title>
+        <description>
+            <![CDATA[打开有验证码的网页，验证码图片没有显示或很慢才显示出来，或需要刷新几次才能够显示出来]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10233_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10234" type="web">
+        <title>
+            <![CDATA[无法创建文件夹]]>
+        </title>
+        <description>
+            <![CDATA[在计算机的所有位置都无法创建文件夹，右键新建文件夹，出现拒绝访问报错或右键菜单没有新建文件夹选项
+注：如果只是在指定位置中无法创建文件夹可参考电脑诊所里的自助攻略里的"桌面新建文件夹提示‘无法创建文件夹’“的解决方案]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10234_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10235" type="web">
+        <title>
+            <![CDATA[无法删文件提示"文件正在使用"]]>
+        </title>
+        <description>
+            <![CDATA[无法删除文件，提示"文件正在使用"或"操作无法完成，因为文件已在 XXX 中打开"]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10235_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10236" type="web">
+        <title>
+            <![CDATA[按win + E 键打不开资源管理器]]>
+        </title>
+        <description>
+            <![CDATA[在系统中，按键盘win + E组合键无反应，打不开资源管理器]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10236_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10237" type="web">
+        <title>
+            <![CDATA[按Windows + X组合键不可用]]>
+        </title>
+        <description>
+            <![CDATA[按键盘Windows + X 方式的快捷键无反应，例如按组合键 Windows+R 无法打开“运行”对话框；按 Windows+E 无法启动 Windows 资源管理器；按Windows+D 显示不了桌面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10237_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10238" type="web">
+        <title>
+            <![CDATA[电脑没声音]]>
+        </title>
+        <description>
+            <![CDATA[电脑没声音的情况，还有可能是音量控制，以及硬件情况影响导致。需要对这两个方面进行考虑。]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10238_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10240" type="web">
+        <title>
+            <![CDATA[打开的网站不是我想要的网站]]>
+        </title>
+        <description>
+            <![CDATA[打开A网站自动跳转到B网站或无法正常上网]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10240_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10241" type="web">
+        <title>
+            <![CDATA[qq登录超时]]>
+        </title>
+        <description>
+            <![CDATA[点击“登录”后长时间无法上线，弹出“登录超时，请检查您的网络或者本机防火墙设置。(错误码：0x00000001)”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10241_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10242" type="web">
+        <title>
+            <![CDATA[电脑关机慢]]>
+        </title>
+        <description>
+            <![CDATA[点击“开始”“关机”后，需要长时间响应才能关闭计算机系统]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10242_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10243" type="web">
+        <title>
+            <![CDATA[定时关机]]>
+        </title>
+        <description>
+            <![CDATA[电脑在下载资源或者更新大量补丁时，需要长时间等待，希望电脑定时关机]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10243_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10244" type="web">
+        <title>
+            <![CDATA[看电影或看视频卡]]>
+        </title>
+        <description>
+            <![CDATA[本地或者上网看视频、电影播放时卡屏]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10244_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10245" type="web">
+        <title>
+            <![CDATA[玩QQ炫舞卡]]>
+        </title>
+        <description>
+            <![CDATA[QQ炫舞连接服务器超时或登录后卡屏等现象]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10245_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10246" type="web">
+        <title>
+            <![CDATA[玩穿越火线卡]]>
+        </title>
+        <description>
+            <![CDATA[穿越火线连接服务器超时或者登录时黑屏，卡屏等现象]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10246_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10247" type="web">
+        <title>
+            <![CDATA[玩地下城与勇士卡]]>
+        </title>
+        <description>
+            <![CDATA[地下城与勇士连接服务器超时或者登录时黑屏，卡机等]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10247_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10248" type="web">
+        <title>
+            <![CDATA[玩英雄联盟卡]]>
+        </title>
+        <description>
+            <![CDATA[连接服务器超时，游戏内fps过低导致出现卡屏或者反应慢等效果]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10248_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10249" type="web">
+        <title>
+            <![CDATA[玩游戏没有声音]]>
+        </title>
+        <description>
+            <![CDATA[运行游戏后，游戏没有声音，不能正常享受游戏声音特效]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10249_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10250" type="web">
+        <title>
+            <![CDATA[网络中断]]>
+        </title>
+        <description>
+            <![CDATA[电脑无法上网，路由器上的adsl灯闪烁，闪十几秒后恢复正常，或者网络受到攻击导致断网。]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10250_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10251" type="web">
+        <title>
+            <![CDATA[无法定位序数459于动态链接库urlmon.dll上]]>
+        </title>
+        <description>
+            <![CDATA[电脑弹出错误提示“无法定位序数 459 于动态链接库 urlmon.dll上”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10251_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10252" type="web">
+        <title>
+            <![CDATA[cpu温度过高]]>
+        </title>
+        <description>
+            <![CDATA[电脑运行大型程序或者电脑cpu风扇损坏的时候，导致cpu温度上升，甚至可能造成电脑自动重启]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10252_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10253" type="web">
+        <title>
+            <![CDATA[QQ空间相册打不开]]>
+        </title>
+        <description>
+            <![CDATA[点击QQ空间相册，一直显示数据加载中，请稍后….]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10253_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10254" type="web">
+        <title>
+            <![CDATA[QQ与其他软件热键冲突]]>
+        </title>
+        <description>
+            <![CDATA[QQ热键与其他软件的热键冲突，导致在按热键时只有其中一个软件有作用，另一个软件没有反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10254_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10255" type="web">
+        <title>
+            <![CDATA[U盘无法格式化]]>
+        </title>
+        <description>
+            <![CDATA[格式化U盘时，提示“Windows 无法完成格式化”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10255_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10256" type="web">
+        <title>
+            <![CDATA[windows延缓写入失败]]>
+        </title>
+        <description>
+            <![CDATA[当电脑不正常关机，例如：出现蓝屏、断电重启、强制关机等情况后，系统会提示“Windows-延缓写入失败”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10256_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10257" type="web">
+        <title>
+            <![CDATA[xlive.dll文件丢失]]>
+        </title>
+        <description>
+            <![CDATA[系统弹出提示“没有找到xlive.dll，因此这个应用程序未能启动，重新安装应用程序可能会修复此问题。”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10257_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10258" type="web">
+        <title>
+            <![CDATA[电脑屏幕闪]]>
+        </title>
+        <description>
+            <![CDATA[电脑屏幕闪烁，看不清屏幕上的文字、图片等]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10258_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10259" type="web">
+        <title>
+            <![CDATA[键盘失灵]]>
+        </title>
+        <description>
+            <![CDATA[在键盘上输入任何字符，显示屏上均无任何显示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10259_detail.html]]>
+        </url>
+    </problem>
+
+
+
+    <problem id="10261" type="web">
+        <title>
+            <![CDATA[应用程序错误,提示"内存不能为read"]]>
+        </title>
+        <description>
+            <![CDATA[应用程序出错，系统弹出对话框提示“该内存不能为read”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10261_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10262" type="web">
+        <title>
+            <![CDATA[玩网页游戏卡]]>
+        </title>
+        <description>
+            <![CDATA[玩网页游戏出现延迟效果，鼠标点击游戏页面没反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10262_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10263" type="web">
+        <title>
+            <![CDATA[网页关不了]]>
+        </title>
+        <description>
+            <![CDATA[打开网页关闭不掉，点击关闭按钮时反应时间长，甚至点击网页时出现未响应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10263_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10264" type="web">
+        <title>
+            <![CDATA[网页没有声音]]>
+        </title>
+        <description>
+            <![CDATA[打开网页播放音乐或者看视频没有声音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10264_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10265" type="web">
+        <title>
+            <![CDATA[文件数据恢复]]>
+        </title>
+        <description>
+            <![CDATA[文件被覆盖或者“回收站”内的文件被清空，导致文件无法恢复]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10265_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10266" type="web">
+        <title>
+            <![CDATA[无法卸载软件]]>
+        </title>
+        <description>
+            <![CDATA[未显示卸载软件快捷方式或者因为文件的丢失卸载不了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10266_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10267" type="web">
+        <title>
+            <![CDATA[桌面exe快捷方式文件无法运行]]>
+        </title>
+        <description>
+            <![CDATA[双击桌面图标出现【打开方式】对话框，需要选择程序打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10267_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10268" type="web">
+        <title>
+            <![CDATA[桌面字体模糊]]>
+        </title>
+        <description>
+            <![CDATA[桌面上的图标名称显示模糊不清]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10268_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10269" type="web">
+        <title>
+            <![CDATA[QQ被盗]]>
+        </title>
+        <description>
+            <![CDATA[QQ提示在其他地方登录，密码被修改了，QQ经常向好友发送垃圾信息或不是自己发送的信息]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10269_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10270" type="web">
+        <title>
+            <![CDATA[QQ飞车玩不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ飞车打不开，打开提示错误或打开卡屏，双击无反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10270_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10271" type="web">
+        <title>
+            <![CDATA[添加删除打印机提示“打印机后台程序服务没有运行”]]>
+        </title>
+        <description>
+            <![CDATA[电脑添加和删除打印机时系统提示 "打印机后台程序服务没有运行"]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10271_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10272" type="web">
+        <title>
+            <![CDATA[快捷方式被其他应用程序强制关联]]>
+        </title>
+        <description>
+            <![CDATA[快捷方式图标被强制改为其他应用程序图标，且双击打开时被强制使用此应用程序打开。]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10272_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10273" type="web">
+        <title>
+            <![CDATA[Chkdsk使用方法]]>
+        </title>
+        <description>
+            <![CDATA[系统硬盘或U盘出错时，可以使用chkdsk命令修复一些硬盘和U盘存储不了数据的问题]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10273_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10274" type="web">
+        <title>
+            <![CDATA[扩展属性不一致]]>
+        </title>
+        <description>
+            <![CDATA[系统下安装软件提示“扩展属性不一致”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10274_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10275" type="web">
+        <title>
+            <![CDATA[WPS丢失QtCore4.dll无法启动]]>
+        </title>
+        <description>
+            <![CDATA[无法启动WPS程序，提示QtCore4.dll缺失或无法定位程序于QtCore4.dll上]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10275_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10276" type="web">
+        <title>
+            <![CDATA[test]]>
+        </title>
+        <description>
+            <![CDATA[1]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10276_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10277" type="web">
+        <title>
+            <![CDATA[输入法无法使用]]>
+        </title>
+        <description>
+            <![CDATA[任务栏右下角输入法图标消失，或者使用输入法快捷键无法切换]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10277_detail.html]]>
+        </url>
+    </problem>
+
+ 
+
+    <problem id="10279" type="web">
+        <title>
+            <![CDATA[CF没有枪声和脚步声]]>
+        </title>
+        <description>
+            <![CDATA[电脑有声音，但玩穿越火线没有脚步声和枪声，影响游戏效果]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10279_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10280" type="web">
+        <title>
+            <![CDATA["网络连接"图标消失]]>
+        </title>
+        <description>
+            <![CDATA[宽带连接图标消失了，需要新建宽带连接图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10280_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10281" type="web">
+        <title>
+            <![CDATA[word等office文档打不开]]>
+        </title>
+        <description>
+            <![CDATA[解决office2003 打不开docx等高版本文件]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10281_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10282" type="web">
+        <title>
+            <![CDATA[去除或恢复快捷方式小箭头]]>
+        </title>
+        <description>
+            <![CDATA[去除或恢复快捷方式小箭头]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10282_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10283" type="web">
+        <title>
+            <![CDATA[摄像头打不开]]>
+        </title>
+        <description>
+            <![CDATA[摄像头打不开，无法进行视频聊天]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10283_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10284" type="web">
+        <title>
+            <![CDATA[网页变成白底蓝字]]>
+        </title>
+        <description>
+            <![CDATA[网页显示不正常,网页显示白底蓝字]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10284_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10285" type="web">
+        <title>
+            <![CDATA[网站链接打不开]]>
+        </title>
+        <description>
+            <![CDATA[网站内的链接打不开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10285_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10286" type="web">
+        <title>
+            <![CDATA[桌面图标删除不了]]>
+        </title>
+        <description>
+            <![CDATA[桌面图标无法删除]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10286_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10287" type="web">
+        <title>
+            <![CDATA[重启后分辨率总是会自动改变]]>
+        </title>
+        <description>
+            <![CDATA[电脑开机后，分辨率总是会自动改变]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10287_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10288" type="web">
+        <title>
+            <![CDATA[开机提示密码过期]]>
+        </title>
+        <description>
+            <![CDATA[系统每次开机都提示密码过期]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10288_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10289" type="web">
+        <title>
+            <![CDATA[电脑插上U盘后没有反应]]>
+        </title>
+        <description>
+            <![CDATA[U盘插上USB口后，没有发现新硬件]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10289_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10290" type="web">
+        <title>
+            <![CDATA[开机后本地连接显示慢]]>
+        </title>
+        <description>
+            <![CDATA[开机后本地连接显示慢]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10290_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10291" type="web">
+        <title>
+            <![CDATA[删除文件带有小黄锁]]>
+        </title>
+        <description>
+            <![CDATA[1.桌面图标左下角有个小黄锁
+2.文件或文件夹左下角带有小黄锁
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10291_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10292" type="web">
+        <title>
+            <![CDATA[任务管理器打不开]]>
+        </title>
+        <description>
+            <![CDATA[任务管理器打开出错或无法打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10292_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10293" type="web">
+        <title>
+            <![CDATA[！--Windows7 下快捷键 Win+E 打不开资源管理器--！已有]]>
+        </title>
+        <description>
+            <![CDATA[Windows 7 下快捷键 Win+E 打不开资源管理器]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10293_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10294" type="web">
+        <title>
+            <![CDATA[恢复Win7系统默认字体]]>
+        </title>
+        <description>
+            <![CDATA[Win7系统字体模糊，网页字体异常]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10294_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10295" type="web">
+        <title>
+            <![CDATA[系统麦克风有回音]]>
+        </title>
+        <description>
+            <![CDATA[系统在进行语音通话或QQ视频时，麦克风有回音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10295_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10296" type="web">
+        <title>
+            <![CDATA[U盘无法识别]]>
+        </title>
+        <description>
+            <![CDATA[U盘无法识别，插入U盘没有反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10296_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10297" type="web">
+        <title>
+            <![CDATA[U盘加载慢]]>
+        </title>
+        <description>
+            <![CDATA[U盘加载缓慢]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10297_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10298" type="web">
+        <title>
+            <![CDATA[U盘加载失败]]>
+        </title>
+        <description>
+            <![CDATA[U盘加载失败]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10298_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10299" type="web">
+        <title>
+            <![CDATA[打开QQ空间等网站转向诈骗网站]]>
+        </title>
+        <description>
+            <![CDATA[1. 打开QQ空间转到诈骗网站，如中国好声音网站
+2. 打开所有的网页， 都转向一个同样的网站，这个网站看起来非常像诈骗网站]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10299_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10300" type="web">
+        <title>
+            <![CDATA[无法打开软件提示错误0xc000007b]]>
+        </title>
+        <description>
+            <![CDATA[打开软件就提示，“应用程序无法启动（0xc000007b）,请单击“确定”关闭应用程序”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10300_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10301" type="web">
+        <title>
+            <![CDATA[IE浏览器出错崩溃]]>
+        </title>
+        <description>
+            <![CDATA[1. 运行IE浏览器时弹出错误提示
+2. 双击IE无反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10301_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10302" type="web">
+        <title>
+            <![CDATA[QQ浏览器打不开]]>
+        </title>
+        <description>
+            <![CDATA[ QQ浏览器打不开，打开时报错，提示"无法定位程序输入点"、 QQ空间打不开，打开时弹出"QQBrowser.exe--无法找到入口"报错]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10302_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10303" type="web">
+        <title>
+            <![CDATA[QQ空间无法正常显示]]>
+        </title>
+        <description>
+            <![CDATA[QQ空间显示异常]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10303_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10304" type="web">
+        <title>
+            <![CDATA[QQ上的空间等按钮点不开]]>
+        </title>
+        <description>
+            <![CDATA[QQ上的空间、邮箱等按钮点不开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10304_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10305" type="web">
+        <title>
+            <![CDATA[快捷方式图标变为异常图标]]>
+        </title>
+        <description>
+            <![CDATA[桌面快捷方式图标变为异常图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10305_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10306" type="web">
+        <title>
+            <![CDATA[打开QQ空间报错，提示“找不到应用程序”]]>
+        </title>
+        <description>
+            <![CDATA[QQ面板上的空间等按钮打不开，打开空间提示报错“找不到应用程序”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10306_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10307" type="web">
+        <title>
+            <![CDATA[打不开网站，提示网站还原错误]]>
+        </title>
+        <description>
+            <![CDATA[网站打不开，一直闪动，直到显示提示无法使您返回到xxx，Internet Explorer已不再尝试还原此网站]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10307_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10308" type="web">
+        <title>
+            <![CDATA[英雄联盟登录失败]]>
+        </title>
+        <description>
+            <![CDATA[英雄联盟登录失败，英雄联盟无法登陆，登陆后自动退出，打不开游戏界面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10308_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10309" type="web">
+        <title>
+            <![CDATA[PS文件保存时提示“内存不足”]]>
+        </title>
+        <description>
+            <![CDATA[PS文件保存时，提示“暂存磁盘内存不足”，无法保存]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10309_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10310" type="web">
+        <title>
+            <![CDATA[Win7下打不开蓝牙设备]]>
+        </title>
+        <description>
+            <![CDATA[蓝牙驱动正常，但双击任务栏通知区域的蓝牙图标，没有反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10310_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10311" type="web">
+        <title>
+            <![CDATA[WPS的word文档打开乱码]]>
+        </title>
+        <description>
+            <![CDATA[打开WPS的word文档都是乱码]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10311_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10312" type="web">
+        <title>
+            <![CDATA[电脑打印机不能共享]]>
+        </title>
+        <description>
+            <![CDATA[多台电脑无法共享打印机打印文件]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10312_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10313" type="web">
+        <title>
+            <![CDATA[任务栏点击没反应]]>
+        </title>
+        <description>
+            <![CDATA[任务栏假死，点击无反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10313_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10314" type="web">
+        <title>
+            <![CDATA[系统设置电脑的省电模式]]>
+        </title>
+        <description>
+            <![CDATA[电脑功耗过大，导致电脑比较费电]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10314_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10315" type="web">
+        <title>
+            <![CDATA[从开始菜单选择关机时电脑没反应]]>
+        </title>
+        <description>
+            <![CDATA[从开始菜单选择关机的时候，电脑关不了机]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10315_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10316" type="web">
+        <title>
+            <![CDATA[回收站图标消失]]>
+        </title>
+        <description>
+            <![CDATA[桌面的回收站不见了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10316_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10317" type="web">
+        <title>
+            <![CDATA[校园网客户端Inode无法获取IP地址]]>
+        </title>
+        <description>
+            <![CDATA[校园网客户端inode一直显示自动获取IP地址]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10317_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10318" type="web">
+        <title>
+            <![CDATA[鼠标无法唤醒睡眠中的电脑]]>
+        </title>
+        <description>
+            <![CDATA[点击鼠标无法唤醒睡眠中的电脑]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10318_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10319" type="web">
+        <title>
+            <![CDATA[桌面快捷方式变成了相同的图标]]>
+        </title>
+        <description>
+            <![CDATA[桌面快捷方式变成了相同的图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10319_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10320" type="web">
+        <title>
+            <![CDATA[新建账户后Administrator账户消失]]>
+        </title>
+        <description>
+            <![CDATA[新建账户后登录，不再出现Administrator管理员的登录界面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10320_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10321" type="web">
+        <title>
+            <![CDATA[win8点击超级链接没有反应]]>
+        </title>
+        <description>
+            <![CDATA[win8没有设置默认应用程序，导致系统无法正常调用系统程序]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10321_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10322" type="web">
+        <title>
+            <![CDATA[鼠标移动速度过快]]>
+        </title>
+        <description>
+            <![CDATA[调节鼠标的移动速度]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10322_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10323" type="web">
+        <title>
+            <![CDATA[系统任务栏右下角图标消失]]>
+        </title>
+        <description>
+            <![CDATA[系统任务栏右侧系统图标消失]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10323_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10324" type="web">
+        <title>
+            <![CDATA[磁盘管理打不开]]>
+        </title>
+        <description>
+            <![CDATA[1.磁盘管理图标不见了；
+2.磁盘管理打不开，提示出错或无法链接
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10324_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10325" type="web">
+        <title>
+            <![CDATA[恢复系统默认字体]]>
+        </title>
+        <description>
+            <![CDATA[系统字体模糊，网页字体异常]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10325_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10326" type="web">
+        <title>
+            <![CDATA[网页字体乱码]]>
+        </title>
+        <description>
+            <![CDATA[网页字体乱码，网页字体变成非中文语言]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10326_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10327" type="web">
+        <title>
+            <![CDATA[删除系统自带输入法]]>
+        </title>
+        <description>
+            <![CDATA[存在多余的输入法，经常要频繁的切换输入法]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10327_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10328" type="web">
+        <title>
+            <![CDATA[打开IE时弹出不是默认的浏览器]]>
+        </title>
+        <description>
+            <![CDATA[打开桌面的IE浏览器时，提示：“internet explorer目前不是默认的浏览器，是否将其设为默认浏览器”
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10328_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10329" type="web">
+        <title>
+            <![CDATA[鼠标右键被锁定了]]>
+        </title>
+        <description>
+            <![CDATA[鼠标右击键被定了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10329_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10330" type="web">
+        <title>
+            <![CDATA[禁止网站打开我的摄像头和麦克风]]>
+        </title>
+        <description>
+            <![CDATA[网页会自动打开摄像头或麦克风]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10330_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10331" type="web">
+        <title>
+            <![CDATA[本地连接图标消失]]>
+        </title>
+        <description>
+            <![CDATA[在网络连接列表中没有本地连接图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10331_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10332" type="web">
+        <title>
+            <![CDATA[开机后默认输入法设置]]>
+        </title>
+        <description>
+            <![CDATA[开机后需要切换输入法后才能输入英文]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10332_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10333" type="web">
+        <title>
+            <![CDATA[IE浏览器报错，提示未找到任何密钥]]>
+        </title>
+        <description>
+            <![CDATA[运行IE浏览器，弹出"在活动的激活上下文中没有找到任何秘钥"报错]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10333_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10334" type="web">
+        <title>
+            <![CDATA[Windows驱动器未就绪]]>
+        </title>
+        <description>
+            <![CDATA[系统启动时，提示驱动未就绪]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10334_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10335" type="web">
+        <title>
+            <![CDATA[无法使用QQ账号登陆相关网站]]>
+        </title>
+        <description>
+            <![CDATA[无法使用快速登录、打开快速登陆只显示普通登陆页面、登录时出现错误页面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10335_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10336" type="web">
+        <title>
+            <![CDATA[QQ农场玩不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ农场玩不了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10336_detail.html]]>
+        </url>
+    </problem>
+
+
+
+    <problem id="10338" type="web">
+        <title>
+            <![CDATA[C++?Runtime?Library错误]]>
+        </title>
+        <description>
+            <![CDATA[运行软件提示Runtime error(Pure virtual function call)]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10338_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10339" type="web">
+        <title>
+            <![CDATA[安装迅雷后无法使用浏览器自带下载系统]]>
+        </title>
+        <description>
+            <![CDATA[安装完迅雷后，无法使用浏览器自带的下载系统下载东西。对于有防盗链的网站，必须使用浏览器自带的软件下载，造成无法下载 的状况]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10339_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10340" type="web">
+        <title>
+            <![CDATA[酷狗打不开]]>
+        </title>
+        <description>
+            <![CDATA[酷狗打不开，出现错误提示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10340_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10341" type="web">
+        <title>
+            <![CDATA[音频服务未运行]]>
+        </title>
+        <description>
+            <![CDATA[电脑没有声音，桌面右下角音量小喇叭消失,音量小喇叭显示红色X号]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10341_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10342" type="web">
+        <title>
+            <![CDATA[PPS打不开]]>
+        </title>
+        <description>
+            <![CDATA[PPS软件打不开，播放不了本地视频]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10342_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10343" type="web">
+        <title>
+            <![CDATA[快播打不开]]>
+        </title>
+        <description>
+            <![CDATA[快播安装后无法打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10343_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10344" type="web">
+        <title>
+            <![CDATA[搜狗浏览器打不开]]>
+        </title>
+        <description>
+            <![CDATA[搜狗浏览器无法打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10344_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10345" type="web">
+        <title>
+            <![CDATA[自动弹出网页]]>
+        </title>
+        <description>
+            <![CDATA[电脑自动弹出网页,浏览网页时无故自动弹出广告或恶意页面。]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10345_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10346" type="web">
+        <title>
+            <![CDATA[QQ钱包打不开]]>
+        </title>
+        <description>
+            <![CDATA[打开QQ钱包提示该页面暂时无法显示]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10346_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10347" type="web">
+        <title>
+            <![CDATA[Windows副本不是正版]]>
+        </title>
+        <description>
+            <![CDATA[桌面背景变黑，右下角提示“Windows7内部版本7600 此Windows副本不是正版”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10347_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10348" type="web">
+        <title>
+            <![CDATA[缺少或丢失xinput1_3.dll]]>
+        </title>
+        <description>
+            <![CDATA[启动“极品飞车”，“孤岛危机”等大型3D游戏时，系统弹出对话框提示“缺少或丢失xinput1_3.dll”，导致游戏无法启动]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10348_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10349" type="web">
+        <title>
+            <![CDATA[Windows 7 右下角出现"显示驱动程序停止响应，并已恢复"错误]]>
+        </title>
+        <description>
+            <![CDATA[上网，看视频，游戏时突然屏幕变黑，几秒后又恢复正常，右下角提示“显示器驱动程序已停止响应，并且已恢复”。 ]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10349_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10350" type="web">
+        <title>
+            <![CDATA[12306抢票攻略]]>
+        </title>
+        <description>
+            <![CDATA[12306网站卡壳、无法登录，一票难求
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10350_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10351" type="web">
+        <title>
+            <![CDATA[WIN7开启虚拟无线攻略]]>
+        </title>
+        <description>
+            <![CDATA[未开启虚拟无线功能]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10351_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10352" type="web">
+        <title>
+            <![CDATA[打开网页提示“502 Bad Gateway”]]>
+        </title>
+        <description>
+            <![CDATA[打开网页显示“502 Bad Gateway 错误”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10352_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10353" type="web">
+        <title>
+            <![CDATA[4399小游戏打不开]]>
+        </title>
+        <description>
+            <![CDATA[打开4399小游戏，游戏框内黑屏、白屏、进入不了游戏画面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10353_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10354" type="web">
+        <title>
+            <![CDATA[Windows 7 右下角出现"显示驱动程序停止响应，并已恢复"错误]]>
+        </title>
+        <description>
+            <![CDATA[上网，看视频，游戏时突然屏幕变黑，几秒后又恢复正常，右下角提示“显示器驱动程序已停止响应，并且已恢复”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10354_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10355" type="web">
+        <title>
+            <![CDATA[打开软件界面显示乱码]]>
+        </title>
+        <description>
+            <![CDATA[运行软件界面显示乱码]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10355_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10356" type="web">
+        <title>
+            <![CDATA[IE打不开]]>
+        </title>
+        <description>
+            <![CDATA[IE浏览器无法打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10356_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10357" type="web">
+        <title>
+            <![CDATA[IE无法定位动态链接库]]>
+        </title>
+        <description>
+            <![CDATA[IE无法定位动态链接库]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10357_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10358" type="web">
+        <title>
+            <![CDATA[QQ牧场玩不了]]>
+        </title>
+        <description>
+            <![CDATA[QQ牧场玩不了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10358_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10359" type="web">
+        <title>
+            <![CDATA[电脑没有声音]]>
+        </title>
+        <description>
+            <![CDATA[电脑没有声音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10359_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10360" type="web">
+        <title>
+            <![CDATA[丢失d3dx**.dll]]>
+        </title>
+        <description>
+            <![CDATA[丢失d3dx**.dll]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10360_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10361" type="web">
+        <title>
+            <![CDATA[能上QQ打不开网页]]>
+        </title>
+        <description>
+            <![CDATA[能上QQ打不开网页]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10361_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10362" type="web">
+        <title>
+            <![CDATA[上网慢]]>
+        </title>
+        <description>
+            <![CDATA[上网速度很慢]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10362_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10363" type="web">
+        <title>
+            <![CDATA[腾讯视频在网页上看不了]]>
+        </title>
+        <description>
+            <![CDATA[腾讯视频在网页上看不了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10363_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10364" type="web">
+        <title>
+            <![CDATA[网络视频看不了]]>
+        </title>
+        <description>
+            <![CDATA[网络视频看不了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10364_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10365" type="web">
+        <title>
+            <![CDATA[网页游戏玩不了]]>
+        </title>
+        <description>
+            <![CDATA[网页游戏玩不了]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10365_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10366" type="web">
+        <title>
+            <![CDATA[显示桌面消失]]>
+        </title>
+        <description>
+            <![CDATA[显示桌面消失]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10366_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10367" type="web">
+        <title>
+            <![CDATA[音量小喇叭图标消失]]>
+        </title>
+        <description>
+            <![CDATA[音量小喇叭图标消失]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10367_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10368" type="web">
+        <title>
+            <![CDATA[桌面图标有蓝色阴影]]>
+        </title>
+        <description>
+            <![CDATA[桌面图标有蓝色阴影]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10368_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10369" type="web">
+        <title>
+            <![CDATA[丢失VC++组件]]>
+        </title>
+        <description>
+            <![CDATA[丢失VC++组件]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10369_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10370" type="web">
+        <title>
+            <![CDATA[开机不显示桌面图标和任务栏]]>
+        </title>
+        <description>
+            <![CDATA[开机进入桌面后，弹出报错Microsoft Visual C++ Runtime Library ，提示”Buffer overrun detected！ Program：C：\WINDOWS\explorer.exe  A buffer overrun has been detected which has corrupted the program’ s internal state. The program cannot safely continue execution and must now be terminated”   桌面不显示图标和任务栏，无法操作电脑]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10370_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10371" type="web">
+        <title>
+            <![CDATA[Win 7 没有自带摄像头图标]]>
+        </title>
+        <description>
+            <![CDATA[带摄像头的win 7 电脑在计算机列表里没有摄像头图标，不像xp在我的电脑里面有个摄像头图标可以打开摄像头进行照相或录制视频]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10371_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10372" type="web">
+        <title>
+            <![CDATA[百度打不开]]>
+        </title>
+        <description>
+            <![CDATA[百度网站打不开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10372_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10373" type="web">
+        <title>
+            <![CDATA[桌面图标太大或太小]]>
+        </title>
+        <description>
+            <![CDATA[桌面图标太大或太小]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10373_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10374" type="web">
+        <title>
+            <![CDATA[剑灵崩溃]]>
+        </title>
+        <description>
+            <![CDATA[剑灵崩溃]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10374_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10375" type="web">
+        <title>
+            <![CDATA[google打不开]]>
+        </title>
+        <description>
+            <![CDATA[google打不开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10375_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10376" type="web">
+        <title>
+            <![CDATA[任务栏不显示时间]]>
+        </title>
+        <description>
+            <![CDATA[任务栏不显示时间]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10376_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10377" type="web">
+        <title>
+            <![CDATA[桌面不显示图标]]>
+        </title>
+        <description>
+            <![CDATA[桌面不显示图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10377_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10378" type="web">
+        <title>
+            <![CDATA[开关机没有声音]]>
+        </title>
+        <description>
+            <![CDATA[开关机没有声音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10378_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10379" type="web">
+        <title>
+            <![CDATA[看视频上下分屏]]>
+        </title>
+        <description>
+            <![CDATA[看视频上下分屏]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10379_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10380" type="web">
+        <title>
+            <![CDATA[添加删除程序打不开]]>
+        </title>
+        <description>
+            <![CDATA[添加删除程序打不开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10380_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10381" type="web">
+        <title>
+            <![CDATA[硬件检测]]>
+        </title>
+        <description>
+            <![CDATA[用户未知自身机器的性能]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10381_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10382" type="web">
+        <title>
+            <![CDATA["网络连接"图标消失]]>
+        </title>
+        <description>
+            <![CDATA[宽带链接图标消失，需要重新建立宽带链接图标]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10382_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10383" type="web">
+        <title>
+            <![CDATA[QQ聊天时间显示不正确]]>
+        </title>
+        <description>
+            <![CDATA[QQ聊天时间显示不正确]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10383_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10384" type="web">
+        <title>
+            <![CDATA[音量小喇叭图标消失]]>
+        </title>
+        <description>
+            <![CDATA[音量小喇叭图标消失
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10384_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10385" type="web">
+        <title>
+            <![CDATA[12306证书安装失败]]>
+        </title>
+        <description>
+            <![CDATA[安装证书时，提示“无响应”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10385_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10386" type="web">
+        <title>
+            <![CDATA[Windows 8 更改密钥]]>
+        </title>
+        <description>
+            <![CDATA[密钥过期，需要更新密钥激活系统]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10386_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10387" type="web">
+        <title>
+            <![CDATA[Windows 8 如何关机]]>
+        </title>
+        <description>
+            <![CDATA[windows 8系统找不到关机按钮]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10387_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10388" type="web">
+        <title>
+            <![CDATA[Windows 8 调节屏幕亮度]]>
+        </title>
+        <description>
+            <![CDATA[找不到windows 8 亮度调节程序]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10388_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10389" type="web">
+        <title>
+            <![CDATA[Windows 8 找不到开始菜单]]>
+        </title>
+        <description>
+            <![CDATA[Windows 8 找不到开始菜单]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10389_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10390" type="web">
+        <title>
+            <![CDATA[Windows 8 应用软件固定到任务栏]]>
+        </title>
+        <description>
+            <![CDATA[在win8系统中，将应用程序快捷方式固定到任务栏]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10390_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10391" type="web">
+        <title>
+            <![CDATA[Windows 8 创建传统开始菜单]]>
+        </title>
+        <description>
+            <![CDATA[win8系统没有传统开始菜单按钮]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10391_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10392" type="web">
+        <title>
+            <![CDATA[Windows 8 设置系统还原点]]>
+        </title>
+        <description>
+            <![CDATA[找不到win8系统还原点位置]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10392_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10393" type="web">
+        <title>
+            <![CDATA[Windows 8 开机不能直接进入桌面]]>
+        </title>
+        <description>
+            <![CDATA[开启win8系统后每次都从开始界面进入桌面]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10393_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10394" type="web">
+        <title>
+            <![CDATA[Windows 8 安装虚拟打印机]]>
+        </title>
+        <description>
+            <![CDATA[windows 8 系统未安装虚拟打印机]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10394_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10395" type="web">
+        <title>
+            <![CDATA[Windows 8 应用商店无法链接到网络]]>
+        </title>
+        <description>
+            <![CDATA[点击应用商店无法链接到网络]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10395_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10396" type="web">
+        <title>
+            <![CDATA[Windows 8 如何找到运行]]>
+        </title>
+        <description>
+            <![CDATA[windows 8 找不到运行按钮]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10396_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10397" type="web">
+        <title>
+            <![CDATA[Windows 8 系统共享打印机]]>
+        </title>
+        <description>
+            <![CDATA[多台电脑共用一台打印机，对打印机进行共享使用]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10397_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10398" type="web">
+        <title>
+            <![CDATA[Windows 8 应用商店无法安装应用]]>
+        </title>
+        <description>
+            <![CDATA[Windows 8 应用商店无法安装应用]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10398_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10399" type="web">
+        <title>
+            <![CDATA[Windows 8 软件卸载]]>
+        </title>
+        <description>
+            <![CDATA[找不到win8 卸载软件方式]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10399_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10400" type="web">
+        <title>
+            <![CDATA[metro界面无应用商店]]>
+        </title>
+        <description>
+            <![CDATA[Metro界面，开始屏幕中和所有应用界面里，也找不到“应用商店”]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10400_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10401" type="web">
+        <title>
+            <![CDATA[安装windows 8系统]]>
+        </title>
+        <description>
+            <![CDATA[安装windows 8系统]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10401_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10402" type="web">
+        <title>
+            <![CDATA[应用商店无法下载]]>
+        </title>
+        <description>
+            <![CDATA[在Win8的应用商店中无法下载或安装程序的时候会弹出“无法完成你的购买”这个窗口]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10402_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10403" type="web">
+        <title>
+            <![CDATA[yy打不开]]>
+        </title>
+        <description>
+            <![CDATA[YY语音无法打开]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10403_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10404" type="web">
+        <title>
+            <![CDATA[任务栏变宽或移位]]>
+        </title>
+        <description>
+            <![CDATA[任务栏变宽或移位]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10404_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10405" type="web">
+        <title>
+            <![CDATA[使用U盘备份系统]]>
+        </title>
+        <description>
+            <![CDATA[为防止系统故障，事先将系统备份]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10405_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10406" type="web">
+        <title>
+            <![CDATA[U盘还原备份系统]]>
+        </title>
+        <description>
+            <![CDATA[系统出现不可恢复的故障，或者长时间使用出现卡慢，需要恢复之前备份时的系统状态]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10406_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10407" type="web">
+        <title>
+            <![CDATA[卸载瑞星方式]]>
+        </title>
+        <description>
+            <![CDATA[无法卸载瑞星，卸载瑞星步骤繁琐]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10407_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10408" type="web">
+        <title>
+            <![CDATA[重装IE]]>
+        </title>
+        <description>
+            <![CDATA[IE故障，需要重新安装IE浏览器进行修复]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10408_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10409" type="web">
+        <title>
+            <![CDATA[逆战玩不了]]>
+        </title>
+        <description>
+            <![CDATA[逆战连接服务器超时或玩游戏卡、无法正常显示等
+]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10409_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10410" type="web">
+        <title>
+            <![CDATA[系统漏洞修复]]>
+        </title>
+        <description>
+            <![CDATA[系统存在漏洞，电脑存在风险]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10410_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10411" type="web">
+        <title>
+            <![CDATA[安卓手机连不上电脑]]>
+        </title>
+        <description>
+            <![CDATA[手机链接电脑无反应]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10411_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10412" type="web">
+        <title>
+            <![CDATA[电脑没有声音]]>
+        </title>
+        <description>
+            <![CDATA[电脑玩游戏、播放音乐或看视频时没有声音]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10412_detail.html]]>
+        </url>
+    </problem>
+
+    <problem id="10413" type="web">
+        <title>
+            <![CDATA[经验贴名称（和关联修复点名称一样）]]>
+        </title>
+        <description>
+            <![CDATA[图文的主要症状（经验贴此处配置也不会显示在客户端，此处可用“/”代替）]]>
+        </description>
+        <url>
+            <![CDATA[http://guanjia.qq.com/web_clinic/pictrue_client/10413_detail.html]]>
+        </url>
+    </problem>
+	
+	<problem id="888888" type="local"  IsShow="0" >
+        <title>
+            <![CDATA[QQ音乐功能异常]]>
+        </title>
+        <description>
+            <![CDATA[一键修复QQ音乐问题]]>
+        </description>
+        <cause>
+            <![CDATA[1、QQ音乐程序重要组件丢失或损坏]]>
+        </cause>
+        <attention>
+            <![CDATA[修复此项可能会关闭QQ音乐。]]>
+        </attention>
+    </problem>
+
+</problemes>

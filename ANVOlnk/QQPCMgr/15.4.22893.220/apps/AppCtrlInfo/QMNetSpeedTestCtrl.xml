@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="DC11C4EE-A210-46f6-BB15-EDE2B6E3F6D5" appname="QMNetSpeedTest" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="14F28550-E69A-4CAE-99AE-D5948F944A43" path="https://s.pc.qq.com/pcmgr/logo/v15/QMNetSpeedTest.svg" md5="971aabcbffe724956637a5af5a2c2e61" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCRealTimeSpeedup.exe" param="SpeedUpExe-[startSpeedTest:ToolsBox]" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

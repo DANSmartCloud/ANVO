@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Setting>
+	<Info UseCloudData="1" TimerAuto="1" TimerInterval="2" WhiteBtn="0" ShowPageCnt="3"/>
+	<!--
+	AniPath/FrameCount目前仅对Index=0的场景有效
+	-->
+	<Item Index="0" Show="1" ShowDefault="0" AniPath="" FrameCount="0" BtnText="开启保护" Url="" ExeName="QMPersonalCenter.exe" ExeCmd="wndtype=7;url=;js="/>
+	<Item Index="1" Show="1" ShowDefault="0" AniPath="" FrameCount="0" BtnText="立即登录" Url="" ExeName="qqpctray.exe" ExeCmd="/pcmgr /pullLogin personalcenter=&quot;web=getClientFn(&quot;gift&quot;)&type=weixin&quot;"/>
+	<Item Index="2" Show="0" ShowDefault="0" AniPath="" FrameCount="0" BtnText="" Url="" ExeName="" ExeCmd="" />
+</Setting>

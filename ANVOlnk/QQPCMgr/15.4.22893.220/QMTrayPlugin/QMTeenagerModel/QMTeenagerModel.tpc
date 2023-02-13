@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+
+<plugin name="QMTeenagerModel" version="1.0">
+	<info />
+</plugin>
+
+  <file-systems>
+    <file-system name="@thisbundle:" path="QMTeenagerModel" />
+    <file-system name="@thisxtml:" path="@thisbundle:Xtml" />
+    <file-system name="@thisres:" path="@thisbundle:res" />
+  </file-systems>
+
+<core-config />
+
+  <gf-config>
+        <configs>
+              <config file="@thisres:config\\config.xml"/>
+        </configs>
+  </gf-config>
+  <i18n-config  path="@thisbundle:">
+    <locale id="2052" />
+     <StringBundle>
+      <configfile name="StringBundle.xml" />      
+     </StringBundle>
+  </i18n-config>
+</tpc>

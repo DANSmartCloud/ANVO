@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="CACE3E4E-EE63-4595-A236-5DE89246076F" appname="QMStartMenu" version="2.0.117.130" enable="3" forcedownload="0" forceinstall="0" supportsys="001100000000">
+		<icon clsid="4B2C3418-4B7F-4133-B95B-57646B6B98C3" path="https://s.pc.qq.com/pcmgr/logo/v15/QMStartMenu.svg" md5="e5ba53da95046d724a8068b9a559d1e5" />
+		<url pkgtype="0" path="http://pc2.gtimg.com/softmgr/file/gameup/QMStart_2_0_117_130.exe" param="/S" md5="fd8849f9d3d67374d41062866c142209" />
+		<install pathtype="1" path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QMStart|InstallDir" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QMStart|Version">
+			<run file="QMStartMenuHost.exe" param="/StartFrom=Shortcut" />
+			<uninstall file="Uninst.exe" param="/S" />
+		</install>
+	</App>
+</Apps>

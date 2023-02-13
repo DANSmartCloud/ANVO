@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="779997B7-BA62-414d-B15D-F36B37E3D883" appname="SysStartupMgrJmp" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="9EC4BBD9-47EF-4F42-AA5C-CB54B99F38FF" path="https://s.pc.qq.com/pcmgr/logo/v15/SysStartupMgrJmp.svg" md5="5e792927524f792e86bfdef644da4a23" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCMgr.exe" param="/TAB_SYSSTARTUP" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

@@ -1,0 +1,18 @@
+<Apps>
+	<App appname="QMBrowse" clsid="F710AD66-60B9-41d3-B6EC-0E54CCB65984" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111" version="1.0.0">
+		<icon clsid="5B933538-1B0C-44F4-BFD0-D3982B777FC9" md5="a3c47b1795bd8e3af22285c825651a6f" path="https://s.pc.qq.com/pcmgr/logo/v15/QMAntiFraud.svg" />
+		<url md5="2bcf0de0266fed1dda86f28bf9a0d444" param="/S" path="https://pm.myapp.com/invc/xfspeed/plugin/Release/QMAntiFraudSetup_15.4.22893.220__1660292108665.exe" pkgtype="0" />
+		<nsi ignore="False" name="QMAntiFraud.nsi" />
+		<install path="" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMAntiFraud|Install" pathtype="1" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMAntiFraud|Version">
+			<run file="..\..\QMBrowser.exe" param="https://s.pcmgr.qq.com/txwz/ appid=1;title=诈骗信息查询;width=706;height=440" />
+			<uninstall file="selfhelp" param="">
+				<item action="kill" path="QMBrowser.exe" />
+				<item action="reg" path="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPCMgrApps\QMBrowser" />
+				<item action="file" path="QMBrowser.dat" />
+                <item action="file" path="QMBrowser.exe" />
+                <item action="file" path="QMBrowser.rdb" />
+				<item action="dir" path="plugins\QMBrowser" />
+			</uninstall>
+		</install>
+	</App>
+</Apps>

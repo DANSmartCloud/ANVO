@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="7C1BEE95-30D9-45A5-B9EA-18779B8452BF" appname="NetMon" version="1.0.0" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="A4C5B801-3D37-4704-9054-CB2AFD8BD8D7" path="https://s.pc.qq.com/pcmgr/logo/v15/NetMon.svg" md5="408a00fa41fc8f7323e2ea082b39b807" />
+		<url pkgtype="0" path="" param="" md5="" />
+		<install pathtype="0" path="..\" pathkey="" verkey="">
+			<run file="QQPCRealTimeSpeedup.exe" param="SpeedUpExe-[showNetMonWnd:ToolsBox]" />
+			<uninstall file="" param="" />
+		</install>
+	</App>
+</Apps>

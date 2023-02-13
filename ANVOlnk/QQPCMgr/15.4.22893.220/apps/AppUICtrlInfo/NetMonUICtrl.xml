@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="流量监控" catalog="3" appclsid="7C1BEE95-30D9-45A5-B9EA-18779B8452BF" appname="NetMon" enable="1" supportsys="1111111111">
+		<icon path="NetMon.svg" />
+		<description>
+			<![CDATA[实时监测网络流量]]>
+		</description>
+		<tip>
+			<![CDATA[实时查看网络流量的使用情况，根据您的设置限制程序访问网络]]>
+		</tip>
+	</App>
+</Apps>

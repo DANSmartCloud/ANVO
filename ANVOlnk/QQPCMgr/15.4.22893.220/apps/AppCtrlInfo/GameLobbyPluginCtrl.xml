@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App clsid="874E9895-6C44-47DE-BF89-01288D22E267" appname="GameLobbyPlugin" version="3.12.2.3" enable="3" forcedownload="0" forceinstall="0" supportsys="1111111111">
+		<icon clsid="F48099F6-B614-4CA1-A0AA-BBCB91E19A15" path="https://s.pc.qq.com/pcmgr/logo/v15/GameLobbyPlugin.svg" md5="c688dfc69057e951c2e6c164ad890098" />
+		<url pkgtype="0" path="http://dlied6.qq.com/invc/xfspeed/plugin/QQGameToolInstall_2001827882.exe" param="/S" md5="a05ff95dc18efae34b33a0acc5183061" />
+		<install pathtype="1" path="..\" pathkey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\QQ游戏|DisplayIcon" verkey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\QQ游戏|DisplayVersion">
+			<run file="QQGame.exe" param="" />
+			<uninstall file="Uninstall.EXE" param="/S" />
+		</install>
+	</App>
+</Apps>

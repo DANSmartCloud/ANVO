@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Apps>
+	<App name="网络连接" catalog="3" appclsid="8B6557DD-A4AF-48d6-B96F-66DB0D485EAF" appname="QMNetConnect" enable="1" supportsys="1111111111">
+		<icon path="QMNetConnect.svg" />
+		<description>
+			<![CDATA[实时查看网络连接情况]]>
+		</description>
+		<tip>
+			<![CDATA[实时查看当前网络连接情况，发现潜在的危险]]>
+		</tip>
+	</App>
+</Apps>
