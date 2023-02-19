@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Software\Rising Sun Solutions, Inc.\Atlantis.1_x\RegInfo]
+"RegCode"="D38D-6AB4-7219-87BC"
+"RegTo"="xxx"
+
+[HKEY_CURRENT_USER\Software\Rising Sun Solutions, Inc.\Atlantis.1_x\Internal]
+"AdviseAtStartUp"=dword:00000000
