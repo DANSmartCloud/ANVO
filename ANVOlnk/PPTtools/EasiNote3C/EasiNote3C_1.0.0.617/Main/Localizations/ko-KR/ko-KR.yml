@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: 한국의
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. 모든 권리가 보유됨.
+
+Yes: 예
+No: 아니요
+Ok: 승인
+Cancel: 취소
+
+AboutUs: 회사 소개
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: 지금 업데이트
+  Login: 로그인 해주세요
+  DownloadLatestVersion: 최신 버전 다운로드
+
+# 通用窗口文字
+Windows:
+  Yes: 예
+  No: 아니요
+  Cancel: 취소
+  Continue: 계속
+  Sure: 확실한
+  OK: 승인
+
+String:
+  Tip: 프롬프트
+  Warning: 경고
+  Save: 저장
+  Reset: 초기화
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: 메뉴
+  Import: 가져오기
+  Save: 저장
+  Minimize: 최소화
+  Help: 도움말
+  AboutUs: 회사 소개
+  ContactUs: Contact Us
+  Exit: 종료
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: 추가
+  #PrePage: 이전
+  #NextPage: 다음
+  #PageNum: 페이지
+  Select: 선택
+  Pen: 펜
+  Palette: 색상표
+  Eraser: 지우개
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: 칠판
+  Undo: 실행 취소
+  Redo: 다시 실행
+  More: 더 보기
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: 공유
+  Mail: 이메일
+  Language: 언어
+  LanguageChangeAfterBoot: 다음에 소프트웨어를 시작하면 적용됩니다
+  LanguageChangeConfirm:
+    Title: 전환 미리 알림
+    Content: "다음 부팅 시 소프트웨어의 언어가 {0}\n로 전환됩니다, 전환하시겠습니까?"
+    BtnYes: 예
+    BtnNo: 아니요
+
+FunctionBar:
+  Clip: 잘라내기
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: 손으로 쓰기
+  Plate: 색상표
+  Stroke: 테두리
+  Fill: 채우기
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: 이미지
+    Ink: 필기
+    Audio: 오디오
+    Video: 비디오
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: 부
+  Cut: 절단
+  Paste: 풀
+  Delete: 지우다
+
+Import:
+  ImageFiles: 이미지 파일
+  VideoFiles: 비디오 파일
+  AudioFiles: 오디오 파일
+  MultiaMediaFiles: 멀티미디어 파일
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: 모든 파일
+
+DisplayingModule:
+  Title: 저장
+  Content: 현재 파일이 저장되지 않았습니다. 저장하시겠습니까?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: 성공적으로 저장되었습니다.
+  FailedAndChooseAnother: 저장하는 데 실패했습니다. 다른 경로를 선택하십시오.
+  FailedAndGiveReason: "저장하는 데 실패했습니다. 이유:"
+  FileSaveFailed: 코스웨어를 저장하는 데 실패했습니다.
+  Exporting: 내보내는 중...
+  Loading: 로드하는 중...
+  Publishing: 게시하는 중입니다. 기다리십시오...
+  PublishFailed: 게시하는 데 실패했습니다. 네트워크 연결이 정상인지 확인하십시오.
+  UnknownErrorWhenOpenFile: "코스웨어를 여는 동안 알 수 없는 오류가 발생했습니다："
+  EmptyTxt: TXT 문서에 내용이 없습니다.
+  FilesImportFailed: {0} 개의 파일을 가져오는 데 실패했습니다.
+  WebPageDeleted: 연결된 페이지가 삭제되었습니다.
+  CheckEasiCamera: Seewo EasiCamera 소프트에어가 설치되었는지 확인하십시오.
+  CanNotSaveFile: 파일을 저장하는 데 실패했습니다.
+  BitmapUnsupport: 이미지가 비트맵 {0} 비트 맵입니다. 이는 현재 투명한 배경을 지원하지 않습니다.
+  NoMorePage: 죄송합니다. 페이지를 추가할 수 없습니다!
+
+ErrorMessage:
+  ProgramCrash: 프로그램이 손상되거나 응답이 감지되지 않습니다. 
+  UnsupportFile: 지원되지 않는 형식이거나 파일을 가져올 수 없습니다.
+  VideoNotExist: 비디오 파일이 없습니다.
+  BadFile: 파일이 손상되어 열 수 없습니다.
+  NoRegReadPower: 레지스터를 읽을 수 있는 권한이 없습니다.
+  RegReadError: 레지스터를 읽는 동안 오류가 발생했습니다.
+  SetupIncomplete: "소프트웨어가 전부 설치되지 않았거나 손상되었습니다. 다시 설치하십시오."\n" 오류 세부 정보："
+
+KliteHelper:
+  DecoderInstalled: 디코더가 성공적으로 설치되었습니다. 이제 오디오와 비디오를 재생할 수 있습니다.
+  DecoderInstallFailed: 디코더를 설치하는 동안 오류가 발생했습니다.
+  DecoderDownloadFailed: 디코더를 다운로드하는 동안 오류가 발생했습니다. 네트워크 연결이 정상인지 확인하십시오.
+  DecoderInstalling: 디코더를 설치하는 중입니다. 기다리십시오...
+  DecoderDownloading: 디코더를 다운로드하는 중입니다. 기다리십시오...
+  BadMediaFile: 파일이 손상되었거나 이 형식의 파일 재생을 지원하지 않습니다.
+  NoDecoder: 이 파일은 재생할 수 없습니다. 시스템에서 디코더를 찾을 수 없습니다.
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: 살짝 밀어 필기를 지우십시오.
+  #FingerOutToClean: 손을 떼어 필기를 지우십시오.
+  #EraserPoint: 점 지우개
+  #EraserCircle: 원 지우개
+
+PenSelectContent:
+  PenHard: 하드 브러시
+  PenPaint: 브로드 브러시
+  PenSoft: 소프트 브러시
+
+AboutDialog:
+  CloseAndUpdate: 업데이트를 위해 소프트웨어를 닫습니다. 업데이트하시겠습니까?
+  Title: 업데이트
+  CheckingUpdate: 새 버전을 확인하는 중...
+  CanNotConnectServers: 서버에 연결할 수 없습니다.
+  CurrentIsNewest: 현재 버전이 최신 버전입니다.
+  Downloading: 다운로드하는 중...
+  Ready: 준비
+  UpdateProgramBootUpFailed: 업데이트 프로그램을 시작하는 동안 문제가 발생했습니다. 나중에 다시 시도하십시오.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: 유사한 색을 투명하게 만들려면 이미지 배경을 끄십시오.
+  DragImageAndChangeDisplay: 이미지의 표시 범위를 조정하려면 테두리를 끄십시오.
+  TooSmallToOperate: 이미지의 현재 크기가 너무 작습니다. 이미지를 확대하고 다시 시도하십시오.
+  MemoryNotEnoughForTransparentBackground: 투명한 배경을 지원할 메모리가 부족합니다.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: 사운드 장치에 문제가 발생했기 때문에 파일을 재생할 수 없습니다.
+  Play: 재생
+  Pause: 일시 중지
+
+InnerBoard:
+  Tip: 2개의 손가락을 사용하여 캔버스를 이동하거나 확대/축소합니다.
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: 복제
+  # Delete: 삭제
+  # ColorDisk: 색상표
+  # Cut: 잘라내기
+
+MailSender:
+  BasicDialog:
+    DialogTitle: 이메일 보내기
+    Mail:
+      Title: "제목:"
+      Recipients: "받는 사람:"
+      Content: "목차:"
+      ContentHint: 모임 메모
+    BtnSend: 보내기
+    Notification:
+      RecipientsEmpty: “보낸 사람” 정보는 비워둘 수 없습니다.
+      RecipientsFormatWrong: 잘못된 형식입니다. 다음을 확인하십시오.
+      ServerSettingChanged: 서버 설정이 변경되었습니다, 당신은 저장하려면?
+  AdvancedDialog:
+    DialogTitle: “보낸 사람” 설정
+    NeedSecureConnection: " "이 서버는 보안 연결이 필요합니다.
+    Setting:
+      SMTP: "보내는 서버:"
+      Port: "포트 번호:"
+      UserName: "계정 이름:"
+      Password: "비밀번호:"
+  SendMailDialog:
+    DialogTitle: 이메일 보내기
+    Status:
+      Sending: 보내는 중
+      Failed: 보내는 데 실패했습니다.
+      Succeed: 성공적으로 보냈습니다.
+    BtnCancel: 취소
+    BtnRetry: 다시 보내기
+    BtnGoBack: 다시 편집
+
+LangSwitch:
+  Title: 전환 미리 알림
+  BtnSwitch: Switch

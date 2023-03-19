@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: 日本語
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE.All rights reserved.
+
+Yes: はい
+No: いいえ
+Ok: はい
+Cancel: 取消
+
+AboutUs: 私たちに関しては
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: 今すぐアップデート
+  Login: ログインしてください
+  DownloadLatestVersion: 最新バージョンをダウンロード
+
+# 通用窗口文字
+Windows:
+  Yes: はい
+  No: いいえ
+  Cancel: 取消
+  Continue: 継続
+  Sure: 確かに
+  OK: はい
+
+String:
+  Tip: プロンプト
+  Warning: 警告
+  Save: 保存
+  Reset: リセット
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: メニュー
+  Import: インポート
+  Save: 保存
+  Minimize: 最小化
+  Help: ヘルプ
+  AboutUs: 情報
+  ContactUs: Contact Us
+  Exit: 退出
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: 追加
+  #PrePage: 前へ
+  #NextPage: 次へ
+  #PageNum: ページ
+  Select: 選択
+  Pen: ペン
+  Palette: パレット
+  Eraser: 消しゴム
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: ボード
+  Undo: 元に戻す
+  Redo: やり直し
+  More: さらに
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: 共有
+  Mail: メール
+  Language: 言語
+  LanguageChangeAfterBoot: 次回のソフトウェア起動時に有効になります
+  LanguageChangeConfirm:
+    Title: リマインダー切換
+    Content: "次回起動時のソフトウェア言語を {0}\nに切り換えます, 言語を切り換えますか？"
+    BtnYes: はい
+    BtnNo: いいえ
+
+FunctionBar:
+  Clip: クリップ
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: 手描き
+  Plate: パレット
+  Stroke: 境界線
+  Fill: 塗りつぶし
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: 画像
+    Ink: 筆跡
+    Audio: 音声
+    Video: 動画
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: コピー
+  Cut: カット
+  Paste: ペースト
+  Delete: 削除
+
+Import:
+  ImageFiles: 画像ファイル
+  VideoFiles: 動画ファイル
+  AudioFiles: 音声ファイル
+  MultiaMediaFiles: マルチメディアファイル
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: すべてのファイル
+
+DisplayingModule:
+  Title: 保存
+  Content: 現在のファイルは保存されていません。保存しますか？
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: 保存に成功しました。
+  FailedAndChooseAnother: 保存に失敗しました。別のパスを選択してください。
+  FailedAndGiveReason: 保存に失敗しました。理由：
+  FileSaveFailed: コースウェアの保存に失敗しました。
+  Exporting: エクスポート中……
+  Loading: ロード中……
+  Publishing: 公開中です。しばらくお待ちください……
+  PublishFailed: 公開に失敗しました。ネットワーク接続が正常であるか確認してください。
+  UnknownErrorWhenOpenFile: "コースウェアを開く際に不明なエラーが発生しました："
+  EmptyTxt: TXTドキュメントにコンテンツがありません。
+  FilesImportFailed: {0} 件のファイルのインポートに失敗しました。
+  WebPageDeleted: リンクされているページが削除されています。
+  CheckEasiCamera: Seewo EasiCameraがインストールされているか確認してください。
+  CanNotSaveFile: ファイルの保存に失敗しました。
+  BitmapUnsupport: あなたの画像は 現在、背景透明化は{0}ビットマップ画像に対応していません。
+  NoMorePage: ページを追加することができません。
+
+ErrorMessage:
+  ProgramCrash: プログラムがクラッシュしたか、反応がありません。 
+  UnsupportFile: 対応していないタイプのファイルはインポートできません。
+  VideoNotExist: 動画ファイルが存在していません。
+  BadFile: ファイルが損傷しています。開くことができません。
+  NoRegReadPower: レジスタを読み取る権限がありません。
+  RegReadError: レジスタ読み取り中にエラーが発生しました。
+  SetupIncomplete: "ソフトウェアが完全にインストールされていないか、損傷しています。もう一度インストールしてください。"\n"エラー詳細："
+
+KliteHelper:
+  DecoderInstalled: デコーダのインストールに成功しました。音声・動画を再生することができます。
+  DecoderInstallFailed: デコーダのインストール中にエラーが発生しました。
+  DecoderDownloadFailed: デコーダのダウンロード中にエラーが発生しました。ネットワーク接続が正常であるか確認してください。
+  DecoderInstalling: デコーダをインストールしています。しばらくお待ちください……
+  DecoderDownloading: デコーダをダウンロードしています。しばらくお待ちください……
+  BadMediaFile: ファイルが損傷しているか、このフォーマットのファイルに対応していません。
+  NoDecoder: ファイルを再生できません。システム内でデコーダが検出されません。
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: スワイプで筆跡をクリア
+  #FingerOutToClean: 離すと筆跡をクリア
+  #EraserPoint: 点消しゴム
+  #EraserCircle: 円消しゴム
+
+PenSelectContent:
+  PenHard: ハードブラシ
+  PenPaint: 平筆
+  PenSoft: ソフトブラシ
+
+AboutDialog:
+  CloseAndUpdate: アップデートのため、ソフトウェアを終了します。アップデートしますか？
+  Title: アップデート
+  CheckingUpdate: 新しいバージョンを確認しています……
+  CanNotConnectServers: サーバーに接続できません。
+  CurrentIsNewest: 現在のバージョンが最新です。
+  Downloading: ダウンロード中……
+  Ready: 準備
+  UpdateProgramBootUpFailed: アップデートプログラムの起動中に問題が発生しました。もう一度お試しください。
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: 画像背景をドラッグし、類似の色を透明化します。
+  DragImageAndChangeDisplay: 境界線をドラッグし、画像ファイルの表示範囲を調整します。
+  TooSmallToOperate: 画像の現在のサイズが小さすぎます。 画像を拡大してもう一度やり直してください。
+  MemoryNotEnoughForTransparentBackground: 透明な背景をサポートするメモリが不足しています。
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: 音声デバイスに問題が発生したため、ファイルを再生できません。
+  Play: 再生
+  Pause: 停止
+
+InnerBoard:
+  Tip: 2本の指でキャンバスを移動/拡大できます。
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: クローン
+  # Delete: 削除
+  # ColorDisk: パレット
+  # Cut: クリップ
+
+MailSender:
+  BasicDialog:
+    DialogTitle: メール送信
+    Mail:
+      Title: "件名:"
+      Recipients: "宛先:"
+      Content: "本文:"
+      ContentHint: ミーティングメモ
+    BtnSend: 送信
+    Notification:
+      RecipientsEmpty: 「送信者」情報は空欄にできません。
+      RecipientsFormatWrong: 不正なフォーマットです。確認してください。
+      ServerSettingChanged: サーバーの設定が変更されている、あなたが保存したいですか？
+  AdvancedDialog:
+    DialogTitle: 「送信者」設定
+    NeedSecureConnection: " "このサーバーは安全接続を要求しています。
+    Setting:
+      SMTP: "送信サーバー:"
+      Port: "ポート番号:"
+      UserName: "アカウント名:"
+      Password: "パスワード:"
+  SendMailDialog:
+    DialogTitle: メール送信
+    Status:
+      Sending: 送信中
+      Failed: 送信に失敗しました。
+      Succeed: 送信成功
+    BtnCancel: 取消
+    BtnRetry: 再送信
+    BtnGoBack: 再編集
+
+LangSwitch:
+  Title: リマインダー切換
+  BtnSwitch: Switch

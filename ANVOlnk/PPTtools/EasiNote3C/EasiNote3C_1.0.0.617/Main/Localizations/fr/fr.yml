@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: Français
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. Tous droits réservés.
+
+Yes: Oui
+No: Non
+Ok: D'accord
+Cancel: Annuler
+
+AboutUs: À propos de nous
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Mettre à jour maintenant
+  Login: Veuillez vous connecter
+  DownloadLatestVersion: Télécharger la dernière version
+
+# 通用窗口文字
+Windows:
+  Yes: Oui
+  No: Non
+  Cancel: Annuler
+  Continue: Continuer
+  Sure: Sûr
+  OK: D'accord
+
+String:
+  Tip: Commande
+  Warning: Avertissement
+  Save: Enregistrer
+  Reset: Réinitialiser
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: Menu
+  Import: Importer
+  Save: Enregistrer
+  Minimize: Réduire
+  Help: Aide
+  AboutUs: À propos de nous
+  ContactUs: Contact Us
+  Exit: Quitter
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: Ajouter
+  #PrePage: Précédent(e) 
+  #NextPage: Suivant(e)
+  #PageNum: Page
+  Select: Sélectionnez
+  Pen: Stylet
+  Palette: Palette
+  Eraser: Gomme
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Tableau d'écriture
+  Undo: Annuler
+  Redo: Refaire
+  More: Suite
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: Partager
+  Mail: Email
+  Language: Langue
+  LanguageChangeAfterBoot: Prendra effet au prochain lancement du logiciel
+  LanguageChangeConfirm:
+    Title: Rappel de changement
+    Content: "La langue du logiciel va être modifiée en {0} lors du\nprochain redémarrage, Êtes-vous sûr(e) de vouloir changer?"
+    BtnYes: Oui
+    BtnNo: Non
+
+FunctionBar:
+  Clip: Agrafe
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Écriture manuelle
+  Plate: Palette
+  Stroke: Bord
+  Fill: Remplissage
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Image
+    Ink: Écriture manuelle
+    Audio: Audio
+    Video: Vidéo
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+Import:
+  ImageFiles: Fichier image
+  VideoFiles: Fichier vidéo
+  AudioFiles: Fichier audio
+  MultiaMediaFiles: Fichier multimédia
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: Tous les fichiers
+
+BoardEditContextMenu:
+  Copy: Copie
+  Cut: Couper
+  Paste: Coller
+  Delete: Effacer
+
+DisplayingModule:
+  Title: Enregistrer
+  Content: Le fichier actuel n'est pas enregistré. Voulez vous enregistrer?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Enregistrement réussi.
+  FailedAndChooseAnother: Échec d'enregistrement. Veuillez sélectionner un autre chemin.
+  FailedAndGiveReason: "Échec d'enregistrement. Raison:"
+  FileSaveFailed: Échec d'enregistrement du didacticiel
+  Exporting: Exportation en cours...
+  Loading: Chargement en cours...
+  Publishing: Édition en cours, veuillez patienter.....
+  PublishFailed: Impossible de publier. Veuillez vous assurer que la connexion réseau est normale
+  UnknownErrorWhenOpenFile: "Une erreur inconnue s'est produite durant l'ouverture du didacticiel:"
+  EmptyTxt: Le document TXT n'a pas de contenu
+  FilesImportFailed: {0} de fichiers importés avec échec
+  WebPageDeleted: La page liée a été supprimée
+  CheckEasiCamera: Veuillez vérifier que le logiciel de Seewo EasiCamera est bien installé
+  CanNotSaveFile: Échec d'enregistrement du fichier.
+  BitmapUnsupport: Votre image est une {0}-bit map et ne prend actuellement pas en charge l'arrière-plan transparent.
+  NoMorePage: Désolé, vous ne pouvez pas ajouter d'autres pages!
+
+ErrorMessage:
+  ProgramCrash: Plantage de programme ou aucune réponse détectée 
+  UnsupportFile: Les types de fichiers non pris en charge ne peuvent pas être importés
+  VideoNotExist: Le fichier de vidéo n'existe pas.
+  BadFile: Le fichier est endommagé et ne peut pas être ouvert
+  NoRegReadPower: Vous n'êtes pas autorisé(e) à consulter le registre
+  RegReadError: Erreur de lecture du registre!
+  SetupIncomplete: "Le logiciel n'est pas totalement installé ou est endommagé, veuillez l'installer à nouveau."\n" Détails d'erreur:"
+
+KliteHelper:
+  DecoderInstalled: Le décodeur a été installé avec succès. Vous pouvez à présent écouter des pistes audio et vidéo.
+  DecoderInstallFailed: Erreur lors de l'installation du décodeur
+  DecoderDownloadFailed: Erreur lors du téléchargement du décodeur. Veuillez vous assurer que la connexion réseau est normale
+  DecoderInstalling: Installation du décodeur en cours, veuillez patienter...
+  DecoderDownloading: Téléchargement du décodeur en cours, veuillez patienter...
+  BadMediaFile: Le fichier est endommagé ou ne prend pas en charge la lecture des fichiers de ce format
+  NoDecoder: Le fichier ne peut pas être lu. Le détecteur n'a pas été détecté dans le système
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: Essuyez pour effacer l'écriture
+  #FingerOutToClean: Relâchez pour effacer l'écriture
+  #EraserPoint: Gomme point
+  #EraserCircle: Gomme cercle
+
+PenSelectContent:
+  PenHard: Pinceau dur
+  PenPaint: Pinceau large
+  PenSoft: Pinceau souple
+
+AboutDialog:
+  CloseAndUpdate: Le logiciel va se fermer pour se mettre à jour Êtes-vous sûr(e) de mettre à jour?
+  Title: Mise à jour
+  CheckingUpdate: Recherche de nouvelle version...
+  CanNotConnectServers: Connexion au serveur impossible
+  CurrentIsNewest: La version actuelle est la plus récente
+  Downloading: Téléchargement en cours...
+  Ready: Prêt
+  UpdateProgramBootUpFailed: Des problèmes se sont produits au cours du démarrage de la mise à jour. Veuillez essayer à nouveau plus tard.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Faites glisser l'image d'arrière-plan pour rendre des couleurs similaires transparentes
+  DragImageAndChangeDisplay: Faites glisser la bordure pour régler la plage d'affichage de l'image
+  TooSmallToOperate: La taille actuelle de l'image est trop petite. Veuillez zoomer sur l'image et réessayer.
+  MemoryNotEnoughForTransparentBackground: Mémoire insuffisante pour supporter un fond transparent.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: Le fichier ne peut pas être lu car le périphérique audio a rencontré un problème
+  Play: Lecture
+  Pause: Pause
+
+InnerBoard:
+  Tip: Utilisez deux doigts pour déplacer et zoomer la toile
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: Clone
+  # Delete: Supprimer
+  # ColorDisk: Palette
+  # Cut: Agrafe
+
+MailSender:
+  BasicDialog:
+    DialogTitle: Envoyer l'email
+    Mail:
+      Title: "Sujet:"
+      Recipients: "À:"
+      Content: "Contenu:"
+      ContentHint: Mémo de réunion
+    BtnSend: Envoyer
+    Notification:
+      RecipientsEmpty: Les informations “Depuis” ne peuvent être vides
+      RecipientsFormatWrong: Format incorrect. Veuillez vérifier
+      ServerSettingChanged: La configuration du serveur a été modifiée, sauf ou pas?
+  AdvancedDialog:
+    DialogTitle: Configuration "Depuis"
+    NeedSecureConnection: " "Ce serveur a besoin d'une connexion sûre
+    Setting:
+      SMTP: "Envoi du serveur:"
+      Port: "Numéro de port:"
+      UserName: "Nom de compte:"
+      Password: "Mot de passe:"
+  SendMailDialog:
+    DialogTitle: Envoyer l'email
+    Status:
+      Sending: Envoi en cours
+      Failed: Échec d'envoi.
+      Succeed: Envoi réussi
+    BtnCancel: Annuler
+    BtnRetry: Envoyer à nouveau
+    BtnGoBack: Éditer à nouveau
+
+LangSwitch:
+  Title: Rappel de changement
+  BtnSwitch: Switch

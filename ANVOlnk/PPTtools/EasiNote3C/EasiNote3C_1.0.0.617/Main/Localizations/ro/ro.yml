@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: Română
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. Toate drepturile rezervate.
+
+Yes: Da
+No: Nu
+Ok: O.K
+Cancel: Anulare
+
+AboutUs: Despre noi
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Actualizează acum
+  Login: Va rugam sa va logati
+  DownloadLatestVersion: Descărcați ultima versiune
+
+# 通用窗口文字
+Windows:
+  Yes: Da
+  No: Nu
+  Cancel: Anulare
+  Continue: Continuare
+  Sure: Sigur
+  OK: O.K
+
+String:
+  Tip: Avertizare
+  Warning: Atenționare
+  Save: Salvează
+  Reset: Resetare
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: Meniu
+  Import: Import
+  Save: Salvează
+  Minimize: MInimizează
+  Help: Ajutor
+  AboutUs: Despre
+  ContactUs: Contact Us
+  Exit: Ieșire
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: Adaugă
+  #PrePage: Precedent
+  #NextPage: Următor
+  #PageNum: Pagină
+  Select: Selectare
+  Pen: Stilou
+  Palette: Paletă
+  Eraser: Radieră
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Tablă de scris
+  Undo: Revocare
+  Redo: Refacere
+  More: Mai mult
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: Partajează
+  Mail: Email
+  Language: Limba
+  LanguageChangeAfterBoot: Va avea efect la următoarea pornire a software-ului
+  LanguageChangeConfirm:
+    Title: Reamintire schimbare
+    Content: "Limba software-ului se va schimba în {0}\nla următoarea pornire, Sigur doriți să schimbați?"
+    BtnYes: Da
+    BtnNo: Nu
+
+FunctionBar:
+  Clip: Prinde
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Scris de mână
+  Plate: Paletă
+  Stroke: Margine
+  Fill: Umplere
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Imagine
+    Ink: Scriere de mână
+    Audio: Audio
+    Video: Video
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: Copie
+  Cut: A taia
+  Paste: Pastă
+  Delete: Șterge
+
+Import:
+  ImageFiles: Fișier imagine
+  VideoFiles: Fișier video
+  AudioFiles: Fișier audio
+  MultiaMediaFiles: Fișier multimedia
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: Toate fișierele
+
+DisplayingModule:
+  Title: Salvează
+  Content: Fișierul curent nu este salvat. Doriți să salvați?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Salvat cu succes.
+  FailedAndChooseAnother: Salvare eșuată. Vă rugăm alegeți altă cale.
+  FailedAndGiveReason: "Salvare eșuată. Motiv:"
+  FileSaveFailed: Salvare curs eșuată
+  Exporting: Exportare...
+  Loading: Încărcare...
+  Publishing: Publicare, așteptați...
+  PublishFailed: Publicare eșuată. Vă rugăm să verificați dacă conexiunea de rețea este normală
+  UnknownErrorWhenOpenFile: "O eroare necunoscută a apărut la deschiderea cursului:"
+  EmptyTxt: Documentul TXT nu are conținut
+  FilesImportFailed: {0} fișiere importate fără succes
+  WebPageDeleted: Pagina atașată este ștearsă
+  CheckEasiCamera: Vă rugăm verificați dacă software-ul Seewo EasiCamera este instalat
+  CanNotSaveFile: Salvare fișier eșuată.
+  BitmapUnsupport: Imaginea este Hartă {0}-bit. Pe moment nu suportă fundal transparent.
+  NoMorePage: Ne pare rău, nu puteți adăuga pagini!
+
+ErrorMessage:
+  ProgramCrash: Programul s-a oprit sau nu s-a detectat răspuns 
+  UnsupportFile: Tipurile de fișier nesuportate nu pot fi importate
+  VideoNotExist: Fișierul video nu există
+  BadFile: Fișierul este corupt și nu poate fi deschis
+  NoRegReadPower: Nu aveți drept de a citi registrul
+  RegReadError: Eroare în timpul citirii registrului!
+  SetupIncomplete: "Software-ul nu este instalat în întregime sau este corupt, vă rugăm să încercați să instalaț din nou."\n" Detalii eroare:"
+
+KliteHelper:
+  DecoderInstalled: Decoderul este instalat cu succes. Acum puteți reda fișiere audio și video.
+  DecoderInstallFailed: Eroare în timpul instalării decoderului
+  DecoderDownloadFailed: Eroare în timpul descărcării decoderului. Vă rugăm să verificați dacă conexiunea de rețea este normală
+  DecoderInstalling: Instalare decoder,vă rugăm așteptați...
+  DecoderDownloading: Descărcare decoder, vă rugăm așteptați...
+  BadMediaFile: Fișierul este corupt sau nu suportă redarea fișierelor în acest format
+  NoDecoder: Fișierul nu poate fi redat. Decoderul nu a fost detectat în sistem
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: Glisați pentru a șterge scrisul de mână
+  #FingerOutToClean: Eliberați pentru a șterge scrisul de mână
+  #EraserPoint: Radieră punct
+  #EraserCircle: Radieră cerc
+
+PenSelectContent:
+  PenHard: Pensulă tare
+  PenPaint: Pensulă lată
+  PenSoft: Pensulă moale
+
+AboutDialog:
+  CloseAndUpdate: Software-ul va fi închis pentru actualizare. Sigur doriți să actualizați?
+  Title: Actualizare
+  CheckingUpdate: Verificare versiune nouă...
+  CanNotConnectServers: Nu se poate conecta la server
+  CurrentIsNewest: Versiunea curentă este ultima
+  Downloading: Descărcare...
+  Ready: Gata
+  UpdateProgramBootUpFailed: Au apărut probleme la pornirea programului de actualizare. Vă rugăm să încercați mai târziu.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Trageți fundalul imaginii pentru a face culorile similare transparente
+  DragImageAndChangeDisplay: Trageți marginea pentru a ajusta zona de afișare a imaginii
+  TooSmallToOperate: Dimensiunea actuală a imaginii este prea mică. Vă rugăm să măriți imaginea și să încercați din nou.
+  MemoryNotEnoughForTransparentBackground: Memorie insuficientă pentru a susține fundalul transparent.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: Fișierul nu poate fi redat deoarece dipozitivul de sunet a întâmpinat o problemă
+  Play: Redare
+  Pause: Pauză
+
+InnerBoard:
+  Tip: Folosiți două degete pentru a muta și mări canvasul
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: Clonare
+  # Delete: Ștergere
+  # ColorDisk: Paletă
+  # Cut: Prinde
+
+MailSender:
+  BasicDialog:
+    DialogTitle: Trimite email
+    Mail:
+      Title: "Subiect:"
+      Recipients: "Către:"
+      Content: "Conținut:"
+      ContentHint: Memo întâlnire
+    BtnSend: Trimite
+    Notification:
+      RecipientsEmpty: Informația ”De la” nu poate fi goală
+      RecipientsFormatWrong: Format incorect Vă rugăm verificați
+      ServerSettingChanged: Setarea serverului a fost modificat, salva sau nu?
+  AdvancedDialog:
+    DialogTitle: Setare ”De la”
+    NeedSecureConnection: " "Acest server necesită conexiune securizată
+    Setting:
+      SMTP: "Sever trimitere:"
+      Port: "Număr port:"
+      UserName: "Nume cont:"
+      Password: "Parolă:"
+  SendMailDialog:
+    DialogTitle: Trimite email
+    Status:
+      Sending: Trimitere
+      Failed: Trimitere eșuată.
+      Succeed: Trimis cu succes
+    BtnCancel: Anulare
+    BtnRetry: Retrimite
+    BtnGoBack: Editare din nou
+
+LangSwitch:
+  Title: Reamintire schimbare
+  BtnSwitch: Switch

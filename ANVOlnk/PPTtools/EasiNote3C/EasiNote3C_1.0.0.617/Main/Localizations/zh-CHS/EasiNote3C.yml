@@ -1,0 +1,282 @@
+﻿# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: 简体中文
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: 希沃轻白板
+  Company: 广州视睿电子科技有限公司
+  Copyright: © 2011-2017 广州视睿电子科技有限公司。保留所有权利。
+
+# 通用窗口文字
+Windows:
+  Yes: 是
+  No: 否
+  Cancel: 取消
+  Continue: 继续
+  Sure: 确定
+  OK: 确定
+
+String:
+  Tip: 提示
+  Warning: 警告
+  Save: 保存
+  Reset: 重置
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: 菜单
+  Import: 导入
+  Save: 保存
+  Minimize: 最小化
+  Help: 帮助
+  AboutUs: 关于我们
+  ContactUs: 联系我们
+  Exit: 退出
+  AddPage: 加页
+  PrePage: 上一页
+  NextPage: 下一页
+  PageNum: 页码
+  Select: 选择
+  Pen: 笔
+  Palette: 色板
+  Eraser: 橡皮
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: 板中板
+  Undo: 撤消
+  Redo: 恢复
+  More: 更多
+  SeewoLink: 授课助手
+  Camera: 展台
+  Share: 分享
+  Mail: 邮件
+  Language: 语言
+  LanguageChangeAfterBoot: 下次启动生效
+  LanguageChangeConfirm:
+    Title: 切换提醒
+    Content: "软件下次启动时将会切换至{0}，\n是否切换？"
+    BtnYes: 切换
+    BtnNo: 不切换
+
+FunctionBar:
+  Clip: 裁剪
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: 手写
+  Plate: 色板
+  Stroke: 边框
+  Fill: 填充
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: 图片
+    Ink: 笔迹
+    Audio: 音频
+    Video: 视频
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+Import:
+  ImageFiles: 图像文件
+  VideoFiles: 视频文件
+  AudioFiles: 音频文件
+  MultiaMediaFiles: 多媒体文件
+  PdfFiles: PDF文件
+  PptFiles: PPT文件
+  EnbFiles: EasiNote文件
+  AllFiles: 所有文件
+
+BoardEditContextMenu:
+  Copy: 复制
+  Cut: 剪切
+  Paste: 粘贴
+  Delete: 删除
+  DefineDisplayAction: 编辑授课行为
+  TipForDefineDisplayAction: 若要预览，请开始授课
+  SetElementCanClone: 打开克隆
+  SetElementCannotClone: 关闭克隆
+  SetElementLockedOn: 锁定
+  SetElementLockedOff: 解除锁定
+  EditShapeNode: 编辑节点
+  EditShapeText: 编辑文字
+  ExportImage: 导出图片
+  GroupElements: 组合
+  UngroupElements: 取消组合
+  BringToFront: 移至最前面
+  SendToBack: 移至最后面
+  AddHyperlink: 添加超链接
+  EditHyperlink: 编辑超链接
+  DeleHyperlink: 取消超链接
+  PlayMedia: 播放
+  PauseMedia: 暂停
+  ReplaceMedia: 替换
+  InsertContent: 插入
+  InsertSameLevel: 同级主题
+  InsertNextLevel: 下级主题
+  InsertPreLevel: 上级主题
+  InsertMedia: 添加多媒体
+  InsertHyperLink: 添加超链接
+  RemoveHyperLink: 取消超链接
+  MoveNodeUp: 顺序上移
+  MoveNodeDown: 顺序下移
+  MindMapDelete: 删除
+
+DisplayingModule:
+  Title: 保存
+  Content: 当前有未保存的内容，是否保存？
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: 保存成功。
+  FailedAndChooseAnother: 保存失败，请选择新的保存路径。
+  FailedAndGiveReason: 保存失败。原因是：
+  FileSaveFailed: 课件保存失败
+  Exporting: 努力导出中……
+  Loading: 努力加载中…
+  Publishing: 努力发布中，请稍等……
+  PublishFailed: 发布失败，请检查网络连接是否正常
+  UnknownErrorWhenOpenFile: 打开课件时出现未知错误：
+  EmptyTxt: TXT文档没有内容
+  FilesImportFailed: {0}个文件导入不成功
+  WebPageDeleted: 链接的页面已被删除
+  CheckEasiCamera: 请检查你是否已安装希沃视频展台软件
+  CanNotSaveFile: 无法保存文件。
+  BitmapUnsupport: 您的图片为{0}位位图，暂时不支持去背景
+  NoMorePage: 不能再添加更多的页面，给您带来不便深感抱歉！
+
+ErrorMessage:
+  ProgramCrash: 检测到程序崩溃或无响应：
+  UnsupportFile: 不支持的文件类型无法导入
+  VideoNotExist: 视频文件不存在
+  BadFile: 此文件已损坏，无法打开
+  NoRegReadPower: 您没有读取注册表的权限
+  RegReadError: 读取注册表出错！
+  SetupIncomplete: 软件安装不完整或者已经损坏，请尝试重新安装。"\n"错误详情：
+
+KliteHelper:
+  DecoderInstalled: 解码器安装成功，可以播放音视频了
+  DecoderInstallFailed: 解码器安装出错
+  DecoderDownloadFailed: 解码器下载出错，请检查网络是否正常
+  DecoderInstalling: 正在安装解码器，请耐心等待...
+  DecoderDownloading: 正在下载解码器，请耐心等待...
+  BadMediaFile: 文件已损坏或不支持播放该格式文件
+  NoDecoder: 文件无法播放，检测到系统未安装解码器
+
+PPTResolver:
+  FileNotExist: 文件未找到
+  FileIsNotPPT: 此文件非PPT格式文件
+  PPTCanNotEmpty: PPT文件不能为空
+  CanNotParseWithoutOffice2007: 无法解析此PPT文件，可能您未正确安装完整版本的Office2007或更高版本，或者没有成功注册Office组件。
+  CanNotParse: 无法解析此PPT文件
+
+EraserSelectContent:
+  MoveToClean: 滑动以清除笔迹
+  FingerOutToClean: 松开以清除笔迹
+  EraserPoint: 点擦
+  EraserCircle: 圈擦
+
+PenSelectContent:
+  PenHard: 硬笔
+  PenPaint: 排笔
+  PenSoft: 软笔
+
+SeewoLinkContent:
+  OpenApp: 打开授课助手 APP 扫码连接
+  Password: 密码：
+  Hotspot: 热点
+  TryRebootHotspot: 无法连接时，可尝试启用热点
+  CreatingHotspot: 正在创建热点
+  ClosingHotspot: 正在关闭热点
+  Disconnect: 点击断开连接
+  RespondTimeout: 授课助手响应超时
+  CheckSeewoLinkNormally: 连接异常，请检查授课助手是否正常运行
+  ConnectPassword: 连接密码：
+  UserName: 名称：
+
+AboutDialog:
+  CloseAndUpdate: 更新将使软件暂时关闭，确定要更新吗？
+  Title: 更新
+  CheckingUpdate: 正在检测新版本...
+  CanNotConnectServers: 无法连接服务器
+  CurrentIsNewest: 当前是最新版本
+  Downloading: 下载中...
+  Ready: 准备就绪
+  UpdateProgramBootUpFailed: 启动升级程序时遇到问题，请稍后重试。
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: 拖动图片背景使相似颜色透明
+  DragImageAndChangeDisplay: 拖动边框可以调整图片显示范围
+  TooSmallToOperate: 图片当前尺寸太小，请将图片放大后重试。
+  MemoryNotEnoughForTransparentBackground: 内存不足，暂时不支持去背景。
+
+DispalyMediaEditor:
+  ScreenShot: 截图
+
+MediaPlayer:
+  RadioDeviceError: 声音设备出现问题导致无法播放该文件
+  Play: 播放
+  Pause: 暂停
+
+InnerBoard:
+  Tip: 两指可移动、缩放画布
+  Clone: 克隆
+  Delete: 删除
+  ColorDisk: 色板
+  Cut: 裁剪
+
+MailSender:
+  BasicDialog:
+    DialogTitle: 发送邮件
+    Mail:
+      Title: 主题：
+      Recipients: 收件人：
+      Content: 正文：
+      ContentHint: 会议记录
+    BtnSend: 发送
+    Notification:
+      RecipientsEmpty: 发件人信息不得为空
+      RecipientsFormatWrong: 格式不正确，请检查
+      ServerSettingChanged: 服务器设置已更改，是否保存？
+  AdvancedDialog:
+    DialogTitle: 发件人设置
+    NeedSecureConnection: " "此服务器要求安全连接
+    Setting:
+      SMTP: 发送服务器：
+      Port: 端口号：
+      UserName: 帐号名：
+      Password: 密码：
+  SendMailDialog:
+    DialogTitle: 发送邮件
+    Status:
+      Sending: 正在发送
+      Failed: 发送失败
+      Succeed: 发送成功
+    BtnCancel: 取消发送
+    BtnRetry: 重新发送
+    BtnGoBack: 返回编辑
+
+LangSwitch:
+  Title: 切换提醒
+  BtnSwitch: 切换

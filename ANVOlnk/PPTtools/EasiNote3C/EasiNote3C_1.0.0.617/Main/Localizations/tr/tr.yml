@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: Türk
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. Her hakkı saklıdır.
+
+Yes: Evet
+No: Hayır
+Ok: Tamam
+Cancel: İptal
+
+AboutUs: Hakkımızda
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Şimdi güncelle
+  Login: Lütfen giriş yapın
+  DownloadLatestVersion: En son sürümü indir
+
+# 通用窗口文字
+Windows:
+  Yes: Evet
+  No: Hayır
+  Cancel: İptal
+  Continue: Devam
+  Sure: Emin
+  OK: Tamam
+
+String:
+  Tip: Bilgi
+  Warning: Uyarı
+  Save: Kaydet
+  Reset: Sıfırla
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: Menü
+  Import: İçe Aktar
+  Save: Kaydet
+  Minimize: Simge Durumuna
+  Help: Yardım
+  AboutUs: Hakkımızda
+  ContactUs: Contact Us
+  Exit: Çıkış
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: Ekle
+  #PrePage: Önceki
+  #NextPage: Sonraki
+  #PageNum: Sayfa
+  Select: Seç
+  Pen: Kalem
+  Palette: Palet
+  Eraser: Silgi
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Yazı tahtası
+  Undo: Geri al
+  Redo: Yinele
+  More: Daha
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: Paylaş
+  Mail: E-posta
+  Language: Dil
+  LanguageChangeAfterBoot: Yazılımı bir sonraki başlatmanızda etkinleşir
+  LanguageChangeConfirm:
+    Title: Geçiş anımsatıcı
+    Content: "Yazılımın dili, bir sonraki başlatmanızda {0}\nolarak değiştirilecek, Değiştirmek istediğinizden\nemin misiniz?"
+    BtnYes: Evet
+    BtnNo: Hayır
+
+FunctionBar:
+  Clip: Kırp
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Elle yaz
+  Plate: Palet
+  Stroke: Kenarlık
+  Fill: Dolgu
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Görüntü
+    Ink: El yazısı
+    Audio: Ses
+    Video: Video
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: Kopyala
+  Cut: Kes
+  Paste: Yapıştırmak
+  Delete: Sil
+
+Import:
+  ImageFiles: Görüntü dosyası
+  VideoFiles: Video dosyası
+  AudioFiles: Ses dosyası
+  MultiaMediaFiles: Çoklu ortam dosyası
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: Tüm dosyalar
+
+DisplayingModule:
+  Title: Kaydet
+  Content: Geçerli dosya kaydedilmedi. Kaydetmek ister misiniz?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Başarıyla kaydedildi.
+  FailedAndChooseAnother: Kaydedilemedi. Lütfen başka bir yol seçin.
+  FailedAndGiveReason: "Kaydedilemedi. Neden:"
+  FileSaveFailed: Dışa aktarılıyor...
+  Exporting: Exporting file...
+  Loading: Yükleniyor...
+  Publishing: Yayınlanıyor; lütfen bekleyin...
+  PublishFailed: Yayınlanamadı. Lütfen ağ bağlantısının normal olup olmadığını kontrol edin.
+  UnknownErrorWhenOpenFile: "Eğitim yazılımı açılırken bilinmeyen bir hata oluştu.:"
+  EmptyTxt: TXT belgesinde içerik yok.
+  FilesImportFailed: {0} dosyanın içe aktarılması başarısız oldu.
+  WebPageDeleted: Bağlantılı sayfa silindi.
+  CheckEasiCamera: Lütfen Seewo EasiCamera yazılımının yüklü olup olmadığını kontrol edin.
+  CanNotSaveFile: Dosya kaydedilemedi.
+  BitmapUnsupport: Görüntünüz bir {0} bitlik harita. Şu anda saydam arka planı desteklemiyor.
+  NoMorePage: Üzgünüz, herhangi bir sayfa ekleyemezsiniz!
+
+ErrorMessage:
+  ProgramCrash: Program çöktü veya hiçbir yanıt algılanmadı. 
+  UnsupportFile: Desteklenmeyen dosya türleri içe aktarılamaz.
+  VideoNotExist: Video dosyası yok.
+  BadFile: Dosya hasarlı ve açılamaz.
+  NoRegReadPower: Kayıt defterini okuma hakkınız yok.
+  RegReadError: Kayıt defteri okunurken hata!
+  SetupIncomplete: "Yazılım tam olarak yüklenmemiş veya hasarlı; lütfen tekrar yüklemeyi deneyin."\n" Hata ayrıntıları:"
+
+KliteHelper:
+  DecoderInstalled: Kod çözücü başarıyla yüklendi. Artık sesleri ve videoları yürütebilirsiniz.
+  DecoderInstallFailed: Kod çözücü yüklenirken hata.
+  DecoderDownloadFailed: Kod çözücü indirilirken hata. Lütfen ağ bağlantısının normal olup olmadığını kontrol edin.
+  DecoderInstalling: Kod çözücü yükleniyor; lütfen bekleyin...
+  DecoderDownloading: Kod çözücü indiriliyor; lütfen bekleyin...
+  BadMediaFile: Dosya hasarlı veya bu biçimdeki dosyaları yürütme desteklenmiyor.
+  NoDecoder: Dosya yürütülemez. Sistemde kod çözücü algılanmadı.
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: El yazısını temizlemek için çekin.
+  #FingerOutToClean: El yazısını temizlemek için bırakın.
+  #EraserPoint: Nokta silgi
+  #EraserCircle: Daire silgi
+
+PenSelectContent:
+  PenHard: Sert fırça
+  PenPaint: Geniş fırça
+  PenSoft: Yumuşak fırça
+
+AboutDialog:
+  CloseAndUpdate: Yazılım, güncelleme için kapatılacak. Güncellemek istediğinizden emin misiniz?
+  Title: Güncelle
+  CheckingUpdate: Yeni sürüm denetleniyor...
+  CanNotConnectServers: Sunucuya bağlanılamıyor
+  CurrentIsNewest: Geçerli sürüm güncel.
+  Downloading: İndiriliyor...
+  Ready: Hazır
+  UpdateProgramBootUpFailed: Güncelleme programı başlatılırken sorunlar oluştu. Lütfen daha sonra tekrar deneyin.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Benzer renkleri saydam yapmak için görüntü arka planını sürükleyin.
+  DragImageAndChangeDisplay: Görüntünün görüntüleme aralığını ayarlamak için kenarlığı sürükleyin.
+  TooSmallToOperate: Görüntünün geçerli boyutu çok küçük. Lütfen resimde yakınlaştırın ve tekrar deneyin.
+  MemoryNotEnoughForTransparentBackground: Saydam arka planı desteklemek için yetersiz bellek.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: Ses aygıtı bir sorunla karşılaştığından dosya yürütülemiyor.
+  Play: Yürüt
+  Pause: Duraklat
+
+InnerBoard:
+  Tip: Yüzeyi taşımak ve yakınlaştırmak/uzaklaştırmak için iki şekil kullanın.
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: Kopya çıkar
+  # Delete: Sil
+  # ColorDisk: Palet
+  # Cut: Kırp
+
+MailSender:
+  BasicDialog:
+    DialogTitle: E-posta gönder
+    Mail:
+      Title: "Konu:"
+      Recipients: "Alıcı:"
+      Content: "İçerik:"
+      ContentHint: Toplantı Notu
+    BtnSend: Gönder
+    Notification:
+      RecipientsEmpty: “Gönderen” bilgisi boş olamaz.
+      RecipientsFormatWrong: Yanlış biçim. Lütfen kontrol edin.
+      ServerSettingChanged: Sunucu ayarı değiştirildi, kaydedilir veya değiştirilmez mi?
+  AdvancedDialog:
+    DialogTitle: “Gönderen” ayarı
+    NeedSecureConnection: " "Bu sunucu güvenli bir bağlantı gerektirir.
+    Setting:
+      SMTP: "Gönderme sunucusu:"
+      Port: "Bağlantı noktası numarası:"
+      UserName: "Hesap adı:"
+      Password: "Şifre:"
+  SendMailDialog:
+    DialogTitle: E-posta gönder
+    Status:
+      Sending: Gönderiliyor
+      Failed: Gönderilemedi.
+      Succeed: Başarıyla gönderildi
+    BtnCancel: İptal
+    BtnRetry: Tekrar gönder
+    BtnGoBack: Tekrar düzenle
+
+LangSwitch:
+  Title: Geçiş anımsatıcı
+  BtnSwitch: Switch

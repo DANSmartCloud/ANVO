@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: Nederlands
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. Alle rechten voorbehouden.
+
+Yes: Ja
+No: Nee
+Ok: OK
+Cancel: Annuleren
+
+AboutUs: Over ons
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Update nu
+  Login: Log alstublieft in
+  DownloadLatestVersion: Download hier de laatste versie
+
+# 通用窗口文字
+Windows:
+  Yes: Ja
+  No: Nee
+  Cancel: Annuleren
+  Continue: Doorgaan
+  Sure: Zeker
+  OK: OK
+
+String:
+  Tip: Prompt
+  Warning: Waarschuwing
+  Save: Opslaan
+  Reset: Reset
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: Menu
+  Import: Importeren
+  Save: Opslaan
+  Minimize: Minimaliseren
+  Help: Help
+  AboutUs: Over ons
+  ContactUs: Contact Us
+  Exit: Afsluiten
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: Toevoegen
+  #PrePage: Vorige
+  #NextPage: Volgende
+  #PageNum: Pagina
+  Select: Selecteren
+  Pen: Pen
+  Palette: Palet
+  Eraser: Gum
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Schrijfbord
+  Undo: Ongedaan maken
+  Redo: Opnieuw
+  More: Meer
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: Delen
+  Mail: E-mail
+  Language: Taal
+  LanguageChangeAfterBoot: Wordt van kracht wanneer u de software de volgende keer opstart
+  LanguageChangeConfirm:
+    Title: Schakelaar herinnering 
+    Content: "De taal van de software zal overschakelen\nnaar {0} bij de volgende start,\nWeet u zeker dat u wilt overschakelen?"
+    BtnYes: Ja
+    BtnNo: Nee
+
+FunctionBar:
+  Clip: Klem
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Met de hand schrijven
+  Plate: Palet
+  Stroke: Rand
+  Fill: Vullen
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Afbeelding
+    Ink: Handschrift
+    Audio: Audio
+    Video: Video
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: Kopiëren
+  Cut: Besnoeiing
+  Paste: Plakken
+  Delete: Verwijder
+
+Import:
+  ImageFiles: Afbeeldingsbestand
+  VideoFiles: Videobestand
+  AudioFiles: Audiobestand
+  MultiaMediaFiles: Multimediabestand
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: Alle bestanden
+
+DisplayingModule:
+  Title: Opslaan
+  Content: Het huidige bestand is niet opgeslagen. Wilt u het opslaan?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Opgeslagen.
+  FailedAndChooseAnother: Opslaan mislukt. Selecteer een ander pad.
+  FailedAndGiveReason: "Opslaan mislukt. Reden:"
+  FileSaveFailed: Kan courseware niet opslaan.
+  Exporting: Bezig met exporteren…
+  Loading: Bezig met laden…
+  Publishing: Bezig met publiceren. Een ogenblik geduld...
+  PublishFailed: Publiceren is mislukt. Controleer of de netwerkverbinding normaal is
+  UnknownErrorWhenOpenFile: "Er is een onbekende fout opgetreden tijdens het openen van courseware:"
+  EmptyTxt: TXT-document heeft geen inhoud
+  FilesImportFailed: {0} bestanden zijn niet geïmporteerd
+  WebPageDeleted: De gekoppelde pagina is verwijderd.
+  CheckEasiCamera: Controleer of de Seewo EasiCamera is geïnstalleerd.
+  CanNotSaveFile: Kan het bestand niet opslaan.
+  BitmapUnsupport: Uw afbeelding is een {0}-bits kaart. Deze ondersteunt momenteel geen transparante achtergrond.
+  NoMorePage: U kunt geen pagina’s meer toevoegen.
+
+ErrorMessage:
+  ProgramCrash: Het programma is gecrasht of er is geen respons gedetecteerd 
+  UnsupportFile: Niet-ondersteunde bestandstypen kunnen niet worden geïmporteerd
+  VideoNotExist: Het videobestand bestaat niet
+  BadFile: Het bestand is beschadigd en kan niet worden geopend
+  NoRegReadPower: U hebt geen rechten om het register te lezen
+  RegReadError: Fout bij het lezen van het register!
+  SetupIncomplete: "De software is niet volledig geïnstalleerd of beschadigd. Probeer deze opnieuw te installeren."\n" Foutdetails:"
+
+KliteHelper:
+  DecoderInstalled: De decoder is geïnstalleerd. U kunt nu audio en video afspelen.
+  DecoderInstallFailed: Fout bij het installeren van de decoder
+  DecoderDownloadFailed: Fout bij het downloaden van de decoder. Controleer of de netwerkverbinding normaal is
+  DecoderInstalling: Bezig met installeren van de decoder. Een ogenblik geduld...
+  DecoderDownloading: Bezig met downloaden van de decoder. Een ogenblik geduld...
+  BadMediaFile: Het bestand is beschadigd of ondersteunt geen weergavebestanden in dit formaat
+  NoDecoder: Het bestand kan niet worden weergegeven. Decoder is niet gedetecteerd in het systeem
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: Vegen om het handschrift te wissen
+  #FingerOutToClean: Loslaten om het handschrift te wissen
+  #EraserPoint: Puntgum
+  #EraserCircle: Cirkelgum
+
+PenSelectContent:
+  PenHard: Hard penseel
+  PenPaint: Breed penseel
+  PenSoft: Zacht penseel
+
+AboutDialog:
+  CloseAndUpdate: De software wordt gesloten voor het uitvoeren van de update. Weet u zeker dat u de update wilt uitvoeren?
+  Title: Update
+  CheckingUpdate: Bezig met controleren op nieuwe versie...
+  CanNotConnectServers: Kan geen verbinding maken met server
+  CurrentIsNewest: De huidige versie is de laatste.
+  Downloading: Bezig met downloaden…
+  Ready: Gereed
+  UpdateProgramBootUpFailed: Er zijn problemen opgetreden bij het opstarten van het updateprogramma. Probeer het later opnieuw.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Sleep de achtergrond van de afbeelding om soortgelijke kleuren transparant te maken
+  DragImageAndChangeDisplay: Sleep de rand om het weergavebereik van de afbeelding aan te passen
+  TooSmallToOperate: De huidige grootte van het beeld is te klein. Zoom in op de afbeelding en probeer het opnieuw.
+  MemoryNotEnoughForTransparentBackground: Onvoldoende geheugen om transparante achtergrond te ondersteunen.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: Het bestand kan niet worden afgespeeld omdat het geluidsapparaat een probleem heeft aangetroffen
+  Play: Afspelen
+  Pause: Pauze
+
+InnerBoard:
+  Tip: Gebruik twee vingers voor het verplaatsen en in-/uitzoomen op het canvas
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: Kloon
+  # Delete: Verwijderen
+  # ColorDisk: Palet
+  # Cut: Klem
+
+MailSender:
+  BasicDialog:
+    DialogTitle: E-mail verzenden
+    Mail:
+      Title: "Onderwerp:"
+      Recipients: "Aan:"
+      Content: "Inhoud:"
+      ContentHint: Memo vergadering
+    BtnSend: Verzenden
+    Notification:
+      RecipientsEmpty: “Van”-informatie kan niet leeg zijn
+      RecipientsFormatWrong: Onjuist formaat. Controleer dit
+      ServerSettingChanged: De instelling van de server is gewijzigd, opslaan of niet?
+  AdvancedDialog:
+    DialogTitle: “Van”-instelling
+    NeedSecureConnection: " "Deze server vereist een veilige verbinding
+    Setting:
+      SMTP: "Server verzenden:"
+      Port: "Poortnummer:"
+      UserName: "Accountnaam:"
+      Password: "Wachtwoord:"
+  SendMailDialog:
+    DialogTitle: E-mail verzenden
+    Status:
+      Sending: Bezig met verzenden
+      Failed: Verzenden mislukt.
+      Succeed: Verzenden is gelukt
+    BtnCancel: Annuleren
+    BtnRetry: Opnieuw verzenden
+    BtnGoBack: Opnieuw bewerken
+
+LangSwitch:
+  Title: Schakelaar herinnering 
+  BtnSwitch: Switch

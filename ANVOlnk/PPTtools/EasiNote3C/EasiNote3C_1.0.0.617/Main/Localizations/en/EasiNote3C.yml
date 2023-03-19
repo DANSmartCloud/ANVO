@@ -1,0 +1,246 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: English
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: Guangzhou Shirui Electronics Co., Ltd.
+  Copyright: © 2011-2017 all rights reserved by Guangzhou Shirui Electronics Co., Ltd.
+
+Yes: Yes
+No: No
+Ok: OK
+Cancel: Cancel
+
+AboutUs: About Us
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Update Now
+  Login: Please Login
+  DownloadLatestVersion: Download Latest Version
+
+# 通用窗口文字
+Windows:
+  Yes: Yes
+  No: No
+  Cancel: Cancel
+  Continue: Continue
+  Sure: Sure
+  OK: OK
+
+String:
+  Tip: Prompt
+  Warning: Warning
+  Save: Save
+  Reset: Reset
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: Menu
+  Import: Import
+  Save: Save
+  Minimize: Minimize
+  Help: Help
+  AboutUs: About Us
+  ContactUs: Contact Us
+  Exit: Exit
+  AddPage: Add
+  PrePage: Previous
+  NextPage: Next
+  PageNum: Page
+  Select: Select
+  Pen: Pen
+  Palette: Palette
+  Eraser: Eraser
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Inner
+  Undo: Undo
+  Redo: Redo
+  More: More
+  SeewoLink: SeewoLink
+  Camera: EasiCamera
+  Share: Share
+  Mail: Email
+  Language: Language
+  LanguageChangeAfterBoot: Take effect the next time you start software
+  LanguageChangeConfirm:
+    Title: Switch reminder
+    Content: "In the next startup the software will switch to {0},\nAre you sure to switch?"
+    BtnYes: Switch
+    BtnNo: Don't switch
+
+FunctionBar:
+  Clip: Clip
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Write by hand
+  Plate: Plate
+  Stroke: Border
+  Fill: Fill
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Image
+    Ink: Handwriting
+    Audio: Audio
+    Video: Video
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: Copy
+  Cut: Cut
+  Paste: Paste
+  Delete: Delete
+
+Import:
+  ImageFiles: Image Files
+  VideoFiles: Video Files
+  AudioFiles: Audio Files
+  MultiaMediaFiles: Multimedia files
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: All Files
+
+DisplayingModule:
+  Title: Save
+  Content: The current file is not saved. Do you want to save?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Saved successfully.
+  FailedAndChooseAnother: Failed to save. Please select another path.
+  FailedAndGiveReason: "Failed to save. The reason: "
+  FileSaveFailed: Failed to save courseware
+  Exporting: Exporting...
+  Loading: Loading...
+  Publishing: Publishing file, please wait...
+  PublishFailed: Failed to publish. Please check whether the network connection is normal.
+  UnknownErrorWhenOpenFile: "An unknown error occurred while opening courseware:"
+  EmptyTxt: The TXT document has no content.
+  FilesImportFailed: {0} files imported unsuccessfully.
+  WebPageDeleted: The linked page is deleted.
+  CheckEasiCamera: Please check whether Seewo EasiCamera is installed.
+  CanNotSaveFile: Failed to save the file.
+  BitmapUnsupport: The picture is {0} bitmap and does not support transparent background at present.
+  NoMorePage: Sorry, you cannot add any pages!
+
+ErrorMessage:
+  ProgramCrash: Program crashed or no response detected.
+  UnsupportFile: Unsupported types of files cannot be imported
+  VideoNotExist: The video file does not exist.
+  BadFile: The file is damaged and cannot be opened.
+  NoRegReadPower: You have no right to read the register.
+  RegReadError: Error while reading the register!
+  SetupIncomplete: "The software is not installed fully or is damaged, please try to install it again."\n"Error details:"
+
+KliteHelper:
+  DecoderInstalled: The decoder is installed successfully. Now, you can play audios and videos.
+  DecoderInstallFailed: Error while installing the decoder
+  DecoderDownloadFailed: Error while downloading the decoder. Please check whether the network connection is normal
+  DecoderInstalling: Installing the decoder, please wait...
+  DecoderDownloading: Downloading the decoder, please wait...
+  BadMediaFile: The file is damaged or does not support playing files in this format.
+  NoDecoder: The file cannot be played. Decoder is not detected in the system.
+
+EraserSelectContent:
+  MoveToClean: Swipe to clear handwriting
+  FingerOutToClean: Release to clear handwriting
+  EraserPoint: Point Eraser
+  EraserCircle: Circle Eraser
+
+PenSelectContent:
+  PenHard: Hard brush
+  PenPaint: Broad brush
+  PenSoft: Soft brush
+
+AboutDialog:
+  CloseAndUpdate: The software will be closed for updating. Are you sure to update?
+  Title: Update
+  CheckingUpdate: Checking for new version...
+  CanNotConnectServers: Cannot connect to server
+  CurrentIsNewest: The current version is the latest
+  Downloading: Downloading...
+  Ready: Ready
+  UpdateProgramBootUpFailed: Problems occurred while starting the update program. Please try again later.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Drag image background to make similar colors transparent
+  DragImageAndChangeDisplay: Drag border to adjust the display range of the image
+  TooSmallToOperate: The current size of the image is too small. Please zoom in on the image and try again.
+  MemoryNotEnoughForTransparentBackground: Insufficient memory to support transparent background.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: The file cannot be played because the sound device has encountered a problem
+  Play: Play
+  Pause: Pause
+
+InnerBoard:
+  Tip: Use two fingers to move and zoom the canvas
+  Clone: Clone
+  Delete: Delete
+  ColorDisk: Palette
+  Cut: Cut
+
+MailSender:
+  BasicDialog:
+    DialogTitle: Send Email
+    Mail:
+      Title: "Subject:"
+      Recipients: "To:"
+      Content: "Contents:"
+      ContentHint: Meeting Minutes
+    BtnSend: Send
+    Notification:
+      RecipientsEmpty: "From" information cannot be empty
+      RecipientsFormatWrong: Incorrect format. Please check
+      ServerSettingChanged: The setting of server has been changed, save or not?
+  AdvancedDialog:
+    DialogTitle: "From" setting
+    NeedSecureConnection: " "This server requires a safe connection
+    Setting:
+      SMTP: "SMTP:"
+      Port: "Port:"
+      UserName: "Username:"
+      Password: "Password:"
+  SendMailDialog:
+    DialogTitle: Send Email
+    Status:
+      Sending: Sending
+      Failed: Failed to send.
+      Succeed: Send success
+    BtnCancel: Cancel
+    BtnRetry: Resend
+    BtnGoBack: Return to editor
+
+LangSwitch:
+  Title: Switch Tip
+  BtnSwitch: Switch

@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: русский
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. Все права защищены.
+
+Yes: Да
+No: Нет
+Ok: ОК
+Cancel: Отмена
+
+AboutUs: О нас
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Обновить сейчас
+  Login: Пожалуйста, войдите
+  DownloadLatestVersion: Загрузить последнюю версию
+
+# 通用窗口文字
+Windows:
+  Yes: Да
+  No: Нет
+  Cancel: Отмена
+  Continue: Продолжить
+  Sure: Конечно
+  OK: ОК
+
+String:
+  Tip: Запрос
+  Warning: Предупреждение
+  Save: Сохранить
+  Reset: Сброс
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: Меню
+  Import: Импортировать
+  Save: Сохранить
+  Minimize: Свернуть
+  Help: Справка
+  AboutUs: О нас
+  ContactUs: Contact Us
+  Exit: Выход
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: Добавить
+  #PrePage: Предыдущий
+  #NextPage: Следующий
+  #PageNum: Страница
+  Select: Выбрать
+  Pen: Перо
+  Palette: Палитра
+  Eraser: Ластик
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Доска для письма
+  Undo: Отменить
+  Redo: Повторить
+  More: Дополнительно
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: Передать
+  Mail: Электронная почта
+  Language: Язык
+  LanguageChangeAfterBoot: Вступает в силу при следующем запуске ПО
+  LanguageChangeConfirm:
+    Title: Переключить напоминание
+    Content: "Язык программного обеспечения будет\nпереключен на {0} при\nследующей загрузке, Переключить?"
+    BtnYes: Да
+    BtnNo: Нет
+
+FunctionBar:
+  Clip: Вырезать
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Написать от руки
+  Plate: Палитра
+  Stroke: Поле
+  Fill: Заливка
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Изображение
+    Ink: Рукописный ввод
+    Audio: Аудио
+    Video: Видео
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: Копировать
+  Cut: Порез
+  Paste: Вставить
+  Delete: Удалить
+
+Import:
+  ImageFiles: Файл изображения
+  VideoFiles: Видео файл
+  AudioFiles: Аудио файл
+  MultiaMediaFiles: Файл мультимедиа
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: Все файлы
+
+DisplayingModule:
+  Title: Сохранить
+  Content: Текущий файл не сохранен. Сохранить?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Сохранение завершено.
+  FailedAndChooseAnother: Не удалось сохранить. Выберите другой путь.
+  FailedAndGiveReason: "Не удалось сохранить. Причина:"
+  FileSaveFailed: Не удалось сохранить программу машинного обучения
+  Exporting: Экспорт...
+  Loading: Загрузка...
+  Publishing: Выполняется публикация, подождите...
+  PublishFailed: Не удалось опубликовать. Проверьте состояние подключения к сети
+  UnknownErrorWhenOpenFile: "В процессе открытия программы машинного обучения произошла неизвестная ошибка:"
+  EmptyTxt: Документ TXT не имеет содержимого
+  FilesImportFailed: {0} файлов импортировано с ошибками
+  WebPageDeleted: Связанная страница удалена
+  CheckEasiCamera: Проверьте, установлено ли ПО Seewo EasiCamera 
+  CanNotSaveFile: Не удалось сохранить файл.
+  BitmapUnsupport: Ваше изображение имеет формат {0} BMP. В настоящее время прозрачный фон не поддерживается.
+  NoMorePage: Извините, вы не можете добавлять страницы!
+
+ErrorMessage:
+  ProgramCrash: Сбой программы или нет ответа 
+  UnsupportFile: Импорт неподдерживаемых форматов файлов невозможен
+  VideoNotExist: Видео файл не существует
+  BadFile: Невозможно открыть файл, так как он поврежден
+  NoRegReadPower: У вас нет прав для чтения реестра
+  RegReadError: Ошибка при чтении реестра!
+  SetupIncomplete: "ПО установлено не полностью или повреждено. Повторите установку."\n" Сведения об ошибке:"
+
+KliteHelper:
+  DecoderInstalled: Установка декодера завершена. Теперь вы сможете воспроизводить аудио и видео записи.
+  DecoderInstallFailed: Ошибка при установке декодера
+  DecoderDownloadFailed: Ошибка при загрузке декодера. Проверьте состояние подключения к сети
+  DecoderInstalling: Выполняется установка декодера, подождите...
+  DecoderDownloading: Выполняется загрузка декодера, подождите...
+  BadMediaFile: Файл поврежден или не поддерживается воспроизведения файлов данного формата
+  NoDecoder: Невозможно воспроизвести файл. Декодер в системе не обнаружен
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: Проведите пальцем по экрану, чтобы стереть рукописный текст
+  #FingerOutToClean: Отпустите, чтобы стереть рукописный текст
+  #EraserPoint: Точечный ластик
+  #EraserCircle: Круглый ластик
+
+PenSelectContent:
+  PenHard: Жесткая кисть
+  PenPaint: Широкая кисть
+  PenSoft: Мягкая кисть
+
+AboutDialog:
+  CloseAndUpdate: ПО будет закрыто для обновления. Выполнить обновление?
+  Title: Обновление
+  CheckingUpdate: Поиск новой версии...
+  CanNotConnectServers: Не удалось подключиться к серверу
+  CurrentIsNewest: Версия актуальна и не требует обновления
+  Downloading: Загрузка...
+  Ready: Готово
+  UpdateProgramBootUpFailed: При запуске программы обновления возникли неполадки. Повторите попытку позже.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Перетащите фон изображения, чтобы сделать одинаковые цвета прозрачными
+  DragImageAndChangeDisplay: Перетащите поле, чтобы отрегулировать диапазон показа изображения
+  TooSmallToOperate: Текущий размер изображения слишком мал. Увеличьте изображение и повторите попытку.
+  MemoryNotEnoughForTransparentBackground: Недостаточно памяти для поддержки прозрачного фона.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: Невозможно воспроизвести файл, так как возникли неполадки звукового устройства
+  Play: Воспроизведение
+  Pause: Пауза
+
+InnerBoard:
+  Tip: Перемещение и изменение размера полотна выполняется двумя пальцами
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: Клонировать
+  # Delete: Удалить
+  # ColorDisk: Палитра
+  # Cut: Вырезать
+
+MailSender:
+  BasicDialog:
+    DialogTitle: Отправить письмо по электронной почте
+    Mail:
+      Title: "Тема:"
+      Recipients: "Кому:"
+      Content: "Содержимое:"
+      ContentHint: Памятка о собрании
+    BtnSend: Отправить
+    Notification:
+      RecipientsEmpty: Поле "От" не должно быть пустым
+      RecipientsFormatWrong: Неверный формат. Проверьте
+      ServerSettingChanged: Сохранить настройки сервера, сохранить или нет?
+  AdvancedDialog:
+    DialogTitle: параметр "От"
+    NeedSecureConnection: " "Этому серверу требуется безопасное подключение
+    Setting:
+      SMTP: "Сервер отправки:"
+      Port: "Номер порта:"
+      UserName: "Имя учетной записи:"
+      Password: "Пароль:"
+  SendMailDialog:
+    DialogTitle: Отправить письмо по электронной почте
+    Status:
+      Sending: Отправка
+      Failed: Не удалось отправить.
+      Succeed: Отправка завершена
+    BtnCancel: Отмена
+    BtnRetry: Повторить отправку
+    BtnGoBack: Повторить редактирование
+
+LangSwitch:
+  Title: Переключить напоминание
+  BtnSwitch: Switch

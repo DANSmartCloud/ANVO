@@ -1,0 +1,262 @@
+# 能不能把 AboutUs 去掉，统一用 About
+
+Language:
+  DisplayName: svenska
+  DefaultFontFamily: Microsoft YaHei,SimSun
+
+Product:
+  Name: EasiNote3C
+  Company: CVTE
+  Copyright: © 2011-2017 CVTE. Med ensamrätt.
+
+Yes: Ja
+No: Nej
+Ok: Ok
+Cancel: Avbryt
+
+AboutUs: Over ons
+LegalNotice: Legal Notice
+
+Update:
+  UpdateNow: Uppdatera nu
+  Login: Vänligen logga in
+  DownloadLatestVersion: Hämta senaste versionen
+
+# 通用窗口文字
+Windows:
+  Yes: Ja
+  No: Nej
+  Cancel: Avbryt
+  Continue: Fortsätt
+  Sure: Säker
+  OK: Ok
+
+String:
+  Tip: Uppmaning
+  Warning: Varning
+  Save: Spara
+  Reset: Återställ
+
+# 底部菜单栏
+DisplayToolBar:
+  Menu: ""
+  #Menu: Meny
+  Import: Importera
+  Save: Spara
+  Minimize: Minimera
+  Help: Hjälp
+  AboutUs: Om oss
+  ContactUs: Contact Us
+  Exit: Avsluta
+  AddPage: ""
+  PrePage: ""
+  NextPage: ""
+  PageNum: ""
+  #AddPage: Ny sida
+  #PrePage: Föregående
+  #NextPage: Nästa
+  #PageNum: Sida
+  Select: Välj
+  Pen: Penna
+  Palette: Palett
+  Eraser: Radergummi
+  Shape: 形状
+  Magnifier: 放大镜
+  InnerBoard: Skrivtavla
+  Undo: Ångra
+  Redo: Gör om
+  More: Mer
+  SeewoLink: ""
+  #SeewoLink: 授课助手
+  Camera: ""
+  #Camera: 展台
+  Share: ""
+  #Share: Dela
+  Mail: E-post
+  Language: Språk
+  LanguageChangeAfterBoot: Börjar gälla nästa gång du startar programvaran
+  LanguageChangeConfirm:
+    Title: Växlingspåminnelse
+    Content: "Språket för programvaran byter till {0}\nvid nästa start, Vill du verkligen växla?"
+    BtnYes: Ja
+    BtnNo: Nej
+
+FunctionBar:
+  Clip: Klipp
+  Bishun: 笔顺
+  Pianpang: 偏旁
+  Shengdiao: 声调
+  HandWrite: Skriv för hand
+  Plate: Palett
+  Stroke: Kantlinje
+  Fill: Fyllning
+
+# 元素
+Element:
+  Type:
+    GroupElement: 组合
+    ShapeElement: 形状
+    TextElement: 文本
+    Picture: Bild
+    Ink: Handskrift
+    Audio: Ljud
+    Video: Video
+
+# 提示
+ToolTip:
+  TriggerSource: 授课模式下，单击本元素（{0}）触发：
+  Hyperlink:
+    Slide: 前往页面
+    Web: 打开网页
+
+BoardEditContextMenu:
+  Copy: Kopiera
+  Cut: Skära
+  Paste: Klistra
+  Delete: Radera
+
+Import:
+  ImageFiles: Bildfil
+  VideoFiles: Videofil
+  AudioFiles: Ljudfil
+  MultiaMediaFiles: Multimediafil
+  PdfFiles: PDF Files
+  PptFiles: PPT Files
+  EnbFiles: EasiNote Files
+  AllFiles: Alla filer
+
+DisplayingModule:
+  Title: Spara
+  Content: Den aktuella filen är inte sparad. Vill du spara?
+
+StorageProvider:
+  CoursewareFormatWrong: 课件格式不正确或已损坏
+  CoursewareFormatOld: 课件版本过旧，暂不支持打开
+  CoursewareFormatIncompatible: 课件不兼容，是否继续打开？"\n"打开可能会造成数据丢失。
+  CoursewareUnnamed: 未命名课件
+
+Notification:
+  SavedSuccessfully: Har sparats.
+  FailedAndChooseAnother: Kunde inte spara. Välj en annan sökväg.
+  FailedAndGiveReason: "Det gick inte att spara. Orsak:"
+  FileSaveFailed: Det gick inte att spara datorprogram för utbildning
+  Exporting: Exporterar...
+  Loading: Läser in...
+  Publishing: Publicerar, vänta...
+  PublishFailed: Kunde inte publicera. Kontrollera om nätverksanslutningen är normal
+  UnknownErrorWhenOpenFile: "Ett okänt fel uppstod när utbildningsprogramvaran öppnades:"
+  EmptyTxt: TXT-dokument har inget innehåll
+  FilesImportFailed: {0} filer kunde inte importeras
+  WebPageDeleted: Den länkade sidan är borttagen
+  CheckEasiCamera: Kontrollera om Seewo EasiCamera-programvaran är installerad
+  CanNotSaveFile: Det gick inte att spara filen.
+  BitmapUnsupport: Din bild är en {0}-bitmap. Transparent bakgrund saknar för närvarande stöd.
+  NoMorePage: Du kan inte lägga till några sidor!
+
+ErrorMessage:
+  ProgramCrash: Program kraschade eller inget svar identifierat 
+  UnsupportFile: Filtyper som inte stöds kan inte importeras
+  VideoNotExist: Videofilen finns inte
+  BadFile: Filen är skadad och kan inte öppnas
+  NoRegReadPower: Du har ingen behörighet att läsa registret
+  RegReadError: Fel när registret skulle läsas!
+  SetupIncomplete: "Programvaran är inte helt installerad eller är skadad. Försök att installera igen."\n" Felinformation:"
+
+KliteHelper:
+  DecoderInstalled: Avkodaren är installerad. Nu kan du spela ljud och videor.
+  DecoderInstallFailed: Fel när avkodaren skulle installeras
+  DecoderDownloadFailed: Fel när avkodaren skulle hämtas. Kontrollera om nätverksanslutningen är normal
+  DecoderInstalling: Installerar avkodaren, vänta...
+  DecoderDownloading: Hämtar avkodaren, vänta...
+  BadMediaFile: Filen är skadad eller stödjer inte att filer i detta format spelas.
+  NoDecoder: Filen kan inte spelas. Avkodaren identifieras inte i systemet
+
+EraserSelectContent:
+  MoveToClean: ""
+  FingerOutToClean: ""
+  EraserPoint: ""
+  EraserCircle: ""
+  #MoveToClean: Svep för att rensa handskrift
+  #FingerOutToClean: Lossa för att rensa handskrift
+  #EraserPoint: Raderspets
+  #EraserCircle: Radercirkel
+
+PenSelectContent:
+  PenHard: Hård pensel
+  PenPaint: Bred pensel
+  PenSoft: Mjuk pensel
+
+AboutDialog:
+  CloseAndUpdate: Programvaran kommer att stängas för uppdatering. Vill du uppdatera?
+  Title: Uppdatera
+  CheckingUpdate: Kontrollerar om det finns en ny version...
+  CanNotConnectServers: Kan inte ansluta till server
+  CurrentIsNewest: Den nuvarande versionen är den senaste
+  Downloading: Hämtar...
+  Ready: Klar
+  UpdateProgramBootUpFailed: Problem inträffade vid ett försök att starta uppdateringsprogrammet Försök igen senare.
+
+FeedbackDialog:
+  CreatingQrCode: 正在生成二维码，请稍后
+  QrCodeCreateFailed: 二维码生成失败
+  Content: 扫一扫"\n"反馈您的宝贵意见
+
+ImageEditorManager:
+  DragImageAndTransparent: Dra bildbakgrunden för att göra liknande färger transparenta
+  DragImageAndChangeDisplay: Dra kantlinjen för att ställa in bildens visningsområde
+  TooSmallToOperate: Den aktuella storleken på bilden är för liten. Zooma in på bilden och försök igen.
+  MemoryNotEnoughForTransparentBackground: Otillräckligt minne för att stödja transparent bakgrund.
+
+DispalyMediaEditor:
+  ScreenShot: Screenshot
+
+MediaPlayer:
+  RadioDeviceError: Filen kan inte spelas eftersom ljudenheten har identifierat ett problem
+  Play: Spela
+  Pause: Pausa
+
+InnerBoard:
+  Tip: Använd två fingrar för att flytta och zooma arbetsytan
+  Clone: ""
+  Delete: ""
+  ColorDisk: ""
+  Cut: ""
+  # Clone: Klona
+  # Delete: Radera
+  # ColorDisk: Palett
+  # Cut: Klipp
+
+MailSender:
+  BasicDialog:
+    DialogTitle: Skicka e-post
+    Mail:
+      Title: "Ämne:"
+      Recipients: "Till:"
+      Content: "Innehåll:"
+      ContentHint: Mötesanteckning
+    BtnSend: Skicka
+    Notification:
+      RecipientsEmpty: “Från”-information kan inte vara tom
+      RecipientsFormatWrong: Felaktigt format. Kontrollera
+      ServerSettingChanged: Fastställandet av servern har ändrats, spara eller inte?
+  AdvancedDialog:
+    DialogTitle: “Från”-inställning
+    NeedSecureConnection: " "Denna server kräver en säker anslutning
+    Setting:
+      SMTP: "Skickar server:"
+      Port: "Portnummer:"
+      UserName: "Kontonamn:"
+      Password: "Lösenord:"
+  SendMailDialog:
+    DialogTitle: Skicka e-post
+    Status:
+      Sending: Skickar
+      Failed: Kunde inte skicka.
+      Succeed: Skickades
+    BtnCancel: Avbryt
+    BtnRetry: Skicka igen
+    BtnGoBack: Redigera igen
+
+LangSwitch:
+  Title: Växlingspåminnelse
+  BtnSwitch: Switch
